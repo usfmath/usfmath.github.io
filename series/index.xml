@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Grad Math@USF</title>
+    <link>https://usfmath.github.io/series/</link>
+    <description>Grad Math@USF (Series)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    <atom:link href="https://usfmath.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
