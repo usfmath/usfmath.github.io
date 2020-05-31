@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Grad Math@USF</title>
-    <link>https://usfmath.github.io/posts/</link>
-    <description>Grad Math@USF (Posts)</description>
+    <title>Quantum invariants on Grad Math@USF</title>
+    <link>https://usfmath.github.io/tags/quantum-invariants/</link>
+    <description>Grad Math@USF (Quantum invariants)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 May 2020 00:00:00 -0400</lastBuildDate>
     
-    <atom:link href="https://usfmath.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://usfmath.github.io/tags/quantum-invariants/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
