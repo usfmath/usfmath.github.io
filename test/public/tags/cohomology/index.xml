@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cohomology on Grad Math@USF</title>
+    <link>https://usfmath.github.io/tags/cohomology/</link>
+    <description>Grad Math@USF (cohomology)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 -0400</lastBuildDate>
+    
+    <atom:link href="https://usfmath.github.io/tags/cohomology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> [Talk] Quantum invariants of framed links from cohomology of self-distributive structures</title>
+      <link>https://usfmath.github.io/posts/summer-talk-1/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 -0400</pubDate>
+      
+      <guid>https://usfmath.github.io/posts/summer-talk-1/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Emanuele Zappala&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm, Thursday, June 4&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk I will give a brief introduction to knot theory and the notion of knot invariant. Next I will describe the process of algebraization of knot theory which naturally gives Yang-Baxter operators, Yetter-Drinfeld modules and racks/quandles etc. After recalling the definition of cohomology of racks, I will proceed to show how to construct an invariant of links and knotted surfaces from cocycles. I will therefore explain some recent joint works with M. Elhamdadi and M. Saito relating self-distributivity of higher arity structures and invariants of framed links, with a (categorical) perspective on how to realize them as quantum invariants.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zoom links&lt;/strong&gt;: &lt;a href=&#34;https://zoom.us/j/99982471312?pwd=Z0NTR2UraHZTQXI5TkdzNlM5K0FPUT09&#34;&gt;click me.&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
