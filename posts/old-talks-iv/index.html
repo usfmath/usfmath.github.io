@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Old Talks IV  - Grad Math@USF</title>
+<meta name="description" content="Graduate Math Seminars hosted by Nathan and Fudong">
+
+<link rel="icon" type="image/x-icon" href="https://usfmath.github.io/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://usfmath.github.io/favicon.png">
+
+<link rel="stylesheet" href="https://usfmath.github.io/css/style.css?rnd=1590965066" />
+
+
+
+
+<meta property="og:title" content="Old Talks IV" />
+<meta property="og:description" content="Title: Modeling Physical Phenomenon: A derivation and exploration of
+Laplacian growth.
+Speaker: Nathan Hayford.
+Date: Thursday, August $29^{th}$
+Time: 3:30pm
+Place: CMC 109
+Abstract: Often the most interesting mathematical problems are
+physically motivated: Laplacian growth is no exception. However, one may
+wonder how such models are derived, i.e., what is their physical
+relevance, what constitutes a good balance between an easily solvable
+problem and a physically realistic one, among other questions. In this
+talk, I plan on deriving Laplacian growth from first principles physics,
+and explain the original motivations of the equation (in short, modeling
+a 2D fluid domain&rsquo;s expansion/retraction as fluid is pumped in/out from
+above). I will briefly discuss the integrable structure of Laplacian
+growth, and how it leads to exact solutions of the equation; finally, if
+time permits, I will mention another modern application of Laplacian
+growth in condensed matter theory: the integer quantum Hall effect.\" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://usfmath.github.io/posts/old-talks-iv/" />
+<meta property="article:published_time" content="2020-01-31T18:37:13-04:00" />
+<meta property="article:modified_time" content="2020-01-31T18:37:13-04:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Old Talks IV"/>
+<meta name="twitter:description" content="Title: Modeling Physical Phenomenon: A derivation and exploration of
+Laplacian growth.
+Speaker: Nathan Hayford.
+Date: Thursday, August $29^{th}$
+Time: 3:30pm
+Place: CMC 109
+Abstract: Often the most interesting mathematical problems are
+physically motivated: Laplacian growth is no exception. However, one may
+wonder how such models are derived, i.e., what is their physical
+relevance, what constitutes a good balance between an easily solvable
+problem and a physically realistic one, among other questions. In this
+talk, I plan on deriving Laplacian growth from first principles physics,
+and explain the original motivations of the equation (in short, modeling
+a 2D fluid domain&rsquo;s expansion/retraction as fluid is pumped in/out from
+above). I will briefly discuss the integrable structure of Laplacian
+growth, and how it leads to exact solutions of the equation; finally, if
+time permits, I will mention another modern application of Laplacian
+growth in condensed matter theory: the integer quantum Hall effect.\"/>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-104299470-3', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="/">Grad Math@USF</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="https://usfmath.github.io/about/" title="">About</a>
+    
+    <a class="" href="https://usfmath.github.io/tags/" title="">Topics</a>
+    
+    <a class="" href="https://usfmath.github.io/posts/" title="">Archive</a>
+    
+</nav>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+
+    <article class="post">
+        <header>
+            <h1>Old Talks IV</h1>
+        </header>
+        <div class="content">
+            <p><strong>Title:</strong> Modeling Physical Phenomenon: A derivation and exploration of
+Laplacian growth.<br>
+<strong>Speaker:</strong> Nathan Hayford.<br>
+<strong>Date:</strong> Thursday, August $29^{th}$<br>
+<strong>Time:</strong> 3:30pm<br>
+<strong>Place:</strong> CMC 109<br>
+<strong>Abstract:</strong> Often the most interesting mathematical problems are
+physically motivated: Laplacian growth is no exception. However, one may
+wonder how such models are derived, i.e., what is their physical
+relevance, what constitutes a good balance between an easily solvable
+problem and a physically realistic one, among other questions. In this
+talk, I plan on deriving Laplacian growth from first principles physics,
+and explain the original motivations of the equation (in short, modeling
+a 2D fluid domain&rsquo;s expansion/retraction as fluid is pumped in/out from
+above). I will briefly discuss the integrable structure of Laplacian
+growth, and how it leads to exact solutions of the equation; finally, if
+time permits, I will mention another modern application of Laplacian
+growth in condensed matter theory: the integer quantum Hall effect.\</p>
+<p><strong>Title:</strong> Banach Algebra Approach to Wiener&rsquo;s Theorem.<br>
+<strong>Speaker:</strong> Raymond Centner.<br>
+<strong>Date:</strong> Thursday, August $15^{th}$<br>
+<strong>Time:</strong> 2:00pm<br>
+<strong>Place:</strong> CMC 108<br>
+<strong>Abstract:</strong> The Banach algebra setting can be very natural and useful
+in harmonic analysis. In 1932, Norbert Wiener proved that the space of
+absolutely convergent Fourier series is inverse closed, i.e., if f is a
+non-vanishing continuous function on the circle with an absolutely
+convergent Fourier series, then 1/f has an absolutely convergent Fourier
+series. Roughly ten years later, Israel Gelfand proved this result using
+the theory of Banach algebras. The purpose of this talk is to present
+this theorem in the context of Banach algebras, shedding light on the
+usefulness of abstraction in classical analysis.\</p>
+<p><strong>Title:</strong> What is ... the inverse scattering transform?<br>
+<strong>Speaker:</strong> Fudong Wang.<br>
+<strong>Date:</strong> Thursday, August $8^{th}$<br>
+<strong>Time:</strong> 3:30pm<br>
+<strong>Place:</strong> CMC 108<br>
+<strong>Abstract:</strong> The story begins after the paper about a method for
+solving the KdV equation by Gardner, Greene, Kruskal, and Miura (GGKM)
+at 1967. That&rsquo;s a first example of using IST to solve a nonlinear
+integrable equation. In 1968, Lax found an operator way to generalize
+GGKM&rsquo;s method, which we now called &ldquo;Lax pair&rdquo;. In 1971, Zakharov and
+Shabat use Lax&rsquo;s method to solve the NLS equation. In 1974, Ablowitz,
+Kaup, Newell, and Segur (AKNS) compare GGKM, Lax and ZS&rsquo;s method in
+nonlinear PDEs with the Fourier transform in the linear PDEs and the
+term &ldquo;inverse scattering transform&rdquo; was born. In this talk, we will
+briefly discuss how the inverse scattering transform works on solving
+the NLS equation. If time allows, we will also talk about how to use IST
+to generate the beautiful &ldquo;soliton&rdquo; wave solution.\</p>
+<p><strong>Title:</strong> A Theorem of Radó Type for the <code>p</code>-Laplace equation in the
+Heisenberg group<br>
+<strong>Speaker:</strong> Zachary Forrest.<br>
+<strong>Date:</strong> Wednesday, August $8^{th}$<br>
+<strong>Time:</strong> 11:00am<br>
+<strong>Place:</strong> CMC 108<br>
+<strong>Abstract:</strong> It is known that in Euclidean spaces, the <code>p</code>-Laplace
+equation possesses a Radó-type result: That is, given a domain
+$\Omega \subseteq \mathbb{R}^n$ and a fixed exponent
+$1&lt;\texttt{p}&lt;\infty$, a function $u \in C^1(\Omega)$ which is a
+viscosity solution to the $\texttt{p}$- Laplace equation
+$$-\Delta_\texttt{p}u=0 ,,,, (1)$$ in the set is also viscosity
+solution solution to Equation (1) in $\Omega$. This result was proven in
+a paper (2005) of Juutinen and Lindqvist via the use of the Implicit
+Function Theorem, and motivated by this approach and the works of
+Franchi-Serapioni-Serra Cassano (2007) &amp; Bieske (2006) we prove a
+removability result for $\texttt{p}$-harmonic functions in the first
+Heisenberg group $\mathbb{H}_1$.</p>
+<p><strong>Title:</strong> A Survey of the Polynomial Method.<br>
+<strong>Speaker:</strong> Austin Dukes.<br>
+<strong>Date:</strong> Thursday, August $1^{st}$<br>
+<strong>Time:</strong> 3:30pm<br>
+<strong>Place:</strong> CMC 13<br>
+<strong>Abstract:</strong> Recently, we have seen a surge of progress on many
+long-standing problems from various fields using methods based on ...
+polynomials? Based on relatively simple combinatorial arguments and
+dimension-counting from linear algebra, these polynomial methods were
+not initially perceived to be especially insightful. However, applying
+polynomials has shed light on subtle yet essential structure in many
+problems spanning many areas, and these methods are currently an
+exciting and active area of research. In this talk, we will discuss the
+Polynomial Method as well as give various examples of its use in fields
+such as incidence geometry, harmonic analysis, and computer science.\</p>
+<p><strong>Title:</strong> Deep Learning.<br>
+<strong>Speaker:</strong> Roshan Warman.<br>
+<strong>Date:</strong> Thursday, July $25^{th}$<br>
+<strong>Time:</strong> 3:30pm<br>
+<strong>Place:</strong> CMC 13<br>
+<strong>Abstract:</strong> Deep Learning has received an increasing amount of
+attention in recent years due to its break-through applications in many
+fields. In this presentation, we present an exposition to the
+intellectual enterprises of Neural Networks, building them ground up
+from simple decision-making models, and provide an overview on basic
+machine learning algorithms, with the eventual goal to discuss more
+mathematically involved theorems and areas of research in statistical
+learning theory. The only pre-requisites are basic foundations of
+Analysis.</p>
+<p><strong>Title:</strong> Geometric group theory as a mathematical melting pot.<br>
+<strong>Speaker:</strong> Lina Fajardo Gomez.<br>
+<strong>Date:</strong> Thursday, July $18^{th}$<br>
+<strong>Time:</strong> 3:30pm<br>
+<strong>Place:</strong> CMC 13<br>
+<strong>Abstract:</strong> Geometric group theory is an area that studies discrete
+groups through the connections between algebraic properties of the
+groups and the topological and geometric properties of the spaces they
+act on. It is a relatively new area of study that remains very active
+(as demonstrated by the many conferences in the field and programs that
+focus on it). This seminar talk is intended as a broad introduction to
+geometric group theory, with examples of how it relates to different
+areas of mathematics, and a motivation for its study.\</p>
+<p><strong>Title:</strong> Some fundamental formulas on the Cauchy-type integrals.<br>
+<strong>Speaker:</strong> Fudong Wang.<br>
+<strong>Date:</strong> Thursday, July $11^{th}$<br>
+<strong>Time:</strong> 3:30pm<br>
+<strong>Place:</strong> CMC 13<br>
+<strong>Abstract:</strong> In the theory of boundary value problems of analytic
+functions, Cauchy-type integrals play a fundamental role. There are
+several fundamental formulas in the field, such like Sokhotsky-Plemelj
+formula, Poincaré-Bertrand formula, Plemelj-Privalov theorem, and Marcel
+Riesz&rsquo;s inequality on the Hilbert transform. In this seminar talk, we
+will start from the beginning to prove some of the mentioned theorems.
+Those theorems are frequently applied in the theory of Riemann-Hilbert
+problem, Random matrices and integrable systems.\</p>
+<p><strong>Title:</strong> Computing the Regulator of a Real Quadratic Order Using
+p-Adic Methods.<br>
+<strong>Speaker:</strong> Will Youmans.<br>
+<strong>Date:</strong> Thursday, June $27^{th}$<br>
+<strong>Time:</strong> 3:30pm<br>
+<strong>Place:</strong> CMC 13<br>
+<strong>Abstract:</strong> The regulator of a real quadratic order is defined as the
+logarithm of the generator of the unit group (called the fundamental
+unit). This value is closely tied to the class number and describes the
+&quot;density&quot; of the units. The coefficients of the fundamental unit can
+become very large, so rather than directly compute the regulator from
+the fundamental unit itself we typically use a power product
+representation of units derived from a generating set of relations for
+the class group. Existing methods for computing the regulator from this
+data suffer from a variable loss of precision which can be difficult to
+control. We propose a p-adic method which simplifies the management of
+the precision throughout the computation.\</p>
+<p><strong>Title:</strong> What Can Random Matrices Do For You? <strong>Speaker:</strong> Nathan
+Hayford.<br>
+<strong>Date:</strong> Thursday, June $20^{th}$<br>
+<strong>Time:</strong> 3:30pm<br>
+<strong>Place:</strong> CMC 13<br>
+<strong>Abstract:</strong> Random matrix theory has been an indispensable tool for
+mathematical physicists for the past few decades, but one may wonder how
+relevant it is outside of this field. In this talk, I plan on explaining
+the basics of random matrices, and how they have been used in fields
+such as knot theory, graph combinatorics, number theory, biology,
+quantum gravity, integrable systems, orthogonal polynomials, and... you
+get the point. If time permits (and depending on the audience), I&rsquo;ve
+also prepared some more detailed examples of how random matrix theory is
+used in each of these contexts. I&rsquo;ll try and share as many of these as I
+can in the allotted time.\</p>
+<p><strong>Title:</strong> The presentation of the Braid group and faithfulness of its
+Burau representation.<br>
+<strong>Speaker:</strong> Louis Arenas.<br>
+<strong>Date:</strong> Thursday, June $13^{th}$<br>
+<strong>Time:</strong> 3:30pm<br>
+<strong>Place:</strong> CMC 13<br>
+<strong>Abstract:</strong> The talk will be centered on familiarizing the audience
+with the geometric braid group and it&rsquo;s presentation. From here, we will
+see for a particular representation, for what parameters it will be
+faithful.</p>
+        </div>
+        
+
+
+<div class="article-info">
+    
+        <div class="article-date">2020-01-31</div>
+    
+    <div class="article-taxonomies">
+        
+            
+                <ul class="article-tags">
+                    
+                        <li><a href="https://usfmath.github.io/tags/old-talks">#old talks</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+    
+
+
+        </main>
+        <footer>
+            
+                
+                
+
+                <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+
+<p>© Fudong, 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+
+
+            
+        </footer>
+    </div>
+</body>
+</html>

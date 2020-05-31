@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compressed sensing on Grad Math@USF</title>
+    <link>https://usfmath.github.io/tags/compressed-sensing/</link>
+    <description>Grad Math@USF (Compressed sensing)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Feb 2020 17:24:04 -0400</lastBuildDate>
+    
+    <atom:link href="https://usfmath.github.io/tags/compressed-sensing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Compressed Sensing</title>
+      <link>https://usfmath.github.io/posts/compressed-sensing/</link>
+      <pubDate>Thu, 27 Feb 2020 17:24:04 -0400</pubDate>
+      
+      <guid>https://usfmath.github.io/posts/compressed-sensing/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Compressed Sensing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Vasile Pop.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; Thursday, February 27th, 2020&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Place:&lt;/strong&gt; CIS 1045&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Compressed sensing (CS) is an exciting, rapidly growing
+field that has attracted considerable attention in statistics, applied
+mathematics, electrical engineering and computer science. CS offers a
+framework for simultaneous sensing and compression of finite/infinite
+dimensional vectors, that relies on linear dimensionality reduction. The
+restricted isometry property (RIP) is at the center of important
+developments in compressive sensing. In $\Bbb R^n$, RIP establishes the
+success of sparse recovery via basis pursuit for measurement matrices
+with small restricted isometry constants $\delta_{2s}&amp;lt;1/3$. A weaker
+condition $\delta_{2s} &amp;lt; 0.6246$ is actually sufficient to guarantee
+stable and robust recovery of all $s$-sparse vectors via
+$l_1$-minimization. In Hilbert space a random linear map satisfies a
+general RIP with high probability and allow recovering and extending
+many known compressive sampling results. In this session, I provide a
+comprehensive introduction to CS. This thesis extends the known
+restricted isometric projection of sparse datasets in Euclidean spaces
+$\mathbb{R}^N$ down into low-dimensional subspaces
+$\mathbb{R}^k, k \ll N,$ to the case of low-dimensional varieties
+$\mathcal{M} \subset \mathbb{R}^N,$ of codimension $N - k = \omega(N)$.
+Applications to structured/hierarchical datasets are considered.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

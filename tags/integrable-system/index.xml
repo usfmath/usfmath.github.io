@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integrable system on Grad Math@USF</title>
+    <link>https://usfmath.github.io/tags/integrable-system/</link>
+    <description>Grad Math@USF (Integrable system)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Feb 2020 18:10:51 -0400</lastBuildDate>
+    
+    <atom:link href="https://usfmath.github.io/tags/integrable-system/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Talk] Darboux transformation and soliton equations</title>
+      <link>https://usfmath.github.io/posts/darboux-transformation/</link>
+      <pubDate>Thu, 20 Feb 2020 18:10:51 -0400</pubDate>
+      
+      <guid>https://usfmath.github.io/posts/darboux-transformation/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Darboux transformation and soliton equations.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Yehui Huang (North China Electric Power University).&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $20^{th}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1045&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, I will introduce a transformation originated
+by Darboux in his study of the linear Sturm-Liouville problem. By
+generalized Darboux transformations, I will present a solution formula
+with multiple parameters for some soliton equations, including KdV and
+NLS. After taking special choices for the seed solution and the
+eigenfunctions, different types of exact solutions are derived, which
+include solitons, breathers and rogue wave solutions.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
