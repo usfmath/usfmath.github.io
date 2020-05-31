@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math@USF</title>
-    <link>https://example.com/</link>
+    <link>https://www.usfmath.github.io/</link>
     <description>Math@USF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 May 2020 00:00:00 +0000</lastBuildDate>
     
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.usfmath.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>An introduction to dbar steepest descent method</title>
-      <link>https://example.com/posts/hello/</link>
+      <link>https://www.usfmath.github.io/posts/hello/</link>
       <pubDate>Sat, 30 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/hello/</guid>
+      <guid>https://www.usfmath.github.io/posts/hello/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Fudong Wang&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 2020-05-30 3:00PM.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, we will use a simple linear PDE to illustrate how to use the  powerful tool, &lt;code&gt;$ \bar{\partial}- $&lt;/code&gt;steepest descent method, to analysis long-time asymptotics of solutions to PDEs. &lt;code&gt;\( \partial \)&lt;/code&gt;&lt;/p&gt;
@@ -27,19 +27,19 @@
     
     <item>
       <title></title>
-      <link>https://example.com/archives/</link>
+      <link>https://www.usfmath.github.io/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/archives/</guid>
+      <guid>https://www.usfmath.github.io/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://example.com/about/</link>
+      <link>https://www.usfmath.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/about/</guid>
+      <guid>https://www.usfmath.github.io/about/</guid>
       <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;&gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
 &lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
 &lt;ul&gt;
