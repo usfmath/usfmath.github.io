@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on Grad Math@USF</title>
+    <title>Series on Graduate Math Seminars@USF</title>
     <link>https://usfmath.github.io/series/</link>
-    <description>Grad Math@USF (Series)</description>
+    <description>Graduate Math Seminars@USF (Series)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     

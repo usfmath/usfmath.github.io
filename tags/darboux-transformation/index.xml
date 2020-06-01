@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Darboux Transformation on Grad Math@USF</title>
+    <title>Darboux Transformation on Graduate Math Seminars@USF</title>
     <link>https://usfmath.github.io/tags/darboux-transformation/</link>
-    <description>Grad Math@USF (Darboux Transformation)</description>
+    <description>Graduate Math Seminars@USF (Darboux Transformation)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Feb 2020 18:10:51 -0400</lastBuildDate>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Compressed sensing on Grad Math@USF</title>
+    <title>Compressed sensing on Graduate Math Seminars@USF</title>
     <link>https://usfmath.github.io/tags/compressed-sensing/</link>
-    <description>Grad Math@USF (Compressed sensing)</description>
+    <description>Graduate Math Seminars@USF (Compressed sensing)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Feb 2020 17:24:04 -0400</lastBuildDate>

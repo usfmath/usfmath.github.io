@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>old talks on Grad Math@USF</title>
+    <title>old talks on Graduate Math Seminars@USF</title>
     <link>https://usfmath.github.io/tags/old-talks/</link>
-    <description>Grad Math@USF (old talks)</description>
+    <description>Graduate Math Seminars@USF (old talks)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 31 Jan 2020 18:37:13 -0400</lastBuildDate>
