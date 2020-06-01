@@ -245,7 +245,7 @@ article header h1 a {
 }
 
 .article-info a:hover {
-    color: #a31d1d;
+    color: #f7f7f7;
 }
 
 .post-short-list .article-info {
@@ -272,16 +272,62 @@ article header h1 a {
     margin-right: 1em;
 }
 
-.article-tags {
-    display: inline;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+
+
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; 
+  padding: 0;
 }
 
-.article-tags li {
-    display: inline;
-    margin-right: 1em;
+.tags li {
+  float: left; 
+}
+
+.tag {
+  background: #d5d6c8;
+  border-radius: 3px 0 0 3px;
+  color: #999;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.tag::before {
+  background: #2ccf06;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+.tag::after {
+  background: #99985d;
+  border-left: 10px solid #eee;
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tag:hover {
+  background-color: #080808;
+  color: white;
+}
+
+.tag:hover::after {
+   border-left-color: crimson; 
 }
 
 article img {
