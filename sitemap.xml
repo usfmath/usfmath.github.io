@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>https://usfmath.github.io/about/</loc>
+    <lastmod>2020-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://usfmath.github.io/posts/compressed-sensing/</loc>
     <lastmod>2020-02-27T17:24:04-04:00</lastmod>
   </url>
@@ -85,11 +90,6 @@
   <url>
     <loc>https://usfmath.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://usfmath.github.io/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
