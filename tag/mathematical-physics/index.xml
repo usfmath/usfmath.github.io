@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mathematical physics | Grad Math@USF</title>
+    <link>/tag/mathematical-physics/</link>
+      <atom:link href="/tag/mathematical-physics/index.xml" rel="self" type="application/rss+xml" />
+    <description>mathematical physics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2020 21:02:58 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>mathematical physics</title>
+      <link>/tag/mathematical-physics/</link>
+    </image>
+    
+    <item>
+      <title>Variation Problem and How to Solve It</title>
+      <link>/talk/usf/variation-problem-and-how-to-solve-it/</link>
+      <pubDate>Sat, 01 Feb 2020 21:02:58 -0400</pubDate>
+      <guid>/talk/usf/variation-problem-and-how-to-solve-it/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Variational Problems and How to Solve Them.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Nathan Hayford.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $6^{th}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; Many problems in math and physics arise as problems of
+extremizing some functional. Such problems include the isoperimetric
+problem, minimal surface problem, and the formulation of Lagrangian
+mechanics. We shall discuss the calculus of variations, and provide
+worked out examples of how these techniques may be applied to solve such
+problems. We will also discuss how such techniques may be applied to
+write Lagrangian formulations of theories like electromagnetism and
+general relativity, if time permits.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

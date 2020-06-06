@@ -1,517 +1,1620 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
+
 <head>
-	<meta name="generator" content="Hugo 0.72.0" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
     
+    
+    
+  
+  
+
+  <meta name="author" content="Fudong Wang">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Professor of Artificial Intelligence">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
         
-<meta charset="utf-8">
-<meta name="HandheldFriendly" content="True">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="no-referrer-when-downgrade">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
 
-<title>Graduate Math Seminars@USF</title>
-<meta name="description" content="Graduate Math Seminars hosted by Nathan and Fudong">
+    
 
-<link rel="alternate" type="application/rss+xml" href="https://usfmath.github.io/index.xml" title="Graduate Math Seminars@USF" />
-<link rel="icon" type="image/x-icon" href="https://usfmath.github.io/favicon.ico">
-<link rel="apple-touch-icon-precomposed" href="https://usfmath.github.io/favicon.png">
+    
 
-<link rel="stylesheet" href="https://usfmath.github.io/css/style.css?rnd=1591323553" />
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
 
 
 
 
-<meta property="og:title" content="" />
-<meta property="og:description" content="Graduate Math Seminars hosted by Nathan and Fudong" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://usfmath.github.io/" />
-<meta property="og:updated_time" content="2020-05-31T00:00:00-04:00" />
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Graduate Math Seminars hosted by Nathan and Fudong"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104299470-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-104299470-3', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-104299470-3', 'auto');
-	
-	ga('send', 'pageview');
+  
+
+
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Grad Math@USF">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Grad Math@USF">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Grad Math@USF">
+  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2020-06-04T00:00:00&#43;00:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "/"
 }
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  
+
+
+  
+
+
+  
 
 
 
 
 
-    
+  <title>Grad Math@USF</title>
+
 </head>
-<body>
-    <a class="skip-main" href="#main">Skip to main content</a>
-    <div class="container">
-        <header> 
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Grad Math@USF</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Grad Math@USF</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
             
-                <h1 class="site-header">
-    <a href="/">Graduate Math Seminars@USF</a>
-</h1>
-<nav>
-    
-    
-    <a class="" href="https://usfmath.github.io/about/" title="">About</a>
-    
-    <a class="" href="https://usfmath.github.io/tags/" title="">Topics</a>
-    
-    <a class="" href="https://usfmath.github.io/posts/" title="">Archive</a>
-    
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#hero" data-target="#hero"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#tags" data-target="#tags"><span>Topics</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#demo" data-target="#demo"><span>About Us</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
 </nav>
 
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-  MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-  });
-  MathJax.Hub.Queue(function() {
-    
-    
-    
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-  });
 
-  MathJax.Hub.Config({
   
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-  });
-</script>
-
-            
-        </header>
-        <main id="main" tabindex="-1"> 
-            
-    <div class="homepage-content">
-        
-    </div>
-
-    
-    
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="/posts/summer-talk-1/"> [Talk] Quantum invariants of framed links from cohomology of self-distributive structures</a>
-            </h1>
-        </header>
-
-        <div class="content">
-            <p><strong>Speaker:</strong> Emanuele Zappala</p>
-<p><strong>Time:</strong> 2:00pm, Thursday, June 4</p>
-<p><strong>Abstract:</strong> In this talk I will give a brief introduction to knot theory and the notion of knot invariant. Next I will describe the process of algebraization of knot theory which naturally gives Yang-Baxter operators, Yetter-Drinfeld modules and racks/quandles etc. After recalling the definition of cohomology of racks, I will proceed to show how to construct an invariant of links and knotted surfaces from cocycles. I will therefore explain some recent joint works with M. Elhamdadi and M. Saito relating self-distributivity of higher arity structures and invariants of framed links, with a (categorical) perspective on how to realize them as quantum invariants.</p>
-<p><strong>Zoom links</strong>: <a href="https://zoom.us/j/99982471312?pwd=Z0NTR2UraHZTQXI5TkdzNlM5K0FPUT09">click me.</a></p>
-<p><strong>Slides</strong>: <a href="https://drive.google.com/file/d/1Pef6VJyfGRqouX5uf-QIy3oITf0NW85P/view?usp=sharing">google drive</a></p>
-        </div>
-          
-        
-        
-
-
-<div class="article-info">
-    
-        <div class="article-date">2020-05-31</div>
-    
-    <div class="article-taxonomies">
-        
-            
-                <ul class="tags">
-                    
-                        <li><a href="https://usfmath.github.io/tags/cohomology" class="tag">cohomology</a></li>
-                    
-                        <li><a href="https://usfmath.github.io/tags/quantum-invariants" class="tag">Quantum invariants</a></li>
-                    
-                </ul>
-        
-    </div>
-</div>
 
 
 
-    </article>
-    
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="/posts/compressed-sensing/">[Talk] Compressed Sensing</a>
-            </h1>
-        </header>
-
-        <div class="content">
-            <p><strong>Title:</strong> Compressed Sensing.</p>
-<p><strong>Speaker:</strong> Vasile Pop.</p>
-<p><strong>Date:</strong> Thursday, February 27th, 2020</p>
-<p><strong>Place:</strong> CIS 1045</p>
-<p><strong>Abstract:</strong> Compressed sensing (CS) is an exciting, rapidly growing
-field that has attracted considerable attention in statistics, applied
-mathematics, electrical engineering and computer science. CS offers a
-framework for simultaneous sensing and compression of finite/infinite
-dimensional vectors, that relies on linear dimensionality reduction. The
-restricted isometry property (RIP) is at the center of important
-developments in compressive sensing. In $\Bbb R^n$, RIP establishes the
-success of sparse recovery via basis pursuit for measurement matrices
-with small restricted isometry constants $\delta_{2s}&lt;1/3$. A weaker
-condition $\delta_{2s} &lt; 0.6246$ is actually sufficient to guarantee
-stable and robust recovery of all $s$-sparse vectors via
-$l_1$-minimization. In Hilbert space a random linear map satisfies a
-general RIP with high probability and allow recovering and extending
-many known compressive sampling results. In this session, I provide a
-comprehensive introduction to CS. This thesis extends the known
-restricted isometric projection of sparse datasets in Euclidean spaces
-$\mathbb{R}^N$ down into low-dimensional subspaces
-$\mathbb{R}^k, k \ll N,$ to the case of low-dimensional varieties
-$\mathcal{M} \subset \mathbb{R}^N,$ of codimension $N - k = \omega(N)$.
-Applications to structured/hierarchical datasets are considered.</p>
-        </div>
-          
-        
-        
-
-
-<div class="article-info">
-    
-        <div class="article-date">2020-02-27</div>
-    
-    <div class="article-taxonomies">
-        
-            
-                <ul class="tags">
-                    
-                        <li><a href="https://usfmath.github.io/tags/compressed-sensing" class="tag">Compressed sensing</a></li>
-                    
-                </ul>
-        
-    </div>
-</div>
 
 
 
-    </article>
-    
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="/posts/darboux-transformation/">[Talk] Darboux transformation and soliton equations</a>
-            </h1>
-        </header>
-
-        <div class="content">
-            <p><strong>Title:</strong> Darboux transformation and soliton equations.<br>
-<strong>Speaker:</strong> Yehui Huang (North China Electric Power University).<br>
-<strong>Date:</strong> Thursday, February $20^{th}$<br>
-<strong>Time:</strong> 11:00am<br>
-<strong>Place:</strong> CIS 1045<br>
-<strong>Abstract:</strong> In this talk, I will introduce a transformation originated
-by Darboux in his study of the linear Sturm-Liouville problem. By
-generalized Darboux transformations, I will present a solution formula
-with multiple parameters for some soliton equations, including KdV and
-NLS. After taking special choices for the seed solution and the
-eigenfunctions, different types of exact solutions are derived, which
-include solitons, breathers and rogue wave solutions.</p>
-        </div>
-          
-        
-        
-
-
-<div class="article-info">
-    
-        <div class="article-date">2020-02-20</div>
-    
-    <div class="article-taxonomies">
-        
-            
-                <ul class="tags">
-                    
-                        <li><a href="https://usfmath.github.io/tags/integrable-system" class="tag">Integrable system</a></li>
-                    
-                        <li><a href="https://usfmath.github.io/tags/darboux-transformation" class="tag">Darboux Transformation</a></li>
-                    
-                </ul>
-        
-    </div>
-</div>
 
 
 
-    </article>
-    
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="/posts/old-talks-iv/">Old Talks IV</a>
-            </h1>
-        </header>
-
-        <div class="content">
-            <p><strong>Title:</strong> Modeling Physical Phenomenon: A derivation and exploration of
-Laplacian growth.<br>
-<strong>Speaker:</strong> Nathan Hayford.<br>
-<strong>Date:</strong> Thursday, August $29^{th}$<br>
-<strong>Time:</strong> 3:30pm<br>
-<strong>Place:</strong> CMC 109<br>
-<strong>Abstract:</strong> Often the most interesting mathematical problems are
-physically motivated: Laplacian growth is no exception. However, one may
-wonder how such models are derived, i.e., what is their physical
-relevance, what constitutes a good balance between an easily solvable
-problem and a physically realistic one, among other questions. In this
-talk, I plan on deriving Laplacian growth from first principles physics,
-and explain the original motivations of the equation (in short, modeling
-a 2D fluid domain&rsquo;s expansion/retraction as fluid is pumped in/out from
-above). I will briefly discuss the integrable structure of Laplacian
-growth, and how it leads to exact solutions of the equation; finally, if
-time permits, I will mention another modern application of Laplacian
-growth in condensed matter theory: the integer quantum Hall effect.\</p>
-        </div>
-         
-            <div class="read-more">
-                <a href="/posts/old-talks-iv/">Read more</a>
-            </div>
-         
-        
-        
 
 
-<div class="article-info">
-    
-        <div class="article-date">2020-01-31</div>
-    
-    <div class="article-taxonomies">
-        
-            
-                <ul class="tags">
-                    
-                        <li><a href="https://usfmath.github.io/tags/old-talks" class="tag">old talks</a></li>
-                    
-                </ul>
-        
-    </div>
-</div>
+<span class="js-widget-page d-none"></span>
 
 
 
-    </article>
-    
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="/posts/old-talks-iii/">Old Talks III</a>
-            </h1>
-        </header>
-
-        <div class="content">
-            <p><strong>Title:</strong> An Introduction to Viscosity Solutions to the p-Laplace
-Equation for Constant Exponent $1&lt;\text{p}&lt;\infty$.<br>
-<strong>Speaker:</strong> Zachary Forrest.<br>
-<strong>Date:</strong> Tuesday, October $1^{st}$<br>
-<strong>Time:</strong> 2:00pm<br>
-<strong>Place:</strong> CMC 109<br>
-<strong>Abstract:</strong> We explore Crandall, Ishii, and Lyon&rsquo;s notion of solutions
-in the viscosity sense for degenerate elliptic equations; after
-preliminaries, we will focus on viscosity solutions for the equation
-$$\label{Zach} \tag{$\star$}
--\Delta_{\text{p}} u := \text{div}\left( |\nabla u|^{\text{p} -2} \nabla u \right) = 0$$
-posed in bounded domains $\Omega \subset \mathbb{R}^n$. Essential
-properties of this family of solutions will be introduced, and we shall
-also draw comparisons with the more classical notion of weak solutions.
-Finally, we shall introduce Juutinen, Lindqvist, and Manfredi&rsquo;s (2001)
-result regarding the equivalence of weak and viscosity solutions to
-Equation .</p>
-        </div>
-         
-            <div class="read-more">
-                <a href="/posts/old-talks-iii/">Read more</a>
-            </div>
-         
-        
-        
 
 
-<div class="article-info">
-    
-        <div class="article-date">2020-01-31</div>
-    
-    <div class="article-taxonomies">
-        
-            
-                <ul class="tags">
-                    
-                        <li><a href="https://usfmath.github.io/tags/old-talks" class="tag">old talks</a></li>
-                    
-                </ul>
-        
-    </div>
-</div>
-
-
-
-    </article>
-    
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="/posts/old-talks2/">Old Talks II</a>
-            </h1>
-        </header>
-
-        <div class="content">
-            <p><strong>Title:</strong> Algebraic number theory and the ideal class group.<br>
-<strong>Speaker:</strong> Will Youmans.<br>
-<strong>Date:</strong> Tuesday, November $26^{th}$<br>
-<strong>Time:</strong> 2:00pm<br>
-<strong>Place:</strong> CMC 109<br>
-<strong>Abstract:</strong> Over three and a half centuries ago Fermat posed his
-famous Last Theorem. Attempts to prove the theorem stimulated the
-development of algebraic number theory throughout the $19^{th}$ century.
-We will give an introduction to concepts in algebraic number theory from
-a historical perspective with the aim of motivating the ideal class
-group.\</p>
-        </div>
-         
-            <div class="read-more">
-                <a href="/posts/old-talks2/">Read more</a>
-            </div>
-         
-        
-        
-
-
-<div class="article-info">
-    
-        <div class="article-date">2020-01-31</div>
-    
-    <div class="article-taxonomies">
-        
-            
-                <ul class="tags">
-                    
-                        <li><a href="https://usfmath.github.io/tags/old-talks" class="tag">old talks</a></li>
-                    
-                </ul>
-        
-    </div>
-</div>
-
-
-
-    </article>
-    
-    <article class="post-list">
-        <header> 
-            <h1>
-                <a href="/posts/old-talks/">Old Talks I</a>
-            </h1>
-        </header>
-
-        <div class="content">
-            <p><strong>Title:</strong> The Calderón problem.<br>
-<strong>Speaker:</strong> Lina Fajardo Gomez.<br>
-<strong>Date:</strong> Thursday, February $13^{th}$<br>
-<strong>Time:</strong> 11:00am<br>
-<strong>Place:</strong> CIS 1023<br>
-<strong>Abstract:</strong> What do oil drilling and tumor detection have in common?
-How could nonlinear equations be easier to work with? The Calderón
-problem was first introduced as an inverse boundary value problem: how
-information about the boundary of a domain can be used to determine
-information about its interior. We will discuss the set up, some
-applications, and a proposed solution for a class of Calderón type
-inverse problems.</p>
-        </div>
-         
-            <div class="read-more">
-                <a href="/posts/old-talks/">Read more</a>
-            </div>
-         
-        
-        
-
-
-<div class="article-info">
-    
-        <div class="article-date">2020-01-31</div>
-    
-    <div class="article-taxonomies">
-        
-            
-                <ul class="tags">
-                    
-                        <li><a href="https://usfmath.github.io/tags/old-talks" class="tag">old talks</a></li>
-                    
-                </ul>
-        
-    </div>
-</div>
-
-
-
-    </article>
-    
-    
-
-
-        </main>
-        <footer>
-            
-                
-                
-
-                <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-  MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-  });
-  MathJax.Hub.Queue(function() {
-    
-    
-    
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-  });
-
-  MathJax.Hub.Config({
   
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-  });
-</script>
-
-<p>© Fudong Wang &amp; Nathan Hayford, 2020<br>
-Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
-</p>
+  
+  
+  
 
 
 
 
+  
+  
+  
 
-            
-        </footer>
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="hero" class="home-section wg-hero dark  " style="background-image: linear-gradient(#4bb4e3, #2b94c3);" >
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-md-6 order-md-1 text-center text-md-left">
+
+
+    <h1 class="hero-title">
+      Welcome to CMC
+    </h1>
+
+    
+
+    
+    
+
+    
+    
+
+  
+  
+  </div>
+  <div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
+    <img src="/img/hero-academic.png" alt="">
+  </div>
+</div>
+
+
     </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="talks" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent &amp; Upcoming Talks</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+  <div class="article-metadata">
+    
+    <span>
+      Jun 4, 2020 12:00 AM
+    </span>
+    
+  </div>
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/talk/usf/quantum-invariants/">Quantum invariants of framed links from cohomology of self-distributive structures</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p><strong>Speaker</strong>: Emanuele Zappala, scheduled at 2:00pm, Thursday, June 4, 2020 @ <a href="https://zoom.us/j/99982471312?pwd=Z0NTR2UraHZTQXI5TkdzNlM5K0FPUT09">zoom</a></p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+  <div class="article-metadata">
+    
+    <span>
+      Feb 20, 2020 8:47 PM
+    </span>
+    
+  </div>
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/talk/usf/darboux-transformation-and-soliton-equations/">Darboux Transformation and Soliton Equations </a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p><strong>Speaker</strong>:Yehui Huang (North China Electric Power University), scheduled at Thursday, February 20, 2020.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+  <div class="article-metadata">
+    
+    <span>
+      Feb 15, 2020 8:55 PM
+    </span>
+    
+  </div>
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/talk/usf/the-calderon-problem/">The Calderón Problem</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p><strong>Speaker:</strong> Lina Fajardo Gomez.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+  <div class="article-metadata">
+    
+    <span>
+      Feb 1, 2020 9:02 PM
+    </span>
+    
+  </div>
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/talk/usf/variation-problem-and-how-to-solve-it/">Variation Problem and How to Solve It</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p><strong>Speaker:</strong> Nathan Hayford.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+  <div class="article-metadata">
+    
+    <span>
+      Jan 30, 2020 9:05 PM
+    </span>
+    
+  </div>
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/talk/usf/lorentz-group/">Lorentz Group</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p><strong>Speaker:</strong> Louis Arenas.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+
+    
+    <div class="see-all">
+      <a href="/talk/">
+        See all talks
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="posts" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Posts</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="tags" class="home-section wg-tag-cloud   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Popular Topics</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+      
+      
+      
+      
+      
+      
+
+      <div class="tag-cloud">
+        
+          
+          
+          
+          <a href="/tag/boundary-value-problem/" style="font-size:0.7rem">boundary value problem</a>
+        
+          
+          
+          
+          <a href="/tag/calderon-problem/" style="font-size:0.7rem">Calderon problem</a>
+        
+          
+          
+          
+          <a href="/tag/cohomology/" style="font-size:0.7rem">cohomology</a>
+        
+          
+          
+          
+          <a href="/tag/inverse-problem/" style="font-size:0.7rem">inverse problem</a>
+        
+          
+          
+          
+          <a href="/tag/lorentz-group/" style="font-size:0.7rem">Lorentz group</a>
+        
+          
+          
+          
+          <a href="/tag/mathematical-physics/" style="font-size:0.7rem">mathematical physics</a>
+        
+          
+          
+          
+          <a href="/tag/quantum-invariants/" style="font-size:0.7rem">Quantum invariants</a>
+        
+          
+          
+          
+          <a href="/tag/variational-problem/" style="font-size:0.7rem">variational problem</a>
+        
+      </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="demo" class="home-section wg-blank dark  " style="background-image: linear-gradient(DarkGreen, ForestGreen);padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+
+
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>About Graduate Math @ USF</h1>
+      
+      <p>The Graduate Mathematics Seminar Series is a series of lectures hosted by (and for) graduate students in the mathematics department at USF. We hold weekly talks (for Summer 2020, Thursdays at 2pm, via Zoom), which are typically given by a graduate student from the department about their current area of research. The talks are meant to be accessible to graduate students, and serve as a means to promote discussion.</p>
+<p>There are several objectives this seminar has in mind, depending on the level of the graduate student. They are as follows:</p>
+<p>Beginning graduate students (first and early second year): The seminar serves as an introduction to the kinds of research the department has to offer, provided by fellow graduate students. Since the seminar is student-led, the environment better facilitates questions and discussions from students, and can be a good opportunity for newer graduate students to interact with other students in the department.</p>
+<p>More advanced graduate students: The seminar series acts as a place for advanced students to practice their communication skills, and prepare for upcoming conferences or talks in a more relaxed environment. Furthermore, it provides a place for students to discuss their research with their peers and possibly collaborate/exchange ideas.</p>
+<p><strong>Contact Us:</strong></p>
+<p>Nathan Hayford
+<a href="mailto:nhayford@usf.edu">nhayford@usf.edu</a></p>
+<p>Fudong Wang
+<a href="mailto:fudong@usf.edu">fudong@usf.edu</a></p>
+
+    </div>
+  
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://usfmath.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

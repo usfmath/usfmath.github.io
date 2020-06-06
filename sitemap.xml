@@ -3,101 +3,122 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://usfmath.github.io/</loc>
-    <lastmod>2020-05-31T00:00:00-04:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-06-05T20:19:47-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/posts/summer-talk-1/</loc>
-    <lastmod>2020-05-31T00:00:00-04:00</lastmod>
+    <loc>/tag/cohomology/</loc>
+    <lastmod>2020-06-05T20:19:47-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/tags/cohomology/</loc>
-    <lastmod>2020-05-31T00:00:00-04:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-06-05T21:05:34-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/posts/</loc>
-    <lastmod>2020-05-31T00:00:00-04:00</lastmod>
+    <loc>/tag/quantum-invariants/</loc>
+    <lastmod>2020-06-05T20:19:47-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/tags/quantum-invariants/</loc>
-    <lastmod>2020-05-31T00:00:00-04:00</lastmod>
+    <loc>/talk/usf/quantum-invariants/</loc>
+    <lastmod>2020-06-05T20:19:47-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/tags/</loc>
-    <lastmod>2020-05-31T00:00:00-04:00</lastmod>
+    <loc>/talk/</loc>
+    <lastmod>2020-06-05T21:05:34-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/about/</loc>
-    <lastmod>2020-05-31T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-05T21:05:22-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/posts/compressed-sensing/</loc>
-    <lastmod>2020-02-27T17:24:04-04:00</lastmod>
+    <loc>/category/topology/</loc>
+    <lastmod>2020-06-05T20:19:47-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/tags/compressed-sensing/</loc>
-    <lastmod>2020-02-27T17:24:04-04:00</lastmod>
+    <loc>/talk/usf/darboux-transformation-and-soliton-equations/</loc>
+    <lastmod>2020-06-05T20:47:23-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/posts/darboux-transformation/</loc>
-    <lastmod>2020-02-20T18:10:51-04:00</lastmod>
+    <loc>/tag/boundary-value-problem/</loc>
+    <lastmod>2020-06-05T20:55:08-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/tags/darboux-transformation/</loc>
-    <lastmod>2020-02-20T18:10:51-04:00</lastmod>
+    <loc>/tag/calderon-problem/</loc>
+    <lastmod>2020-06-05T20:55:08-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/tags/integrable-system/</loc>
-    <lastmod>2020-02-20T18:10:51-04:00</lastmod>
+    <loc>/tag/inverse-problem/</loc>
+    <lastmod>2020-06-05T20:55:08-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/tags/old-talks/</loc>
-    <lastmod>2020-01-31T18:37:13-04:00</lastmod>
+    <loc>/talk/usf/the-calderon-problem/</loc>
+    <lastmod>2020-06-05T20:55:08-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/posts/old-talks-iv/</loc>
-    <lastmod>2020-01-31T18:37:13-04:00</lastmod>
+    <loc>/tag/mathematical-physics/</loc>
+    <lastmod>2020-06-05T21:02:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/posts/old-talks-iii/</loc>
-    <lastmod>2020-01-31T18:31:32-04:00</lastmod>
+    <loc>/talk/usf/variation-problem-and-how-to-solve-it/</loc>
+    <lastmod>2020-06-05T21:02:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/posts/old-talks2/</loc>
-    <lastmod>2020-01-31T18:28:55-04:00</lastmod>
+    <loc>/tag/variational-problem/</loc>
+    <lastmod>2020-06-05T21:02:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/posts/old-talks/</loc>
-    <lastmod>2020-01-31T18:20:34-04:00</lastmod>
+    <loc>/talk/usf/lorentz-group/</loc>
+    <lastmod>2020-06-05T21:05:22-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <loc>/tag/lorentz-group/</loc>
+    <lastmod>2020-06-05T21:05:22-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/categories/</loc>
+    <loc>/talk/usf/riemann-hilbert-problem/</loc>
+    <lastmod>2020-06-05T21:05:34-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://usfmath.github.io/series/</loc>
+    <loc>/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/fudong-wang/</loc>
+  </url>
+  
+  <url>
+    <loc>/author/nathan/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
   </url>
   
 </urlset>

@@ -1,85 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Graduate Math Seminars@USF</title>
-    <link>https://usfmath.github.io/</link>
-    <description>Graduate Math Seminars@USF</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2020 00:00:00 -0400</lastBuildDate>
-    
-    <atom:link href="https://usfmath.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Grad Math@USF</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Grad Math@USF</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Grad Math@USF</title>
+      <link>/</link>
+    </image>
     
     <item>
-      <title> [Talk] Quantum invariants of framed links from cohomology of self-distributive structures</title>
-      <link>https://usfmath.github.io/posts/summer-talk-1/</link>
-      <pubDate>Sun, 31 May 2020 00:00:00 -0400</pubDate>
-      
-      <guid>https://usfmath.github.io/posts/summer-talk-1/</guid>
+      <title>Quantum invariants of framed links from cohomology of self-distributive structures</title>
+      <link>/talk/usf/quantum-invariants/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/talk/usf/quantum-invariants/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Emanuele Zappala&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm, Thursday, June 4&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk I will give a brief introduction to knot theory and the notion of knot invariant. Next I will describe the process of algebraization of knot theory which naturally gives Yang-Baxter operators, Yetter-Drinfeld modules and racks/quandles etc. After recalling the definition of cohomology of racks, I will proceed to show how to construct an invariant of links and knotted surfaces from cocycles. I will therefore explain some recent joint works with M. Elhamdadi and M. Saito relating self-distributivity of higher arity structures and invariants of framed links, with a (categorical) perspective on how to realize them as quantum invariants.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Zoom links&lt;/strong&gt;: &lt;a href=&#34;https://zoom.us/j/99982471312?pwd=Z0NTR2UraHZTQXI5TkdzNlM5K0FPUT09&#34;&gt;click me.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;: &lt;a href=&#34;https://drive.google.com/file/d/1Pef6VJyfGRqouX5uf-QIy3oITf0NW85P/view?usp=sharing&#34;&gt;google drive&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About Graduate Math Seminars at USF</title>
-      <link>https://usfmath.github.io/about/</link>
-      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://usfmath.github.io/about/</guid>
-      <description>&lt;p&gt;The Graduate Mathematics Seminar Series is a series of lectures hosted by (and for) graduate students in the mathematics department at USF. We hold weekly talks (for Summer 2020, Thursdays at 2pm, via Zoom), which are typically given by a graduate student from the department about their current area of research. The talks are meant to be accessible to graduate students, and serve as a means to promote discussion.&lt;/p&gt;
-&lt;p&gt;There are several objectives this seminar has in mind, depending on the level of the graduate student. They are as follows:&lt;/p&gt;
-&lt;p&gt;Beginning graduate students (first and early second year): The seminar serves as an introduction to the kinds of research the department has to offer, provided by fellow graduate students. Since the seminar is student-led, the environment better facilitates questions and discussions from students, and can be a good opportunity for newer graduate students to interact with other students in the department.&lt;/p&gt;
-&lt;p&gt;More advanced graduate students: The seminar series acts as a place for advanced students to practice their communication skills, and prepare for upcoming conferences or talks in a more relaxed environment. Furthermore, it provides a place for students to discuss their research with their peers and possibly collaborate/exchange ideas.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Contact Us:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Nathan Hayford
-&lt;a href=&#34;mailto:nhayford@usf.edu&#34;&gt;nhayford@usf.edu&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Fudong Wang
-&lt;a href=&#34;mailto:fudong@usf.edu&#34;&gt;fudong@usf.edu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zoom links&lt;/strong&gt;: 
+&lt;a href=&#34;https://zoom.us/j/99982471312?pwd=Z0NTR2UraHZTQXI5TkdzNlM5K0FPUT09&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;click me.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1Pef6VJyfGRqouX5uf-QIy3oITf0NW85P/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;google drive&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>[Talk] Compressed Sensing</title>
-      <link>https://usfmath.github.io/posts/compressed-sensing/</link>
-      <pubDate>Thu, 27 Feb 2020 17:24:04 -0400</pubDate>
-      
-      <guid>https://usfmath.github.io/posts/compressed-sensing/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Compressed Sensing.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Vasile Pop.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; Thursday, February 27th, 2020&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Place:&lt;/strong&gt; CIS 1045&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Compressed sensing (CS) is an exciting, rapidly growing
-field that has attracted considerable attention in statistics, applied
-mathematics, electrical engineering and computer science. CS offers a
-framework for simultaneous sensing and compression of finite/infinite
-dimensional vectors, that relies on linear dimensionality reduction. The
-restricted isometry property (RIP) is at the center of important
-developments in compressive sensing. In $\Bbb R^n$, RIP establishes the
-success of sparse recovery via basis pursuit for measurement matrices
-with small restricted isometry constants $\delta_{2s}&amp;lt;1/3$. A weaker
-condition $\delta_{2s} &amp;lt; 0.6246$ is actually sufficient to guarantee
-stable and robust recovery of all $s$-sparse vectors via
-$l_1$-minimization. In Hilbert space a random linear map satisfies a
-general RIP with high probability and allow recovering and extending
-many known compressive sampling results. In this session, I provide a
-comprehensive introduction to CS. This thesis extends the known
-restricted isometric projection of sparse datasets in Euclidean spaces
-$\mathbb{R}^N$ down into low-dimensional subspaces
-$\mathbb{R}^k, k \ll N,$ to the case of low-dimensional varieties
-$\mathcal{M} \subset \mathbb{R}^N,$ of codimension $N - k = \omega(N)$.
-Applications to structured/hierarchical datasets are considered.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Talk] Darboux transformation and soliton equations</title>
-      <link>https://usfmath.github.io/posts/darboux-transformation/</link>
-      <pubDate>Thu, 20 Feb 2020 18:10:51 -0400</pubDate>
-      
-      <guid>https://usfmath.github.io/posts/darboux-transformation/</guid>
+      <title>Darboux Transformation and Soliton Equations </title>
+      <link>/talk/usf/darboux-transformation-and-soliton-equations/</link>
+      <pubDate>Thu, 20 Feb 2020 20:47:23 -0400</pubDate>
+      <guid>/talk/usf/darboux-transformation-and-soliton-equations/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Darboux transformation and soliton equations.&lt;br&gt;
 &lt;strong&gt;Speaker:&lt;/strong&gt; Yehui Huang (North China Electric Power University).&lt;br&gt;
 &lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $20^{th}$&lt;br&gt;
@@ -91,306 +43,15 @@ generalized Darboux transformations, I will present a solution formula
 with multiple parameters for some soliton equations, including KdV and
 NLS. After taking special choices for the seed solution and the
 eigenfunctions, different types of exact solutions are derived, which
-include solitons, breathers and rogue wave solutions.&lt;/p&gt;</description>
+include solitons, breathers and rogue wave solutions.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Old Talks IV</title>
-      <link>https://usfmath.github.io/posts/old-talks-iv/</link>
-      <pubDate>Fri, 31 Jan 2020 18:37:13 -0400</pubDate>
-      
-      <guid>https://usfmath.github.io/posts/old-talks-iv/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Modeling Physical Phenomenon: A derivation and exploration of
-Laplacian growth.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Nathan Hayford.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, August $29^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 3:30pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 109&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; Often the most interesting mathematical problems are
-physically motivated: Laplacian growth is no exception. However, one may
-wonder how such models are derived, i.e., what is their physical
-relevance, what constitutes a good balance between an easily solvable
-problem and a physically realistic one, among other questions. In this
-talk, I plan on deriving Laplacian growth from first principles physics,
-and explain the original motivations of the equation (in short, modeling
-a 2D fluid domain&amp;rsquo;s expansion/retraction as fluid is pumped in/out from
-above). I will briefly discuss the integrable structure of Laplacian
-growth, and how it leads to exact solutions of the equation; finally, if
-time permits, I will mention another modern application of Laplacian
-growth in condensed matter theory: the integer quantum Hall effect.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Banach Algebra Approach to Wiener&amp;rsquo;s Theorem.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Raymond Centner.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, August $15^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 108&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; The Banach algebra setting can be very natural and useful
-in harmonic analysis. In 1932, Norbert Wiener proved that the space of
-absolutely convergent Fourier series is inverse closed, i.e., if f is a
-non-vanishing continuous function on the circle with an absolutely
-convergent Fourier series, then 1/f has an absolutely convergent Fourier
-series. Roughly ten years later, Israel Gelfand proved this result using
-the theory of Banach algebras. The purpose of this talk is to present
-this theorem in the context of Banach algebras, shedding light on the
-usefulness of abstraction in classical analysis.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; What is ... the inverse scattering transform?&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Fudong Wang.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, August $8^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 3:30pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 108&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; The story begins after the paper about a method for
-solving the KdV equation by Gardner, Greene, Kruskal, and Miura (GGKM)
-at 1967. That&amp;rsquo;s a first example of using IST to solve a nonlinear
-integrable equation. In 1968, Lax found an operator way to generalize
-GGKM&amp;rsquo;s method, which we now called &amp;ldquo;Lax pair&amp;rdquo;. In 1971, Zakharov and
-Shabat use Lax&amp;rsquo;s method to solve the NLS equation. In 1974, Ablowitz,
-Kaup, Newell, and Segur (AKNS) compare GGKM, Lax and ZS&amp;rsquo;s method in
-nonlinear PDEs with the Fourier transform in the linear PDEs and the
-term &amp;ldquo;inverse scattering transform&amp;rdquo; was born. In this talk, we will
-briefly discuss how the inverse scattering transform works on solving
-the NLS equation. If time allows, we will also talk about how to use IST
-to generate the beautiful &amp;ldquo;soliton&amp;rdquo; wave solution.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; A Theorem of Radó Type for the &lt;code&gt;p&lt;/code&gt;-Laplace equation in the
-Heisenberg group&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Zachary Forrest.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Wednesday, August $8^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 108&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; It is known that in Euclidean spaces, the &lt;code&gt;p&lt;/code&gt;-Laplace
-equation possesses a Radó-type result: That is, given a domain
-$\Omega \subseteq \mathbb{R}^n$ and a fixed exponent
-$1&amp;lt;\texttt{p}&amp;lt;\infty$, a function $u \in C^1(\Omega)$ which is a
-viscosity solution to the $\texttt{p}$- Laplace equation
-$$-\Delta_\texttt{p}u=0 ,,,, (1)$$ in the set is also viscosity
-solution solution to Equation (1) in $\Omega$. This result was proven in
-a paper (2005) of Juutinen and Lindqvist via the use of the Implicit
-Function Theorem, and motivated by this approach and the works of
-Franchi-Serapioni-Serra Cassano (2007) &amp;amp; Bieske (2006) we prove a
-removability result for $\texttt{p}$-harmonic functions in the first
-Heisenberg group $\mathbb{H}_1$.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; A Survey of the Polynomial Method.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Austin Dukes.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, August $1^{st}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 3:30pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 13&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; Recently, we have seen a surge of progress on many
-long-standing problems from various fields using methods based on ...
-polynomials? Based on relatively simple combinatorial arguments and
-dimension-counting from linear algebra, these polynomial methods were
-not initially perceived to be especially insightful. However, applying
-polynomials has shed light on subtle yet essential structure in many
-problems spanning many areas, and these methods are currently an
-exciting and active area of research. In this talk, we will discuss the
-Polynomial Method as well as give various examples of its use in fields
-such as incidence geometry, harmonic analysis, and computer science.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Deep Learning.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Roshan Warman.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, July $25^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 3:30pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 13&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; Deep Learning has received an increasing amount of
-attention in recent years due to its break-through applications in many
-fields. In this presentation, we present an exposition to the
-intellectual enterprises of Neural Networks, building them ground up
-from simple decision-making models, and provide an overview on basic
-machine learning algorithms, with the eventual goal to discuss more
-mathematically involved theorems and areas of research in statistical
-learning theory. The only pre-requisites are basic foundations of
-Analysis.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Geometric group theory as a mathematical melting pot.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Lina Fajardo Gomez.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, July $18^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 3:30pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 13&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; Geometric group theory is an area that studies discrete
-groups through the connections between algebraic properties of the
-groups and the topological and geometric properties of the spaces they
-act on. It is a relatively new area of study that remains very active
-(as demonstrated by the many conferences in the field and programs that
-focus on it). This seminar talk is intended as a broad introduction to
-geometric group theory, with examples of how it relates to different
-areas of mathematics, and a motivation for its study.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Some fundamental formulas on the Cauchy-type integrals.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Fudong Wang.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, July $11^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 3:30pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 13&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; In the theory of boundary value problems of analytic
-functions, Cauchy-type integrals play a fundamental role. There are
-several fundamental formulas in the field, such like Sokhotsky-Plemelj
-formula, Poincaré-Bertrand formula, Plemelj-Privalov theorem, and Marcel
-Riesz&amp;rsquo;s inequality on the Hilbert transform. In this seminar talk, we
-will start from the beginning to prove some of the mentioned theorems.
-Those theorems are frequently applied in the theory of Riemann-Hilbert
-problem, Random matrices and integrable systems.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Computing the Regulator of a Real Quadratic Order Using
-p-Adic Methods.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Will Youmans.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, June $27^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 3:30pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 13&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; The regulator of a real quadratic order is defined as the
-logarithm of the generator of the unit group (called the fundamental
-unit). This value is closely tied to the class number and describes the
-&amp;quot;density&amp;quot; of the units. The coefficients of the fundamental unit can
-become very large, so rather than directly compute the regulator from
-the fundamental unit itself we typically use a power product
-representation of units derived from a generating set of relations for
-the class group. Existing methods for computing the regulator from this
-data suffer from a variable loss of precision which can be difficult to
-control. We propose a p-adic method which simplifies the management of
-the precision throughout the computation.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; What Can Random Matrices Do For You? &lt;strong&gt;Speaker:&lt;/strong&gt; Nathan
-Hayford.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, June $20^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 3:30pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 13&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; Random matrix theory has been an indispensable tool for
-mathematical physicists for the past few decades, but one may wonder how
-relevant it is outside of this field. In this talk, I plan on explaining
-the basics of random matrices, and how they have been used in fields
-such as knot theory, graph combinatorics, number theory, biology,
-quantum gravity, integrable systems, orthogonal polynomials, and... you
-get the point. If time permits (and depending on the audience), I&amp;rsquo;ve
-also prepared some more detailed examples of how random matrix theory is
-used in each of these contexts. I&amp;rsquo;ll try and share as many of these as I
-can in the allotted time.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The presentation of the Braid group and faithfulness of its
-Burau representation.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Louis Arenas.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, June $13^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 3:30pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 13&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; The talk will be centered on familiarizing the audience
-with the geometric braid group and it&amp;rsquo;s presentation. From here, we will
-see for a particular representation, for what parameters it will be
-faithful.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Old Talks III</title>
-      <link>https://usfmath.github.io/posts/old-talks-iii/</link>
-      <pubDate>Fri, 31 Jan 2020 18:31:32 -0400</pubDate>
-      
-      <guid>https://usfmath.github.io/posts/old-talks-iii/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; An Introduction to Viscosity Solutions to the p-Laplace
-Equation for Constant Exponent $1&amp;lt;\text{p}&amp;lt;\infty$.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Zachary Forrest.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Tuesday, October $1^{st}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 109&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; We explore Crandall, Ishii, and Lyon&amp;rsquo;s notion of solutions
-in the viscosity sense for degenerate elliptic equations; after
-preliminaries, we will focus on viscosity solutions for the equation
-$$\label{Zach} \tag{$\star$}
--\Delta_{\text{p}} u := \text{div}\left( |\nabla u|^{\text{p} -2} \nabla u \right) = 0$$
-posed in bounded domains $\Omega \subset \mathbb{R}^n$. Essential
-properties of this family of solutions will be introduced, and we shall
-also draw comparisons with the more classical notion of weak solutions.
-Finally, we shall introduce Juutinen, Lindqvist, and Manfredi&amp;rsquo;s (2001)
-result regarding the equivalence of weak and viscosity solutions to
-Equation .&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; An Introduction to the Riemann-Hilbert Problems on the real
-line.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Fudong Wang.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, September $26^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 109&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, we will briefly discuss what is the
-Riemann-Hilbert Problem(RHP). We will focus on the situation where the
-contour is real line. Then formulate the RHP in $L^2$-space (hopefully).
-The Sokhotski-Plemelj formula (or Cauchy operator) plays a fundamental
-role in the theory of RHP, from where we can see the connection between
-the singular integral equation and the RHP. A solution method, via the
-Cauchy operator, will also be introduced (hopefully). Finally, we will
-discuss how does RHP connect to the MKdV equation.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Rational Solutions to the Painlevé II equation.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Nathan Hayford.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, September $19^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 109&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; The Painlevé II (PII) equation appears in many problems in
-theoretical physics, combinatorics, and random matrix theory. However,
-being a non-linear equation, solutions can be difficult to construct.
-One may wonder if there is a way to construct new solutions from old
-ones, and in fact there is. We discuss the Bäcklund transformation
-structure of PII with an explicit example: a family of rational
-solutions to this equation.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Connections between ladder operators and representation
-theory (Part II)&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Louis Arenas.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, September $12^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 109&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; Continuing the talk from last Thursday, using the
-machinery developed last time; there will be an explicit connection to
-spin states of a particle.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Old Talks II</title>
-      <link>https://usfmath.github.io/posts/old-talks2/</link>
-      <pubDate>Fri, 31 Jan 2020 18:28:55 -0400</pubDate>
-      
-      <guid>https://usfmath.github.io/posts/old-talks2/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Algebraic number theory and the ideal class group.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Will Youmans.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Tuesday, November $26^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 109&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; Over three and a half centuries ago Fermat posed his
-famous Last Theorem. Attempts to prove the theorem stimulated the
-development of algebraic number theory throughout the $19^{th}$ century.
-We will give an introduction to concepts in algebraic number theory from
-a historical perspective with the aim of motivating the ideal class
-group.\&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Euler&amp;rsquo;s $\zeta(2)$ and $\zeta(4)$ and other related series by
-means of trigonometric integrals.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Cezar Lupu.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Tuesday, November $21^{st}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 109&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, we shall illustrate how we can make use of
-trigonometric integrals such as
-$$\int_0^{\frac{\pi}{2}} \sin^n(x) dx, \quad \int_0^{\frac{\pi}{2}} \tan^n(x) dx$$
-for derivation of Euler&amp;rsquo;s $\zeta(2)$ and $\zeta(4)$ formulas. On the
-other hand, we also obtain Leibniz&amp;rsquo;s alternating series for $\log 2$ and
-$\frac{\pi}{4}$.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Geometry, Links, and Magnetism.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Nathan Hayford.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, November $14^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 109&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; The linking number is a well-known invariant in topology,
-and has been around since the time of Gauss. We will discuss this
-invariant, and how it may be computed via purely geometric means.
-Furthermore, we investigate Gauss&amp;rsquo; original motivations and intuition
-for the linking number in the theory of magnetism. Finally, if time
-permits, we mention how other topological invariants (like the Jones
-polynomial) can be computed (in a surprisingly similar manner) via
-appropriate topological field theories.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Rogue wave solutions to the nonlocal nonlinear Schrodinger
-equation.&lt;br&gt;
-&lt;strong&gt;Speaker:&lt;/strong&gt; Rusuo Ye.&lt;br&gt;
-&lt;strong&gt;Date:&lt;/strong&gt; Thursday, October $17^{th}$&lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm&lt;br&gt;
-&lt;strong&gt;Place:&lt;/strong&gt; CMC 109&lt;br&gt;
-&lt;strong&gt;Abstract:&lt;/strong&gt; By using a matrix version of Darboux transformation with a
-spectral matrix of the Jordan block form, rogue wave solutions to the
-nonlocal nonlinear Schrödinger (NLS) equation are presented. General
-rogue wave solutions up to the fourth-order are formulated. The
-structure of these solutions is essentially determined by the
-corresponding solutions of the Lyapunov equation. With appropriate
-choices of free parameters, dynamics and distribution patterns for the
-nonlocal NLS equation are shown to be much abundant than those for the
-local NLS equation.\&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Old Talks I</title>
-      <link>https://usfmath.github.io/posts/old-talks/</link>
-      <pubDate>Fri, 31 Jan 2020 18:20:34 -0400</pubDate>
-      
-      <guid>https://usfmath.github.io/posts/old-talks/</guid>
+      <title>The Calderón Problem</title>
+      <link>/talk/usf/the-calderon-problem/</link>
+      <pubDate>Sat, 15 Feb 2020 20:55:08 -0400</pubDate>
+      <guid>/talk/usf/the-calderon-problem/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The Calderón problem.&lt;br&gt;
 &lt;strong&gt;Speaker:&lt;/strong&gt; Lina Fajardo Gomez.&lt;br&gt;
 &lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $13^{th}$&lt;br&gt;
@@ -403,7 +64,15 @@ information about the boundary of a domain can be used to determine
 information about its interior. We will discuss the set up, some
 applications, and a proposed solution for a class of Calderón type
 inverse problems.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Variational Problems and How to Solve Them.&lt;br&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variation Problem and How to Solve It</title>
+      <link>/talk/usf/variation-problem-and-how-to-solve-it/</link>
+      <pubDate>Sat, 01 Feb 2020 21:02:58 -0400</pubDate>
+      <guid>/talk/usf/variation-problem-and-how-to-solve-it/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Variational Problems and How to Solve Them.&lt;br&gt;
 &lt;strong&gt;Speaker:&lt;/strong&gt; Nathan Hayford.&lt;br&gt;
 &lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $6^{th}$&lt;br&gt;
 &lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
@@ -416,7 +85,15 @@ worked out examples of how these techniques may be applied to solve such
 problems. We will also discuss how such techniques may be applied to
 write Lagrangian formulations of theories like electromagnetism and
 general relativity, if time permits.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Lorentz Group.&lt;br&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lorentz Group</title>
+      <link>/talk/usf/lorentz-group/</link>
+      <pubDate>Thu, 30 Jan 2020 21:05:22 -0400</pubDate>
+      <guid>/talk/usf/lorentz-group/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Lorentz Group.&lt;br&gt;
 &lt;strong&gt;Speaker:&lt;/strong&gt; Louis Arenas.&lt;br&gt;
 &lt;strong&gt;Date:&lt;/strong&gt; Thursday, January $30^{th}$&lt;br&gt;
 &lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
@@ -425,7 +102,15 @@ general relativity, if time permits.&lt;/p&gt;
 definition of the Lorentz group and motivation in general relativity. We
 will derive commutation relations, and if time permits show the
 restricted Lorentz group is isomorphic to the Möbius group.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Riemann-Hilbert Problem in $L^p$-space.&lt;br&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Riemann Hilbert Problem</title>
+      <link>/talk/usf/riemann-hilbert-problem/</link>
+      <pubDate>Thu, 23 Jan 2020 21:05:34 -0400</pubDate>
+      <guid>/talk/usf/riemann-hilbert-problem/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Riemann-Hilbert Problem in $L^p$-space.&lt;br&gt;
 &lt;strong&gt;Speaker:&lt;/strong&gt; Fudong Wang.&lt;br&gt;
 &lt;strong&gt;Date:&lt;/strong&gt; Thursday, January $23^{rd}$&lt;br&gt;
 &lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
@@ -436,16 +121,8 @@ what is the RHP and what is the solution to an RHP. Then we will talk
 about the two types of inhomogeneous Riemann-Hilbert problems and
 establish the equivalence between them. Finally, a uniqueness theorem of
 RHP in $L^p$ will be given. If time permits, its application to the
-inverse scattering theory will be mentioned too.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://usfmath.github.io/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://usfmath.github.io/archives/</guid>
-      <description></description>
+inverse scattering theory will be mentioned too.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
