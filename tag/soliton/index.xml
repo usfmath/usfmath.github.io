@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soliton | Grad Math@USF</title>
+    <link>/tag/soliton/</link>
+      <atom:link href="/tag/soliton/index.xml" rel="self" type="application/rss+xml" />
+    <description>Soliton</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jun 2020 13:01:12 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Soliton</title>
+      <link>/tag/soliton/</link>
+    </image>
+    
+    <item>
+      <title>An Elementary Introdcution to Fredholm Determinants</title>
+      <link>/talk/fredholm-determinants/</link>
+      <pubDate>Mon, 08 Jun 2020 13:01:12 -0400</pubDate>
+      <guid>/talk/fredholm-determinants/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: An Elementary Introduction to Fredholm Determinants&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Fudong Wang&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, June 11&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: At the beginning of the 20th century, Fredholm introduced a way to solve a class of linear integral equations which are now called them Fredholm integral equations. In his 1903&amp;rsquo;s paper, Fredholm introduced a determinant of a functional, which now is called Fredholm determinant. In this lecture, we will begin with the definition of determinant in the finite-dimensional spaces and review some properties of the determinants. After that, we will focus on the determinant of form $det(I+F)$ where $F$ is &amp;ldquo;small&amp;rdquo;. Following Fredholm&amp;rsquo;s 1903 paper, we will discuss Fredholm determinant $D_f$ and explore some properties of the determinant and how it connects to the finite determinants. Lastly, we will discuss how to construct the famous &amp;ldquo;soliton&amp;rdquo; solution to the equation of Koreteweg-de Vries by the so-called Fredholm determinant method introduced by Pöppe(1983).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
