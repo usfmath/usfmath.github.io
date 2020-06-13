@@ -5,12 +5,25 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Jun 2020 13:01:12 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 13 Jun 2020 14:54:17 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>A Brief Introduction to Differential Geometry and Minimal Surfaces</title>
+      <link>/talk/minimal-surfaces/</link>
+      <pubDate>Sat, 13 Jun 2020 14:54:17 -0400</pubDate>
+      <guid>/talk/minimal-surfaces/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A Brief Introduction to Differential Geometry and Minimal Surfaces&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, June 18&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Hayden Hunter&lt;/p&gt;
+&lt;p&gt;Abstract: For this lecture we will be providing a small introduction to Differential Geometry including the definition of a regular surface, first and second Fundamental Forms, and Gauss and Mean Curvature. From here we shall move to describing what a minimal surface is as well as proving their existence and certain properties of minimal surfaces.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>An Elementary Introdcution to Fredholm Determinants</title>
