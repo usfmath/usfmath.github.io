@@ -5,12 +5,24 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 13 Jun 2020 14:54:17 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Jun 2020 22:58:12 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>Stochastic Games for PDE</title>
+      <link>/talk/usf/stochastic-games/</link>
+      <pubDate>Sat, 20 Jun 2020 22:58:12 -0400</pubDate>
+      <guid>/talk/usf/stochastic-games/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Stochastic Games for PDE&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: 2:00 pm, Thursday, June 25th, 2020&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Forrest, Zachary&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: This talk will serve as an introduction to techniques of stochastic games and their application to proving the existence of viscosity solutions to second order, degenerate-elliptic equations. We will define such equations and the class of viscosity solutions; give definitions and properties of martingales and stopping times, including Doob&amp;rsquo;s Optimal Sampling theorem; and give examples of stochastic games for Pucci&amp;rsquo;s maximal operators and the p-Laplace equation.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Brief Introduction to Differential Geometry and Minimal Surfaces</title>

@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-06-20T22:58:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2020-06-20T22:58:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/usf/stochastic-games/</loc>
+    <lastmod>2020-06-20T22:58:12-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/minimal-surfaces/</loc>
     <lastmod>2020-06-13T14:54:17-04:00</lastmod>
   </url>
@@ -23,17 +38,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-06-13T14:54:17-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/minimal-sufaces/</loc>
-    <lastmod>2020-06-13T14:54:17-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
     <lastmod>2020-06-13T14:54:17-04:00</lastmod>
   </url>
   
