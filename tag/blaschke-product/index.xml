@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blaschke Product | Grad Math@USF</title>
+    <link>/tag/blaschke-product/</link>
+      <atom:link href="/tag/blaschke-product/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blaschke Product</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 29 Jun 2020 13:37:03 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>Blaschke Product</title>
+      <link>/tag/blaschke-product/</link>
+    </image>
+    
+    <item>
+      <title>The Nevanlinna-Pick Interpolation Problem</title>
+      <link>/talk/nevanlinna-pick-problem/</link>
+      <pubDate>Mon, 29 Jun 2020 13:37:03 -0400</pubDate>
+      <guid>/talk/nevanlinna-pick-problem/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: The Nevanlinna-Pick Interpolation Problem&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: John Kyei&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 2nd&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+In this presentation, I will give an introductory discussion on the general Nevanlina-Pick Interpolation problem . Formulation of the Pick Problem and the nature of solutions to the Extremal Pick Problem. Subsequently, Nevalinna Formulation.
+We will  also look at  the Finite Blaschke Products, Basic  analytic  and algebraic properties such as the characterizations of holomorphic functions on the disk, approximation and Differentiation of the Finite Blaschke Product.&lt;/p&gt;
+&lt;p&gt;Link to Zoom Meeting: &lt;a href=&#34;https://zoom.us/j/99109270972&#34;&gt;https://zoom.us/j/99109270972&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vedio&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1_eVKFcjc5syRvp8s0CMusthbjAcX9EmX/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;:
+&lt;a href=&#34;https://drive.google.com/file/d/1wXFhZwWLGglGkBkSF67V9GKNmdav8GKb/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
