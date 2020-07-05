@@ -5,12 +5,26 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 29 Jun 2020 13:37:03 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2020 17:55:36 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>A Gentle Introduction to Infinite-Dimensional Lie Algebras</title>
+      <link>/talk/usf/infinite-lie-algebra/</link>
+      <pubDate>Sun, 05 Jul 2020 17:55:36 -0400</pubDate>
+      <guid>/talk/usf/infinite-lie-algebra/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A Gentle Introduction to Infinite-Dimensional Lie Algebras&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 9th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Infinite-dimensional Lie algebras have found applications in conformal field theory, integrable systems, and number theory, among other areas of mathematics. However, one wonders exactly how these algebras arise in such contexts, and moreover what is even meant by “infinite-dimensional Lie algebra” in the first place. In this talk, I will try to give a friendly introduction to the field of infinite-dimensional Lie algebras, and try to give the listener some operational familiarity with these structures by providing a few explicit examples. Furthermore, I will mention a few specific problems in mathematics where such algebras have been useful.&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&#34;&gt;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Nevanlinna-Pick Interpolation Problem</title>
