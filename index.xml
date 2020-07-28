@@ -5,12 +5,26 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jul 2020 11:41:42 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2020 22:36:21 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Introduction to Matroids</title>
+      <link>/talk/introduction-to-matroids/</link>
+      <pubDate>Mon, 27 Jul 2020 22:36:21 -0400</pubDate>
+      <guid>/talk/introduction-to-matroids/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Introduction to matroids&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Lina Fajardo Gomez&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 30th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Matroids are mathematical objects that abstract the notion of linearly independent sets. They have applications in many areas of mathematics, ranging from combinatorics to field theory. In this talk I will give an overview of matroids, why they are studied and why I in particular took an interest in them.&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting:https://zoom.us/j/93617336971&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Doing research as a student: tips and tricks</title>
