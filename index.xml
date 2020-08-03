@@ -5,12 +5,26 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2020 22:36:21 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2020 10:44:14 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Primes of the Form $p = x^2 &#43; ny^2$</title>
+      <link>/talk/primes-of-the-form/</link>
+      <pubDate>Mon, 03 Aug 2020 10:44:14 -0400</pubDate>
+      <guid>/talk/primes-of-the-form/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Primes of the form $p = x^2 + ny^2$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, August 6th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In a letter to Mersenne, dated 1640, Fermat formulated a problem asking for sufficient conditions to the titular primes in the case when $n=1,2,3.$ The first well known proof to the original problem (in the case for when $n=1$) was published by Euler in 1749, with the other two cases being completed in 1772. Naturally, Euler attempted to generalize the problem for arbitrary integers n &amp;gt; 0; while not producing any proofs, the ideas that Euler touched on would be expanded by Legendre, Gauss, and Lagrange. The goal for this talk is to outline a strategy that answers Fermat&amp;rsquo;s original problem along with a few more cases. If time permits, we&amp;rsquo;ll just mention a result that solves the general problem for countably many n integers.&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/98801740991&#34;&gt;https://zoom.us/j/98801740991&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduction to Matroids</title>
