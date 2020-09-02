@@ -5,12 +5,26 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 22 Aug 2020 14:47:05 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Sep 2020 15:01:51 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>A Survey of Equilibruim in the Plane</title>
+      <link>/talk/a-survey-of-equilibruim-in-the-plane/</link>
+      <pubDate>Wed, 02 Sep 2020 15:01:51 -0400</pubDate>
+      <guid>/talk/a-survey-of-equilibruim-in-the-plane/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A survey of equilibrium in the plane&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Friday, September 4th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11:00am&lt;/p&gt;
+&lt;p&gt;Abstract: Finding equilibria of charge distributions in the plane is a classical problem, which has found numerous applications in many other areas of mathematics and physics, including approximation theory, random matrices, quantum gravity, and integrable systems, among others. In this talk, I will survey some classical results from the theory of equilibrium distributions (using the language of potential theory), and provide some physical intuition for why such formulas hold. We will consider equilibrium with and without external fields. Furthermore, I will discuss some of the more modern applications of the subject; in particular, I will sketch how the equilibrium measures help us describe the asymptotics of certain families of orthogonal polynomials, as well how such problems appear in integrable systems, if time permits.&lt;/p&gt;
+&lt;p&gt;Link to zoom meeting: &lt;a href=&#34;https://zoom.us/j/93365223865&#34;&gt;https://zoom.us/j/93365223865&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Asymptotic Methods in Analysis</title>

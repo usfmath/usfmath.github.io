@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/talk/a-survey-of-equilibruim-in-the-plane/</loc>
+    <lastmod>2020-09-02T15:01:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/equilibrium-measure/</loc>
+    <lastmod>2020-09-02T15:01:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-09-02T15:01:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/laplace-growth/</loc>
+    <lastmod>2020-09-02T15:01:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/orthogonal-polynomial/</loc>
+    <lastmod>2020-09-02T15:01:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2020-09-02T15:01:51-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-09-02T15:01:51-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/asymptotic-methods-in-analysis/</loc>
     <lastmod>2020-08-22T14:47:05-04:00</lastmod>
   </url>
@@ -13,27 +48,12 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-08-22T14:47:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-    <lastmod>2020-08-22T14:47:05-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/saddle-point-method/</loc>
     <lastmod>2020-08-22T14:47:05-04:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/steepest-descent/</loc>
-    <lastmod>2020-08-22T14:47:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-08-22T14:47:05-04:00</lastmod>
   </url>
   
