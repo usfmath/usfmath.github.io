@@ -345,5 +345,18 @@ inverse scattering theory will be mentioned too.&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>On solving the Dirichlet problem</title>
+      <link>/talk/dirchlet-problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/talk/dirchlet-problem/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: On solving the Dirichlet problem&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: October 23rd&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The talk will start by reviewing the mainstream strategies for solving the problem on simply connected domains, with particular attention to the disk. It is hoped that we have enough time to talk about Malmheden&amp;rsquo;s strategy for solving the problem on the disk. The talk should be of interest to anyone taking or wanting a review of basic concepts in complex analysis.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
