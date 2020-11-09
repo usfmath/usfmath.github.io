@@ -5,12 +5,25 @@
     <link>/tag/orthogonal-polynomial/</link>
       <atom:link href="/tag/orthogonal-polynomial/index.xml" rel="self" type="application/rss+xml" />
     <description>orthogonal polynomial</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Sep 2020 15:01:51 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 Nov 2020 13:22:22 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>orthogonal polynomial</title>
       <link>/tag/orthogonal-polynomial/</link>
     </image>
+    
+    <item>
+      <title>Strong Asymptotics of Planar Orthogonal Polynomials: Gaussian Weight Perturbed by Point Charges</title>
+      <link>/talk/asymptotic-op/</link>
+      <pubDate>Mon, 09 Nov 2020 13:22:22 -0500</pubDate>
+      <guid>/talk/asymptotic-op/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Meng Yang&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+
+&lt;a href=&#34;https://drive.google.com/file/d/14SWXLKDks7bhNrO4tt3XrOQig0-uBWfD/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pdf&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Survey of Equilibruim in the Plane</title>
