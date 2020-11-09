@@ -5,12 +5,46 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Sep 2020 15:01:51 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 08 Nov 2020 23:12:31 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Fractional Calculus Approach for Flow Model in Porous Media</title>
+      <link>/talk/fractional-calculus-approach/</link>
+      <pubDate>Sun, 08 Nov 2020 23:12:31 -0500</pubDate>
+      <guid>/talk/fractional-calculus-approach/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Jb1eEDQBUPw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Fractional Calculus Approach for Flow Model in Porous Media&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+The Fractional Calculus approach is introduced into reservoir simulation. A three-dimensional relaxation model for viscoelastic fluid is built. The model based on the exact solution in Laplace space for some unsteady flow-Maxwell flow in an infinite reservoir  is obtained by Laplace transform and Fourier transform.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On solving the Dirichlet problem</title>
+      <link>/talk/dirchlet-problem/</link>
+      <pubDate>Mon, 02 Nov 2020 23:12:31 -0500</pubDate>
+      <guid>/talk/dirchlet-problem/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Vu6MB6TQuns&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;strong&gt;Title&lt;/strong&gt;: On solving the Dirichlet problem&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: October 23rd&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The talk will start by reviewing the mainstream strategies for solving the problem on simply connected domains, with particular attention to the disk. It is hoped that we have enough time to talk about Malmheden&amp;rsquo;s strategy for solving the problem on the disk. The talk should be of interest to anyone taking or wanting a review of basic concepts in complex analysis.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Survey of Equilibruim in the Plane</title>
@@ -342,19 +376,6 @@ about the two types of inhomogeneous Riemann-Hilbert problems and
 establish the equivalence between them. Finally, a uniqueness theorem of
 RHP in $L^p$ will be given. If time permits, its application to the
 inverse scattering theory will be mentioned too.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>On solving the Dirichlet problem</title>
-      <link>/talk/dirchlet-problem/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/talk/dirchlet-problem/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: On solving the Dirichlet problem&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: October 23rd&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11:00 pm&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The talk will start by reviewing the mainstream strategies for solving the problem on simply connected domains, with particular attention to the disk. It is hoped that we have enough time to talk about Malmheden&amp;rsquo;s strategy for solving the problem on the disk. The talk should be of interest to anyone taking or wanting a review of basic concepts in complex analysis.&lt;/p&gt;
 </description>
     </item>
     
