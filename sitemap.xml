@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tag/asymptotics/</loc>
-    <lastmod>2020-11-09T13:22:22-05:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2021-01-18T14:09:46-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/tag/graph-theory/</loc>
+    <lastmod>2021-01-18T14:09:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/p-path-complexes/</loc>
+    <lastmod>2021-01-18T14:09:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/p-path-complexes-on-directed-graphs/</loc>
+    <lastmod>2021-01-18T14:09:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2021-01-18T14:09:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-18T14:09:46-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/asymptotics/</loc>
     <lastmod>2020-11-09T13:22:22-05:00</lastmod>
   </url>
   
@@ -18,17 +43,7 @@
   </url>
   
   <url>
-    <loc>/talk/</loc>
-    <lastmod>2020-11-09T13:22:22-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/talk/asymptotic-op/</loc>
-    <lastmod>2020-11-09T13:22:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-11-09T13:22:22-05:00</lastmod>
   </url>
   

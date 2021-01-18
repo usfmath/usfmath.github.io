@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>graph theory | Grad Math@USF</title>
+    <link>/tag/graph-theory/</link>
+      <atom:link href="/tag/graph-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>graph theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Jan 2021 14:09:46 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>graph theory</title>
+      <link>/tag/graph-theory/</link>
+    </image>
+    
+    <item>
+      <title>Prodsimplicial and p-path complexes on directed graphs</title>
+      <link>/talk/p-path-complexes-on-directed-graphs/</link>
+      <pubDate>Mon, 18 Jan 2021 14:09:46 -0500</pubDate>
+      <guid>/talk/p-path-complexes-on-directed-graphs/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;:  Prodsimplicial and p-path complexes on directed graphs&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;:  Lina Fajardo Gomez&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Wednesday, January 20th, 2020&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: At face value, a graph is a simplicial complex that only has faces of dimension 0 (vertices) and 1 (edges). However, given appropriate definitions, higher dimensional cells can emerge. We present two such definitions, prodsimplicial complexes and p-path complexes, and compare in examples the homology groups obtained for different graphs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zoom Link&lt;/strong&gt;: &lt;a href=&#34;https://zoom.us/j/96345929862&#34;&gt;https://zoom.us/j/96345929862&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
