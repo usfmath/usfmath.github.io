@@ -5,7 +5,7 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 18 Jan 2021 14:09:46 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 03 Feb 2021 14:24:34 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -13,11 +13,30 @@
     </image>
     
     <item>
+      <title>Weyl&#39;s law and  hearing yhe  area of a drum</title>
+      <link>/talk/weyl-law-hear-area-drum/</link>
+      <pubDate>Wed, 03 Feb 2021 14:24:34 -0500</pubDate>
+      <guid>/talk/weyl-law-hear-area-drum/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Weyl&amp;rsquo;s law and hearing the area of a drum&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Wednesday, February 3rd, 3:00pm-4:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+H. Lorentz in 1910 gave a series of lectures titled &amp;ldquo;Old and new problems in physics&amp;rdquo;. In the last lecture he mentions that J. Jean is interested in studying the growth rate of overtones of an electromagnetic wave in a bounded domain. He conjectures that the growth rate is independent of the shape of the domain and depends only on the volume and dimension of the domain. Herman Weyl, who was in attendance, precisely describes how fast these overtones grow two years after this lecture series. Since Weyl&amp;rsquo;s law holds for vibrating membranes, we start by describing the overtones of a drumhead via Dirichlet eigenvalues, compute the eigenvalues explicitly for a string with fixed ends, and build towards a proof of Weyl&amp;rsquo;s law in 2D for simply connected domains.&lt;/p&gt;
+&lt;p&gt;Link to the Zoom Meeting: &lt;a href=&#34;https://zoom.us/j/92117761401&#34;&gt;https://zoom.us/j/92117761401&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Prodsimplicial and p-path complexes on directed graphs</title>
       <link>/talk/p-path-complexes-on-directed-graphs/</link>
       <pubDate>Mon, 18 Jan 2021 14:09:46 -0500</pubDate>
       <guid>/talk/p-path-complexes-on-directed-graphs/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;:  Prodsimplicial and p-path complexes on directed graphs&lt;/p&gt;
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/9rlzTWD8o3o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;:  Prodsimplicial and p-path complexes on directed graphs&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;:  Lina Fajardo Gomez&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Wednesday, January 20th, 2020&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: At face value, a graph is a simplicial complex that only has faces of dimension 0 (vertices) and 1 (edges). However, given appropriate definitions, higher dimensional cells can emerge. We present two such definitions, prodsimplicial complexes and p-path complexes, and compare in examples the homology groups obtained for different graphs.&lt;/p&gt;
