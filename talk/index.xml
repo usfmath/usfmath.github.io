@@ -5,12 +5,26 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 03 Feb 2021 14:24:34 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2021 13:50:43 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>Methods of nonlinear equations in the theory of algebraic geometry</title>
+      <link>/talk/riemann-schottky-problem/</link>
+      <pubDate>Mon, 15 Feb 2021 13:50:43 -0500</pubDate>
+      <guid>/talk/riemann-schottky-problem/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Methods of nonlinear equations in the theory of algebraic geometry&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/time&lt;/strong&gt;: Wednesday, February 17th, 3:00pm-4:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+The Riemann-Schottky problem, in modern language, asks for a characterization of Jacobian varieties of among abelian varieties. From Riemann’s point of view, the question was to address the discrepancy between the 3g-3-dimensional space of moduli for compact Riemann surfaces of genus g from the g(g+1)/2-dimensional space of Siegel matrices, in which the space of Riemann surfaces embeds, via the period matrix. The problem remained open for almost a millennium. The first hint of a solution to this problem was found (somewhat surprisingly) by I. Krichever (1977), when he showed (more or less) that the period matrix for a Riemann surface could be used to construct tau functions for the KP hierarchy. S. Novikov conjectured that the converse also held, thus answering the Riemann-Schottky problem a la methods of integrable systems. This turned out to indeed be the case, with a proof from T. Shiota (1986) shortly thereafter. In this talk, I will attempt to fill in some of the details of this story, and explain some of the consequences of this theorem, both in integrable systems and algebraic geometry.&lt;/p&gt;
+&lt;p&gt;Link to the Zoom meeting:  &lt;a href=&#34;https://zoom.us/j/96802432385&#34;&gt;https://zoom.us/j/96802432385&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Weyl&#39;s law and  hearing yhe  area of a drum</title>
