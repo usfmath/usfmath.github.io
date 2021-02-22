@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/authors/</loc>
+    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2021-02-15T13:50:43-05:00</lastmod>
   </url>
@@ -14,6 +19,11 @@
   
   <url>
     <loc>/talk/riemann-schottky-problem/</loc>
+    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/nathan-hayford/</loc>
     <lastmod>2021-02-15T13:50:43-05:00</lastmod>
   </url>
   
@@ -323,17 +333,8 @@
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-04-16T23:48:38+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/fudong-wang/</loc>
     <lastmod>2020-04-16T23:48:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/nathan/</loc>
   </url>
   
   <url>
