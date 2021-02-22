@@ -8,12 +8,42 @@
   </url>
   
   <url>
+    <loc>/tag/integrable-system/</loc>
+    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/riemann-schottky-problem/</loc>
     <lastmod>2021-02-15T13:50:43-05:00</lastmod>
   </url>
   
   <url>
+    <loc>/tag/nonlinear-pdes/</loc>
+    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/novikovs-conjecture/</loc>
+    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/</loc>
+    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/riemann-schottky-problem/</loc>
+    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/tau-function/</loc>
     <lastmod>2021-02-15T13:50:43-05:00</lastmod>
   </url>
   
@@ -34,11 +64,6 @@
   
   <url>
     <loc>/talk/p-path-complexes-on-directed-graphs/</loc>
-    <lastmod>2021-01-18T14:09:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2021-01-18T14:09:46-05:00</lastmod>
   </url>
   
@@ -219,11 +244,6 @@
   
   <url>
     <loc>/tag/fredholm-determinant/</loc>
-    <lastmod>2020-06-08T13:01:12-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/integrable-system/</loc>
     <lastmod>2020-06-08T13:01:12-04:00</lastmod>
   </url>
   
