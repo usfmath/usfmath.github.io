@@ -28,11 +28,6 @@
   </url>
   
   <url>
-    <loc>/talk/</loc>
-    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/riemann-schottky-problem/</loc>
     <lastmod>2021-02-15T13:50:43-05:00</lastmod>
   </url>
@@ -94,11 +89,6 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2020-11-08T23:25:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2020-11-08T23:25:17-05:00</lastmod>
   </url>
   
@@ -334,14 +324,21 @@
   
   <url>
     <loc>/authors/</loc>
+    <lastmod>2020-04-16T23:48:38+01:00</lastmod>
   </url>
   
   <url>
     <loc>/author/fudong-wang/</loc>
+    <lastmod>2020-04-16T23:48:38+01:00</lastmod>
   </url>
   
   <url>
     <loc>/author/nathan/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
@@ -350,6 +347,12 @@
   
   <url>
     <loc>/publication/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
 </urlset>
