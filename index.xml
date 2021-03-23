@@ -5,12 +5,30 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Mar 2021 23:00:58 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 Mar 2021 16:11:32 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>The Essentials of Viscosity Solutions in $R^n$</title>
+      <link>/talk/the-essentials-of-viscosity-solutions/</link>
+      <pubDate>Tue, 23 Mar 2021 16:11:32 -0400</pubDate>
+      <guid>/talk/the-essentials-of-viscosity-solutions/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In their 1992 paper, authors Michael Crandall, Hitoshi Ishii, and Pierre-Louis Lions describe a class of solutions to certain 2nd order PDEs in R^n which they call &amp;ldquo;viscosity solutions&amp;rdquo;. In brief, a viscosity solution to an appropriate PDE is a continuous function possessing pointwise estimates for derivatives; they also possess a comparison principle which enables one to prove uniqueness of solutions to Dirichlet and Cauchy-Dirichlet problems. In this talk we will introduce the correct family of PDE for viscosity solutions; define viscosity solutions and prove their basic properties; discuss various results comparing viscosity and other notions of solutions; and, time permitting, we will also introduce a semicontinuous Perron&amp;rsquo;s method for existence of viscosity solutions and discuss parabolic viscosity solutions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A short introduction to the theta function</title>
+      <link>/talk/introduction-to-theta-function/</link>
+      <pubDate>Tue, 23 Mar 2021 16:10:38 -0400</pubDate>
+      <guid>/talk/introduction-to-theta-function/</guid>
+      <description>&lt;p&gt;The theory of theta function plays an important role in finding exact (quasi-) periodic solutions to the nonlinear PDEs. In this talk, we will introduce first the concepts of Riemann’s theta function (with characteristics) and Jacobi’s theta function. Then some of the simplest properties of those theta functions will be presented. If time permits, we will discuss a little bit about algebraic-geometry methods of constructing exact solution to KP equation.😄&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Zack Talk</title>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>complex analysis | Grad Math@USF</title>
+    <link>/tag/complex-analysis/</link>
+      <atom:link href="/tag/complex-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>complex analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 Mar 2021 16:10:38 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>complex analysis</title>
+      <link>/tag/complex-analysis/</link>
+    </image>
+    
+    <item>
+      <title>A short introduction to the theta function</title>
+      <link>/talk/introduction-to-theta-function/</link>
+      <pubDate>Tue, 23 Mar 2021 16:10:38 -0400</pubDate>
+      <guid>/talk/introduction-to-theta-function/</guid>
+      <description>&lt;p&gt;The theory of theta function plays an important role in finding exact (quasi-) periodic solutions to the nonlinear PDEs. In this talk, we will introduce first the concepts of Riemann’s theta function (with characteristics) and Jacobi’s theta function. Then some of the simplest properties of those theta functions will be presented. If time permits, we will discuss a little bit about algebraic-geometry methods of constructing exact solution to KP equation.😄&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
