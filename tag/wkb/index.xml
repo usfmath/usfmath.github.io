@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fudong Wang | Grad Math@USF</title>
-    <link>/author/fudong-wang/</link>
-      <atom:link href="/author/fudong-wang/index.xml" rel="self" type="application/rss+xml" />
-    <description>Fudong Wang</description>
+    <title>WKB | Grad Math@USF</title>
+    <link>/tag/wkb/</link>
+      <atom:link href="/tag/wkb/index.xml" rel="self" type="application/rss+xml" />
+    <description>WKB</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 08 Nov 2020 23:25:17 -0500</lastBuildDate>
     <image>
-      <url>/author/fudong-wang/avatar_hue90e79c56f2810515af8bac49af974b3_40691_270x270_fill_q90_lanczos_center.jpg</url>
-      <title>Fudong Wang</title>
-      <link>/author/fudong-wang/</link>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>WKB</title>
+      <link>/tag/wkb/</link>
     </image>
     
     <item>
@@ -140,27 +140,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 }
 
 &lt;/script&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An Elementary Introdcution to Fredholm Determinants</title>
-      <link>/talk/fredholm-determinants/</link>
-      <pubDate>Mon, 08 Jun 2020 13:01:12 -0400</pubDate>
-      <guid>/talk/fredholm-determinants/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/m1CAUg0im4M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: An Elementary Introduction to Fredholm Determinants&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Fudong Wang&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, June 11&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: At the beginning of the 20th century, Fredholm introduced a way to solve a class of linear integral equations which are now called them Fredholm integral equations. In his 1903&amp;rsquo;s paper, Fredholm introduced a determinant of a functional, which now is called Fredholm determinant. In this lecture, we will begin with the definition of determinant in the finite-dimensional spaces and review some properties of the determinants. After that, we will focus on the determinant of form $det(I+F)$ where $F$ is &amp;ldquo;small&amp;rdquo;. Following 
-&lt;a href=&#34;https://drive.google.com/file/d/1ebU0SUTSXsVQclHXe9sNFJg3YZmiGmtF/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fredholm&amp;rsquo;s 1903 paper&lt;/a&gt;, we will discuss Fredholm determinant $D_f$ and explore some properties of the determinant and how it connects to the finite determinants. Lastly, we will discuss how to construct the famous &amp;ldquo;soliton&amp;rdquo; solution to the equation of Koreteweg-de Vries by the so-called Fredholm determinant method introduced by Pöppe(1983).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;: 
-&lt;a href=&#34;https://drive.google.com/file/d/1ghnW1hZSzLleX_UQ-t9g7BcbN1-RonFt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;google drive&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

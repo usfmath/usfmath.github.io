@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2021 13:50:43 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 22 Mar 2021 23:00:58 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Zack Talk</title>
+      <link>/talk/zack-talk/</link>
+      <pubDate>Mon, 22 Mar 2021 23:00:58 -0400</pubDate>
+      <guid>/talk/zack-talk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Methods of nonlinear equations in the theory of algebraic geometry</title>

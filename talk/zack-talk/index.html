@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="author: Fudong Wang">
+  <meta name="description" content="">
 
   
-  <link rel="alternate" hreflang="en-us" href="/posts/wkb-reflection/">
+  <link rel="alternate" hreflang="en-us" href="/talk/zack-talk/">
 
   
 
@@ -256,7 +256,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/posts/wkb-reflection/">
+  <link rel="canonical" href="/talk/zack-talk/">
 
   
   
@@ -272,15 +272,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Grad Math@USF">
-  <meta property="og:url" content="/posts/wkb-reflection/">
-  <meta property="og:title" content="Computing Reflection Coefficient of Schrondinger Operator via WKB method | Grad Math@USF">
-  <meta property="og:description" content="author: Fudong Wang"><meta property="og:image" content="/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/talk/zack-talk/">
+  <meta property="og:title" content="Zack Talk | Grad Math@USF">
+  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-11-08T23:25:17-05:00">
+      <meta property="article:published_time" content="2021-03-22T23:00:58-04:00">
     
-    <meta property="article:modified_time" content="2020-11-08T23:25:17-05:00">
+    <meta property="article:modified_time" content="2021-03-22T23:00:58-04:00">
   
 
   
@@ -288,7 +288,33 @@
 
 
   
+    
 
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/talk/zack-talk/"
+  },
+  "name": "Zack Talk",
+  
+  
+  "startDate": "2021-03-22T23:00:58-04:00",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Nathan Hayford"
+  },
+  
+  "description": ""
+}
+</script>
 
   
 
@@ -296,10 +322,13 @@
   
 
 
+  
 
 
 
-  <title>Computing Reflection Coefficient of Schrondinger Operator via WKB method | Grad Math@USF</title>
+
+
+  <title>Zack Talk | Grad Math@USF</title>
 
 </head>
 
@@ -592,7 +621,7 @@
 </nav>
 
 
-  <article class="article">
+  <div class="pub">
 
   
 
@@ -615,7 +644,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Computing Reflection Coefficient of Schrondinger Operator via WKB method</h1>
+  <h1>Zack Talk</h1>
 
   
 
@@ -627,25 +656,7 @@
 
   
   
-  
-  
-  <div>
-    
 
-  
-  <span><a href="/author/fudong-wang/">Fudong Wang</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Nov 8, 2020
-  </span>
   
 
   
@@ -654,6 +665,9 @@
 
   
   
+  
+  <span class="middot-divider"></span>
+  <a href="/talk/zack-talk/#disqus_thread"></a>
   
 
   
@@ -682,132 +696,24 @@
 
 
   <div class="article-container">
+    
+
+
+
+    
+      <br>
+    
+
+    
+
+    
+
+    
+
+    <div class="space-below"></div>
 
     <div class="article-style">
-      <p>See the PDF:
-<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-}
-#paginator{
-    text-align: center;
-    margin-bottom: 10px;
-}
-</style>
-
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
-</div>
-
-<script type="text/javascript">
-window.onload = function() {
-
-
-
-var url = "\/pdf\/wkb.pdf";
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdf-js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d');
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById('page_count').textContent = pdfDoc.numPages;
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script></p>
-
+      
     </div>
 
     
@@ -827,7 +733,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/posts/wkb-reflection/&amp;text=Computing%20Reflection%20Coefficient%20of%20Schrondinger%20Operator%20via%20WKB%20method" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/talk/zack-talk/&amp;text=Zack%20Talk" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -840,7 +746,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/posts/wkb-reflection/&amp;t=Computing%20Reflection%20Coefficient%20of%20Schrondinger%20Operator%20via%20WKB%20method" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/talk/zack-talk/&amp;t=Zack%20Talk" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -853,7 +759,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       
       
       <li>
-        <a href="mailto:?subject=Computing%20Reflection%20Coefficient%20of%20Schrondinger%20Operator%20via%20WKB%20method&amp;body=/posts/wkb-reflection/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Zack%20Talk&amp;body=/talk/zack-talk/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -866,7 +772,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/posts/wkb-reflection/&amp;title=Computing%20Reflection%20Coefficient%20of%20Schrondinger%20Operator%20via%20WKB%20method" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/talk/zack-talk/&amp;title=Zack%20Talk" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -879,7 +785,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       
       
       <li>
-        <a href="whatsapp://send?text=Computing%20Reflection%20Coefficient%20of%20Schrondinger%20Operator%20via%20WKB%20method%20/posts/wkb-reflection/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Zack%20Talk%20/talk/zack-talk/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -892,7 +798,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/posts/wkb-reflection/&amp;title=Computing%20Reflection%20Coefficient%20of%20Schrondinger%20Operator%20via%20WKB%20method" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/talk/zack-talk/&amp;title=Zack%20Talk" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -903,16 +809,47 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 
 
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "usfmath" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
 
 
 
 
+
+
+  
+  
 
 
 
 
   </div>
-</article>
+</div>
 
       
 

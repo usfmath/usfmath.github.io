@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2021-03-22T23:00:58-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/talk/zack-talk/</loc>
+    <lastmod>2021-03-22T23:00:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
     <lastmod>2021-02-15T13:50:43-05:00</lastmod>
   </url>
   
@@ -98,7 +103,17 @@
   </url>
   
   <url>
+    <loc>/author/fudong-wang/</loc>
+    <lastmod>2020-11-08T23:25:17-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/</loc>
+    <lastmod>2020-11-08T23:25:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/wkb/</loc>
     <lastmod>2020-11-08T23:25:17-05:00</lastmod>
   </url>
   
@@ -244,11 +259,6 @@
   
   <url>
     <loc>/tag/fredholm-determinant/</loc>
-    <lastmod>2020-06-08T13:01:12-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/fudong-wang/</loc>
     <lastmod>2020-06-08T13:01:12-04:00</lastmod>
   </url>
   
