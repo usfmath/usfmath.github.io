@@ -967,14 +967,12 @@ We now compute the Christoffel symbols of the hyperbolic metric on the upper hal
 Written as a matrix-valued 1-form, the connection takes the form
 \begin{equation}\label{halfplaneconn}
 \Gamma = \Gamma_x dx + \Gamma_y dy = \begin{pmatrix}  0 &amp; -1/y \\\  1/y&amp; 0 \end{pmatrix}  dx + \begin{pmatrix}  -1/y &amp; 0 \\\  0 &amp; -1/y \end{pmatrix} dy.
-\end{equation}
-**Exercise.**
-Compute the connection form of the hyperbolic metric on the disc.
-_Solution:_ Set $\sigma(x,y) = 1 - x^2 - y^2$; then the connection form is given as
+\end{equation}</p>
+<p><strong>Exercise.</strong> Compute the connection form of the hyperbolic metric on the disc. <em>Solution:</em> Set $\sigma(x,y) = 1 - x^2 - y^2$; then the connection form is given as
 \begin{equation}
 \Gamma = \Gamma_x dx + \Gamma_y dy = \frac{2}{\sigma} \begin{pmatrix} x &amp; y \\\ -y &amp; x \end{pmatrix} dx + \frac{2}{\sigma} \begin{pmatrix}  y &amp;  -x \\\ x &amp; y \end{pmatrix} dy.
 \end{equation}</p>
-<p><strong>Example.</strong><em>The 3-sphere $S^3$.</em>
+<p><strong>Example.</strong> <em>The 3-sphere $S^3$.</em>
 We compute the connection form from the metric on the 3-sphere we derived previously. Since the only nonzero components of the
 metric are $g_{\psi\psi} = 1$, $g_{\theta\theta} = \sin^2\psi$, and $g_{\varphi\varphi} = \sin^2\psi\sin^2\theta$,
 the only nonvanishing derivatives of the metric will be $\partial_\psi g_{\theta \theta}$, $\partial_{\psi} g_{\varphi\varphi}$,
@@ -1013,8 +1011,8 @@ non-vanishing connection coefficients: $\Gamma^{\eta}_{\xi_1\xi_1}$, $\Gamma^{\x
 The connection form is thus
 \begin{equation} \label{SU2-conn}
 \Gamma = \begin{pmatrix} 0 &amp; 0 &amp; 0\\\ 0 &amp; \cot \eta &amp; 0\\\ 0 &amp; 0 &amp; -\tan \eta \end{pmatrix}d\eta + \begin{pmatrix} 0 &amp; -\cos\eta \sin \eta &amp; 0\\\ \cot\eta &amp; 0 &amp; 0\\\ 0 &amp; 0 &amp; 0 \end{pmatrix}d\xi_1 + \begin{pmatrix} 0 &amp; 0 &amp; \cos\eta \sin \eta\\\ 0 &amp; 0 &amp; 0\\\ -\tan\eta &amp; 0 &amp; 0 \end{pmatrix}d\xi_2.
-\end{equation}
-**Example.**_The Schwarzschild metric._
+\end{equation}</p>
+<p><strong>Example.</strong> <em>The Schwarzschild metric.</em>
 We now compute the connection form from the Schwarzshield metric. By inspection, we see that the only nonvanishing derivatives of the metric are: $\partial_r g_{tt}$, $\partial_r g_{rr}$, $\partial_r g_{\theta\theta}$, $\partial_r g_{\varphi \varphi}$, and $\partial_\theta g_{\varphi \varphi}$. Since the metric is diagonal, the only non-vanishing Christoffel symbols are: $\Gamma^r_{tt}$, $\Gamma^t_{rt} = \Gamma^t_{tr}$, $\Gamma^r_{rr}$, $\Gamma^r_{\theta\theta}$, $\Gamma^\theta_{r \theta} = \Gamma^\theta_{\theta r}$, $\Gamma^r_{\varphi\varphi}$, $\Gamma^\varphi_{r \varphi} = \Gamma^\varphi_{\varphi r}$, $\Gamma^\theta_{\varphi \varphi}$, and finally $\Gamma^\varphi_{\theta \varphi} = \Gamma^\varphi_{\varphi \theta}$. These quantities are computed below:
 \begin{align}
 \Gamma^r_{tt} &amp;=  -\frac{1}{2}g^{rr} \left(\partial_r g_{tt}\right) = \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right),\\\<br>
@@ -1061,8 +1059,7 @@ Now, we are left to compute $\Gamma\wedge\Gamma$. We find that $\Gamma\wedge\Gam
 Combining these results, we find that
 \begin{equation}\label{spherecurvature}
 \Omega = d\Gamma + \Gamma \wedge \Gamma = \begin{pmatrix}  0 &amp; \sin^2\theta \\\ -1 &amp; 0 \end{pmatrix} d\theta \wedge d\varphi.
-\end{equation}
-\end{example}</p>
+\end{equation}</p>
 <p><strong>Exercise.</strong>
 Compute the curvature form of the sphere with stereographic connection.
 <em>Solution:</em> Again, setting $\rho(X,Y) = 1 + X^2 + Y^2$, the curvature tensor takes the form
@@ -1097,15 +1094,13 @@ Furthermore, we must compute $\Gamma\wedge\Gamma = [\Gamma_x,\Gamma_y] dx\wedge 
 (This is due to the fact that $\Gamma_y$ is a multiple of the identity matrix). Therefore, the curvature tensor is
 \begin{equation}
 \Omega = d\Gamma + \Gamma\wedge\Gamma = \begin{pmatrix}  0 &amp; -1/y^2 \\\  1/y^2 &amp; 0 \end{pmatrix}  dx\wedge dy.
-\end{equation}
-\end{example}</p>
+\end{equation}</p>
 <p><strong>Exercise.</strong>
 Compute the curvature form of the disc with the hyperbolic connection. <em>Solution:</em>
 Setting $\sigma(x,y) = 1 - x^2 - y^2$, the curvature form is
 \begin{equation}\label{hyperbolicD}
 \Omega = \begin{pmatrix}  0 &amp; -4/\sigma^2 \\\  4/\sigma^2 &amp; 0 \end{pmatrix}  dx\wedge dy.
-\end{equation}
-\end{exercise}</p>
+\end{equation}</p>
 <p><strong>Exercise.</strong> <em>The 3-sphere $S^3$.</em>
 Using the first expression for the connection on $S^3$, compute the Riemann tensor.
 <em>Solution:</em>
