@@ -34,7 +34,22 @@
       <link>/talk/the-essentials-of-viscosity-solutions/</link>
       <pubDate>Tue, 23 Mar 2021 16:11:32 -0400</pubDate>
       <guid>/talk/the-essentials-of-viscosity-solutions/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In their 1992 paper, authors Michael Crandall, Hitoshi Ishii, and Pierre-Louis Lions describe a class of solutions to certain 2nd order PDEs in R^n which they call &amp;ldquo;viscosity solutions&amp;rdquo;. In brief, a viscosity solution to an appropriate PDE is a continuous function possessing pointwise estimates for derivatives; they also possess a comparison principle which enables one to prove uniqueness of solutions to Dirichlet and Cauchy-Dirichlet problems. In this talk we will introduce the correct family of PDE for viscosity solutions; define viscosity solutions and prove their basic properties; discuss various results comparing viscosity and other notions of solutions; and, time permitting, we will also introduce a semicontinuous Perron&amp;rsquo;s method for existence of viscosity solutions and discuss parabolic viscosity solutions.&lt;/p&gt;
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0FRNeTc6Xyc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/fsCAW3xrM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/v3F4kv8f9v8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In their 1992 paper, authors Michael Crandall, Hitoshi Ishii, and Pierre-Louis Lions describe a class of solutions to certain 2nd order PDEs in R^n which they call &amp;ldquo;viscosity solutions&amp;rdquo;. In brief, a viscosity solution to an appropriate PDE is a continuous function possessing pointwise estimates for derivatives; they also possess a comparison principle which enables one to prove uniqueness of solutions to Dirichlet and Cauchy-Dirichlet problems. In this talk we will introduce the correct family of PDE for viscosity solutions; define viscosity solutions and prove their basic properties; discuss various results comparing viscosity and other notions of solutions; and, time permitting, we will also introduce a semicontinuous Perron&amp;rsquo;s method for existence of viscosity solutions and discuss parabolic viscosity solutions.&lt;/p&gt;
 </description>
     </item>
     
