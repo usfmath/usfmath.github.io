@@ -5,7 +5,7 @@
     <link>/author/nathan-hayford/</link>
       <atom:link href="/author/nathan-hayford/index.xml" rel="self" type="application/rss+xml" />
     <description>Nathan Hayford</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2021 13:50:43 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 15:19:15 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Nathan Hayford</title>
@@ -13,28 +13,40 @@
     </image>
     
     <item>
-      <title>Methods of nonlinear equations in the theory of algebraic geometry</title>
-      <link>/talk/riemann-schottky-problem/</link>
-      <pubDate>Mon, 15 Feb 2021 13:50:43 -0500</pubDate>
-      <guid>/talk/riemann-schottky-problem/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/asVgNLcnAz0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Methods of nonlinear equations in the theory of algebraic geometry&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date/time&lt;/strong&gt;: Wednesday, February 17th, 3:00pm-4:00pm&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
-The Riemann-Schottky problem, in modern language, asks for a characterization of Jacobian varieties of among abelian varieties. From Riemann’s point of view, the question was to address the discrepancy between the 3g-3-dimensional space of moduli for compact Riemann surfaces of genus g from the g(g+1)/2-dimensional space of Siegel matrices, in which the space of Riemann surfaces embeds, via the period matrix. The problem remained open for almost a millennium. The first hint of a solution to this problem was found (somewhat surprisingly) by I. Krichever (1977), when he showed (more or less) that the period matrix for a Riemann surface could be used to construct tau functions for the KP hierarchy. S. Novikov conjectured that the converse also held, thus answering the Riemann-Schottky problem a la methods of integrable systems. This turned out to indeed be the case, with a proof from T. Shiota (1986) shortly thereafter. In this talk, I will attempt to fill in some of the details of this story, and explain some of the consequences of this theorem, both in integrable systems and algebraic geometry.&lt;/p&gt;
-&lt;p&gt;Link to the Zoom meeting:  &lt;a href=&#34;https://zoom.us/j/96802432385&#34;&gt;https://zoom.us/j/96802432385&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Part II link: &lt;a href=&#34;https://zoom.us/s/97923273524&#34;&gt;https://zoom.us/s/97923273524&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
- - Q_{-n}P_m) [{T_z^*}^n,{T_z}^m];$$
+      <title>The Helton Howe Trace Formula</title>
+      <link>/posts/the-helton-howe-trace-formula/</link>
+      <pubDate>Sat, 01 May 2021 15:19:15 -0400</pubDate>
+      <guid>/posts/the-helton-howe-trace-formula/</guid>
+      <description>&lt;p&gt;We present a proof of a simple version of the Helton-Howe trace
+formula (for a more general version of this result, one should consult
+the 
+&lt;a href=&#34;https://link.springer.com/chapter/10.1007/BFb0058919&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;original paper&lt;/a&gt;).
+Consider the Hardy space $H^2(\mathbb{D})$. There is a natural
+inclusion of $H^2(\mathbb{D})$ into $L^2(\mathbb{T})$, given by the restriction
+$f\mapsto f\vert_{\mathbb{T}}$. Let $\mathbb{P}_{H^2} : L^2(\mathbb{T}) \to H^2(\mathbb{D})$ denote the
+orthogonal projection of $L^2(\mathbb{T})$ into $H^2(\mathbb{D})$. Now, given
+$P \in \mathbb{C}[z,z^{-1}]$, we define the Toeplitz operator with principal
+symbol $P$ by $$T_P f(z) = \mathbb{P}_{H^2} \left[ P(z)f(z)\right],$$ for
+$f \in H^2(\mathbb{D})$. It is clear that the commutator of any two such
+operators operators is trace-class (it is even of finite rank). The
+Helton-Howe formula tells us that, given $P,Q \in \mathbb{C}[z,z^{-1}]$,
+$$\text{tr } [T_P, T_Q] = \frac{1}{2\pi i}\int_{|z| = 1} P(z) Q&#39;(z) dz = \frac{1}{2\pi i}\int_{\mathbb{D}} dP \wedge dQ$$
+The last equality is immediate from Stokes&#39; theorem; the interesting
+equality is the first. Let $T_z$ denote the Toeplitz operator of
+multiplication by $z$ (this is just the shift operator in the Hardy
+space), and $T^*_z$ its adjoint (note that $T^*_z = T_{1/z}$). If
+$P = \sum_k P_k z^k \in \mathbb{C}[z,z^{-1}]$, then its corresponding Toeplitz
+operator may be written as
+$$T_P = \sum_{k\geq 0} P_k T_z^k + \sum_{k&amp;lt;0} P_k {T_z^{*}}^k.$$
+Clearly, ${T_z^*}^n{T_z}^n = I$; on the other hand,
+${T_z}^n{T_z^*}^n = I - \mathbb{P}_n$, where $\mathbb{P}_n$ is the orthogonal
+projector onto the subspace $E_n:=\text{span}$ {$1,z, &amp;hellip;,z^{n-1}$}.
+This observation allows us to compute that
+$\text{tr }[{T_z^*}^n,{T_z}^n] = \text{tr } \mathbb{P}_n = n$. Now, if $n \neq m$, one finds
+by direct computation that $\text{tr }[{T_z^*}^m,{T_z}^n] = 0$. Thus,
+$\text{tr }[{T_z^*}^m,{T_z}^n] = n\delta_{n,m}$. If $P, Q \in \mathbb{C}[z,z^{-1}]$,
+and $P = \sum_k P_k z^k$, $Q = \sum_k Q_k z^k$, then
+$$= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) [{T_z^*}^n,{T_z}^m];$$
 taking traces yields $$\begin{aligned}
 \text{tr } [T_P,T_Q] &amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) \text{tr } [{T_z^*}^n,{T_z}^m] \\\&lt;br&gt;
 &amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) n\delta_{n,m} = \sum_{n\geq 0} n(P_{-n}Q_n - Q_{-n}P_n)\\\&lt;br&gt;
@@ -55,7 +67,7 @@ concludes the proof.&lt;/p&gt;
       <link>/posts/working-differential-geometry/</link>
       <pubDate>Sat, 01 May 2021 12:52:29 -0400</pubDate>
       <guid>/posts/working-differential-geometry/</guid>
-      <description>&lt;p&gt;We present a methodical procedure for computing important geometric quantities on a Riemannian manifold. We want to emphasize that the purpose of this document is not meant to provide a systematic introduction to Riemannian geometry, or motivate/give intuition for the definitions (although we will occasionally give quick consistency checks); rather, our aim is to provide a formalism that makes the objects of interest (Christoffel symbols, Riemann tensor, etc.) ``manageable&#39;&#39;. This method is not the most streamlined (see, for example, E. Cartan&amp;rsquo;s theory of moving frames, which is arguably easier to work with; furthermore, if the manifold in question is a Lie group equipped with an invariant metric, the required computations reduce drastically), it is certainly friendlier than what is found in most classical differential geometry texts. Furthermore, most of these techniques carry over to vector and principal bundles, equipped with a connection, and so what follows may also be readily applied there. Before beginning the exposition, we summarize the objectives of this document:&lt;/p&gt;
+      <description>&lt;p&gt;We present a methodical procedure for computing important geometric quantities on a Riemannian manifold. We want to emphasize that the purpose of this document is not meant to provide a systematic introduction to Riemannian geometry, or motivate/give intuition for the definitions (although we will occasionally give quick consistency checks); rather, our aim is to provide a formalism that makes the objects of interest (Christoffel symbols, Riemann tensor, etc.) &amp;ldquo;manageable&amp;rdquo;. This method is not the most streamlined (see, for example, E. Cartan&amp;rsquo;s theory of moving frames, which is arguably easier to work with; furthermore, if the manifold in question is a Lie group equipped with an invariant metric, the required computations reduce drastically), it is certainly friendlier than what is found in most classical differential geometry texts. Furthermore, most of these techniques carry over to vector and principal bundles, equipped with a connection, and so what follows may also be readily applied there. Before beginning the exposition, we summarize the objectives of this document:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;1. Compute several examples of Riemannian metrics.
 2. Compute the Levi-Cevita connection in terms of the metric.
 3. Compute the Riemann tensor in terms of the connection coefficients.

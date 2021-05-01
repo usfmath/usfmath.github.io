@@ -40,7 +40,7 @@ operator may be written as
 $$T_P = \sum_{k\geq 0} P_k T_z^k + \sum_{k&amp;lt;0} P_k {T_z^{*}}^k.$$
 Clearly, ${T_z^*}^n{T_z}^n = I$; on the other hand,
 ${T_z}^n{T_z^*}^n = I - \mathbb{P}_n$, where $\mathbb{P}_n$ is the orthogonal
-projector onto the subspace $E_n:=\text{span} {1,z, &amp;hellip;,z^{n-1}}$.
+projector onto the subspace $E_n:=\text{span}$ {$1,z, &amp;hellip;,z^{n-1}$}.
 This observation allows us to compute that
 $\text{tr }[{T_z^*}^n,{T_z}^n] = \text{tr } \mathbb{P}_n = n$. Now, if $n \neq m$, one finds
 by direct computation that $\text{tr }[{T_z^*}^m,{T_z}^n] = 0$. Thus,
