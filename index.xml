@@ -5,12 +5,21 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 Mar 2021 16:11:32 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Apr 2021 11:16:32 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>The trifecta of Hilbert spaces on the unit disc</title>
+      <link>/talk/hilbert-spaces-on-the-disc/</link>
+      <pubDate>Thu, 01 Apr 2021 11:16:32 -0400</pubDate>
+      <guid>/talk/hilbert-spaces-on-the-disc/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Hilbert spaces are common. Connection among them is rare. With this spirit, we will see the connection among the three classical Hilbert spaces on the unit disc U. These Hilbert spaces are Hardy (H^2(U)), Dirichlet (D^2(U)) and lastly Bergman (A^2(U)). The idea comes from the intuition of evolving the remarkable identity called as Littlewood Paley Identity for Bergman and Dirichlet spaces. During the presentation, audience will get to know more about this identity. And also, the importance of this identity in the sense that how it relates to the Nevanlinna Counting function. Nevanlinna Counting function N_\phi(w) measures the &amp;lsquo;affinity&amp;rsquo; that \phi has for value w where \phi is a holomorphic map on U. Besides this, we will also see more connection among Hardy, Dirichlet and Riemann Zeta functions.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Essentials of Viscosity Solutions in $R^n$</title>
