@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>functional analysis | Grad Math@USF</title>
+    <link>/tag/functional-analysis/</link>
+      <atom:link href="/tag/functional-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>functional analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 15:19:15 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>functional analysis</title>
+      <link>/tag/functional-analysis/</link>
+    </image>
+    
+    <item>
+      <title>The Helton Howe Trace Formula</title>
+      <link>/posts/the-helton-howe-trace-formula/</link>
+      <pubDate>Sat, 01 May 2021 15:19:15 -0400</pubDate>
+      <guid>/posts/the-helton-howe-trace-formula/</guid>
+      <description>&lt;p&gt;We present a proof of a simple version of the Helton-Howe trace
+formula (for a more general version of this result, one should consult
+the 
+&lt;a href=&#34;https://link.springer.com/chapter/10.1007/BFb0058919&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;original paper&lt;/a&gt;).
+Consider the Hardy space $H^2(\mathbb{D})$. There is a natural
+inclusion of $H^2(\mathbb{D})$ into $L^2(\mathbb{T})$, given by the restriction
+$f\mapsto f\vert_{\mathbb{T}}$. Let $\mathbb{P}_{H^2} : L^2(\mathbb{T}) \to H^2(\mathbb{D})$ denote the
+orthogonal projection of $L^2(\mathbb{T})$ into $H^2(\mathbb{D})$. Now, given
+$P \in \mathbb{C}[z,z^{-1}]$, we define the Toeplitz operator with principal
+symbol $P$ by $$T_P f(z) = \mathbb{P}_{H^2} \left[ P(z)f(z)\right],$$ for
+$f \in H^2(\mathbb{D})$. It is clear that the commutator of any two such
+operators operators is trace-class (it is even of finite rank). The
+Helton-Howe formula tells us that, given $P,Q \in \mathbb{C}[z,z^{-1}]$,
+$$\text{tr } [T_P, T_Q] = \frac{1}{2\pi i}\int_{|z| = 1} P(z) Q&#39;(z) dz = \frac{1}{2\pi i}\int_{\mathbb{D}} dP \wedge dQ$$
+The last equality is immediate from Stokes&#39; theorem; the interesting
+equality is the first. Let $T_z$ denote the Toeplitz operator of
+multiplication by $z$ (this is just the shift operator in the Hardy
+space), and $T^*_z$ its adjoint (note that $T^*_z = T_{1/z}$). If
+$P = \sum_k P_k z^k \in \mathbb{C}[z,z^{-1}]$, then its corresponding Toeplitz
+operator may be written as
+$$T_P = \sum_{k\geq 0} P_k T_z^k + \sum_{k&amp;lt;0} P_k {T_z^{*}}^k.$$
+Clearly, ${T_z^*}^n{T_z}^n = I$; on the other hand,
+${T_z}^n{T_z^*}^n = I - \mathbb{P}_n$, where $\mathbb{P}_n$ is the orthogonal
+projector onto the subspace $E_n:=\text{span}$ {$1,z, &amp;hellip;,z^{n-1}$}.
+This observation allows us to compute that
+$\text{tr }[{T_z^*}^n,{T_z}^n] = \text{tr } \mathbb{P}_n = n$. Now, if $n \neq m$, one finds
+by direct computation that $\text{tr }[{T_z^*}^m,{T_z}^n] = 0$. Thus,
+$\text{tr }[{T_z^*}^m,{T_z}^n] = n\delta_{n,m}$. If $P, Q \in \mathbb{C}[z,z^{-1}]$,
+and $P = \sum_k P_k z^k$, $Q = \sum_k Q_k z^k$, then
+$$= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) [{T_z^*}^n,{T_z}^m];$$
+taking traces yields $$\begin{aligned}
+\text{tr } [T_P,T_Q] &amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) \text{tr } [{T_z^*}^n,{T_z}^m] \\\&lt;br&gt;
+&amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) n\delta_{n,m} = \sum_{n\geq 0} n(P_{-n}Q_n - Q_{-n}P_n)\\\&lt;br&gt;
+&amp;amp;= \sum_{n}n P_{-n}Q_n.
+\end{aligned}$$ On the other hand, by residue theorem,
+$$\begin{aligned}
+\frac{1}{2\pi i}\int_{|z| = 1} P(z) Q&#39;(z) dz
+&amp;amp;= \frac{1}{2\pi i}\int_{|z| = 1} \sum_{\ell}\left(\sum_n nP_{\ell - n} Q_n \right) z^{\ell-1} dz\\\&lt;br&gt;
+&amp;amp;= \sum_{\ell}\left(\sum_n nP_{\ell - n} Q_n \right) \delta_{\ell,0}\\\&lt;br&gt;
+&amp;amp;= \sum_{n}n P_{-n}Q_n.
+\end{aligned}$$ Comparing the results of these two computations
+concludes the proof.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The trifecta of Hilbert spaces on the unit disc</title>
+      <link>/talk/hilbert-spaces-on-the-disc/</link>
+      <pubDate>Thu, 01 Apr 2021 11:16:32 -0400</pubDate>
+      <guid>/talk/hilbert-spaces-on-the-disc/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/1TB9cLz5Ja0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Hilbert spaces are common. Connection among them is rare. With this spirit, we will see the connection
+among the three classical Hilbert spaces on the unit disc U. These Hilbert spaces are Hardy ($H^2(U)$), Dirichlet
+($D^2(U)$) and lastly Bergman ($A^2(U)$). The idea comes from the intuition of evolving the remarkable identity called
+as Littlewood Paley Identity for Bergman and Dirichlet spaces. During the presentation, audience will get to know more
+about this identity. And also, the importance of this identity in the sense that how it relates to the Nevanlinna
+Counting function. Nevanlinna Counting function $N_\phi(w)$ measures the &amp;lsquo;affinity&amp;rsquo; that $\phi$ has for value $w$ where
+$\phi$ is a holomorphic map on $U$. Besides this, we will also see more connection among Hardy, Dirichlet and Riemann Zeta functions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Elementary Introdcution to Fredholm Determinants</title>
+      <link>/talk/fredholm-determinants/</link>
+      <pubDate>Mon, 08 Jun 2020 13:01:12 -0400</pubDate>
+      <guid>/talk/fredholm-determinants/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/m1CAUg0im4M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: An Elementary Introduction to Fredholm Determinants&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Fudong Wang&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, June 11&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: At the beginning of the 20th century, Fredholm introduced a way to solve a class of linear integral equations which are now called them Fredholm integral equations. In his 1903&amp;rsquo;s paper, Fredholm introduced a determinant of a functional, which now is called Fredholm determinant. In this lecture, we will begin with the definition of determinant in the finite-dimensional spaces and review some properties of the determinants. After that, we will focus on the determinant of form $det(I+F)$ where $F$ is &amp;ldquo;small&amp;rdquo;. Following 
+&lt;a href=&#34;https://drive.google.com/file/d/1ebU0SUTSXsVQclHXe9sNFJg3YZmiGmtF/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fredholm&amp;rsquo;s 1903 paper&lt;/a&gt;, we will discuss Fredholm determinant $D_f$ and explore some properties of the determinant and how it connects to the finite determinants. Lastly, we will discuss how to construct the famous &amp;ldquo;soliton&amp;rdquo; solution to the equation of Koreteweg-de Vries by the so-called Fredholm determinant method introduced by Pöppe(1983).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1ghnW1hZSzLleX_UQ-t9g7BcbN1-RonFt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;google drive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Riemann Hilbert Problem</title>
+      <link>/talk/usf/riemann-hilbert-problem/</link>
+      <pubDate>Thu, 23 Jan 2020 21:05:34 -0400</pubDate>
+      <guid>/talk/usf/riemann-hilbert-problem/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Riemann-Hilbert Problem in $L^p$-space.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Fudong Wang.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, January $23^{rd}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; We will first introduce some fundamental results about the
+Cauchy operator. Base on the Cauchy operator, we will make it precise
+what is the RHP and what is the solution to an RHP. Then we will talk
+about the two types of inhomogeneous Riemann-Hilbert problems and
+establish the equivalence between them. Finally, a uniqueness theorem of
+RHP in $L^p$ will be given. If time permits, its application to the
+inverse scattering theory will be mentioned too.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

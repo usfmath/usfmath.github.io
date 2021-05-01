@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>number theory | Grad Math@USF</title>
+    <link>/tag/number-theory/</link>
+      <atom:link href="/tag/number-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>number theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2020 10:44:14 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>number theory</title>
+      <link>/tag/number-theory/</link>
+    </image>
+    
+    <item>
+      <title>Primes of the Form $p = x^2 &#43; ny^2$</title>
+      <link>/talk/primes-of-the-form/</link>
+      <pubDate>Mon, 03 Aug 2020 10:44:14 -0400</pubDate>
+      <guid>/talk/primes-of-the-form/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/VBPrP4nChbo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;strong&gt;Title&lt;/strong&gt;: Primes of the form $p = x^2 + ny^2$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, August 6th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In a letter to Mersenne, dated 1640, Fermat formulated a problem asking for sufficient conditions to the titular primes in the case when $n=1,2,3.$ The first well known proof to the original problem (in the case for when $n=1$) was published by Euler in 1749, with the other two cases being completed in 1772. Naturally, Euler attempted to generalize the problem for arbitrary integers n &amp;gt; 0; while not producing any proofs, the ideas that Euler touched on would be expanded by Legendre, Gauss, and Lagrange. The goal for this talk is to outline a strategy that answers Fermat&amp;rsquo;s original problem along with a few more cases. If time permits, we&amp;rsquo;ll just mention a result that solves the general problem for countably many n integers.&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/98801740991&#34;&gt;https://zoom.us/j/98801740991&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Video: 
+&lt;a href=&#34;https://drive.google.com/file/d/1iVpAtU8iRoVYILWLTB6MgfUe9ugrYsme/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

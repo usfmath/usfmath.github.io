@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lie groups | Grad Math@USF</title>
+    <link>/tag/lie-groups/</link>
+      <atom:link href="/tag/lie-groups/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lie groups</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 Jan 2020 21:05:22 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>Lie groups</title>
+      <link>/tag/lie-groups/</link>
+    </image>
+    
+    <item>
+      <title>Lorentz Group</title>
+      <link>/talk/usf/lorentz-group/</link>
+      <pubDate>Thu, 30 Jan 2020 21:05:22 -0400</pubDate>
+      <guid>/talk/usf/lorentz-group/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Lorentz Group.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Louis Arenas.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, January $30^{th}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; The goal of this talk is to introduce the audience to the
+definition of the Lorentz group and motivation in general relativity. We
+will derive commutation relations, and if time permits show the
+restricted Lorentz group is isomorphic to the Möbius group.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

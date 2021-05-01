@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fluid mechanics | Grad Math@USF</title>
+    <link>/tag/fluid-mechanics/</link>
+      <atom:link href="/tag/fluid-mechanics/index.xml" rel="self" type="application/rss+xml" />
+    <description>fluid mechanics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 08 Nov 2020 23:12:31 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>fluid mechanics</title>
+      <link>/tag/fluid-mechanics/</link>
+    </image>
+    
+    <item>
+      <title>Fractional Calculus Approach for Flow Model in Porous Media</title>
+      <link>/talk/fractional-calculus-approach/</link>
+      <pubDate>Sun, 08 Nov 2020 23:12:31 -0500</pubDate>
+      <guid>/talk/fractional-calculus-approach/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Jb1eEDQBUPw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Fractional Calculus Approach for Flow Model in Porous Media&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+The Fractional Calculus approach is introduced into reservoir simulation. A three-dimensional relaxation model for viscoelastic fluid is built. The model based on the exact solution in Laplace space for some unsteady flow-Maxwell flow in an infinite reservoir  is obtained by Laplace transform and Fourier transform.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,35 @@
     <link>/tag/cohomology/</link>
       <atom:link href="/tag/cohomology/index.xml" rel="self" type="application/rss+xml" />
     <description>cohomology</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2020 17:55:36 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>cohomology</title>
       <link>/tag/cohomology/</link>
     </image>
+    
+    <item>
+      <title>A Gentle Introduction to Infinite-Dimensional Lie Algebras</title>
+      <link>/talk/usf/infinite-lie-algebra/</link>
+      <pubDate>Sun, 05 Jul 2020 17:55:36 -0400</pubDate>
+      <guid>/talk/usf/infinite-lie-algebra/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/6789LcHqwP4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A Gentle Introduction to Infinite-Dimensional Lie Algebras&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 9th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Infinite-dimensional Lie algebras have found applications in conformal field theory, integrable systems, and number theory, among other areas of mathematics. However, one wonders exactly how these algebras arise in such contexts, and moreover what is even meant by “infinite-dimensional Lie algebra” in the first place. In this talk, I will try to give a friendly introduction to the field of infinite-dimensional Lie algebras, and try to give the listener some operational familiarity with these structures by providing a few explicit examples. Furthermore, I will mention a few specific problems in mathematics where such algebras have been useful.&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&#34;&gt;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video:&lt;/strong&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1by6zBTatZNO3CxFXer75CTtHR3hujoP5/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt; 
+&lt;a href=&#34;https://drive.google.com/file/d/1zPw8vC7dRtkJMMvsjc5SuMQeIlKBsUxV/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Quantum invariants of framed links from cohomology of self-distributive structures</title>

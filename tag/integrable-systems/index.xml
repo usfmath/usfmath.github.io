@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>integrable systems | Grad Math@USF</title>
+    <link>/tag/integrable-systems/</link>
+      <atom:link href="/tag/integrable-systems/index.xml" rel="self" type="application/rss+xml" />
+    <description>integrable systems</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 Mar 2021 16:10:38 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>integrable systems</title>
+      <link>/tag/integrable-systems/</link>
+    </image>
+    
+    <item>
+      <title>A short Introduction to the Theta Functions</title>
+      <link>/talk/introduction-to-theta-function/</link>
+      <pubDate>Tue, 23 Mar 2021 16:10:38 -0400</pubDate>
+      <guid>/talk/introduction-to-theta-function/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/cV9YMgCozsw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The theory of theta function plays an important role in finding exact (quasi-) periodic solutions to the nonlinear PDEs. In this talk, we will introduce first the concepts of Riemann’s theta function (with characteristics) and Jacobi’s theta function. Then some of the simplest properties of those theta functions will be presented. If time permits, we will discuss a little bit about algebraic-geometry methods of constructing exact solution to KP equation.😄&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Methods of nonlinear equations in the theory of algebraic geometry</title>
+      <link>/talk/riemann-schottky-problem/</link>
+      <pubDate>Mon, 15 Feb 2021 13:50:43 -0500</pubDate>
+      <guid>/talk/riemann-schottky-problem/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/asVgNLcnAz0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Methods of nonlinear equations in the theory of algebraic geometry&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/time&lt;/strong&gt;: Wednesday, February 17th, 3:00pm-4:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+The Riemann-Schottky problem, in modern language, asks for a characterization of Jacobian varieties of among abelian varieties. From Riemann’s point of view, the question was to address the discrepancy between the 3g-3-dimensional space of moduli for compact Riemann surfaces of genus g from the g(g+1)/2-dimensional space of Siegel matrices, in which the space of Riemann surfaces embeds, via the period matrix. The problem remained open for almost a millennium. The first hint of a solution to this problem was found (somewhat surprisingly) by I. Krichever (1977), when he showed (more or less) that the period matrix for a Riemann surface could be used to construct tau functions for the KP hierarchy. S. Novikov conjectured that the converse also held, thus answering the Riemann-Schottky problem a la methods of integrable systems. This turned out to indeed be the case, with a proof from T. Shiota (1986) shortly thereafter. In this talk, I will attempt to fill in some of the details of this story, and explain some of the consequences of this theorem, both in integrable systems and algebraic geometry.&lt;/p&gt;
+&lt;p&gt;Link to the Zoom meeting:  &lt;a href=&#34;https://zoom.us/j/96802432385&#34;&gt;https://zoom.us/j/96802432385&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Part II link: &lt;a href=&#34;https://zoom.us/s/97923273524&#34;&gt;https://zoom.us/s/97923273524&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computing Reflection Coefficient of Schrondinger Operator via WKB method</title>
+      <link>/posts/wkb-reflection/</link>
+      <pubDate>Sun, 08 Nov 2020 23:25:17 -0500</pubDate>
+      <guid>/posts/wkb-reflection/</guid>
+      <description>&lt;p&gt;See the PDF:
+&lt;script type=&#34;text/javascript&#34; src=&#34;/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+&lt;/style&gt;
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+
+var url = &#34;\/pdf\/wkb.pdf&#34;;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;);
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById(&#39;page_count&#39;).textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Elementary Introdcution to Fredholm Determinants</title>
+      <link>/talk/fredholm-determinants/</link>
+      <pubDate>Mon, 08 Jun 2020 13:01:12 -0400</pubDate>
+      <guid>/talk/fredholm-determinants/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/m1CAUg0im4M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: An Elementary Introduction to Fredholm Determinants&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Fudong Wang&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, June 11&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: At the beginning of the 20th century, Fredholm introduced a way to solve a class of linear integral equations which are now called them Fredholm integral equations. In his 1903&amp;rsquo;s paper, Fredholm introduced a determinant of a functional, which now is called Fredholm determinant. In this lecture, we will begin with the definition of determinant in the finite-dimensional spaces and review some properties of the determinants. After that, we will focus on the determinant of form $det(I+F)$ where $F$ is &amp;ldquo;small&amp;rdquo;. Following 
+&lt;a href=&#34;https://drive.google.com/file/d/1ebU0SUTSXsVQclHXe9sNFJg3YZmiGmtF/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fredholm&amp;rsquo;s 1903 paper&lt;/a&gt;, we will discuss Fredholm determinant $D_f$ and explore some properties of the determinant and how it connects to the finite determinants. Lastly, we will discuss how to construct the famous &amp;ldquo;soliton&amp;rdquo; solution to the equation of Koreteweg-de Vries by the so-called Fredholm determinant method introduced by Pöppe(1983).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1ghnW1hZSzLleX_UQ-t9g7BcbN1-RonFt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;google drive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Darboux Transformation and Soliton Equations </title>
+      <link>/talk/usf/darboux-transformation-and-soliton-equations/</link>
+      <pubDate>Thu, 20 Feb 2020 20:47:23 -0400</pubDate>
+      <guid>/talk/usf/darboux-transformation-and-soliton-equations/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Darboux transformation and soliton equations.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Yehui Huang (North China Electric Power University).&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $20^{th}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1045&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, I will introduce a transformation originated
+by Darboux in his study of the linear Sturm-Liouville problem. By
+generalized Darboux transformations, I will present a solution formula
+with multiple parameters for some soliton equations, including KdV and
+NLS. After taking special choices for the seed solution and the
+eigenfunctions, different types of exact solutions are derived, which
+include solitons, breathers and rogue wave solutions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

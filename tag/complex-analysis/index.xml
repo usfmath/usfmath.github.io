@@ -5,12 +5,62 @@
     <link>/tag/complex-analysis/</link>
       <atom:link href="/tag/complex-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>complex analysis</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 Mar 2021 16:10:38 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 May 2021 15:19:15 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>complex analysis</title>
       <link>/tag/complex-analysis/</link>
     </image>
+    
+    <item>
+      <title>The Helton Howe Trace Formula</title>
+      <link>/posts/the-helton-howe-trace-formula/</link>
+      <pubDate>Sat, 01 May 2021 15:19:15 -0400</pubDate>
+      <guid>/posts/the-helton-howe-trace-formula/</guid>
+      <description>&lt;p&gt;We present a proof of a simple version of the Helton-Howe trace
+formula (for a more general version of this result, one should consult
+the 
+&lt;a href=&#34;https://link.springer.com/chapter/10.1007/BFb0058919&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;original paper&lt;/a&gt;).
+Consider the Hardy space $H^2(\mathbb{D})$. There is a natural
+inclusion of $H^2(\mathbb{D})$ into $L^2(\mathbb{T})$, given by the restriction
+$f\mapsto f\vert_{\mathbb{T}}$. Let $\mathbb{P}_{H^2} : L^2(\mathbb{T}) \to H^2(\mathbb{D})$ denote the
+orthogonal projection of $L^2(\mathbb{T})$ into $H^2(\mathbb{D})$. Now, given
+$P \in \mathbb{C}[z,z^{-1}]$, we define the Toeplitz operator with principal
+symbol $P$ by $$T_P f(z) = \mathbb{P}_{H^2} \left[ P(z)f(z)\right],$$ for
+$f \in H^2(\mathbb{D})$. It is clear that the commutator of any two such
+operators operators is trace-class (it is even of finite rank). The
+Helton-Howe formula tells us that, given $P,Q \in \mathbb{C}[z,z^{-1}]$,
+$$\text{tr } [T_P, T_Q] = \frac{1}{2\pi i}\int_{|z| = 1} P(z) Q&#39;(z) dz = \frac{1}{2\pi i}\int_{\mathbb{D}} dP \wedge dQ$$
+The last equality is immediate from Stokes&#39; theorem; the interesting
+equality is the first. Let $T_z$ denote the Toeplitz operator of
+multiplication by $z$ (this is just the shift operator in the Hardy
+space), and $T^*_z$ its adjoint (note that $T^*_z = T_{1/z}$). If
+$P = \sum_k P_k z^k \in \mathbb{C}[z,z^{-1}]$, then its corresponding Toeplitz
+operator may be written as
+$$T_P = \sum_{k\geq 0} P_k T_z^k + \sum_{k&amp;lt;0} P_k {T_z^{*}}^k.$$
+Clearly, ${T_z^*}^n{T_z}^n = I$; on the other hand,
+${T_z}^n{T_z^*}^n = I - \mathbb{P}_n$, where $\mathbb{P}_n$ is the orthogonal
+projector onto the subspace $E_n:=\text{span}$ {$1,z, &amp;hellip;,z^{n-1}$}.
+This observation allows us to compute that
+$\text{tr }[{T_z^*}^n,{T_z}^n] = \text{tr } \mathbb{P}_n = n$. Now, if $n \neq m$, one finds
+by direct computation that $\text{tr }[{T_z^*}^m,{T_z}^n] = 0$. Thus,
+$\text{tr }[{T_z^*}^m,{T_z}^n] = n\delta_{n,m}$. If $P, Q \in \mathbb{C}[z,z^{-1}]$,
+and $P = \sum_k P_k z^k$, $Q = \sum_k Q_k z^k$, then
+$$= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) [{T_z^*}^n,{T_z}^m];$$
+taking traces yields $$\begin{aligned}
+\text{tr } [T_P,T_Q] &amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) \text{tr } [{T_z^*}^n,{T_z}^m] \\\&lt;br&gt;
+&amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) n\delta_{n,m} = \sum_{n\geq 0} n(P_{-n}Q_n - Q_{-n}P_n)\\\&lt;br&gt;
+&amp;amp;= \sum_{n}n P_{-n}Q_n.
+\end{aligned}$$ On the other hand, by residue theorem,
+$$\begin{aligned}
+\frac{1}{2\pi i}\int_{|z| = 1} P(z) Q&#39;(z) dz
+&amp;amp;= \frac{1}{2\pi i}\int_{|z| = 1} \sum_{\ell}\left(\sum_n nP_{\ell - n} Q_n \right) z^{\ell-1} dz\\\&lt;br&gt;
+&amp;amp;= \sum_{\ell}\left(\sum_n nP_{\ell - n} Q_n \right) \delta_{\ell,0}\\\&lt;br&gt;
+&amp;amp;= \sum_{n}n P_{-n}Q_n.
+\end{aligned}$$ Comparing the results of these two computations
+concludes the proof.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A short Introduction to the Theta Functions</title>
@@ -23,6 +73,72 @@
 &lt;/div&gt;
 
 &lt;p&gt;The theory of theta function plays an important role in finding exact (quasi-) periodic solutions to the nonlinear PDEs. In this talk, we will introduce first the concepts of Riemann’s theta function (with characteristics) and Jacobi’s theta function. Then some of the simplest properties of those theta functions will be presented. If time permits, we will discuss a little bit about algebraic-geometry methods of constructing exact solution to KP equation.😄&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Survey of Equilibrium in the Plane</title>
+      <link>/talk/a-survey-of-equilibruim-in-the-plane/</link>
+      <pubDate>Wed, 02 Sep 2020 15:01:51 -0400</pubDate>
+      <guid>/talk/a-survey-of-equilibruim-in-the-plane/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Hye1gkDkCxU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A survey of equilibrium in the plane&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Friday, September 4th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11:00am&lt;/p&gt;
+&lt;p&gt;Abstract: Finding equilibria of charge distributions in the plane is a classical problem, which has found numerous applications in many other areas of mathematics and physics, including approximation theory, random matrices, quantum gravity, and integrable systems, among others. In this talk, I will survey some classical results from the theory of equilibrium distributions (using the language of potential theory), and provide some physical intuition for why such formulas hold. We will consider equilibrium with and without external fields. Furthermore, I will discuss some of the more modern applications of the subject; in particular, I will sketch how the equilibrium measures help us describe the asymptotics of certain families of orthogonal polynomials, as well how such problems appear in integrable systems, if time permits.&lt;/p&gt;
+&lt;p&gt;Link to zoom meeting: &lt;a href=&#34;https://zoom.us/j/93365223865&#34;&gt;https://zoom.us/j/93365223865&lt;/a&gt;
+&lt;strong&gt;Video&lt;/strong&gt;: 
+&lt;a href=&#34;https://www.youtube.com/watch?v=Hye1gkDkCxU&amp;amp;t=2780s&amp;amp;ab_channel=USFGradMath&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Nevanlinna-Pick Interpolation Problem</title>
+      <link>/talk/nevanlinna-pick-problem/</link>
+      <pubDate>Mon, 29 Jun 2020 13:37:03 -0400</pubDate>
+      <guid>/talk/nevanlinna-pick-problem/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/C8-0k_UJnj8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;strong&gt;Title&lt;/strong&gt;: The Nevanlinna-Pick Interpolation Problem&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: John Kyei&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 2nd&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+In this presentation, I will give an introductory discussion on the general Nevanlina-Pick Interpolation problem . Formulation of the Pick Problem and the nature of solutions to the Extremal Pick Problem. Subsequently, Nevalinna Formulation.
+We will  also look at  the Finite Blaschke Products, Basic  analytic  and algebraic properties such as the characterizations of holomorphic functions on the disk, approximation and Differentiation of the Finite Blaschke Product.&lt;/p&gt;
+&lt;p&gt;Link to Zoom Meeting: &lt;a href=&#34;https://zoom.us/j/99109270972&#34;&gt;https://zoom.us/j/99109270972&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1_eVKFcjc5syRvp8s0CMusthbjAcX9EmX/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;:
+&lt;a href=&#34;https://drive.google.com/file/d/1wXFhZwWLGglGkBkSF67V9GKNmdav8GKb/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Riemann Hilbert Problem</title>
+      <link>/talk/usf/riemann-hilbert-problem/</link>
+      <pubDate>Thu, 23 Jan 2020 21:05:34 -0400</pubDate>
+      <guid>/talk/usf/riemann-hilbert-problem/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Riemann-Hilbert Problem in $L^p$-space.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Fudong Wang.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, January $23^{rd}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; We will first introduce some fundamental results about the
+Cauchy operator. Base on the Cauchy operator, we will make it precise
+what is the RHP and what is the solution to an RHP. Then we will talk
+about the two types of inhomogeneous Riemann-Hilbert problems and
+establish the equivalence between them. Finally, a uniqueness theorem of
+RHP in $L^p$ will be given. If time permits, its application to the
+inverse scattering theory will be mentioned too.&lt;/p&gt;
 </description>
     </item>
     

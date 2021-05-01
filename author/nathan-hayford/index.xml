@@ -601,5 +601,69 @@ which coincides with our previous result for the scalar curvature of $S^3$.&lt;/
 </description>
     </item>
     
+    <item>
+      <title>Methods of nonlinear equations in the theory of algebraic geometry</title>
+      <link>/talk/riemann-schottky-problem/</link>
+      <pubDate>Mon, 15 Feb 2021 13:50:43 -0500</pubDate>
+      <guid>/talk/riemann-schottky-problem/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/asVgNLcnAz0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Methods of nonlinear equations in the theory of algebraic geometry&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/time&lt;/strong&gt;: Wednesday, February 17th, 3:00pm-4:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+The Riemann-Schottky problem, in modern language, asks for a characterization of Jacobian varieties of among abelian varieties. From Riemann’s point of view, the question was to address the discrepancy between the 3g-3-dimensional space of moduli for compact Riemann surfaces of genus g from the g(g+1)/2-dimensional space of Siegel matrices, in which the space of Riemann surfaces embeds, via the period matrix. The problem remained open for almost a millennium. The first hint of a solution to this problem was found (somewhat surprisingly) by I. Krichever (1977), when he showed (more or less) that the period matrix for a Riemann surface could be used to construct tau functions for the KP hierarchy. S. Novikov conjectured that the converse also held, thus answering the Riemann-Schottky problem a la methods of integrable systems. This turned out to indeed be the case, with a proof from T. Shiota (1986) shortly thereafter. In this talk, I will attempt to fill in some of the details of this story, and explain some of the consequences of this theorem, both in integrable systems and algebraic geometry.&lt;/p&gt;
+&lt;p&gt;Link to the Zoom meeting:  &lt;a href=&#34;https://zoom.us/j/96802432385&#34;&gt;https://zoom.us/j/96802432385&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Part II link: &lt;a href=&#34;https://zoom.us/s/97923273524&#34;&gt;https://zoom.us/s/97923273524&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Gentle Introduction to Infinite-Dimensional Lie Algebras</title>
+      <link>/talk/usf/infinite-lie-algebra/</link>
+      <pubDate>Sun, 05 Jul 2020 17:55:36 -0400</pubDate>
+      <guid>/talk/usf/infinite-lie-algebra/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/6789LcHqwP4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A Gentle Introduction to Infinite-Dimensional Lie Algebras&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 9th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Infinite-dimensional Lie algebras have found applications in conformal field theory, integrable systems, and number theory, among other areas of mathematics. However, one wonders exactly how these algebras arise in such contexts, and moreover what is even meant by “infinite-dimensional Lie algebra” in the first place. In this talk, I will try to give a friendly introduction to the field of infinite-dimensional Lie algebras, and try to give the listener some operational familiarity with these structures by providing a few explicit examples. Furthermore, I will mention a few specific problems in mathematics where such algebras have been useful.&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&#34;&gt;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video:&lt;/strong&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1by6zBTatZNO3CxFXer75CTtHR3hujoP5/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt; 
+&lt;a href=&#34;https://drive.google.com/file/d/1zPw8vC7dRtkJMMvsjc5SuMQeIlKBsUxV/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variation Problem and How to Solve It</title>
+      <link>/talk/usf/variation-problem-and-how-to-solve-it/</link>
+      <pubDate>Sat, 01 Feb 2020 21:02:58 -0400</pubDate>
+      <guid>/talk/usf/variation-problem-and-how-to-solve-it/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Variational Problems and How to Solve Them.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Nathan Hayford.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $6^{th}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; Many problems in math and physics arise as problems of
+extremizing some functional. Such problems include the isoperimetric
+problem, minimal surface problem, and the formulation of Lagrangian
+mechanics. We shall discuss the calculus of variations, and provide
+worked out examples of how these techniques may be applied to solve such
+problems. We will also discuss how such techniques may be applied to
+write Lagrangian formulations of theories like electromagnetism and
+general relativity, if time permits.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

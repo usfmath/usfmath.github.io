@@ -178,5 +178,25 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 </description>
     </item>
     
+    <item>
+      <title>Riemann Hilbert Problem</title>
+      <link>/talk/usf/riemann-hilbert-problem/</link>
+      <pubDate>Thu, 23 Jan 2020 21:05:34 -0400</pubDate>
+      <guid>/talk/usf/riemann-hilbert-problem/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Riemann-Hilbert Problem in $L^p$-space.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Fudong Wang.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, January $23^{rd}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; We will first introduce some fundamental results about the
+Cauchy operator. Base on the Cauchy operator, we will make it precise
+what is the RHP and what is the solution to an RHP. Then we will talk
+about the two types of inhomogeneous Riemann-Hilbert problems and
+establish the equivalence between them. Finally, a uniqueness theorem of
+RHP in $L^p$ will be given. If time permits, its application to the
+inverse scattering theory will be mentioned too.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
