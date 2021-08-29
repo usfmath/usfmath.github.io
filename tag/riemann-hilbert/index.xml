@@ -5,12 +5,51 @@
     <link>/tag/riemann-hilbert/</link>
       <atom:link href="/tag/riemann-hilbert/index.xml" rel="self" type="application/rss+xml" />
     <description>Riemann-Hilbert</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 Jan 2020 21:05:34 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 Nov 2020 13:22:22 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Riemann-Hilbert</title>
       <link>/tag/riemann-hilbert/</link>
     </image>
+    
+    <item>
+      <title>Strong Asymptotics of Planar Orthogonal Polynomials: Gaussian Weight Perturbed by Point Charges</title>
+      <link>/talk/asymptotic-op/</link>
+      <pubDate>Mon, 09 Nov 2020 13:22:22 -0500</pubDate>
+      <guid>/talk/asymptotic-op/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Strong Asymptotics of Planar Orthogonal Polynomials: Gaussian Weight Perturbed by Point Charges&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Meng Yang&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+
+&lt;a href=&#34;https://drive.google.com/file/d/14SWXLKDks7bhNrO4tt3XrOQig0-uBWfD/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pdf&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Asymptotic Methods in Analysis</title>
+      <link>/talk/asymptotic-methods-in-analysis/</link>
+      <pubDate>Sat, 22 Aug 2020 14:47:05 -0400</pubDate>
+      <guid>/talk/asymptotic-methods-in-analysis/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/nDw2wLPQv3M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Asymptotic Methods in Analysis&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Fudong Wang&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, 27th August.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this talk, I will introduce the history of several well-known asymptotic methods in analysis. Then we will apply those methods via examples. The first example would be to apply Laplace&amp;rsquo;s method to get one of the oldest asymptotic results, the Stirling&amp;rsquo;s formula, i.e.
+$$n!\sim e^{-n}n^n\sqrt{2\pi n},n\rightarrow \infty.$$ Next example is to apply the saddle point method to get the asymptotic of the integral
+$$\int_{\mathbb{R}}f(z)e^{it(z^2+z)}dz,\quad t\rightarrow \infty .$$ Then I will introduce one recently developed asymptotic method called $\bar{\partial}-$steepest descent method, and apply it to study the long-time asymptotic for the linear Schrödinger equation:
+$$
+iu_t+u_{xx}=0,\quad
+u(x,0)=q(x)\in H^1(\mathbb{R}).
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;zoom&lt;/strong&gt;:
+&lt;a href=&#34;https://zoom.us/j/98760291675&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Riemann Hilbert Problem</title>

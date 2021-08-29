@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Combinatorics | Grad Math@USF</title>
+    <link>/tag/combinatorics/</link>
+      <atom:link href="/tag/combinatorics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Combinatorics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Jul 2020 22:36:21 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>Combinatorics</title>
+      <link>/tag/combinatorics/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to Matroids</title>
+      <link>/talk/introduction-to-matroids/</link>
+      <pubDate>Mon, 27 Jul 2020 22:36:21 -0400</pubDate>
+      <guid>/talk/introduction-to-matroids/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/SljIEkfzloA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;strong&gt;Title&lt;/strong&gt;: Introduction to matroids&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Lina Fajardo Gomez&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 30th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Matroids are mathematical objects that abstract the notion of linearly independent sets. They have applications in many areas of mathematics, ranging from combinatorics to field theory. In this talk I will give an overview of matroids, why they are studied and why I in particular took an interest in them.&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/93617336971&#34;&gt;https://zoom.us/j/93617336971&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1V3Zg0KFIyk32S_mg2mMJ9I4lpIBchM70/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1tP9Qh3RJCplCVUsds1U9EBmmZd7hEZr0/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spectral Theory | Grad Math@USF</title>
+    <link>/tag/spectral-theory/</link>
+      <atom:link href="/tag/spectral-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Spectral Theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 03 Feb 2021 14:24:34 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>Spectral Theory</title>
+      <link>/tag/spectral-theory/</link>
+    </image>
+    
+    <item>
+      <title>Weyl&#39;s law and  hearing the area of a drum</title>
+      <link>/talk/weyl-law-hear-area-drum/</link>
+      <pubDate>Wed, 03 Feb 2021 14:24:34 -0500</pubDate>
+      <guid>/talk/weyl-law-hear-area-drum/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/HiCA0n6x3Jo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/-nm5mjcNYDA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Weyl&amp;rsquo;s law and hearing the area of a drum&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Wednesday, February 3rd, 3:00pm-4:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+H. Lorentz in 1910 gave a series of lectures titled &amp;ldquo;Old and new problems in physics&amp;rdquo;. In the last lecture he mentions that J. Jean is interested in studying the growth rate of overtones of an electromagnetic wave in a bounded domain. He conjectures that the growth rate is independent of the shape of the domain and depends only on the volume and dimension of the domain. Herman Weyl, who was in attendance, precisely describes how fast these overtones grow two years after this lecture series. Since Weyl&amp;rsquo;s law holds for vibrating membranes, we start by describing the overtones of a drumhead via Dirichlet eigenvalues, compute the eigenvalues explicitly for a string with fixed ends, and build towards a proof of Weyl&amp;rsquo;s law in 2D for simply connected domains.&lt;/p&gt;
+&lt;p&gt;Link to the Zoom Meeting: &lt;a href=&#34;https://zoom.us/j/92117761401&#34;&gt;https://zoom.us/j/92117761401&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

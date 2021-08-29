@@ -99,5 +99,25 @@ H. Lorentz in 1910 gave a series of lectures titled &amp;ldquo;Old and new probl
 </description>
     </item>
     
+    <item>
+      <title>The Calderón Problem</title>
+      <link>/talk/usf/the-calderon-problem/</link>
+      <pubDate>Sat, 15 Feb 2020 20:55:08 -0400</pubDate>
+      <guid>/talk/usf/the-calderon-problem/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The Calderón problem.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Lina Fajardo Gomez.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $13^{th}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; What do oil drilling and tumor detection have in common?
+How could nonlinear equations be easier to work with? The Calderón
+problem was first introduced as an inverse boundary value problem: how
+information about the boundary of a domain can be used to determine
+information about its interior. We will discuss the set up, some
+applications, and a proposed solution for a class of Calderón type
+inverse problems.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

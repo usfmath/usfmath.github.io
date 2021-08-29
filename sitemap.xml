@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tag/asymptotics/</loc>
+    <lastmod>2021-08-28T18:24:20-04:00</lastmod>
+  </url><url>
     <loc>/authors/</loc>
+    <lastmod>2021-08-28T18:24:20-04:00</lastmod>
+  </url><url>
+    <loc>/tag/complex-analysis/</loc>
+    <lastmod>2021-08-28T18:24:20-04:00</lastmod>
+  </url><url>
+    <loc>/tag/equilibrium-measures/</loc>
     <lastmod>2021-08-28T18:24:20-04:00</lastmod>
   </url><url>
     <loc>/</loc>
@@ -11,7 +20,13 @@
     <loc>/author/nathan-hayford/</loc>
     <lastmod>2021-08-28T18:24:20-04:00</lastmod>
   </url><url>
+    <loc>/tag/orthogonal-polynomials/</loc>
+    <lastmod>2021-08-28T18:24:20-04:00</lastmod>
+  </url><url>
     <loc>/posts/</loc>
+    <lastmod>2021-08-28T18:24:20-04:00</lastmod>
+  </url><url>
+    <loc>/tag/probability/</loc>
     <lastmod>2021-08-28T18:24:20-04:00</lastmod>
   </url><url>
     <loc>/tag/random-matrices/</loc>
@@ -32,13 +47,7 @@
     <loc>/category/probability/</loc>
     <lastmod>2021-08-28T16:08:51-04:00</lastmod>
   </url><url>
-    <loc>/tag/complex-analysis/</loc>
-    <lastmod>2021-05-01T15:19:15-04:00</lastmod>
-  </url><url>
     <loc>/tag/functional-analysis/</loc>
-    <lastmod>2021-05-01T15:19:15-04:00</lastmod>
-  </url><url>
-    <loc>/tag/hardy-spaces/</loc>
     <lastmod>2021-05-01T15:19:15-04:00</lastmod>
   </url><url>
     <loc>/posts/the-helton-howe-trace-formula/</loc>
@@ -50,9 +59,6 @@
     <loc>/posts/working-differential-geometry/</loc>
     <lastmod>2021-05-01T12:52:29-04:00</lastmod>
   </url><url>
-    <loc>/tag/paley-littlewood/</loc>
-    <lastmod>2021-04-01T11:16:32-04:00</lastmod>
-  </url><url>
     <loc>/talk/hilbert-spaces-on-the-disc/</loc>
     <lastmod>2021-04-01T11:16:32-04:00</lastmod>
   </url><url>
@@ -60,9 +66,6 @@
     <lastmod>2021-03-23T16:11:32-04:00</lastmod>
   </url><url>
     <loc>/talk/the-essentials-of-viscosity-solutions/</loc>
-    <lastmod>2021-03-23T16:11:32-04:00</lastmod>
-  </url><url>
-    <loc>/tag/viscosity-solutions/</loc>
     <lastmod>2021-03-23T16:11:32-04:00</lastmod>
   </url><url>
     <loc>/talk/introduction-to-theta-function/</loc>
@@ -74,25 +77,16 @@
     <loc>/tag/integrable-systems/</loc>
     <lastmod>2021-03-23T16:10:38-04:00</lastmod>
   </url><url>
-    <loc>/tag/theta-functions/</loc>
-    <lastmod>2021-03-23T16:10:38-04:00</lastmod>
+    <loc>/tag/algebraic-geometry/</loc>
+    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
   </url><url>
     <loc>/talk/riemann-schottky-problem/</loc>
-    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
-  </url><url>
-    <loc>/tag/novikov-conjecture/</loc>
-    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
-  </url><url>
-    <loc>/tag/riemann-schottky-problem/</loc>
-    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
-  </url><url>
-    <loc>/tag/tau-functions/</loc>
     <lastmod>2021-02-15T13:50:43-05:00</lastmod>
   </url><url>
     <loc>/author/louis-arenas/</loc>
     <lastmod>2021-02-03T14:24:34-05:00</lastmod>
   </url><url>
-    <loc>/tag/weyls-law/</loc>
+    <loc>/tag/spectral-theory/</loc>
     <lastmod>2021-02-03T14:24:34-05:00</lastmod>
   </url><url>
     <loc>/talk/weyl-law-hear-area-drum/</loc>
@@ -101,16 +95,10 @@
     <loc>/tag/graph-theory/</loc>
     <lastmod>2021-01-18T14:09:46-05:00</lastmod>
   </url><url>
-    <loc>/tag/p-path-complexes/</loc>
-    <lastmod>2021-01-18T14:09:46-05:00</lastmod>
-  </url><url>
     <loc>/talk/p-path-complexes-on-directed-graphs/</loc>
     <lastmod>2021-01-18T14:09:46-05:00</lastmod>
   </url><url>
-    <loc>/tag/asymptotics/</loc>
-    <lastmod>2020-11-09T13:22:22-05:00</lastmod>
-  </url><url>
-    <loc>/tag/orthogonal-polynomials/</loc>
+    <loc>/tag/riemann-hilbert/</loc>
     <lastmod>2020-11-09T13:22:22-05:00</lastmod>
   </url><url>
     <loc>/talk/asymptotic-op/</loc>
@@ -118,12 +106,6 @@
   </url><url>
     <loc>/posts/wkb-reflection/</loc>
     <lastmod>2020-11-08T23:25:17-05:00</lastmod>
-  </url><url>
-    <loc>/tag/wkb/</loc>
-    <lastmod>2020-11-08T23:25:17-05:00</lastmod>
-  </url><url>
-    <loc>/tag/fluid-mechanics/</loc>
-    <lastmod>2020-11-08T23:12:31-05:00</lastmod>
   </url><url>
     <loc>/tag/fractional-calculus/</loc>
     <lastmod>2020-11-08T23:12:31-05:00</lastmod>
@@ -143,19 +125,7 @@
     <loc>/talk/a-survey-of-equilibruim-in-the-plane/</loc>
     <lastmod>2020-09-02T15:01:51-04:00</lastmod>
   </url><url>
-    <loc>/tag/equilibrium-measures/</loc>
-    <lastmod>2020-09-02T15:01:51-04:00</lastmod>
-  </url><url>
     <loc>/talk/asymptotic-methods-in-analysis/</loc>
-    <lastmod>2020-08-22T14:47:05-04:00</lastmod>
-  </url><url>
-    <loc>/tag/dbar-steepest-descent/</loc>
-    <lastmod>2020-08-22T14:47:05-04:00</lastmod>
-  </url><url>
-    <loc>/tag/saddle-point-method/</loc>
-    <lastmod>2020-08-22T14:47:05-04:00</lastmod>
-  </url><url>
-    <loc>/tag/steepest-descent/</loc>
     <lastmod>2020-08-22T14:47:05-04:00</lastmod>
   </url><url>
     <loc>/tag/number-theory/</loc>
@@ -164,16 +134,13 @@
     <loc>/talk/primes-of-the-form/</loc>
     <lastmod>2020-08-03T10:44:14-04:00</lastmod>
   </url><url>
+    <loc>/tag/combinatorics/</loc>
+    <lastmod>2020-07-27T22:36:21-04:00</lastmod>
+  </url><url>
     <loc>/talk/introduction-to-matroids/</loc>
     <lastmod>2020-07-27T22:36:21-04:00</lastmod>
   </url><url>
-    <loc>/tag/matroids/</loc>
-    <lastmod>2020-07-27T22:36:21-04:00</lastmod>
-  </url><url>
     <loc>/talk/doing-research-as-a-student/</loc>
-    <lastmod>2020-07-20T11:41:42-04:00</lastmod>
-  </url><url>
-    <loc>/tag/research-tips/</loc>
     <lastmod>2020-07-20T11:41:42-04:00</lastmod>
   </url><url>
     <loc>/talk/usf/infinite-lie-algebra/</loc>
@@ -182,20 +149,11 @@
     <loc>/tag/cohomology/</loc>
     <lastmod>2020-07-05T17:55:36-04:00</lastmod>
   </url><url>
-    <loc>/tag/lie-algebras/</loc>
+    <loc>/tag/lie-theory/</loc>
     <lastmod>2020-07-05T17:55:36-04:00</lastmod>
-  </url><url>
-    <loc>/tag/blaschke-product/</loc>
-    <lastmod>2020-06-29T13:37:03-04:00</lastmod>
-  </url><url>
-    <loc>/tag/nevanlinna-pick-problem/</loc>
-    <lastmod>2020-06-29T13:37:03-04:00</lastmod>
   </url><url>
     <loc>/talk/nevanlinna-pick-problem/</loc>
     <lastmod>2020-06-29T13:37:03-04:00</lastmod>
-  </url><url>
-    <loc>/tag/game-theory/</loc>
-    <lastmod>2020-06-20T22:58:12-04:00</lastmod>
   </url><url>
     <loc>/talk/usf/stochastic-games/</loc>
     <lastmod>2020-06-20T22:58:12-04:00</lastmod>
@@ -209,25 +167,10 @@
     <loc>/category/geometry/</loc>
     <lastmod>2020-06-13T14:54:17-04:00</lastmod>
   </url><url>
-    <loc>/tag/minimal-surfaces/</loc>
-    <lastmod>2020-06-13T14:54:17-04:00</lastmod>
-  </url><url>
     <loc>/talk/fredholm-determinants/</loc>
     <lastmod>2020-06-08T13:01:12-04:00</lastmod>
   </url><url>
-    <loc>/tag/fredholm-determinant/</loc>
-    <lastmod>2020-06-08T13:01:12-04:00</lastmod>
-  </url><url>
-    <loc>/tag/kdv/</loc>
-    <lastmod>2020-06-08T13:01:12-04:00</lastmod>
-  </url><url>
-    <loc>/tag/soliton/</loc>
-    <lastmod>2020-06-08T13:01:12-04:00</lastmod>
-  </url><url>
     <loc>/tag/low-dimensional-topology/</loc>
-    <lastmod>2020-06-05T20:19:47-04:00</lastmod>
-  </url><url>
-    <loc>/tag/quantum-invariants/</loc>
     <lastmod>2020-06-05T20:19:47-04:00</lastmod>
   </url><url>
     <loc>/talk/usf/quantum-invariants/</loc>
@@ -239,43 +182,16 @@
     <loc>/talk/usf/darboux-transformation-and-soliton-equations/</loc>
     <lastmod>2020-06-05T20:47:23-04:00</lastmod>
   </url><url>
-    <loc>/tag/darboux-transformations/</loc>
-    <lastmod>2020-06-05T20:47:23-04:00</lastmod>
-  </url><url>
-    <loc>/tag/boundary-value-problem/</loc>
-    <lastmod>2020-06-05T20:55:08-04:00</lastmod>
-  </url><url>
-    <loc>/tag/calderon-problem/</loc>
-    <lastmod>2020-06-05T20:55:08-04:00</lastmod>
-  </url><url>
-    <loc>/tag/inverse-problem/</loc>
-    <lastmod>2020-06-05T20:55:08-04:00</lastmod>
-  </url><url>
     <loc>/talk/usf/the-calderon-problem/</loc>
     <lastmod>2020-06-05T20:55:08-04:00</lastmod>
-  </url><url>
-    <loc>/tag/mathematical-physics/</loc>
-    <lastmod>2020-06-05T21:02:58-04:00</lastmod>
   </url><url>
     <loc>/talk/usf/variation-problem-and-how-to-solve-it/</loc>
     <lastmod>2020-06-05T21:02:58-04:00</lastmod>
   </url><url>
-    <loc>/tag/variational-problems/</loc>
-    <lastmod>2020-06-05T21:02:58-04:00</lastmod>
-  </url><url>
-    <loc>/tag/lie-groups/</loc>
-    <lastmod>2020-06-05T21:05:22-04:00</lastmod>
-  </url><url>
     <loc>/talk/usf/lorentz-group/</loc>
     <lastmod>2020-06-05T21:05:22-04:00</lastmod>
   </url><url>
-    <loc>/tag/lorentz-group/</loc>
-    <lastmod>2020-06-05T21:05:22-04:00</lastmod>
-  </url><url>
     <loc>/talk/usf/riemann-hilbert-problem/</loc>
-    <lastmod>2020-06-05T21:05:34-04:00</lastmod>
-  </url><url>
-    <loc>/tag/riemann-hilbert/</loc>
     <lastmod>2020-06-05T21:05:34-04:00</lastmod>
   </url><url>
     <loc>/publication_types/</loc>
