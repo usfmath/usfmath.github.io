@@ -647,13 +647,18 @@ of this to a later entry.&lt;/p&gt;
     
     <item>
       <title>Introduction to Probability Theory</title>
-      <link>/talk/introprobability1-louis/</link>
+      <link>/talks/introprobability1-louis/</link>
       <pubDate>Sat, 28 Aug 2021 16:08:51 -0400</pubDate>
-      <guid>/talk/introprobability1-louis/</guid>
+      <guid>/talks/introprobability1-louis/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Introduction to Probability Theory&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Friday, September 3rd&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm-3:00pm&lt;/p&gt;
+&lt;p&gt;#
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/pUfZzRKuXqM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this talk, we reinterpret the concepts from measure theory under the lens of probability theory. Using concrete examples, the aim is to introduce important concepts in probability theory and interpret their statistical meaning and connection to measure theory. This first talk aims to build an intuitive idea of the machinery used in probability theory to prove weak and strong law of large numbers, a theorem often taken for granted in applied statistics. In the second part we hope to motivate central limit theorem, and give a proof using characteristic functions. The target audience are students who have limited exposure to measure theory (statistics students), and students who are currently studying real analysis.&lt;/p&gt;
 </description>
     </item>
@@ -1249,9 +1254,9 @@ which coincides with our previous result for the scalar curvature of $S^3$.&lt;/
     
     <item>
       <title>The trifecta of Hilbert spaces on the unit disc</title>
-      <link>/talk/hilbert-spaces-on-the-disc/</link>
+      <link>/talks/hilbert-spaces-on-the-disc/</link>
       <pubDate>Thu, 01 Apr 2021 11:16:32 -0400</pubDate>
-      <guid>/talk/hilbert-spaces-on-the-disc/</guid>
+      <guid>/talks/hilbert-spaces-on-the-disc/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/1TB9cLz5Ja0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1269,9 +1274,9 @@ $\phi$ is a holomorphic map on $U$. Besides this, we will also see more connecti
     
     <item>
       <title>The Essentials of Viscosity Solutions in $R^n$</title>
-      <link>/talk/the-essentials-of-viscosity-solutions/</link>
+      <link>/talks/the-essentials-of-viscosity-solutions/</link>
       <pubDate>Tue, 23 Mar 2021 16:11:32 -0400</pubDate>
-      <guid>/talk/the-essentials-of-viscosity-solutions/</guid>
+      <guid>/talks/the-essentials-of-viscosity-solutions/</guid>
       <description>&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/0FRNeTc6Xyc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1293,9 +1298,9 @@ $\phi$ is a holomorphic map on $U$. Besides this, we will also see more connecti
     
     <item>
       <title>A short Introduction to the Theta Functions</title>
-      <link>/talk/introduction-to-theta-function/</link>
+      <link>/talks/introduction-to-theta-function/</link>
       <pubDate>Tue, 23 Mar 2021 16:10:38 -0400</pubDate>
-      <guid>/talk/introduction-to-theta-function/</guid>
+      <guid>/talks/introduction-to-theta-function/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/cV9YMgCozsw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1307,9 +1312,9 @@ $\phi$ is a holomorphic map on $U$. Besides this, we will also see more connecti
     
     <item>
       <title>Methods of nonlinear equations in the theory of algebraic geometry</title>
-      <link>/talk/riemann-schottky-problem/</link>
+      <link>/talks/riemann-schottky-problem/</link>
       <pubDate>Mon, 15 Feb 2021 13:50:43 -0500</pubDate>
-      <guid>/talk/riemann-schottky-problem/</guid>
+      <guid>/talks/riemann-schottky-problem/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/asVgNLcnAz0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1327,9 +1332,9 @@ The Riemann-Schottky problem, in modern language, asks for a characterization of
     
     <item>
       <title>Weyl&#39;s law and  hearing the area of a drum</title>
-      <link>/talk/weyl-law-hear-area-drum/</link>
+      <link>/talks/weyl-law-hear-area-drum/</link>
       <pubDate>Wed, 03 Feb 2021 14:24:34 -0500</pubDate>
-      <guid>/talk/weyl-law-hear-area-drum/</guid>
+      <guid>/talks/weyl-law-hear-area-drum/</guid>
       <description>&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/HiCA0n6x3Jo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1351,9 +1356,9 @@ H. Lorentz in 1910 gave a series of lectures titled &amp;ldquo;Old and new probl
     
     <item>
       <title>Prodsimplicial and p-path complexes on directed graphs</title>
-      <link>/talk/p-path-complexes-on-directed-graphs/</link>
+      <link>/talks/p-path-complexes-on-directed-graphs/</link>
       <pubDate>Mon, 18 Jan 2021 14:09:46 -0500</pubDate>
-      <guid>/talk/p-path-complexes-on-directed-graphs/</guid>
+      <guid>/talks/p-path-complexes-on-directed-graphs/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/9rlzTWD8o3o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1369,9 +1374,9 @@ H. Lorentz in 1910 gave a series of lectures titled &amp;ldquo;Old and new probl
     
     <item>
       <title>Strong Asymptotics of Planar Orthogonal Polynomials: Gaussian Weight Perturbed by Point Charges</title>
-      <link>/talk/asymptotic-op/</link>
+      <link>/talks/asymptotic-op/</link>
       <pubDate>Mon, 09 Nov 2020 13:22:22 -0500</pubDate>
-      <guid>/talk/asymptotic-op/</guid>
+      <guid>/talks/asymptotic-op/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Strong Asymptotics of Planar Orthogonal Polynomials: Gaussian Weight Perturbed by Point Charges&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Meng Yang&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
@@ -1513,9 +1518,9 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
     
     <item>
       <title>Fractional Calculus Approach for Flow Model in Porous Media</title>
-      <link>/talk/fractional-calculus-approach/</link>
+      <link>/talks/fractional-calculus-approach/</link>
       <pubDate>Sun, 08 Nov 2020 23:12:31 -0500</pubDate>
-      <guid>/talk/fractional-calculus-approach/</guid>
+      <guid>/talks/fractional-calculus-approach/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/Jb1eEDQBUPw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1529,9 +1534,9 @@ The Fractional Calculus approach is introduced into reservoir simulation. A thre
     
     <item>
       <title>On solving the Dirichlet problem</title>
-      <link>/talk/dirchlet-problem/</link>
+      <link>/talks/dirchlet-problem/</link>
       <pubDate>Mon, 02 Nov 2020 23:12:31 -0500</pubDate>
-      <guid>/talk/dirchlet-problem/</guid>
+      <guid>/talks/dirchlet-problem/</guid>
       <description>&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/Vu6MB6TQuns&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1547,9 +1552,9 @@ The Fractional Calculus approach is introduced into reservoir simulation. A thre
     
     <item>
       <title>A Survey of Equilibrium in the Plane</title>
-      <link>/talk/a-survey-of-equilibruim-in-the-plane/</link>
+      <link>/talks/a-survey-of-equilibruim-in-the-plane/</link>
       <pubDate>Wed, 02 Sep 2020 15:01:51 -0400</pubDate>
-      <guid>/talk/a-survey-of-equilibruim-in-the-plane/</guid>
+      <guid>/talks/a-survey-of-equilibruim-in-the-plane/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/Hye1gkDkCxU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1568,9 +1573,9 @@ The Fractional Calculus approach is introduced into reservoir simulation. A thre
     
     <item>
       <title>Asymptotic Methods in Analysis</title>
-      <link>/talk/asymptotic-methods-in-analysis/</link>
+      <link>/talks/asymptotic-methods-in-analysis/</link>
       <pubDate>Sat, 22 Aug 2020 14:47:05 -0400</pubDate>
-      <guid>/talk/asymptotic-methods-in-analysis/</guid>
+      <guid>/talks/asymptotic-methods-in-analysis/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/nDw2wLPQv3M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1594,9 +1599,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Primes of the Form $p = x^2 &#43; ny^2$</title>
-      <link>/talk/primes-of-the-form/</link>
+      <link>/talks/primes-of-the-form/</link>
       <pubDate>Mon, 03 Aug 2020 10:44:14 -0400</pubDate>
-      <guid>/talk/primes-of-the-form/</guid>
+      <guid>/talks/primes-of-the-form/</guid>
       <description>&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/VBPrP4nChbo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1615,9 +1620,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Introduction to Matroids</title>
-      <link>/talk/introduction-to-matroids/</link>
+      <link>/talks/introduction-to-matroids/</link>
       <pubDate>Mon, 27 Jul 2020 22:36:21 -0400</pubDate>
-      <guid>/talk/introduction-to-matroids/</guid>
+      <guid>/talks/introduction-to-matroids/</guid>
       <description>&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/SljIEkfzloA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1638,9 +1643,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Doing research as a student: tips and tricks</title>
-      <link>/talk/doing-research-as-a-student/</link>
+      <link>/talks/doing-research-as-a-student/</link>
       <pubDate>Mon, 20 Jul 2020 11:41:42 -0400</pubDate>
-      <guid>/talk/doing-research-as-a-student/</guid>
+      <guid>/talks/doing-research-as-a-student/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Doing research as a student: tips and tricks&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Giacomo Micheli&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 23rd&lt;/p&gt;
@@ -1657,9 +1662,9 @@ In this talk I will first explain how the publication process works. Then, I wil
     
     <item>
       <title>A Gentle Introduction to Infinite-Dimensional Lie Algebras</title>
-      <link>/talk/usf/infinite-lie-algebra/</link>
+      <link>/talks/usf/infinite-lie-algebra/</link>
       <pubDate>Sun, 05 Jul 2020 17:55:36 -0400</pubDate>
-      <guid>/talk/usf/infinite-lie-algebra/</guid>
+      <guid>/talks/usf/infinite-lie-algebra/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/6789LcHqwP4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1680,9 +1685,9 @@ In this talk I will first explain how the publication process works. Then, I wil
     
     <item>
       <title>The Nevanlinna-Pick Interpolation Problem</title>
-      <link>/talk/nevanlinna-pick-problem/</link>
+      <link>/talks/nevanlinna-pick-problem/</link>
       <pubDate>Mon, 29 Jun 2020 13:37:03 -0400</pubDate>
-      <guid>/talk/nevanlinna-pick-problem/</guid>
+      <guid>/talks/nevanlinna-pick-problem/</guid>
       <description>&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/C8-0k_UJnj8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1705,9 +1710,9 @@ We will  also look at  the Finite Blaschke Products, Basic  analytic  and algebr
     
     <item>
       <title>Stochastic Games for PDE</title>
-      <link>/talk/usf/stochastic-games/</link>
+      <link>/talks/usf/stochastic-games/</link>
       <pubDate>Sat, 20 Jun 2020 22:58:12 -0400</pubDate>
-      <guid>/talk/usf/stochastic-games/</guid>
+      <guid>/talks/usf/stochastic-games/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/TWf_XLzzUPI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1726,9 +1731,9 @@ We will  also look at  the Finite Blaschke Products, Basic  analytic  and algebr
     
     <item>
       <title>A Brief Introduction to Differential Geometry and Minimal Surfaces</title>
-      <link>/talk/minimal-surfaces/</link>
+      <link>/talks/minimal-surfaces/</link>
       <pubDate>Sat, 13 Jun 2020 14:54:17 -0400</pubDate>
-      <guid>/talk/minimal-surfaces/</guid>
+      <guid>/talks/minimal-surfaces/</guid>
       <description>&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/-FYXPfWy-bg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1746,9 +1751,9 @@ We will  also look at  the Finite Blaschke Products, Basic  analytic  and algebr
     
     <item>
       <title>An Elementary Introdcution to Fredholm Determinants</title>
-      <link>/talk/fredholm-determinants/</link>
+      <link>/talks/fredholm-determinants/</link>
       <pubDate>Mon, 08 Jun 2020 13:01:12 -0400</pubDate>
-      <guid>/talk/fredholm-determinants/</guid>
+      <guid>/talks/fredholm-determinants/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/m1CAUg0im4M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1767,9 +1772,9 @@ We will  also look at  the Finite Blaschke Products, Basic  analytic  and algebr
     
     <item>
       <title>Quantum invariants of framed links from cohomology of self-distributive structures</title>
-      <link>/talk/usf/quantum-invariants/</link>
+      <link>/talks/usf/quantum-invariants/</link>
       <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/talk/usf/quantum-invariants/</guid>
+      <guid>/talks/usf/quantum-invariants/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Emanuele Zappala&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm, Thursday, June 4&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk I will give a brief introduction to knot theory and the notion of knot invariant. Next I will describe the process of algebraization of knot theory which naturally gives Yang-Baxter operators, Yetter-Drinfeld modules and racks/quandles etc. After recalling the definition of cohomology of racks, I will proceed to show how to construct an invariant of links and knotted surfaces from cocycles. I will therefore explain some recent joint works with M. Elhamdadi and M. Saito relating self-distributivity of higher arity structures and invariants of framed links, with a (categorical) perspective on how to realize them as quantum invariants.&lt;/p&gt;
@@ -1782,9 +1787,9 @@ We will  also look at  the Finite Blaschke Products, Basic  analytic  and algebr
     
     <item>
       <title>Darboux Transformation and Soliton Equations </title>
-      <link>/talk/usf/darboux-transformation-and-soliton-equations/</link>
+      <link>/talks/usf/darboux-transformation-and-soliton-equations/</link>
       <pubDate>Thu, 20 Feb 2020 20:47:23 -0400</pubDate>
-      <guid>/talk/usf/darboux-transformation-and-soliton-equations/</guid>
+      <guid>/talks/usf/darboux-transformation-and-soliton-equations/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Darboux transformation and soliton equations.&lt;br&gt;
 &lt;strong&gt;Speaker:&lt;/strong&gt; Yehui Huang (North China Electric Power University).&lt;br&gt;
 &lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $20^{th}$&lt;br&gt;
@@ -1802,9 +1807,9 @@ include solitons, breathers and rogue wave solutions.&lt;/p&gt;
     
     <item>
       <title>The Calderón Problem</title>
-      <link>/talk/usf/the-calderon-problem/</link>
+      <link>/talks/usf/the-calderon-problem/</link>
       <pubDate>Sat, 15 Feb 2020 20:55:08 -0400</pubDate>
-      <guid>/talk/usf/the-calderon-problem/</guid>
+      <guid>/talks/usf/the-calderon-problem/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The Calderón problem.&lt;br&gt;
 &lt;strong&gt;Speaker:&lt;/strong&gt; Lina Fajardo Gomez.&lt;br&gt;
 &lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $13^{th}$&lt;br&gt;
@@ -1822,9 +1827,9 @@ inverse problems.&lt;/p&gt;
     
     <item>
       <title>Variation Problem and How to Solve It</title>
-      <link>/talk/usf/variation-problem-and-how-to-solve-it/</link>
+      <link>/talks/usf/variation-problem-and-how-to-solve-it/</link>
       <pubDate>Sat, 01 Feb 2020 21:02:58 -0400</pubDate>
-      <guid>/talk/usf/variation-problem-and-how-to-solve-it/</guid>
+      <guid>/talks/usf/variation-problem-and-how-to-solve-it/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Variational Problems and How to Solve Them.&lt;br&gt;
 &lt;strong&gt;Speaker:&lt;/strong&gt; Nathan Hayford.&lt;br&gt;
 &lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $6^{th}$&lt;br&gt;
@@ -1843,9 +1848,9 @@ general relativity, if time permits.&lt;/p&gt;
     
     <item>
       <title>Lorentz Group</title>
-      <link>/talk/usf/lorentz-group/</link>
+      <link>/talks/usf/lorentz-group/</link>
       <pubDate>Thu, 30 Jan 2020 21:05:22 -0400</pubDate>
-      <guid>/talk/usf/lorentz-group/</guid>
+      <guid>/talks/usf/lorentz-group/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Lorentz Group.&lt;br&gt;
 &lt;strong&gt;Speaker:&lt;/strong&gt; Louis Arenas.&lt;br&gt;
 &lt;strong&gt;Date:&lt;/strong&gt; Thursday, January $30^{th}$&lt;br&gt;
@@ -1860,9 +1865,9 @@ restricted Lorentz group is isomorphic to the Möbius group.&lt;/p&gt;
     
     <item>
       <title>Riemann Hilbert Problem</title>
-      <link>/talk/usf/riemann-hilbert-problem/</link>
+      <link>/talks/usf/riemann-hilbert-problem/</link>
       <pubDate>Thu, 23 Jan 2020 21:05:34 -0400</pubDate>
-      <guid>/talk/usf/riemann-hilbert-problem/</guid>
+      <guid>/talks/usf/riemann-hilbert-problem/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Riemann-Hilbert Problem in $L^p$-space.&lt;br&gt;
 &lt;strong&gt;Speaker:&lt;/strong&gt; Fudong Wang.&lt;br&gt;
 &lt;strong&gt;Date:&lt;/strong&gt; Thursday, January $23^{rd}$&lt;br&gt;

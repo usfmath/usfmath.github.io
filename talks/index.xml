@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Grad Math@USF</title>
+    <link>/talks/</link>
+      <atom:link href="/talks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 28 Aug 2021 16:08:51 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talks/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to Probability Theory</title>
+      <link>/talks/introprobability1-louis/</link>
+      <pubDate>Sat, 28 Aug 2021 16:08:51 -0400</pubDate>
+      <guid>/talks/introprobability1-louis/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Introduction to Probability Theory&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Friday, September 3rd&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm-3:00pm&lt;/p&gt;
+&lt;p&gt;#
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/pUfZzRKuXqM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this talk, we reinterpret the concepts from measure theory under the lens of probability theory. Using concrete examples, the aim is to introduce important concepts in probability theory and interpret their statistical meaning and connection to measure theory. This first talk aims to build an intuitive idea of the machinery used in probability theory to prove weak and strong law of large numbers, a theorem often taken for granted in applied statistics. In the second part we hope to motivate central limit theorem, and give a proof using characteristic functions. The target audience are students who have limited exposure to measure theory (statistics students), and students who are currently studying real analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The trifecta of Hilbert spaces on the unit disc</title>
+      <link>/talks/hilbert-spaces-on-the-disc/</link>
+      <pubDate>Thu, 01 Apr 2021 11:16:32 -0400</pubDate>
+      <guid>/talks/hilbert-spaces-on-the-disc/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/1TB9cLz5Ja0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Hilbert spaces are common. Connection among them is rare. With this spirit, we will see the connection
+among the three classical Hilbert spaces on the unit disc U. These Hilbert spaces are Hardy ($H^2(U)$), Dirichlet
+($D^2(U)$) and lastly Bergman ($A^2(U)$). The idea comes from the intuition of evolving the remarkable identity called
+as Littlewood Paley Identity for Bergman and Dirichlet spaces. During the presentation, audience will get to know more
+about this identity. And also, the importance of this identity in the sense that how it relates to the Nevanlinna
+Counting function. Nevanlinna Counting function $N_\phi(w)$ measures the &amp;lsquo;affinity&amp;rsquo; that $\phi$ has for value $w$ where
+$\phi$ is a holomorphic map on $U$. Besides this, we will also see more connection among Hardy, Dirichlet and Riemann Zeta functions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Essentials of Viscosity Solutions in $R^n$</title>
+      <link>/talks/the-essentials-of-viscosity-solutions/</link>
+      <pubDate>Tue, 23 Mar 2021 16:11:32 -0400</pubDate>
+      <guid>/talks/the-essentials-of-viscosity-solutions/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0FRNeTc6Xyc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/I_fsCAW3xrM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/v3F4kv8f9v8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In their 1992 paper, authors Michael Crandall, Hitoshi Ishii, and Pierre-Louis Lions describe a class of solutions to certain 2nd order PDEs in R^n which they call &amp;ldquo;viscosity solutions&amp;rdquo;. In brief, a viscosity solution to an appropriate PDE is a continuous function possessing pointwise estimates for derivatives; they also possess a comparison principle which enables one to prove uniqueness of solutions to Dirichlet and Cauchy-Dirichlet problems. In this talk we will introduce the correct family of PDE for viscosity solutions; define viscosity solutions and prove their basic properties; discuss various results comparing viscosity and other notions of solutions; and, time permitting, we will also introduce a semicontinuous Perron&amp;rsquo;s method for existence of viscosity solutions and discuss parabolic viscosity solutions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A short Introduction to the Theta Functions</title>
+      <link>/talks/introduction-to-theta-function/</link>
+      <pubDate>Tue, 23 Mar 2021 16:10:38 -0400</pubDate>
+      <guid>/talks/introduction-to-theta-function/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/cV9YMgCozsw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The theory of theta function plays an important role in finding exact (quasi-) periodic solutions to the nonlinear PDEs. In this talk, we will introduce first the concepts of Riemann’s theta function (with characteristics) and Jacobi’s theta function. Then some of the simplest properties of those theta functions will be presented. If time permits, we will discuss a little bit about algebraic-geometry methods of constructing exact solution to KP equation.😄&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Methods of nonlinear equations in the theory of algebraic geometry</title>
+      <link>/talks/riemann-schottky-problem/</link>
+      <pubDate>Mon, 15 Feb 2021 13:50:43 -0500</pubDate>
+      <guid>/talks/riemann-schottky-problem/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/asVgNLcnAz0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Methods of nonlinear equations in the theory of algebraic geometry&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/time&lt;/strong&gt;: Wednesday, February 17th, 3:00pm-4:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+The Riemann-Schottky problem, in modern language, asks for a characterization of Jacobian varieties of among abelian varieties. From Riemann’s point of view, the question was to address the discrepancy between the 3g-3-dimensional space of moduli for compact Riemann surfaces of genus g from the g(g+1)/2-dimensional space of Siegel matrices, in which the space of Riemann surfaces embeds, via the period matrix. The problem remained open for almost a millennium. The first hint of a solution to this problem was found (somewhat surprisingly) by I. Krichever (1977), when he showed (more or less) that the period matrix for a Riemann surface could be used to construct tau functions for the KP hierarchy. S. Novikov conjectured that the converse also held, thus answering the Riemann-Schottky problem a la methods of integrable systems. This turned out to indeed be the case, with a proof from T. Shiota (1986) shortly thereafter. In this talk, I will attempt to fill in some of the details of this story, and explain some of the consequences of this theorem, both in integrable systems and algebraic geometry.&lt;/p&gt;
+&lt;p&gt;Link to the Zoom meeting:  &lt;a href=&#34;https://zoom.us/j/96802432385&#34;&gt;https://zoom.us/j/96802432385&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Part II link: &lt;a href=&#34;https://zoom.us/s/97923273524&#34;&gt;https://zoom.us/s/97923273524&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Weyl&#39;s law and  hearing the area of a drum</title>
+      <link>/talks/weyl-law-hear-area-drum/</link>
+      <pubDate>Wed, 03 Feb 2021 14:24:34 -0500</pubDate>
+      <guid>/talks/weyl-law-hear-area-drum/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/HiCA0n6x3Jo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/-nm5mjcNYDA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Weyl&amp;rsquo;s law and hearing the area of a drum&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Wednesday, February 3rd, 3:00pm-4:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+H. Lorentz in 1910 gave a series of lectures titled &amp;ldquo;Old and new problems in physics&amp;rdquo;. In the last lecture he mentions that J. Jean is interested in studying the growth rate of overtones of an electromagnetic wave in a bounded domain. He conjectures that the growth rate is independent of the shape of the domain and depends only on the volume and dimension of the domain. Herman Weyl, who was in attendance, precisely describes how fast these overtones grow two years after this lecture series. Since Weyl&amp;rsquo;s law holds for vibrating membranes, we start by describing the overtones of a drumhead via Dirichlet eigenvalues, compute the eigenvalues explicitly for a string with fixed ends, and build towards a proof of Weyl&amp;rsquo;s law in 2D for simply connected domains.&lt;/p&gt;
+&lt;p&gt;Link to the Zoom Meeting: &lt;a href=&#34;https://zoom.us/j/92117761401&#34;&gt;https://zoom.us/j/92117761401&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Prodsimplicial and p-path complexes on directed graphs</title>
+      <link>/talks/p-path-complexes-on-directed-graphs/</link>
+      <pubDate>Mon, 18 Jan 2021 14:09:46 -0500</pubDate>
+      <guid>/talks/p-path-complexes-on-directed-graphs/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/9rlzTWD8o3o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;:  Prodsimplicial and p-path complexes on directed graphs&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;:  Lina Fajardo Gomez&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Wednesday, January 20th, 2020&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: At face value, a graph is a simplicial complex that only has faces of dimension 0 (vertices) and 1 (edges). However, given appropriate definitions, higher dimensional cells can emerge. We present two such definitions, prodsimplicial complexes and p-path complexes, and compare in examples the homology groups obtained for different graphs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zoom Link&lt;/strong&gt;: &lt;a href=&#34;https://zoom.us/j/96345929862&#34;&gt;https://zoom.us/j/96345929862&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Strong Asymptotics of Planar Orthogonal Polynomials: Gaussian Weight Perturbed by Point Charges</title>
+      <link>/talks/asymptotic-op/</link>
+      <pubDate>Mon, 09 Nov 2020 13:22:22 -0500</pubDate>
+      <guid>/talks/asymptotic-op/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Strong Asymptotics of Planar Orthogonal Polynomials: Gaussian Weight Perturbed by Point Charges&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Meng Yang&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+
+&lt;a href=&#34;https://drive.google.com/file/d/14SWXLKDks7bhNrO4tt3XrOQig0-uBWfD/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pdf&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fractional Calculus Approach for Flow Model in Porous Media</title>
+      <link>/talks/fractional-calculus-approach/</link>
+      <pubDate>Sun, 08 Nov 2020 23:12:31 -0500</pubDate>
+      <guid>/talks/fractional-calculus-approach/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Jb1eEDQBUPw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Fractional Calculus Approach for Flow Model in Porous Media&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;
+The Fractional Calculus approach is introduced into reservoir simulation. A three-dimensional relaxation model for viscoelastic fluid is built. The model based on the exact solution in Laplace space for some unsteady flow-Maxwell flow in an infinite reservoir  is obtained by Laplace transform and Fourier transform.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On solving the Dirichlet problem</title>
+      <link>/talks/dirchlet-problem/</link>
+      <pubDate>Mon, 02 Nov 2020 23:12:31 -0500</pubDate>
+      <guid>/talks/dirchlet-problem/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Vu6MB6TQuns&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;strong&gt;Title&lt;/strong&gt;: On solving the Dirichlet problem&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: October 23rd&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The talk will start by reviewing the mainstream strategies for solving the problem on simply connected domains, with particular attention to the disk. It is hoped that we have enough time to talk about Malmheden&amp;rsquo;s strategy for solving the problem on the disk. The talk should be of interest to anyone taking or wanting a review of basic concepts in complex analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Survey of Equilibrium in the Plane</title>
+      <link>/talks/a-survey-of-equilibruim-in-the-plane/</link>
+      <pubDate>Wed, 02 Sep 2020 15:01:51 -0400</pubDate>
+      <guid>/talks/a-survey-of-equilibruim-in-the-plane/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Hye1gkDkCxU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A survey of equilibrium in the plane&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Friday, September 4th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11:00am&lt;/p&gt;
+&lt;p&gt;Abstract: Finding equilibria of charge distributions in the plane is a classical problem, which has found numerous applications in many other areas of mathematics and physics, including approximation theory, random matrices, quantum gravity, and integrable systems, among others. In this talk, I will survey some classical results from the theory of equilibrium distributions (using the language of potential theory), and provide some physical intuition for why such formulas hold. We will consider equilibrium with and without external fields. Furthermore, I will discuss some of the more modern applications of the subject; in particular, I will sketch how the equilibrium measures help us describe the asymptotics of certain families of orthogonal polynomials, as well how such problems appear in integrable systems, if time permits.&lt;/p&gt;
+&lt;p&gt;Link to zoom meeting: &lt;a href=&#34;https://zoom.us/j/93365223865&#34;&gt;https://zoom.us/j/93365223865&lt;/a&gt;
+&lt;strong&gt;Video&lt;/strong&gt;: 
+&lt;a href=&#34;https://www.youtube.com/watch?v=Hye1gkDkCxU&amp;amp;t=2780s&amp;amp;ab_channel=USFGradMath&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Asymptotic Methods in Analysis</title>
+      <link>/talks/asymptotic-methods-in-analysis/</link>
+      <pubDate>Sat, 22 Aug 2020 14:47:05 -0400</pubDate>
+      <guid>/talks/asymptotic-methods-in-analysis/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/nDw2wLPQv3M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Asymptotic Methods in Analysis&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Fudong Wang&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, 27th August.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this talk, I will introduce the history of several well-known asymptotic methods in analysis. Then we will apply those methods via examples. The first example would be to apply Laplace&amp;rsquo;s method to get one of the oldest asymptotic results, the Stirling&amp;rsquo;s formula, i.e.
+$$n!\sim e^{-n}n^n\sqrt{2\pi n},n\rightarrow \infty.$$ Next example is to apply the saddle point method to get the asymptotic of the integral
+$$\int_{\mathbb{R}}f(z)e^{it(z^2+z)}dz,\quad t\rightarrow \infty .$$ Then I will introduce one recently developed asymptotic method called $\bar{\partial}-$steepest descent method, and apply it to study the long-time asymptotic for the linear Schrödinger equation:
+$$
+iu_t+u_{xx}=0,\quad
+u(x,0)=q(x)\in H^1(\mathbb{R}).
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;zoom&lt;/strong&gt;:
+&lt;a href=&#34;https://zoom.us/j/98760291675&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Primes of the Form $p = x^2 &#43; ny^2$</title>
+      <link>/talks/primes-of-the-form/</link>
+      <pubDate>Mon, 03 Aug 2020 10:44:14 -0400</pubDate>
+      <guid>/talks/primes-of-the-form/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/VBPrP4nChbo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;strong&gt;Title&lt;/strong&gt;: Primes of the form $p = x^2 + ny^2$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, August 6th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In a letter to Mersenne, dated 1640, Fermat formulated a problem asking for sufficient conditions to the titular primes in the case when $n=1,2,3.$ The first well known proof to the original problem (in the case for when $n=1$) was published by Euler in 1749, with the other two cases being completed in 1772. Naturally, Euler attempted to generalize the problem for arbitrary integers n &amp;gt; 0; while not producing any proofs, the ideas that Euler touched on would be expanded by Legendre, Gauss, and Lagrange. The goal for this talk is to outline a strategy that answers Fermat&amp;rsquo;s original problem along with a few more cases. If time permits, we&amp;rsquo;ll just mention a result that solves the general problem for countably many n integers.&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/98801740991&#34;&gt;https://zoom.us/j/98801740991&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Video: 
+&lt;a href=&#34;https://drive.google.com/file/d/1iVpAtU8iRoVYILWLTB6MgfUe9ugrYsme/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Matroids</title>
+      <link>/talks/introduction-to-matroids/</link>
+      <pubDate>Mon, 27 Jul 2020 22:36:21 -0400</pubDate>
+      <guid>/talks/introduction-to-matroids/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/SljIEkfzloA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;strong&gt;Title&lt;/strong&gt;: Introduction to matroids&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Lina Fajardo Gomez&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 30th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Matroids are mathematical objects that abstract the notion of linearly independent sets. They have applications in many areas of mathematics, ranging from combinatorics to field theory. In this talk I will give an overview of matroids, why they are studied and why I in particular took an interest in them.&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/93617336971&#34;&gt;https://zoom.us/j/93617336971&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1V3Zg0KFIyk32S_mg2mMJ9I4lpIBchM70/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1tP9Qh3RJCplCVUsds1U9EBmmZd7hEZr0/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Doing research as a student: tips and tricks</title>
+      <link>/talks/doing-research-as-a-student/</link>
+      <pubDate>Mon, 20 Jul 2020 11:41:42 -0400</pubDate>
+      <guid>/talks/doing-research-as-a-student/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Doing research as a student: tips and tricks&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Giacomo Micheli&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 23rd&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
+&lt;p&gt;Abstract:
+In this talk I will first explain how the publication process works. Then, I will go through some advice to do research as a student. In particular:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;some of the methods I found most effective when I was doing independent research as a student.&lt;/li&gt;
+&lt;li&gt;some general advice related to the process of submitting a paper to a journal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/95032330155&#34;&gt;https://zoom.us/j/95032330155&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Gentle Introduction to Infinite-Dimensional Lie Algebras</title>
+      <link>/talks/usf/infinite-lie-algebra/</link>
+      <pubDate>Sun, 05 Jul 2020 17:55:36 -0400</pubDate>
+      <guid>/talks/usf/infinite-lie-algebra/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/6789LcHqwP4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A Gentle Introduction to Infinite-Dimensional Lie Algebras&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 9th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Infinite-dimensional Lie algebras have found applications in conformal field theory, integrable systems, and number theory, among other areas of mathematics. However, one wonders exactly how these algebras arise in such contexts, and moreover what is even meant by “infinite-dimensional Lie algebra” in the first place. In this talk, I will try to give a friendly introduction to the field of infinite-dimensional Lie algebras, and try to give the listener some operational familiarity with these structures by providing a few explicit examples. Furthermore, I will mention a few specific problems in mathematics where such algebras have been useful.&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&#34;&gt;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video:&lt;/strong&gt;
+&lt;a href=&#34;https://drive.google.com/file/d/1by6zBTatZNO3CxFXer75CTtHR3hujoP5/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt; 
+&lt;a href=&#34;https://drive.google.com/file/d/1zPw8vC7dRtkJMMvsjc5SuMQeIlKBsUxV/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Nevanlinna-Pick Interpolation Problem</title>
+      <link>/talks/nevanlinna-pick-problem/</link>
+      <pubDate>Mon, 29 Jun 2020 13:37:03 -0400</pubDate>
+      <guid>/talks/nevanlinna-pick-problem/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/C8-0k_UJnj8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;strong&gt;Title&lt;/strong&gt;: The Nevanlinna-Pick Interpolation Problem&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: John Kyei&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 2nd&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+In this presentation, I will give an introductory discussion on the general Nevanlina-Pick Interpolation problem . Formulation of the Pick Problem and the nature of solutions to the Extremal Pick Problem. Subsequently, Nevalinna Formulation.
+We will  also look at  the Finite Blaschke Products, Basic  analytic  and algebraic properties such as the characterizations of holomorphic functions on the disk, approximation and Differentiation of the Finite Blaschke Product.&lt;/p&gt;
+&lt;p&gt;Link to Zoom Meeting: &lt;a href=&#34;https://zoom.us/j/99109270972&#34;&gt;https://zoom.us/j/99109270972&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1_eVKFcjc5syRvp8s0CMusthbjAcX9EmX/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;:
+&lt;a href=&#34;https://drive.google.com/file/d/1wXFhZwWLGglGkBkSF67V9GKNmdav8GKb/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stochastic Games for PDE</title>
+      <link>/talks/usf/stochastic-games/</link>
+      <pubDate>Sat, 20 Jun 2020 22:58:12 -0400</pubDate>
+      <guid>/talks/usf/stochastic-games/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/TWf_XLzzUPI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Stochastic Games for PDE&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: 2:00 pm, Thursday, June 25th, 2020&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Forrest, Zachary&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: This talk will serve as an introduction to techniques of stochastic games and their application to proving the existence of viscosity solutions to second order, degenerate-elliptic equations. We will define such equations and the class of viscosity solutions; give definitions and properties of martingales and stopping times, including Doob&amp;rsquo;s Optimal Sampling theorem; and give examples of stochastic games for Pucci&amp;rsquo;s maximal operators and the p-Laplace equation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;:
+&lt;a href=&#34;https://drive.google.com/file/d/1QlZqbhVYxEg6V5DHfCKCYfzpxzelyGXH/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;:
+&lt;a href=&#34;https://drive.google.com/file/d/1zSpf3r2OzizRkmCB7auiWQ5-fH9F1-81/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Brief Introduction to Differential Geometry and Minimal Surfaces</title>
+      <link>/talks/minimal-surfaces/</link>
+      <pubDate>Sat, 13 Jun 2020 14:54:17 -0400</pubDate>
+      <guid>/talks/minimal-surfaces/</guid>
+      <description>&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/-FYXPfWy-bg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;strong&gt;Title&lt;/strong&gt;: A Brief Introduction to Differential Geometry and Minimal Surfaces&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, June 18&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Hayden Hunter (University of Florida)&lt;/p&gt;
+&lt;p&gt;Abstract: For this lecture we will be providing a small introduction to Differential Geometry including the definition of a regular surface, first and second Fundamental Forms, and Gauss and Mean Curvature. From here we shall move to describing what a minimal surface is as well as proving their existence and certain properties of minimal surfaces.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;:
+&lt;a href=&#34;https://drive.google.com/file/d/1h140EIRR51Ny9tkXAHYJQFapxTHXuPRb/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An Elementary Introdcution to Fredholm Determinants</title>
+      <link>/talks/fredholm-determinants/</link>
+      <pubDate>Mon, 08 Jun 2020 13:01:12 -0400</pubDate>
+      <guid>/talks/fredholm-determinants/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/m1CAUg0im4M&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: An Elementary Introduction to Fredholm Determinants&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Fudong Wang&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, June 11&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: At the beginning of the 20th century, Fredholm introduced a way to solve a class of linear integral equations which are now called them Fredholm integral equations. In his 1903&amp;rsquo;s paper, Fredholm introduced a determinant of a functional, which now is called Fredholm determinant. In this lecture, we will begin with the definition of determinant in the finite-dimensional spaces and review some properties of the determinants. After that, we will focus on the determinant of form $det(I+F)$ where $F$ is &amp;ldquo;small&amp;rdquo;. Following 
+&lt;a href=&#34;https://drive.google.com/file/d/1ebU0SUTSXsVQclHXe9sNFJg3YZmiGmtF/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fredholm&amp;rsquo;s 1903 paper&lt;/a&gt;, we will discuss Fredholm determinant $D_f$ and explore some properties of the determinant and how it connects to the finite determinants. Lastly, we will discuss how to construct the famous &amp;ldquo;soliton&amp;rdquo; solution to the equation of Koreteweg-de Vries by the so-called Fredholm determinant method introduced by Pöppe(1983).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1ghnW1hZSzLleX_UQ-t9g7BcbN1-RonFt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;google drive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quantum invariants of framed links from cohomology of self-distributive structures</title>
+      <link>/talks/usf/quantum-invariants/</link>
+      <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/talks/usf/quantum-invariants/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Emanuele Zappala&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 2:00pm, Thursday, June 4&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk I will give a brief introduction to knot theory and the notion of knot invariant. Next I will describe the process of algebraization of knot theory which naturally gives Yang-Baxter operators, Yetter-Drinfeld modules and racks/quandles etc. After recalling the definition of cohomology of racks, I will proceed to show how to construct an invariant of links and knotted surfaces from cocycles. I will therefore explain some recent joint works with M. Elhamdadi and M. Saito relating self-distributivity of higher arity structures and invariants of framed links, with a (categorical) perspective on how to realize them as quantum invariants.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zoom links&lt;/strong&gt;: 
+&lt;a href=&#34;https://zoom.us/j/99982471312?pwd=Z0NTR2UraHZTQXI5TkdzNlM5K0FPUT09&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;click me.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;: 
+&lt;a href=&#34;https://drive.google.com/file/d/1Pef6VJyfGRqouX5uf-QIy3oITf0NW85P/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;google drive&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Darboux Transformation and Soliton Equations </title>
+      <link>/talks/usf/darboux-transformation-and-soliton-equations/</link>
+      <pubDate>Thu, 20 Feb 2020 20:47:23 -0400</pubDate>
+      <guid>/talks/usf/darboux-transformation-and-soliton-equations/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Darboux transformation and soliton equations.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Yehui Huang (North China Electric Power University).&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $20^{th}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1045&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; In this talk, I will introduce a transformation originated
+by Darboux in his study of the linear Sturm-Liouville problem. By
+generalized Darboux transformations, I will present a solution formula
+with multiple parameters for some soliton equations, including KdV and
+NLS. After taking special choices for the seed solution and the
+eigenfunctions, different types of exact solutions are derived, which
+include solitons, breathers and rogue wave solutions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Calderón Problem</title>
+      <link>/talks/usf/the-calderon-problem/</link>
+      <pubDate>Sat, 15 Feb 2020 20:55:08 -0400</pubDate>
+      <guid>/talks/usf/the-calderon-problem/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; The Calderón problem.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Lina Fajardo Gomez.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $13^{th}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; What do oil drilling and tumor detection have in common?
+How could nonlinear equations be easier to work with? The Calderón
+problem was first introduced as an inverse boundary value problem: how
+information about the boundary of a domain can be used to determine
+information about its interior. We will discuss the set up, some
+applications, and a proposed solution for a class of Calderón type
+inverse problems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variation Problem and How to Solve It</title>
+      <link>/talks/usf/variation-problem-and-how-to-solve-it/</link>
+      <pubDate>Sat, 01 Feb 2020 21:02:58 -0400</pubDate>
+      <guid>/talks/usf/variation-problem-and-how-to-solve-it/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Variational Problems and How to Solve Them.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Nathan Hayford.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, February $6^{th}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; Many problems in math and physics arise as problems of
+extremizing some functional. Such problems include the isoperimetric
+problem, minimal surface problem, and the formulation of Lagrangian
+mechanics. We shall discuss the calculus of variations, and provide
+worked out examples of how these techniques may be applied to solve such
+problems. We will also discuss how such techniques may be applied to
+write Lagrangian formulations of theories like electromagnetism and
+general relativity, if time permits.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lorentz Group</title>
+      <link>/talks/usf/lorentz-group/</link>
+      <pubDate>Thu, 30 Jan 2020 21:05:22 -0400</pubDate>
+      <guid>/talks/usf/lorentz-group/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Lorentz Group.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Louis Arenas.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, January $30^{th}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; The goal of this talk is to introduce the audience to the
+definition of the Lorentz group and motivation in general relativity. We
+will derive commutation relations, and if time permits show the
+restricted Lorentz group is isomorphic to the Möbius group.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Riemann Hilbert Problem</title>
+      <link>/talks/usf/riemann-hilbert-problem/</link>
+      <pubDate>Thu, 23 Jan 2020 21:05:34 -0400</pubDate>
+      <guid>/talks/usf/riemann-hilbert-problem/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; Introduction to the Riemann-Hilbert Problem in $L^p$-space.&lt;br&gt;
+&lt;strong&gt;Speaker:&lt;/strong&gt; Fudong Wang.&lt;br&gt;
+&lt;strong&gt;Date:&lt;/strong&gt; Thursday, January $23^{rd}$&lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 11:00am&lt;br&gt;
+&lt;strong&gt;Place:&lt;/strong&gt; CIS 1023&lt;br&gt;
+&lt;strong&gt;Abstract:&lt;/strong&gt; We will first introduce some fundamental results about the
+Cauchy operator. Base on the Cauchy operator, we will make it precise
+what is the RHP and what is the solution to an RHP. Then we will talk
+about the two types of inhomogeneous Riemann-Hilbert problems and
+establish the equivalence between them. Finally, a uniqueness theorem of
+RHP in $L^p$ will be given. If time permits, its application to the
+inverse scattering theory will be mentioned too.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
