@@ -93,8 +93,8 @@ We denote the expected value of a random variable $f(X):$ $\mathcal{H}$&lt;sub&g
 \begin{equation}
 \langle f(X) \rangle_n = \frac{1}{Z_n} dX \int_{\mathcal{H}_n} f(X) e^{-\frac{n}{2}\text{tr} X^2}.
 \end{equation}
-We wish to evaluate expected values of certain random variables in the large $n$ limit, in particular\footnote{Notice
-that $X\in \mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; is dependent on $n$ as well; we suppress dependence to simplify notations.}
+We wish to evaluate expected values of certain random variables in the large $n$ limit, in particular (Notice
+that $X\in \mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; is dependent on $n$ as well; we suppress dependence to simplify notations.)
 \begin{equation}
 \langle \text{tr} X^k \rangle:= \lim_{n\to \infty} \frac{1}{n}\langle \text{tr} X^k \rangle_n.
 \end{equation}

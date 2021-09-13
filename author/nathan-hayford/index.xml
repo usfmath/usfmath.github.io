@@ -5,12 +5,25 @@
     <link>/author/nathan-hayford/</link>
       <atom:link href="/author/nathan-hayford/index.xml" rel="self" type="application/rss+xml" />
     <description>Nathan Hayford</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 28 Aug 2021 18:24:20 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Sep 2021 18:58:31 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Nathan Hayford</title>
       <link>/author/nathan-hayford/</link>
     </image>
+    
+    <item>
+      <title>Drifting through random walks and Brownian motions</title>
+      <link>/talk/brownianmotion/</link>
+      <pubDate>Mon, 13 Sep 2021 18:58:31 -0400</pubDate>
+      <guid>/talk/brownianmotion/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Drifting through random walks and Brownian motions&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Friday, September 17th&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm-3:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:  In this talk, we will leisurely wander through the area of study of random walks and Brownian motions. We will begin by studying many of the important properties and realizations of random walks. In particular, we will examine the return probabilities of random walks in 1, 2, and 3 dimensions; as more eloquently stated by S. Kakutani, “a drunk man will find his way home, but a drunk bird will be lost forever”. We will also study the scaling limit of a random walk, the so-called Brownian motion. Many of the properties of random walks will be reflected by Brownian motions, and we will see that they are the first example of a very important class of random processes known as martingales.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Random Matrix Theory</title>
@@ -93,8 +106,8 @@ We denote the expected value of a random variable $f(X):$ $\mathcal{H}$&lt;sub&g
 \begin{equation}
 \langle f(X) \rangle_n = \frac{1}{Z_n} dX \int_{\mathcal{H}_n} f(X) e^{-\frac{n}{2}\text{tr} X^2}.
 \end{equation}
-We wish to evaluate expected values of certain random variables in the large $n$ limit, in particular\footnote{Notice
-that $X\in \mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; is dependent on $n$ as well; we suppress dependence to simplify notations.}
+We wish to evaluate expected values of certain random variables in the large $n$ limit, in particular (Notice
+that $X\in \mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; is dependent on $n$ as well; we suppress dependence to simplify notations.)
 \begin{equation}
 \langle \text{tr} X^k \rangle:= \lim_{n\to \infty} \frac{1}{n}\langle \text{tr} X^k \rangle_n.
 \end{equation}

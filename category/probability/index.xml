@@ -21,11 +21,18 @@
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Friday, September 3rd&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm-3:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Part 1:&lt;/strong&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/pUfZzRKuXqM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Part 2:&lt;/strong&gt;
 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/BQkheSwlQhw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this talk, we reinterpret the concepts from measure theory under the lens of probability theory. Using concrete examples, the aim is to introduce important concepts in probability theory and interpret their statistical meaning and connection to measure theory. This first talk aims to build an intuitive idea of the machinery used in probability theory to prove weak and strong law of large numbers, a theorem often taken for granted in applied statistics. In the second part we hope to motivate central limit theorem, and give a proof using characteristic functions. The target audience are students who have limited exposure to measure theory (statistics students), and students who are currently studying real analysis.&lt;/p&gt;
 </description>
     </item>
