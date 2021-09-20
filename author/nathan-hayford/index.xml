@@ -21,6 +21,11 @@
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Friday, September 17th&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm-3:00pm&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/r8A-7IbNfBY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:  In this talk, we will leisurely wander through the area of study of random walks and Brownian motions. We will begin by studying many of the important properties and realizations of random walks. In particular, we will examine the return probabilities of random walks in 1, 2, and 3 dimensions; as more eloquently stated by S. Kakutani, “a drunk man will find his way home, but a drunk bird will be lost forever”. We will also study the scaling limit of a random walk, the so-called Brownian motion. Many of the properties of random walks will be reflected by Brownian motions, and we will see that they are the first example of a very important class of random processes known as martingales.&lt;/p&gt;
 </description>
     </item>
