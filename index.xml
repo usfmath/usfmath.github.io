@@ -20,6 +20,12 @@
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Martingales and Stopping Times&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Zachary Forrest&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, September 24th, 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Part I&lt;/strong&gt;:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/79dmo6O9PqE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In Stochastic Calculus and elsewhere, the notion of Martingales and Stopping Times are invaluable for characterizing random processes whose mean behavior is invariant but whose data changes over time. In this talk we will clearly define the notions of Martingales, Stopping Times, and any necessary analytical objects; introduce basic properties of these objects, including Doob&amp;rsquo;s &amp;ldquo;Optimal Sampling&amp;rdquo; Theorem; and briefly touch upon some applications of Martingales and Stopping Times in research.&lt;/p&gt;
 </description>
     </item>
