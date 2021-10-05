@@ -5,12 +5,48 @@
     <link>/tag/probability/</link>
       <atom:link href="/tag/probability/index.xml" rel="self" type="application/rss+xml" />
     <description>Probability</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Sep 2021 18:58:31 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Oct 2021 11:25:26 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Probability</title>
       <link>/tag/probability/</link>
     </image>
+    
+    <item>
+      <title>Introduction to Ito Calculus</title>
+      <link>/talk/itocalculus/</link>
+      <pubDate>Tue, 05 Oct 2021 11:25:26 -0400</pubDate>
+      <guid>/talk/itocalculus/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Introduction to Ito Calculus&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 8th, 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The Ito calculus is at the foundation of the theory of stochastic PDEs. In this talk, I will introduce the calculus, and prove Ito’s lemma. I will then demonstrate how the theory of martingales + Ito’s lemma can be applied to derive deterministic equations for certain quantities appearing in the stochastic calculus. In particular, I will prove the conformal invariance of Brownian motion and the harmonic measure. If time permits, I will also start a discussion about Schramm-Loewner evolutions (SLEs).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Martingales and Stopping Times</title>
+      <link>/talk/martingalesandstoppingtimes/</link>
+      <pubDate>Mon, 20 Sep 2021 12:21:07 -0400</pubDate>
+      <guid>/talk/martingalesandstoppingtimes/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Martingales and Stopping Times&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Zachary Forrest&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, September 24th, 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Part I&lt;/strong&gt;:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/79dmo6O9PqE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Part II&lt;/strong&gt;:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Y2OvW7mmLso&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In Stochastic Calculus and elsewhere, the notion of Martingales and Stopping Times are invaluable for characterizing random processes whose mean behavior is invariant but whose data changes over time. In this talk we will clearly define the notions of Martingales, Stopping Times, and any necessary analytical objects; introduce basic properties of these objects, including Doob&amp;rsquo;s &amp;ldquo;Optimal Sampling&amp;rdquo; Theorem; and briefly touch upon some applications of Martingales and Stopping Times in research.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Drifting through random walks and Brownian motions</title>

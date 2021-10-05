@@ -5,6 +5,9 @@
     <loc>/authors/</loc>
     <lastmod>2021-10-05T11:25:26-04:00</lastmod>
   </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2021-10-05T11:25:26-04:00</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2021-10-05T11:25:26-04:00</lastmod>
   </url><url>
@@ -14,16 +17,19 @@
     <loc>/author/nathan-hayford/</loc>
     <lastmod>2021-10-05T11:25:26-04:00</lastmod>
   </url><url>
+    <loc>/tag/probability/</loc>
+    <lastmod>2021-10-05T11:25:26-04:00</lastmod>
+  </url><url>
+    <loc>/category/probability/</loc>
+    <lastmod>2021-10-05T11:25:26-04:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-10-05T11:25:26-04:00</lastmod>
+  </url><url>
     <loc>/talk/martingalesandstoppingtimes/</loc>
     <lastmod>2021-09-20T12:21:07-04:00</lastmod>
   </url><url>
     <loc>/talk/brownianmotion/</loc>
-    <lastmod>2021-09-13T18:58:31-04:00</lastmod>
-  </url><url>
-    <loc>/tag/probability/</loc>
-    <lastmod>2021-09-13T18:58:31-04:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-09-13T18:58:31-04:00</lastmod>
   </url><url>
     <loc>/tag/asymptotics/</loc>
@@ -47,16 +53,10 @@
     <loc>/posts/randommatrices/</loc>
     <lastmod>2021-08-28T18:24:20-04:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2021-08-28T16:08:51-04:00</lastmod>
-  </url><url>
     <loc>/talk/introprobability1-louis/</loc>
     <lastmod>2021-08-28T16:08:51-04:00</lastmod>
   </url><url>
     <loc>/author/louis-arenas/</loc>
-    <lastmod>2021-08-28T16:08:51-04:00</lastmod>
-  </url><url>
-    <loc>/category/probability/</loc>
     <lastmod>2021-08-28T16:08:51-04:00</lastmod>
   </url><url>
     <loc>/tag/functional-analysis/</loc>
