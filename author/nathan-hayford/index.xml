@@ -5,12 +5,24 @@
     <link>/author/nathan-hayford/</link>
       <atom:link href="/author/nathan-hayford/index.xml" rel="self" type="application/rss+xml" />
     <description>Nathan Hayford</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Sep 2021 18:58:31 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Oct 2021 11:25:26 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Nathan Hayford</title>
       <link>/author/nathan-hayford/</link>
     </image>
+    
+    <item>
+      <title>Introduction to Ito Calculus</title>
+      <link>/talk/itocalculus/</link>
+      <pubDate>Tue, 05 Oct 2021 11:25:26 -0400</pubDate>
+      <guid>/talk/itocalculus/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Introduction to Ito Calculus&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 8th, 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The Ito calculus is at the foundation of the theory of stochastic PDEs. In this talk, I will introduce the calculus, and prove Ito’s lemma. I will then demonstrate how the theory of martingales + Ito’s lemma can be applied to derive deterministic equations for certain quantities appearing in the stochastic calculus. In particular, I will prove the conformal invariance of Brownian motion and the harmonic measure. If time permits, I will also start a discussion about Schramm-Loewner evolutions (SLEs).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Drifting through random walks and Brownian motions</title>
