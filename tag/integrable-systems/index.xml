@@ -5,12 +5,24 @@
     <link>/tag/integrable-systems/</link>
       <atom:link href="/tag/integrable-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>integrable systems</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 Mar 2021 16:10:38 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Oct 2021 12:11:31 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>integrable systems</title>
       <link>/tag/integrable-systems/</link>
     </image>
+    
+    <item>
+      <title>The Continuum Limit of Theta Functions</title>
+      <link>/talk/continuumthetafunctions/</link>
+      <pubDate>Sat, 09 Oct 2021 12:11:31 -0400</pubDate>
+      <guid>/talk/continuumthetafunctions/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: The Continuum Limit of Theta Functions&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Fudong Wang (University of Central Florida)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 15th, 2:00pm-3:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The purpose of the talk is to introduce Venakides&#39; 1989 CPAM XLII paper on the continuum limit of theta functions. The problem is closely related to the semiclassical limit (or small dispersion, or nonlinear WKB analysis) for the famous nonlinear PDE: Korteweg-de Vries equation. Theta function can be considered as high dimensional Fourier series. The continuum limit of theta function we will discuss is the limit when the size of the period matrix of the theta function goes infinite in a certain way (or one can say the genus of the corresponding Riemann surface goes infinite). And we will associate the leading behavior with a minimizing problem (variational problem).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A short Introduction to the Theta Functions</title>
@@ -41,8 +53,6 @@
 &lt;p&gt;&lt;strong&gt;Date/time&lt;/strong&gt;: Wednesday, February 17th, 3:00pm-4:00pm&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
 The Riemann-Schottky problem, in modern language, asks for a characterization of Jacobian varieties of among abelian varieties. From Riemann’s point of view, the question was to address the discrepancy between the 3g-3-dimensional space of moduli for compact Riemann surfaces of genus g from the g(g+1)/2-dimensional space of Siegel matrices, in which the space of Riemann surfaces embeds, via the period matrix. The problem remained open for almost a millennium. The first hint of a solution to this problem was found (somewhat surprisingly) by I. Krichever (1977), when he showed (more or less) that the period matrix for a Riemann surface could be used to construct tau functions for the KP hierarchy. S. Novikov conjectured that the converse also held, thus answering the Riemann-Schottky problem a la methods of integrable systems. This turned out to indeed be the case, with a proof from T. Shiota (1986) shortly thereafter. In this talk, I will attempt to fill in some of the details of this story, and explain some of the consequences of this theorem, both in integrable systems and algebraic geometry.&lt;/p&gt;
-&lt;p&gt;Link to the Zoom meeting:  &lt;a href=&#34;https://zoom.us/j/96802432385&#34;&gt;https://zoom.us/j/96802432385&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Part II link: &lt;a href=&#34;https://zoom.us/s/97923273524&#34;&gt;https://zoom.us/s/97923273524&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -178,7 +188,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
     </item>
     
     <item>
-      <title>An Elementary Introdcution to Fredholm Determinants</title>
+      <title>An Elementary Introduction to Fredholm Determinants</title>
       <link>/talk/fredholm-determinants/</link>
       <pubDate>Mon, 08 Jun 2020 13:01:12 -0400</pubDate>
       <guid>/talk/fredholm-determinants/</guid>

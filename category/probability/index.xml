@@ -20,6 +20,11 @@
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Introduction to Ito Calculus&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 8th, 2:00 pm&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/iVeGX50a45s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The Ito calculus is at the foundation of the theory of stochastic PDEs. In this talk, I will introduce the calculus, and prove Ito’s lemma. I will then demonstrate how the theory of martingales + Ito’s lemma can be applied to derive deterministic equations for certain quantities appearing in the stochastic calculus. In particular, I will prove the conformal invariance of Brownian motion and the harmonic measure. If time permits, I will also start a discussion about Schramm-Loewner evolutions (SLEs).&lt;/p&gt;
 </description>
     </item>

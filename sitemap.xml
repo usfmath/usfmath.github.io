@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/authors/</loc>
-    <lastmod>2021-10-05T11:25:26-04:00</lastmod>
+    <lastmod>2021-10-09T12:11:31-04:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2021-10-05T11:25:26-04:00</lastmod>
+    <loc>/tag/complex-analysis/</loc>
+    <lastmod>2021-10-09T12:11:31-04:00</lastmod>
+  </url><url>
+    <loc>/author/fudong-wang/</loc>
+    <lastmod>2021-10-09T12:11:31-04:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2021-10-09T12:11:31-04:00</lastmod>
+  </url><url>
+    <loc>/tag/integrable-systems/</loc>
+    <lastmod>2021-10-09T12:11:31-04:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-10-09T12:11:31-04:00</lastmod>
+  </url><url>
+    <loc>/talk/continuumthetafunctions/</loc>
+    <lastmod>2021-10-09T12:11:31-04:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
     <lastmod>2021-10-05T11:25:26-04:00</lastmod>
   </url><url>
     <loc>/talk/itocalculus/</loc>
@@ -23,9 +38,6 @@
     <loc>/category/probability/</loc>
     <lastmod>2021-10-05T11:25:26-04:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-10-05T11:25:26-04:00</lastmod>
-  </url><url>
     <loc>/talk/martingalesandstoppingtimes/</loc>
     <lastmod>2021-09-20T12:21:07-04:00</lastmod>
   </url><url>
@@ -33,9 +45,6 @@
     <lastmod>2021-09-13T18:58:31-04:00</lastmod>
   </url><url>
     <loc>/tag/asymptotics/</loc>
-    <lastmod>2021-08-28T18:24:20-04:00</lastmod>
-  </url><url>
-    <loc>/tag/complex-analysis/</loc>
     <lastmod>2021-08-28T18:24:20-04:00</lastmod>
   </url><url>
     <loc>/tag/equilibrium-measures/</loc>
@@ -81,12 +90,6 @@
     <lastmod>2021-03-23T16:11:32-04:00</lastmod>
   </url><url>
     <loc>/talk/introduction-to-theta-function/</loc>
-    <lastmod>2021-03-23T16:10:38-04:00</lastmod>
-  </url><url>
-    <loc>/author/fudong-wang/</loc>
-    <lastmod>2021-03-23T16:10:38-04:00</lastmod>
-  </url><url>
-    <loc>/tag/integrable-systems/</loc>
     <lastmod>2021-03-23T16:10:38-04:00</lastmod>
   </url><url>
     <loc>/tag/algebraic-geometry/</loc>

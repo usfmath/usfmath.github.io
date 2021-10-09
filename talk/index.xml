@@ -13,6 +13,18 @@
     </image>
     
     <item>
+      <title>The Continuum Limit of Theta Functions</title>
+      <link>/talk/continuumthetafunctions/</link>
+      <pubDate>Sat, 09 Oct 2021 12:11:31 -0400</pubDate>
+      <guid>/talk/continuumthetafunctions/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: The Continuum Limit of Theta Functions&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Fudong Wang (University of Central Florida)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 15th, 2:00pm-3:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The purpose of the talk is to introduce Venakides&#39; 1989 CPAM XLII paper on the continuum limit of theta functions. The problem is closely related to the semiclassical limit (or small dispersion, or nonlinear WKB analysis) for the famous nonlinear PDE: Korteweg-de Vries equation. Theta function can be considered as high dimensional Fourier series. The continuum limit of theta function we will discuss is the limit when the size of the period matrix of the theta function goes infinite in a certain way (or one can say the genus of the corresponding Riemann surface goes infinite). And we will associate the leading behavior with a minimizing problem (variational problem).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Introduction to Ito Calculus</title>
       <link>/talk/itocalculus/</link>
       <pubDate>Tue, 05 Oct 2021 11:25:26 -0400</pubDate>
@@ -20,6 +32,11 @@
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Introduction to Ito Calculus&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 8th, 2:00 pm&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/iVeGX50a45s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The Ito calculus is at the foundation of the theory of stochastic PDEs. In this talk, I will introduce the calculus, and prove Ito’s lemma. I will then demonstrate how the theory of martingales + Ito’s lemma can be applied to derive deterministic equations for certain quantities appearing in the stochastic calculus. In particular, I will prove the conformal invariance of Brownian motion and the harmonic measure. If time permits, I will also start a discussion about Schramm-Loewner evolutions (SLEs).&lt;/p&gt;
 </description>
     </item>
@@ -164,8 +181,6 @@ $\phi$ is a holomorphic map on $U$. Besides this, we will also see more connecti
 &lt;p&gt;&lt;strong&gt;Date/time&lt;/strong&gt;: Wednesday, February 17th, 3:00pm-4:00pm&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
 The Riemann-Schottky problem, in modern language, asks for a characterization of Jacobian varieties of among abelian varieties. From Riemann’s point of view, the question was to address the discrepancy between the 3g-3-dimensional space of moduli for compact Riemann surfaces of genus g from the g(g+1)/2-dimensional space of Siegel matrices, in which the space of Riemann surfaces embeds, via the period matrix. The problem remained open for almost a millennium. The first hint of a solution to this problem was found (somewhat surprisingly) by I. Krichever (1977), when he showed (more or less) that the period matrix for a Riemann surface could be used to construct tau functions for the KP hierarchy. S. Novikov conjectured that the converse also held, thus answering the Riemann-Schottky problem a la methods of integrable systems. This turned out to indeed be the case, with a proof from T. Shiota (1986) shortly thereafter. In this talk, I will attempt to fill in some of the details of this story, and explain some of the consequences of this theorem, both in integrable systems and algebraic geometry.&lt;/p&gt;
-&lt;p&gt;Link to the Zoom meeting:  &lt;a href=&#34;https://zoom.us/j/96802432385&#34;&gt;https://zoom.us/j/96802432385&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Part II link: &lt;a href=&#34;https://zoom.us/s/97923273524&#34;&gt;https://zoom.us/s/97923273524&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -458,7 +473,7 @@ We will  also look at  the Finite Blaschke Products, Basic  analytic  and algebr
     </item>
     
     <item>
-      <title>An Elementary Introdcution to Fredholm Determinants</title>
+      <title>An Elementary Introduction to Fredholm Determinants</title>
       <link>/talk/fredholm-determinants/</link>
       <pubDate>Mon, 08 Jun 2020 13:01:12 -0400</pubDate>
       <guid>/talk/fredholm-determinants/</guid>
