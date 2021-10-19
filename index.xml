@@ -17,7 +17,7 @@
       <link>/talk/gravitationallensing/</link>
       <pubDate>Tue, 19 Oct 2021 09:10:26 -0400</pubDate>
       <guid>/talk/gravitationallensing/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Gravitational Lensing&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Zeros of Harmonic Polynomials and Related Applications&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Azizah Alrajhi&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 22nd, 2:00 pm&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this thesis, we study topics related to harmonic functions, where
@@ -27,12 +27,11 @@ Chapter 2, we studied the conditions that we have to have on the real
 or complex coe cients of a polynomial p to get the maximum number
 of distinct solutions for the equation $p(z) - \bar{z}^2 = 0$, where deg p = 2.
 In Chapter 3, we discuss the lens equation when the lens is an ellipse, a
-lima con, or a Neumann Oval. Also, we discuss a counterexample for a
+limacon, or a Neumann Oval. Also, we discuss a counterexample for a
 conjecture by C. Beneteau and N. Hudson in [1]. We also in particular
 discuss estimates related to the maximum number of solutions for the lens
 equations for the Neumann Oval.&lt;/p&gt;
-&lt;p&gt;[1] C. Beneteau and N. Hudson. &lt;em&gt;A survey on the maximal number of solu-
-tions of equations related to gravitational lensing&lt;/em&gt;. Complex Analysis and
+&lt;p&gt;[1] C. Beneteau and N. Hudson. &lt;em&gt;A survey on the maximal number of solutions of equations related to gravitational lensing&lt;/em&gt;. Complex Analysis and
 Dynamical System, Trends Math. Cham: Birkhauser/Springer, 23-38.&lt;/p&gt;
 </description>
     </item>
