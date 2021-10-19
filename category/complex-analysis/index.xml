@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>complex analysis | Grad Math@USF</title>
+    <link>/category/complex-analysis/</link>
+      <atom:link href="/category/complex-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>complex analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 Oct 2021 09:10:26 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>complex analysis</title>
+      <link>/category/complex-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Gravitational Lensing</title>
+      <link>/talk/gravitationallensing/</link>
+      <pubDate>Tue, 19 Oct 2021 09:10:26 -0400</pubDate>
+      <guid>/talk/gravitationallensing/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Gravitational Lensing&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Azizah Alrajhi&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 22nd, 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this thesis, we study topics related to harmonic functions, where
+we are interested in the maximum number of solutions of a harmonic
+polynomial equation and how it is related to gravitational lensing. In
+Chapter 2, we studied the conditions that we have to have on the real
+or complex coe cients of a polynomial p to get the maximum number
+of distinct solutions for the equation $p(z) - \bar{z}^2 = 0$, where deg p = 2.
+In Chapter 3, we discuss the lens equation when the lens is an ellipse, a
+lima con, or a Neumann Oval. Also, we discuss a counterexample for a
+conjecture by C. Beneteau and N. Hudson in [1]. We also in particular
+discuss estimates related to the maximum number of solutions for the lens
+equations for the Neumann Oval.&lt;/p&gt;
+&lt;p&gt;[1] C. Beneteau and N. Hudson. &lt;em&gt;A survey on the maximal number of solu-
+tions of equations related to gravitational lensing&lt;/em&gt;. Complex Analysis and
+Dynamical System, Trends Math. Cham: Birkhauser/Springer, 23-38.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

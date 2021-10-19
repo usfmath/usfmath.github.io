@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2021-10-19T09:10:26-04:00</lastmod>
+  </url><url>
+    <loc>/category/complex-analysis/</loc>
+    <lastmod>2021-10-19T09:10:26-04:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-10-19T09:10:26-04:00</lastmod>
+  </url><url>
+    <loc>/talk/gravitationallensing/</loc>
+    <lastmod>2021-10-19T09:10:26-04:00</lastmod>
+  </url><url>
     <loc>/authors/</loc>
     <lastmod>2021-10-09T12:11:31-04:00</lastmod>
   </url><url>
@@ -9,9 +21,6 @@
     <lastmod>2021-10-09T12:11:31-04:00</lastmod>
   </url><url>
     <loc>/author/fudong-wang/</loc>
-    <lastmod>2021-10-09T12:11:31-04:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2021-10-09T12:11:31-04:00</lastmod>
   </url><url>
     <loc>/tag/integrable-systems/</loc>
@@ -22,9 +31,6 @@
   </url><url>
     <loc>/talk/continuumthetafunctions/</loc>
     <lastmod>2021-10-09T12:11:31-04:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2021-10-05T11:25:26-04:00</lastmod>
   </url><url>
     <loc>/talk/itocalculus/</loc>
     <lastmod>2021-10-05T11:25:26-04:00</lastmod>
