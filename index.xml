@@ -5,12 +5,24 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 Oct 2021 09:10:26 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 24 Oct 2021 11:06:43 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Covid-19 Spreading: An Eigenvalue Viewpoint</title>
+      <link>/talk/covid_alice/</link>
+      <pubDate>Sun, 24 Oct 2021 11:06:43 -0400</pubDate>
+      <guid>/talk/covid_alice/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Covid-19 Spreading: An Eigenvalue Viewpoint&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Haowei (Alice) Chen&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 29th, 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: How will a virus propagate? How long does it take to disinfect given infection rate and virus death rate? What is the best node to immunize? We answer these questions by developing a nonlinear dynamical system that models viral propagation in any arbitrary network and also a general epidemic threshold is proposed: the inverse of the largest eigenvalue of the adjacency matrix.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Zeros of Harmonic Polynomials and Related Applications</title>
@@ -20,6 +32,11 @@
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Zeros of Harmonic Polynomials and Related Applications&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Azizah Alrajhi&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 22nd, 2:00 pm&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/T9_wreuH_R8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this thesis, we study topics related to harmonic functions, where
 we are interested in the maximum number of solutions of a harmonic
 polynomial equation and how it is related to gravitational lensing. In

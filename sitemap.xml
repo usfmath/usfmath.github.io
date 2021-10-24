@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/talk/covid_alice/</loc>
+    <lastmod>2021-10-24T11:06:43-04:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-10-24T11:06:43-04:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
     <lastmod>2021-10-19T09:10:26-04:00</lastmod>
   </url><url>
     <loc>/category/complex-analysis/</loc>
-    <lastmod>2021-10-19T09:10:26-04:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2021-10-19T09:10:26-04:00</lastmod>
   </url><url>
     <loc>/talk/gravitationallensing/</loc>
