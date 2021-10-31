@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/talk/lingyunding/</loc>
+    <lastmod>2021-10-31T18:40:05-04:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-10-31T18:40:05-04:00</lastmod>
+  </url><url>
     <loc>/talk/covid_alice/</loc>
     <lastmod>2021-10-24T11:06:43-04:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>/tag/graph-theory/</loc>
+    <lastmod>2021-10-24T11:06:43-04:00</lastmod>
+  </url><url>
+    <loc>/tag/probability/</loc>
+    <lastmod>2021-10-24T11:06:43-04:00</lastmod>
+  </url><url>
+    <loc>/tag/spectral-theory/</loc>
+    <lastmod>2021-10-24T11:06:43-04:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
     <lastmod>2021-10-24T11:06:43-04:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
@@ -29,9 +44,6 @@
     <loc>/tag/integrable-systems/</loc>
     <lastmod>2021-10-09T12:11:31-04:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-10-09T12:11:31-04:00</lastmod>
-  </url><url>
     <loc>/talk/continuumthetafunctions/</loc>
     <lastmod>2021-10-09T12:11:31-04:00</lastmod>
   </url><url>
@@ -39,9 +51,6 @@
     <lastmod>2021-10-05T11:25:26-04:00</lastmod>
   </url><url>
     <loc>/author/nathan-hayford/</loc>
-    <lastmod>2021-10-05T11:25:26-04:00</lastmod>
-  </url><url>
-    <loc>/tag/probability/</loc>
     <lastmod>2021-10-05T11:25:26-04:00</lastmod>
   </url><url>
     <loc>/category/probability/</loc>
@@ -107,14 +116,8 @@
     <loc>/talk/riemann-schottky-problem/</loc>
     <lastmod>2021-02-15T13:50:43-05:00</lastmod>
   </url><url>
-    <loc>/tag/spectral-theory/</loc>
-    <lastmod>2021-02-03T14:24:34-05:00</lastmod>
-  </url><url>
     <loc>/talk/weyl-law-hear-area-drum/</loc>
     <lastmod>2021-02-03T14:24:34-05:00</lastmod>
-  </url><url>
-    <loc>/tag/graph-theory/</loc>
-    <lastmod>2021-01-18T14:09:46-05:00</lastmod>
   </url><url>
     <loc>/talk/p-path-complexes-on-directed-graphs/</loc>
     <lastmod>2021-01-18T14:09:46-05:00</lastmod>

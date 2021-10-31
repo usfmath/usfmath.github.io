@@ -13,6 +13,38 @@
     </image>
     
     <item>
+      <title>Enhanced diffusivity and skewness of a diffusing tracer in the presence of an oscillating wall</title>
+      <link>/talk/lingyunding/</link>
+      <pubDate>Sun, 31 Oct 2021 18:40:05 -0400</pubDate>
+      <guid>/talk/lingyunding/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Enhanced diffusivity and skewness of a diffusing tracer in the presence of an oscillating wall&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Lingyun Ding (University of North Carolina)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, November 5th, 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: We develop a theory of enhanced diffusivity and skewness of the longitudinal distribution of a diffusing
+tracer advected by a periodic time-varying shear flow in a straight channel. Although applicable to any type of solute
+and fluid flow, we restrict the examples of our theory to the tracer advected by flows which are induced by a
+periodically oscillating wall in a Newtonian fluid between two infinite parallel plates as well as flow in an infinitely
+long duct. These wall motions produce the well-known Stokes layer shear solutions which are exact solutions of the
+Navier–Stokes equations. With these, we first calculate the second Aris moment for all time and its long-time limiting
+effective diffusivity as a function of the geometrical parameters, frequency, viscosity, and diffusivity. Using a new
+formalism based upon the Helmholtz operator, we establish a new single series formula for the variance valid for all
+time. We show that the viscous dominated limit results in a linear shear layer for which the effective diffusivity is
+bounded with upper bound $\kappa (1+A^2/(2L^2))$, where $\kappa $ is the tracer diffusivity, A is the amplitude of
+oscillation, and L is the gap thickness. Alternatively, for finite viscosities, we show that the enhanced diffusion is
+unbounded, diverging in the high-frequency limit. Non-dimensionalization and physical arguments are given to explain
+these striking differences. Asymptotics for the high-frequency behavior as well as the low viscosity limit are computed.
+We present a study of the effective diffusivity surface as a function of the non-dimensional parameters which shows how
+a maximum can exists for various parameter sweeps. Physical experiments are performed in water using particle tracking
+velocimetry to quantitatively measure the fluid flow. Using fluorescein dye as the passive tracer, we document that the
+theory is quantitatively accurate. Specifically, image analysis suggests that the distribution variance be measured
+using the full width at half maximum statistic which is robust to noise. Further, we show that the scalar skewness is
+zero for linear shear flows at all times, whereas for the nonlinear Stokes layer, exact analysis shows that the skewness
+sign can be controlled through the phase of the oscillating wall. Further, for single-frequency wall modes, we establish
+that the long-time skewness decays at the faster rate of $t^{-3/2}$ as compared with steady shear scalar skewness which decays at rate $t^{-1/2}$. These results are confirmed using Monte-Carlo simulations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Covid-19 Spreading: An Eigenvalue Viewpoint</title>
       <link>/talk/covid_alice/</link>
       <pubDate>Sun, 24 Oct 2021 11:06:43 -0400</pubDate>
@@ -20,6 +52,11 @@
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Covid-19 Spreading: An Eigenvalue Viewpoint&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Haowei (Alice) Chen&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, October 29th, 2:00pm&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/3EouErwqbtk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: How will a virus propagate? How long does it take to disinfect given infection rate and virus death rate? What is the best node to immunize? We answer these questions by developing a nonlinear dynamical system that models viral propagation in any arbitrary network and also a general epidemic threshold is proposed: the inverse of the largest eigenvalue of the adjacency matrix.&lt;/p&gt;
 </description>
     </item>
