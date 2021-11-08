@@ -13,6 +13,18 @@
     </image>
     
     <item>
+      <title>A Brief Introduction to Lamplighter Groups and Diestel-Leader Graphs</title>
+      <link>/talk/lamplighter/</link>
+      <pubDate>Mon, 08 Nov 2021 09:23:27 -0500</pubDate>
+      <guid>/talk/lamplighter/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A Brief Introduction to Lamplighter Groups and Diestel-Leader Graphs&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Austin Gaffglione&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, November 12th, 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In 1990, W. Woess proposed the following question: Is every &amp;ldquo;nice&amp;rdquo; infinite graph quasi-isometric to the Cayley graph of some finitely generated group? In 2001, R. Diestel and I.Leader conjectured that some of graphs in the family they defined were not quasi-isometric to the Cayley graph of any finitely generated group. This was later proven to be true in a 2012 paper by A. Eskin, D. Fisher, and K. Whyte. We will examine the general construction of a Lamplighter group and observe some of its algebraic properties. We will also develop the notion of a horocyclic product of two trees, which will define a subfamily of the Diestel-Leader graphs. In particular, we will focus on the graph DL(2) and show that it is isomorphic to the Cayley graph of the Lamplighter Group L2 with respect to a certain choice for the generating set.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Enhanced diffusivity and skewness of a diffusing tracer in the presence of an oscillating wall</title>
       <link>/talk/lingyunding/</link>
       <pubDate>Sun, 31 Oct 2021 18:40:05 -0400</pubDate>
@@ -20,6 +32,11 @@
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Enhanced diffusivity and skewness of a diffusing tracer in the presence of an oscillating wall&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Lingyun Ding (University of North Carolina)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, November 5th, 2:00pm&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/N7fUZrqof7c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: We develop a theory of enhanced diffusivity and skewness of the longitudinal distribution of a diffusing
 tracer advected by a periodic time-varying shear flow in a straight channel. Although applicable to any type of solute
 and fluid flow, we restrict the examples of our theory to the tracer advected by flows which are induced by a
