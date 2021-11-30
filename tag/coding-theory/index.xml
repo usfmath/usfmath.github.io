@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding Theory | Grad Math@USF</title>
+    <link>/tag/coding-theory/</link>
+      <atom:link href="/tag/coding-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Coding Theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 29 Nov 2021 18:07:06 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <title>Coding Theory</title>
+      <link>/tag/coding-theory/</link>
+    </image>
+    
+    <item>
+      <title>An Introduction to Coding Theory</title>
+      <link>/talk/codingtheory/</link>
+      <pubDate>Mon, 29 Nov 2021 18:07:06 -0500</pubDate>
+      <guid>/talk/codingtheory/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: An Introduction to Coding Theory&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Austin Dukes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, December 3rd, 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this talk we will discuss the basic notions of coding theory. A
+(linear) $[n, k, d]_q$ code C forms a vector space over $\mathbb{F}_q$, the finite field with q
+elements, so we will begin by providing a brief overview of finite fields. Then
+we will shed some light on the relationships among the parameters $n$, $k$, $d$ by
+observing the singleton bound. Finally, if time permits, we will consider some
+fundamental constructions of &lt;em&gt;maximum distance separable&lt;/em&gt; (MDS) codes, i.e.,
+codes whose parameters achieve equality with respect to the singleton bound.
+Audiences of all backgrounds are welcome.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

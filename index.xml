@@ -5,12 +5,31 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 08 Nov 2021 09:23:27 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 29 Nov 2021 18:07:06 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>An Introduction to Coding Theory</title>
+      <link>/talk/codingtheory/</link>
+      <pubDate>Mon, 29 Nov 2021 18:07:06 -0500</pubDate>
+      <guid>/talk/codingtheory/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: An Introduction to Coding Theory&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Austin Dukes&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, December 3rd, 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this talk we will discuss the basic notions of coding theory. A
+(linear) $[n, k, d]_q$ code C forms a vector space over $\mathbb{F}_q$, the finite field with q
+elements, so we will begin by providing a brief overview of finite fields. Then
+we will shed some light on the relationships among the parameters $n$, $k$, $d$ by
+observing the singleton bound. Finally, if time permits, we will consider some
+fundamental constructions of &lt;em&gt;maximum distance separable&lt;/em&gt; (MDS) codes, i.e.,
+codes whose parameters achieve equality with respect to the singleton bound.
+Audiences of all backgrounds are welcome.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Brief Introduction to Lamplighter Groups and Diestel-Leader Graphs</title>
@@ -20,6 +39,11 @@
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: A Brief Introduction to Lamplighter Groups and Diestel-Leader Graphs&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Austin Gaffglione&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, November 12th, 2:00 pm&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Sl0TZMu7mo0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In 1990, W. Woess proposed the following question: Is every &amp;ldquo;nice&amp;rdquo; infinite graph quasi-isometric to the Cayley graph of some finitely generated group? In 2001, R. Diestel and I.Leader conjectured that some of graphs in the family they defined were not quasi-isometric to the Cayley graph of any finitely generated group. This was later proven to be true in a 2012 paper by A. Eskin, D. Fisher, and K. Whyte. We will examine the general construction of a Lamplighter group and observe some of its algebraic properties. We will also develop the notion of a horocyclic product of two trees, which will define a subfamily of the Diestel-Leader graphs. In particular, we will focus on the graph DL(2) and show that it is isomorphic to the Cayley graph of the Lamplighter Group L2 with respect to a certain choice for the generating set.&lt;/p&gt;
 </description>
     </item>
