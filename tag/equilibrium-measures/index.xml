@@ -7,7 +7,7 @@
     <description>equilibrium measures</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 28 Aug 2021 18:24:20 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>equilibrium measures</title>
       <link>/tag/equilibrium-measures/</link>
     </image>
@@ -30,16 +30,16 @@ computed by noticing the following: the hermiticity condition requires that the 
 there are $2 \cdot \frac{n(n-1)}{2} = n (n-1)$ variables (the factor of two coming from real + imaginary components);
 therefore we find the dimension of the space of Hermitian matrices to be
 \begin{align*}
-\dim \mathcal{H}_n = n + 2 \cdot \frac{n(n-1)}{2} = n^2.
+\dim \mathcal{H}&lt;em&gt;n = n + 2 \cdot \frac{n(n-1)}{2} = n^2.
 \end{align*}
 It is often convenient for us to work in the so-called &lt;em&gt;eigenvalue variables&lt;/em&gt; on the space of Hermitian matrices.
 These eigenvalues are of course real, by properties of Hermitian matrices; the remaining variables are variables in
-the unitary group $U(n)/U_{diag}(n)$ and are called &lt;em&gt;angular variables&lt;/em&gt;. This is apparent, by writing
+the unitary group $U(n)/U&lt;/em&gt;{diag}(n)$ and are called &lt;em&gt;angular variables&lt;/em&gt;. This is apparent, by writing
 $X = U^\dagger \Lambda U$; note that replacing $U \to \text{diag}(e^{i\theta_1},\cdots e^{i\theta_n} )U$ does not change the representation.
 Defining $du := dU^\dagger U = -du^{\dagger}$, we find that $dX$ takes the form
 \begin{align*}
-dX = d(U^\dagger \Lambda U) &amp;amp;= dU^\dagger \Lambda U+ U^\dagger d\Lambda U + U^\dagger \Lambda dU \\\&lt;br&gt;
-&amp;amp;= U^\dagger (d u^\dagger \Lambda + d \Lambda  + \Lambda d u) U \\\&lt;br&gt;
+dX = d(U^\dagger \Lambda U) &amp;amp;= dU^\dagger \Lambda U+ U^\dagger d\Lambda U + U^\dagger \Lambda dU \\\
+&amp;amp;= U^\dagger (d u^\dagger \Lambda + d \Lambda  + \Lambda d u) U \\\
 &amp;amp;= U^\dagger (d \Lambda + [\Lambda, d u] ) U.
 \end{align*}&lt;/p&gt;
 &lt;p&gt;The metric can then be computed as
@@ -52,8 +52,8 @@ g = \sum_{i = 1}^n d\lambda_i^2 + 2 \sum_{i &amp;lt; j} (\lambda_i - \lambda_j)^
 \end{align*}
 The volume form is then
 \begin{align*}
-d\text{vol}(X) 	&amp;amp;= \sqrt{\det g} \prod_{i=1}^n d\lambda_i \prod_{i &amp;lt; j} du_{ij}  \\\&lt;br&gt;
-&amp;amp;= 2^{n(n-1)} \prod(\lambda_i - \lambda_j)^2 \prod_{i=1}^n d\lambda_i \prod_{i &amp;lt; j} du_{ij} \\\&lt;br&gt;
+d\text{vol}(X) 	&amp;amp;= \sqrt{\det g} \prod_{i=1}^n d\lambda_i \prod_{i &amp;lt; j} du_{ij}  \\\
+&amp;amp;= 2^{n(n-1)} \prod(\lambda_i - \lambda_j)^2 \prod_{i=1}^n d\lambda_i \prod_{i &amp;lt; j} du_{ij} \\\
 &amp;amp;\propto  dU \prod_{i &amp;lt; j}(\lambda_i - \lambda_j)^2 \prod_{i=1}^n d\lambda_i,
 \end{align*}
 where $dU$ is the Haar measure on $U(n)/U_{diag}(n)$. The quantity
@@ -84,19 +84,19 @@ Francesco, or in
 &lt;a href=&#34;https://www.labri.fr/perso/zvonkin/Research/matrixint.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this one&lt;/a&gt; by Alexander Zvonkin, for example.
 Let $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; denote the space of $n\times n$ Hermitian matrices. We consider the measure
 \begin{align*}
-d\mathbb{P}_n(X) = \frac{1}{Z_n} e^{-\frac{n}{2}\text{tr} X^2} dX,
+d\mathbb{P}&lt;em&gt;n(X) = \frac{1}{Z_n} e^{-\frac{n}{2}\text{tr} X^2} dX,
 \end{align*}
 where $dX$ is Haar measure on $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; (which we have just defined in the previous section), and $Z_n$ is a
 normalization constant so that $\int d\mathbb{P} = 1$, called the \textit{partition function}. The ensemble of
 such matrices, taken together with the probability measure $\mathbb{P}$&lt;sub&gt;n&lt;/sub&gt;, form the &lt;em&gt;Gaussian Unitary Ensemble&lt;/em&gt; (GUE).
 We denote the expected value of a random variable $f(X):$ $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; $\to \mathbb{R}$ in this ensemble by $\langle f(X) \rangle_n$; explicitly,
 \begin{equation}
-\langle f(X) \rangle_n = \frac{1}{Z_n} dX \int_{\mathcal{H}_n} f(X) e^{-\frac{n}{2}\text{tr} X^2}.
+\langle f(X) \rangle_n = \frac{1}{Z_n} dX \int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n} f(X) e^{-\frac{n}{2}\text{tr} X^2}.
 \end{equation}
 We wish to evaluate expected values of certain random variables in the large $n$ limit, in particular (Notice
 that $X\in \mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; is dependent on $n$ as well; we suppress dependence to simplify notations.)
 \begin{equation}
-\langle \text{tr} X^k \rangle:= \lim_{n\to \infty} \frac{1}{n}\langle \text{tr} X^k \rangle_n.
+\langle \text{tr} X^k \rangle:= \lim&lt;/em&gt;{n\to \infty} \frac{1}{n}\langle \text{tr} X^k \rangle_n.
 \end{equation}
 We claim that
 \begin{equation}
@@ -112,11 +112,11 @@ Let $S\in \mathcal{H}_n$ be a fixed matrix. Then,
 &lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt;
 We have that
 \begin{align*}
-\langle e^{\text{tr} XS} \rangle_n &amp;amp;= \frac{1}{Z_n}\int_{\mathcal{H}_n}dX e^{-\frac{n}{2}\text{tr} (X^2 -
+\langle e^{\text{tr} XS} \rangle_n &amp;amp;= \frac{1}{Z_n}\int_{\mathcal{H}&lt;em&gt;n}dX e^{-\frac{n}{2}\text{tr} (X^2 -
 \frac{2}{n} XS)}\\\ &amp;amp;=
-e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int_{\mathcal{H}_n}dX e^{-\frac{n}{2}\text{tr} (X-S/n)^2} \\\&lt;br&gt;
-&amp;amp;=e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int_{\mathcal{H}_n}d(X-S/n)  e^{-\frac{n}{2}\text{tr} (X-S/n)^2}\\\
-&amp;amp;= e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int_{\mathcal{H}_n}dX e^{-\frac{n}{2}\text{tr} (X)^2}
+e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n}dX e^{-\frac{n}{2}\text{tr} (X-S/n)^2} \\\
+&amp;amp;=e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n}d(X-S/n)  e^{-\frac{n}{2}\text{tr} (X-S/n)^2}\\\
+&amp;amp;= e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int&lt;/em&gt;{\mathcal{H}_n}dX e^{-\frac{n}{2}\text{tr} (X)^2}
 = e^{\text{tr} S^2/2n},
 \end{align*}
 where in the last step, we used the fact that $dX$ is translation invariant.&lt;/p&gt;
@@ -124,8 +124,8 @@ where in the last step, we used the fact that $dX$ is translation invariant.&lt;
 &lt;p&gt;Consequentially, we can compute any expected value of interest by differentiating $f(S) := e^{\text{tr} S^2/2n}$
 with respect to $S$, and evaluating at $S=0$. For example,
 \begin{equation*}
-\langle X_{ij} \rangle_n = \frac{\partial f(S)}{\partial S_{ji}} \bigg|_{S=0}, \qquad \qquad
-\langle X_{i_1j_1}X_{i_2j_2}\rangle_n = \frac{\partial^2 f(S)}{\partial S_{j_1 i_1} \partial S_{j_2 i_2}}
+\langle X_{ij} \rangle_n = \frac{\partial f(S)}{\partial S_{ji}} \bigg|&lt;em&gt;{S=0}, \qquad \qquad
+\langle X&lt;/em&gt;{i_1j_1}X_{i_2j_2}\rangle_n = \frac{\partial^2 f(S)}{\partial S_{j_1 i_1} \partial S_{j_2 i_2}}
 \bigg|_{S=0}.
 \end{equation*}
 Explicitly, we have that&lt;/p&gt;
@@ -145,17 +145,17 @@ S_{kl}\delta_{l j_1}\delta_{k i_1}\right) = \frac{1}{n}S_{i_1 j_1}.
 \end{equation*}
 Therefore, by the chain rule,
 \begin{equation*}
-\langle X_{i_1j_1}\rangle_n = \frac{\partial}{\partial S_{j_1 i_1}}e^{\text{tr} S^2/2n}\bigg|_{S=0}
-= \frac{1}{n}S_{i_1 j_1}e^{\text{tr} S^2/2n}\bigg|_{S=0} = 0.
+\langle X_{i_1j_1}\rangle_n = \frac{\partial}{\partial S_{j_1 i_1}}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0}
+= \frac{1}{n}S&lt;/em&gt;{i_1 j_1}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} = 0.
 \end{equation*}
 Similarly, by the product rule,
 \begin{align*}
-\langle X_{i_1j_1}X_{i_2j_2} \rangle_n &amp;amp;= \frac{\partial}{\partial S_{j_2 i_2}}\frac{1}{n}S_{i_1 j_1}
-e^{\text{tr} S^2/2n}\bigg|_{S=0} \\\&lt;br&gt;
-&amp;amp;= \frac{1}{n}\delta_{i_1 j_2}\delta_{i_2 j_1}e^{\text{tr} S^2/2n}\bigg|_{S=0} +
-\frac{1}{n}S_{i_1 j_1}S_{i_2 j_2}e^{\text{tr} S^2/2n}\bigg|_{S=0}\\\&lt;br&gt;
+\langle X&lt;/em&gt;{i_1j_1}X_{i_2j_2} \rangle_n &amp;amp;= \frac{\partial}{\partial S_{j_2 i_2}}\frac{1}{n}S_{i_1 j_1}
+e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} \\\
+&amp;amp;= \frac{1}{n}\delta&lt;/em&gt;{i_1 j_2}\delta_{i_2 j_1}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} +
+\frac{1}{n}S&lt;/em&gt;{i_1 j_1}S_{i_2 j_2}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0}\\\
 &amp;amp;= \frac{1}{n}
-\delta_{i_1 j_2}\delta_{i_2 j_1}.
+\delta&lt;/em&gt;{i_1 j_2}\delta_{i_2 j_1}.
 \end{align*}&lt;/p&gt;
  &lt;div style=&#34;text-align: right&#34;&gt; $\square$ &lt;/div&gt;
 &lt;p&gt;Furthermore, any &amp;ldquo;higher&amp;rdquo; expected value can be computed via &lt;em&gt;Wick&amp;rsquo;s theorem}:&lt;/em&gt;&lt;/p&gt;
@@ -170,8 +170,8 @@ where $\Pi_{2M}$ is the set of all &lt;em&gt;pairings&lt;/em&gt; of the index se
 &lt;p&gt;For example, we have that
 \begin{align*}
 \langle X_{i_1 j_1} X_{i_2 j_2} X_{i_3 j_3} X_{i_4 j_4}\rangle_n &amp;amp;=
-\langle X_{i_1 j_1} X_{i_2 j_2}\rangle_n \langle X_{i_3 j_3} X_{i_4 j_4}\rangle_n\\\&lt;br&gt;
-&amp;amp;+\langle X_{i_1 j_1} X_{i_3 j_3}\rangle_n \langle X_{i_2 j_2} X_{i_4 j_4}\rangle_n\\\&lt;br&gt;
+\langle X_{i_1 j_1} X_{i_2 j_2}\rangle_n \langle X_{i_3 j_3} X_{i_4 j_4}\rangle_n\\\
+&amp;amp;+\langle X_{i_1 j_1} X_{i_3 j_3}\rangle_n \langle X_{i_2 j_2} X_{i_4 j_4}\rangle_n\\\
 &amp;amp;+ \langle X_{i_1 j_1} X_{i_4 j_4}\rangle_n\langle X_{i_2 j_2} X_{i_3 j_3}\rangle_n.
 \end{align*}&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt;
@@ -265,12 +265,12 @@ that $\varepsilon_0(k) = C_k$, the $k^{th}$ Catalan number.&lt;/p&gt;
 &lt;p&gt;Most computations within the scheme matrix ensembles are performed with techniques from the theory of orthogonal polynomials. Let us illustrate this
 connection in several different ways. Let us consider the Hermitian ensemble with measure
 \begin{equation*} \label{V-ensemble}
-d\mathbb{P}_n(X) = \frac{1}{Z_n} e^{-\text{tr} Q(X)} dX,
+d\mathbb{P}&lt;em&gt;n(X) = \frac{1}{Z_n} e^{-\text{tr} Q(X)} dX,
 \end{equation*}
 where $Q(X) = X^{2n} + \cdots$ is a monic polynomial of even degree. Along with this ensemble, we also consider the family of monic
 orthogonal polynomials ${\pi_n(\lambda)}$, which satisfy the relation
 \begin{equation}\label{Q-OP}
-(\pi_m,\pi_n) := \int_{\mathbb{R}}d\lambda e^{-Q(\lambda)} \pi_n(\lambda)\pi_m(\lambda)  = h_n \delta_{nm},
+(\pi_m,\pi_n) := \int&lt;/em&gt;{\mathbb{R}}d\lambda e^{-Q(\lambda)} \pi_n(\lambda)\pi_m(\lambda)  = h_n \delta_{nm},
 \end{equation}
 where $V(\lambda)$ is the same polynomial, but in the real variable $\lambda$ instead of the matrix variable $X$. Our first connection between the
 ensemble defined by the above measure and the polynomials ${\pi_n(\lambda)}$ is given by the following theorem:&lt;/p&gt;
@@ -284,8 +284,8 @@ The proof is rather straightforward; first, it is clear from its definition that
 is a monic polynomial of degree $n$. Thus, we have only to show that this polynomial is orthogonal to $\lambda^m$, for
 $0 \leq m \leq n$. Suppose this is the case; then,
 \begin{align*}
-Z_n \cdot \big(\lambda^m, \langle \det(\lambda - X)_n\big) &amp;amp;=
-\int_{\mathbb{R}} d\lambda  e^{-Q(\lambda)} \lambda^m\bigg[ \int_{\mathbb{R}^n}\prod_{i=1}^n d\lambda_i (\lambda - \lambda_i)e^{-Q(\lambda_i)}  V^2(\lambda_1,\cdots,\lambda_n) \bigg] ;
+Z_n \cdot \big(\lambda^m, \langle \det(\lambda - X)&lt;em&gt;n\big) &amp;amp;=
+\int&lt;/em&gt;{\mathbb{R}} d\lambda  e^{-Q(\lambda)} \lambda^m\bigg[ \int_{\mathbb{R}^n}\prod_{i=1}^n d\lambda_i (\lambda - \lambda_i)e^{-Q(\lambda_i)}  V^2(\lambda_1,\cdots,\lambda_n) \bigg] ;
 \end{align*}
 Note that $V(\lambda_1,\cdots,\lambda_n)\prod_{i=1}^n(\lambda - \lambda_i) = V(\lambda_1,\cdots,\lambda_n,\lambda)$, the Vandermonde
 determinant with one extra variable. Furthermore, the remaining piece of the integrand,  $V(\lambda_1,\cdots,\lambda_n)\lambda^m$, can be
@@ -296,10 +296,10 @@ V(\lambda_1,\cdots,\lambda_n)\lambda^m = \frac{1}{n+1}\sum_{i=1}^{n+1} (-1)^{i+n
 This is the expression for the determinant
 \begin{equation*}
 \begin{pmatrix}
-1 &amp;amp; \lambda_1 &amp;amp; \cdots &amp;amp; \lambda_1^{n-1} &amp;amp;\lambda_1^m\\\&lt;br&gt;
-1 &amp;amp; \lambda_2 &amp;amp; \cdots &amp;amp; \lambda_2^{n-1} &amp;amp;\lambda_2^m\\\&lt;br&gt;
-\vdots &amp;amp; \vdots &amp;amp; \cdots &amp;amp; \ddots &amp;amp;\vdots\\\&lt;br&gt;
-1 &amp;amp; \lambda_{n+1} &amp;amp; \cdots &amp;amp; \lambda_{n+1}^{n-1} &amp;amp;\lambda_{n+1}^m\\\&lt;br&gt;
+1 &amp;amp; \lambda_1 &amp;amp; \cdots &amp;amp; \lambda_1^{n-1} &amp;amp;\lambda_1^m\\\
+1 &amp;amp; \lambda_2 &amp;amp; \cdots &amp;amp; \lambda_2^{n-1} &amp;amp;\lambda_2^m\\\
+\vdots &amp;amp; \vdots &amp;amp; \cdots &amp;amp; \ddots &amp;amp;\vdots\\\
+1 &amp;amp; \lambda_{n+1} &amp;amp; \cdots &amp;amp; \lambda_{n+1}^{n-1} &amp;amp;\lambda_{n+1}^m\\\
 \end{pmatrix};
 \end{equation*}
 Clearly, this expression vanishes if $m &amp;lt; n$, and so
@@ -307,9 +307,9 @@ $\det(\lambda - X)_n$ is orthogonal to the first $m$ monomials, and is thus the 
 &lt;div style=&#34;text-align: right&#34;&gt; $\square$ &lt;/div&gt;
 &lt;p&gt;In the above proof, if $m=n$, by what we just argued, we have that
 \begin{align*}
-Z_n \cdot \big(\lambda^n, \langle \det(\lambda - X)_n\big)
-&amp;amp;= \frac{1}{n+1}\int_{\mathbb{R}}d\lambda e^{-Q(\lambda)} \bigg[ \int_{\mathbb{R}^n}\prod_{i=1}^n d\lambda_i
-e^{-Q(\lambda_i)}  V^2(\lambda_1,\cdots,\lambda_n,\lambda) \bigg] \\\&lt;br&gt;
+Z_n \cdot \big(\lambda^n, \langle \det(\lambda - X)&lt;em&gt;n\big)
+&amp;amp;= \frac{1}{n+1}\int&lt;/em&gt;{\mathbb{R}}d\lambda e^{-Q(\lambda)} \bigg[ \int_{\mathbb{R}^n}\prod_{i=1}^n d\lambda_i
+e^{-Q(\lambda_i)}  V^2(\lambda_1,\cdots,\lambda_n,\lambda) \bigg] \\\
 &amp;amp;= \frac{1}{n+1} Z_{n+1};
 \end{align*}
 furthermore, since $\big(\lambda^n, \langle \det(\lambda - X)\rangle_n\big) = \big(\lambda^n, \pi_n\big) = (\pi_n, \pi_n) = h_n$, we obtain that
@@ -331,30 +331,30 @@ Recall that the Vandermonde determinant is the determinant of the matrix $\big(\
 multiple of any row/column to any other row/column without changing the determinant; thus,
 \begin{equation*}
 \det \begin{pmatrix}
-1 &amp;amp; \lambda_1 &amp;amp; \cdots &amp;amp; \lambda_1^{n-1}\\\&lt;br&gt;
-1 &amp;amp; \lambda_2 &amp;amp; \cdots &amp;amp; \lambda_2^{n-1}\\\&lt;br&gt;
-\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp;\vdots\\\&lt;br&gt;
-1 &amp;amp; \lambda_{n} &amp;amp; \cdots &amp;amp; \lambda_{n}^{n-1}\\\&lt;br&gt;
+1 &amp;amp; \lambda_1 &amp;amp; \cdots &amp;amp; \lambda_1^{n-1}\\\
+1 &amp;amp; \lambda_2 &amp;amp; \cdots &amp;amp; \lambda_2^{n-1}\\\
+\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp;\vdots\\\
+1 &amp;amp; \lambda_{n} &amp;amp; \cdots &amp;amp; \lambda_{n}^{n-1}\\\
 \end{pmatrix}
 =
 \det \begin{pmatrix}
-p_0(\lambda_1) &amp;amp; p_1(\lambda_1) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_1)\\\&lt;br&gt;
-p_0(\lambda_2) &amp;amp; p_1(\lambda_2) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_2)\\\&lt;br&gt;
-\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp;\vdots\\\&lt;br&gt;
-p_0(\lambda_n) &amp;amp; p_1(\lambda_n) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_n)\\\&lt;br&gt;
+p_0(\lambda_1) &amp;amp; p_1(\lambda_1) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_1)\\\
+p_0(\lambda_2) &amp;amp; p_1(\lambda_2) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_2)\\\
+\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp;\vdots\\\
+p_0(\lambda_n) &amp;amp; p_1(\lambda_n) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_n)\\\
 \end{pmatrix},
 \end{equation*}
 for any family of monic polynomials ${p_{k}(\lambda)}$. In particular, we will choose $p_{k}(\lambda) = \pi_k(\lambda)$,
 the monic orthogonal polynomials with respect to the weight $e^{Q(\lambda)}$. Combining these two determinants, the density function becomes
 \begin{align*}
 \rho_n(\lambda_1,\cdots, \lambda_n) &amp;amp;=  \frac{1}{Z_n} \det(\pi_k(\lambda_i))\det(\pi_k(\lambda_j))
-e^{-\sum_{k=1}^n Q(\lambda_k)}\\\&lt;br&gt;
+e^{-\sum_{k=1}^n Q(\lambda_k)}\\\
 &amp;amp;=\frac{1}{n! \prod_{k=0}^n h_k} \det\bigg(\sum_{k=0}^{n-1} \pi_k(\lambda_i)\pi_k(\lambda_j)\bigg)
-e^{-\sum_{k=0}^{n-1} Q(\lambda_k)}\\\&lt;br&gt;
+e^{-\sum_{k=0}^{n-1} Q(\lambda_k)}\\\
 &amp;amp;=\frac{1}{n!} \det\bigg(\sum_{k=0}^{n-1} \frac{\pi_k(\lambda_i)\pi_k(\lambda_j)}{h_k}\bigg)e^{-\sum_{k=0}^{n-1}
-Q(\lambda_k)}\\\&lt;br&gt;
+Q(\lambda_k)}\\\
 &amp;amp;=\frac{1}{n!} \det\bigg(\sum_{k=0}^{n-1}
-\frac{\pi_k(\lambda_i)e^{-Q(\lambda_i)/2}\pi_k(\lambda_j)e^{-Q(\lambda_j)/2}}{h_k}\bigg)\\\&lt;br&gt;
+\frac{\pi_k(\lambda_i)e^{-Q(\lambda_i)/2}\pi_k(\lambda_j)e^{-Q(\lambda_j)/2}}{h_k}\bigg)\\\
 &amp;amp;:=\frac{1}{n!}\det(K(\lambda_i,\lambda_j)).
 \end{align*}
 The function
@@ -395,15 +395,15 @@ $Q\to nQ$.&lt;/p&gt;
 saddle point analysis tells us that we expect the dominant contributions to the free energy to come from the minima of
 $E$, i.e.
 \begin{align*}
-F &amp;amp;= \frac{1}{n^2} \log \int_{\mathbb{R}^n} e^{-n^2E(\lambda_1,\cdots\lambda_n)} d\lambda_1\cdots d\lambda_n\\\&lt;br&gt;
-&amp;amp;\sim \frac{1}{n^2} \log e^{-n^2 \min E(\lambda_1,\cdots\lambda_n)}\\\&lt;br&gt;
+F &amp;amp;= \frac{1}{n^2} \log \int_{\mathbb{R}^n} e^{-n^2E(\lambda_1,\cdots\lambda_n)} d\lambda_1\cdots d\lambda_n\\\
+&amp;amp;\sim \frac{1}{n^2} \log e^{-n^2 \min E(\lambda_1,\cdots\lambda_n)}\\\
 &amp;amp;= \min E(\lambda_1,\cdots\lambda_n).
 \end{align*}
 Writing the density of charges as a measure $\mu = \frac{1}{n}\sum_{k=1}^n \delta_{{\lambda_{k}}}$, we can rewrite this
 minimization problem as
 \begin{align*}
 \min E(\lambda_1,\cdots\lambda_n) &amp;amp;= \min \frac{1}{n^2}\sum_{i\neq j} \log \frac{1}{\lambda_i - \lambda_j} +
-\frac{1}{n}\sum_{i=1}^n Q(\lambda_i)\\\&lt;br&gt;
+\frac{1}{n}\sum_{i=1}^n Q(\lambda_i)\\\
 &amp;amp;= \min_{\mu(\mathbb{R}) = 1} \int\int \log\frac{1}{x-y} d\mu(x) d\mu(y) + \int Q(x) d\mu(x).
 \end{align*}
 As $n \to \infty$, we expect that the charges should coalesce into a continuous distribution of charge $\mu$, i.e.,
@@ -432,7 +432,7 @@ $\mu$ from the above formula, and then plug it back in to the energy functional,
 for the dominant contribution to the free energy. But how do we recover a measure if we know its Cauchy transform?
 Luckily, this question has already been answered for us; these are the famous Sokhotsky-Plemelj formulae:
 \begin{align*}
-\frac{d\mu(x)}{dx} &amp;amp;= \frac{1}{2\pi i}\bigg( C^\mu_+(x) - C^\mu_-(x)\bigg),\\\&lt;br&gt;
+\frac{d\mu(x)}{dx} &amp;amp;= \frac{1}{2\pi i}\bigg( C^\mu_+(x) - C^\mu_-(x)\bigg),\\\
 P.V.\int \frac{d\mu(y)}{y-x} &amp;amp;= C^\mu_+(x) + C^\mu_-(x),
 \end{align*}
 for $x$ in the support of the charges. These formulae, along with a little knowledge of complex analysis, will allow
@@ -440,8 +440,8 @@ us to recover $d\mu(x) = \rho(x)dx$. Consider the function $P(z):=Q&#39;(z)C^{\m
 analytic everywhere in the complex plane, except possibly at the places where $C^\mu(z)$ loses analyticity&amp;ndash;the support
 of the charges. Let us compute the jump of $P(z)$ across the support:
 \begin{align*}
-P_+(z) - P_-(z) &amp;amp;= Q&#39;(z)\bigg(C^{\mu}_+(z)-C^{\mu}_-(z)\bigg) - (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\&lt;br&gt;
-&amp;amp;= \bigg(C^{\mu}_+(z)+C^{\mu}_-(z)\bigg)\bigg(C^{\mu}_+(z)-C^{\mu}_-(z)\bigg)- (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\&lt;br&gt;
+P_+(z) - P_-(z) &amp;amp;= Q&#39;(z)\bigg(C^{\mu}&lt;em&gt;+(z)-C^{\mu}&lt;/em&gt;-(z)\bigg) - (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\
+&amp;amp;= \bigg(C^{\mu}&lt;em&gt;+(z)+C^{\mu}&lt;/em&gt;-(z)\bigg)\bigg(C^{\mu}&lt;em&gt;+(z)-C^{\mu}&lt;/em&gt;-(z)\bigg)- (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\
 &amp;amp;=0,
 \end{align*}
 and so $P(z)$ is continuous across the support of the charges, and thus continuous everywhere. By Morera&amp;rsquo;s theorem,
@@ -471,20 +471,20 @@ this is &lt;em&gt;Wigner&amp;rsquo;s semicircle law&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;We now discuss $N$-matrix models, which are matrix models $n$ over copies of $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt;; for simplicity, we specialize to the case of $N = 2$.
 We denote the matrices in the first copy of $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; by $A$, and in the second copy by $B$. The probability measure we consider here is
 \begin{equation*}
-d\mathbb{P}_n(A,B) = \frac{1}{Z_n} \exp\bigg( -\frac{n}{2} \text{tr} (A^2 + B^2 + 2cAB)\bigg) dA dB.
+d\mathbb{P}&lt;em&gt;n(A,B) = \frac{1}{Z_n} \exp\bigg( -\frac{n}{2} \text{tr} (A^2 + B^2 + 2cAB)\bigg) dA dB.
 \end{equation*}
 The quantity in the exponent can be thought of as a quadratic form on pairs of Hermitian matrices $(A,B)$, with defining matrix
 \begin{equation*} \label{quad-form}
 \begin{pmatrix}
-1 &amp;amp; c \\\&lt;br&gt;
+1 &amp;amp; c \\\
 c &amp;amp; 1
 \end{pmatrix}.
 \end{equation*}
 Expected values are denoted in the same way as before; this ensemble is also Gaussian in nature, and so the matrix version of Wick&amp;rsquo;s theorem
 applies. As before, all one-point functions vanish identically. Thus, the relevant expected values to compute are the two-point functions; they are:
 \begin{align*}
-\langle A_{i_1j_1}A_{i_2j_2}\rangle_n = \langle B_{i_1j_1}B_{i_2j_2}\rangle_n
-&amp;amp;= \frac{1}{n}\frac{1}{1-c^2} \delta_{i_1 j_2}\delta_{i_2 j_1},\\\&lt;br&gt;
+\langle A&lt;/em&gt;{i_1j_1}A_{i_2j_2}\rangle_n = \langle B_{i_1j_1}B_{i_2j_2}\rangle_n
+&amp;amp;= \frac{1}{n}\frac{1}{1-c^2} \delta_{i_1 j_2}\delta_{i_2 j_1},\\\
 \langle A_{i_1j_1}B_{i_2j_2}\rangle_n &amp;amp;= \frac{1}{n}\frac{c}{1-c^2} \delta_{i_1 j_2}\delta_{i_2 j_1}.
 \end{align*}
 The computations are almost identical to the $1$-matrix case, and so we omit them here (the process involves the extra step of diagonalizing
@@ -499,12 +499,12 @@ about the
 we will need to switch over to eigenvalue variables; this is not as trivial as a task as it was in the 1-matrix case. This is made apparent as
 follows. Suppose we want to compute the expected value of some function $f(A,B) = f(\text{tr} A,\text{tr} B)$. This is written as
 \begin{equation}
-\langle f(A,B)  \rangle_n = \frac{1}{Z_n}\int_{A\in \mathcal{H}_n} \int_{B \in \mathcal{H}_n}dA dB \exp\bigg( -\frac{n}{2}
+\langle f(A,B)  \rangle_n = \frac{1}{Z_n}\int_{A\in \mathcal{H}&lt;em&gt;n} \int&lt;/em&gt;{B \in \mathcal{H}&lt;em&gt;n}dA dB \exp\bigg( -\frac{n}{2}
 \text{tr} (A^2 + B^2 + 2cAB)\bigg)  f(A,B).
 \end{equation}
 Letting $A = U^\dagger X U$, $B = V^\dagger Y V$, where $X = \text{diag}(x_1,\cdots,x_n)$, $Y = \text{diag}(y_1,\cdots,y_n)$ are diagonal matrices, we see that the above is
 \begin{align*}
-=&amp;amp; \frac{1}{Z_n}\int_{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
+=&amp;amp; \frac{1}{Z_n}\int&lt;/em&gt;{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
 \\\ &amp;amp;\times\int_{U,V \in U(n)/U_{diag}(n)} dU dV \exp\big(nc \text{tr} AB\big)
 \end{align*}
 We must pay careful attention to the integral
@@ -536,27 +536,27 @@ in
 Consider the heat equation in the variable $A$:
 \begin{equation}\label{heat-eq-1}
 \begin{cases}
-\left( \frac{\partial}{\partial t} - \frac{1}{2} \Delta_A \right) u(A,t) = 0,\\\&lt;br&gt;
+\left( \frac{\partial}{\partial t} - \frac{1}{2} \Delta_A \right) u(A,t) = 0,\\\
 u(A,0) = f(A).
 \end{cases}
 \end{equation}
-Here, $\Delta_A$ is the usual Laplace operator on $\mathcal{H}_n$:
+Here, $\Delta_A$ is the usual Laplace operator on $\mathcal{H}&lt;em&gt;n$:
 \begin{equation*}
-\Delta_{A} = \sum_{i=1}^n \frac{\partial^2}{\partial A_{ii}^2} + \frac{1}{2}\sum_{i &amp;lt; j}\left(\frac{\partial^2}{\partial \text{Re}(A_{ij})^2} +
+\Delta&lt;/em&gt;{A} = \sum_{i=1}^n \frac{\partial^2}{\partial A_{ii}^2} + \frac{1}{2}\sum_{i &amp;lt; j}\left(\frac{\partial^2}{\partial \text{Re}(A_{ij})^2} +
 \frac{\partial^2}{\partial \text{Im}(A_{ij})^2}\right).
 \end{equation*}
-The heat kernel for this operator is easily derived (since $\mathcal{H}_n \cong \mathbb{R}^{n^2}$ in scaled coordinates):
+The heat kernel for this operator is easily derived (since $\mathcal{H}&lt;em&gt;n \cong \mathbb{R}^{n^2}$ in scaled coordinates):
 \begin{equation*}
 K(A,B;t) = \frac{1}{(2\pi t)^{n^2/2}}\exp\left(\frac{1}{2t} \text{tr}(A-B)^2\right);
 \end{equation*}
 The solution to the heat equation above is thus given by
 \begin{equation*}
-u(A,t) = \int_{\mathcal{H}_n} dB f(B) \frac{1}{(2\pi t)^{n^2/2}}\exp\left(-\frac{1}{2t} \text{tr}(A-B)^2\right).
+u(A,t) = \int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n} dB f(B) \frac{1}{(2\pi t)^{n^2/2}}\exp\left(-\frac{1}{2t} \text{tr}(A-B)^2\right).
 \end{equation*}
 Let us suppose the initial data $f(A)$ depends only on the eigenvalue
 variables, i.e. $f(A) = f(\text{tr}(A))$. Then, converting the above to eigenvalue variables $A = U^\dagger X U$, $B = V^\dagger Y V$, we find that
 \begin{align*}\label{heat2}
-u(A,t) = &amp;amp;\frac{1}{(2\pi t)^{n^2/2}}\int_{\mathbb{R}^n} dY, V^2(Y)f(Y) \exp\left(-\frac{1}{2t} \text{tr}(X^2 + Y^2) \right)
+u(A,t) = &amp;amp;\frac{1}{(2\pi t)^{n^2/2}}\int&lt;/em&gt;{\mathbb{R}^n} dY, V^2(Y)f(Y) \exp\left(-\frac{1}{2t} \text{tr}(X^2 + Y^2) \right)
 \\\ &amp;amp;\times\int_{U(n)/U_{diag}(n)} dW \exp\big(\frac{1}{t} \text{tr} X W Y W^\dagger\big),
 \end{align*}
 where $W = UV^\dagger$. Note that the inner integral is the object we want to compute. Furthermore, the above formula implies that if
@@ -564,19 +564,19 @@ $f(U^\dagger X U) = f(X)$, then $u(U^\dagger X U,t) = u(X,t)$ for all $t &amp;gt
 coordinates. With the help of the formula we derived for the laplacian on the eigenvalue coordinates, we find that
 \begin{align*}
 0 &amp;amp;= \left( \frac{\partial}{\partial t} - \frac{1}{2} \Delta_A \right) u(A,t)
-= \left( \frac{\partial}{\partial t} - \frac{1}{2} \Delta_{X} \right) u(X,t)\\\&lt;br&gt;
+= \left( \frac{\partial}{\partial t} - \frac{1}{2} \Delta_{X} \right) u(X,t)\\\
 &amp;amp;= \frac{\partial u }{\partial t} - \frac{1}{2}\frac{1}{V^2(X)}\sum_{i=1}^n\frac{\partial}{\partial x_i}
-\left(V^2(X) \frac{\partial u}{\partial x_i} \right)\\\&lt;br&gt;
+\left(V^2(X) \frac{\partial u}{\partial x_i} \right)\\\
 &amp;amp;= \frac{\partial u }{\partial t} - \frac{1}{2}\frac{1}{V^2(X)}\sum_{i=1}^n \left(2V(X)\frac{\partial V}{\partial x_i}  \frac{\partial u}{\partial x_i}  + V^2(X) \frac{\partial^2 u}{\partial x_i^2}\right);
 \end{align*}
 Multiplying the above equation by the Vandermonde determinant $V(x)$, and using the fact that $\sum_{i=1}^n \frac{\partial^2 V}{\partial x_i^2}= 0$, the above equation becomes
 \begin{align*}
 0 &amp;amp;= \frac{\partial V u }{\partial t} - \frac{1}{2}\sum_{i=1}^n \left(2\frac{\partial V}{\partial x_i}
-\frac{\partial u}{\partial x_i}  + V(X)\frac{\partial^2 u}{\partial x_i^2}\right)\\\&lt;br&gt;
+\frac{\partial u}{\partial x_i}  + V(X)\frac{\partial^2 u}{\partial x_i^2}\right)\\\
 &amp;amp;= \frac{\partial V u }{\partial t} - \frac{1}{2}\sum_{i=1}^n \left(\underbrace{u\frac{\partial^2
-V}{\partial x_i^2}}_{=0} + 2\frac{\partial V}{\partial x_i}  \frac{\partial u}{\partial x_i}  +
-V(X)\frac{\partial^2 u}{\partial x_i^2}\right)\\\&lt;br&gt;
-&amp;amp;= \left(\frac{\partial}{\partial t} - \frac{1}{2} \sum_{i=1}^n \frac{\partial^2}{\partial x_i^2}\right)V(X)u(X,t),
+V}{\partial x_i^2}}&lt;em&gt;{=0} + 2\frac{\partial V}{\partial x_i}  \frac{\partial u}{\partial x_i}  +
+V(X)\frac{\partial^2 u}{\partial x_i^2}\right)\\\
+&amp;amp;= \left(\frac{\partial}{\partial t} - \frac{1}{2} \sum&lt;/em&gt;{i=1}^n \frac{\partial^2}{\partial x_i^2}\right)V(X)u(X,t),
 \end{align*}
 and so $V(x)u(X,t)$ satisfies a heat equation of a different form. The generic solution for initial data $g(X)$ to the above heat equation is
 \begin{equation*}
@@ -591,13 +591,13 @@ multiplying the previous equation by $V(X)$, we see that we have two expressions
 expressions yields
 \begin{align*}
 &amp;amp;V(X)\frac{1}{(2\pi t)^{n^2/2}}\int_{\mathbb{R}^n} dY V^2(Y)f(Y) \exp\left(-\frac{1}{2t} \text{tr}(X^2 + Y^2) \right)
-\int_{U(n)/U_{diag}(n)} dW \exp\big(\frac{1}{t} \text{tr} X W Y W^\dagger\big)\\\&lt;br&gt;
+\int_{U(n)/U_{diag}(n)} dW \exp\big(\frac{1}{t} \text{tr} X W Y W^\dagger\big)\\\
 &amp;amp;=  u(X,t)=\int_{Y\in \mathbb{R}^n} dY \frac{1}{(2\pi t)^{n/2}}\exp\left(-\frac{1}{2t}\text{tr}(X-Y)^2\right) V(Y)f(Y).
 \end{align*}
 Setting $f(Y) = \delta(Y-Y_0)$, we obtain that
 \begin{align*}
 &amp;amp;V(X)V^2(Y_0)\frac{1}{(2\pi t)^{n^2/2}}\exp\left(-\frac{1}{2t} \text{tr}(X^2 + Y_0^2) \right)
-\int_{U(n)/U_{diag}(n)} dW \exp\big(\frac{1}{t} \text{tr} X W Y_0 W^\dagger\big)\\\&lt;br&gt;
+\int_{U(n)/U_{diag}(n)} dW \exp\big(\frac{1}{t} \text{tr} X W Y_0 W^\dagger\big)\\\
 &amp;amp;=   \frac{1}{(2\pi t)^{n/2}}\exp\left(-\frac{1}{2t}\text{tr}(X-Y_0)^2\right) V(Y_0).
 \end{align*}
 Rearranging, and relabelling $Y_0 = Y$, we get
@@ -614,17 +614,17 @@ finally,
 &lt;p&gt;Just as $1$-matrix models are connected to orthogonal polynomials, $2$-matrix models are connected to biorthogonal polynomials. Consider again
 the $2$-matrix model defined by the measure
 \begin{equation*}
-d\mathbb{P}_n(A,B) = \frac{1}{Z_n} \exp\bigg( -\frac{n}{2} \text{tr} (A^2 + B^2 + 2cAB)\bigg) dA dB,
+d\mathbb{P}&lt;em&gt;n(A,B) = \frac{1}{Z_n} \exp\bigg( -\frac{n}{2} \text{tr} (A^2 + B^2 + 2cAB)\bigg) dA dB,
 \end{equation*}
 and recall that expected values of invariant functions $f(A,B) = f(\text{tr}(A),\text{tr}(B))$ are given by the formula
 \begin{equation*}
-\langle f(A,B)  \rangle_n = \frac{1}{Z_n}\int_{A\in \mathcal{H}_n} \int_{B \in \mathcal{H}_n}dA dB \exp\bigg( -\frac{n}{2}
+\langle f(A,B)  \rangle_n = \frac{1}{Z_n}\int&lt;/em&gt;{A\in \mathcal{H}&lt;em&gt;n} \int&lt;/em&gt;{B \in \mathcal{H}&lt;em&gt;n}dA dB \exp\bigg( -\frac{n}{2}
 \text{tr} (A^2 + B^2 + 2cAB)\bigg)  f(A,B).
 \end{equation*}
 Letting $A = U^\dagger X U$, $B = V^\dagger Y V$, where $X = \text{diag}(x_1,\cdots,x_n)$, $Y = \text{diag}(y_1,\cdots,y_n)$ are diagonal matrices, we
 can integrate out eigenvalue variables to obtain
 \begin{align*}
-&amp;amp;= \frac{1}{Z_n&#39;}\int_{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
+&amp;amp;= \frac{1}{Z_n&#39;}\int&lt;/em&gt;{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
 \\\ &amp;amp;\times\int_{U \in U(n)/U_{diag}(n)} dW \exp\big(nc \text{tr} XWYW^\dagger\big).
 \end{align*}
 The integral inside is precisely the Itzykson Zuber integral we computed previously; we insert the expression we derived for it into the
@@ -632,7 +632,7 @@ above formula, absorbing all constant factors into the partition function:
 \begin{align*}
 \langle f(A,B)  \rangle_n &amp;amp;= \frac{1}{Z_n&#39;&#39;}\int_{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg(
 -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
-\frac{\det e^{nc x_iy_j }}{V(Y) V(X)}\\\&lt;br&gt;
+\frac{\det e^{nc x_iy_j }}{V(Y) V(X)}\\\
 &amp;amp;=\frac{1}{Z_n&#39;&#39;}\int_{X,Y\in \mathbb{R}^n} \prod_{k=1}^n dx_k dy_k f(x,y) V(x)V(y)\exp\bigg( -\frac{n}{2} \sum_{k=1} x_i^2  + y_i^2 + 2ncx_i y_i\bigg).
 \end{align*}&lt;/p&gt;
 &lt;p&gt;Thus, just as we were able to connect the 1-matrix model and orthogonal polynomials, we can connect the 2-matrix
@@ -660,7 +660,8 @@ of this to a later entry.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Friday, September 4th&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11:00am&lt;/p&gt;
 &lt;p&gt;Abstract: Finding equilibria of charge distributions in the plane is a classical problem, which has found numerous applications in many other areas of mathematics and physics, including approximation theory, random matrices, quantum gravity, and integrable systems, among others. In this talk, I will survey some classical results from the theory of equilibrium distributions (using the language of potential theory), and provide some physical intuition for why such formulas hold. We will consider equilibrium with and without external fields. Furthermore, I will discuss some of the more modern applications of the subject; in particular, I will sketch how the equilibrium measures help us describe the asymptotics of certain families of orthogonal polynomials, as well how such problems appear in integrable systems, if time permits.&lt;/p&gt;
-&lt;p&gt;Link to zoom meeting: &lt;a href=&#34;https://zoom.us/j/93365223865&#34;&gt;https://zoom.us/j/93365223865&lt;/a&gt;
+&lt;p&gt;Link to zoom meeting: 
+&lt;a href=&#34;https://zoom.us/j/93365223865&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zoom.us/j/93365223865&lt;/a&gt;
 &lt;strong&gt;Video&lt;/strong&gt;: 
 &lt;a href=&#34;https://www.youtube.com/watch?v=Hye1gkDkCxU&amp;amp;t=2780s&amp;amp;ab_channel=USFGradMath&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube&lt;/a&gt;.&lt;/p&gt;
 </description>

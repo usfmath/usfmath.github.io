@@ -5,12 +5,24 @@
     <link>/author/nathan-hayford/</link>
       <atom:link href="/author/nathan-hayford/index.xml" rel="self" type="application/rss+xml" />
     <description>Nathan Hayford</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Oct 2021 11:25:26 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jan 2022 12:18:39 -0500</lastBuildDate>
     <image>
-      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Nathan Hayford</title>
       <link>/author/nathan-hayford/</link>
     </image>
+    
+    <item>
+      <title>Statistical Mechanics and the Tutte Polynomial</title>
+      <link>/talk/tutteising/</link>
+      <pubDate>Wed, 26 Jan 2022 12:18:39 -0500</pubDate>
+      <guid>/talk/tutteising/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Statistical Mechanics and the Tutte Polynomial&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, January 28th, 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The Tutte polynomial is a well-known graph invariant, from which many important graph-theoretic properties can be read off. We discuss the equivalence of this polynomial to an important model in statistical physics: the q-Potts model, which is a generalization of the simplistic model of a magnet (the Ising model). We use this equivalence to develop the well-known high-temperature expansion of the Potts mode. Furthermore, we discuss what we can learn about graph theory from statistical mechanics, and vice versa.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduction to Ito Calculus</title>
@@ -65,16 +77,16 @@ computed by noticing the following: the hermiticity condition requires that the 
 there are $2 \cdot \frac{n(n-1)}{2} = n (n-1)$ variables (the factor of two coming from real + imaginary components);
 therefore we find the dimension of the space of Hermitian matrices to be
 \begin{align*}
-\dim \mathcal{H}_n = n + 2 \cdot \frac{n(n-1)}{2} = n^2.
+\dim \mathcal{H}&lt;em&gt;n = n + 2 \cdot \frac{n(n-1)}{2} = n^2.
 \end{align*}
 It is often convenient for us to work in the so-called &lt;em&gt;eigenvalue variables&lt;/em&gt; on the space of Hermitian matrices.
 These eigenvalues are of course real, by properties of Hermitian matrices; the remaining variables are variables in
-the unitary group $U(n)/U_{diag}(n)$ and are called &lt;em&gt;angular variables&lt;/em&gt;. This is apparent, by writing
+the unitary group $U(n)/U&lt;/em&gt;{diag}(n)$ and are called &lt;em&gt;angular variables&lt;/em&gt;. This is apparent, by writing
 $X = U^\dagger \Lambda U$; note that replacing $U \to \text{diag}(e^{i\theta_1},\cdots e^{i\theta_n} )U$ does not change the representation.
 Defining $du := dU^\dagger U = -du^{\dagger}$, we find that $dX$ takes the form
 \begin{align*}
-dX = d(U^\dagger \Lambda U) &amp;amp;= dU^\dagger \Lambda U+ U^\dagger d\Lambda U + U^\dagger \Lambda dU \\\&lt;br&gt;
-&amp;amp;= U^\dagger (d u^\dagger \Lambda + d \Lambda  + \Lambda d u) U \\\&lt;br&gt;
+dX = d(U^\dagger \Lambda U) &amp;amp;= dU^\dagger \Lambda U+ U^\dagger d\Lambda U + U^\dagger \Lambda dU \\\
+&amp;amp;= U^\dagger (d u^\dagger \Lambda + d \Lambda  + \Lambda d u) U \\\
 &amp;amp;= U^\dagger (d \Lambda + [\Lambda, d u] ) U.
 \end{align*}&lt;/p&gt;
 &lt;p&gt;The metric can then be computed as
@@ -87,8 +99,8 @@ g = \sum_{i = 1}^n d\lambda_i^2 + 2 \sum_{i &amp;lt; j} (\lambda_i - \lambda_j)^
 \end{align*}
 The volume form is then
 \begin{align*}
-d\text{vol}(X) 	&amp;amp;= \sqrt{\det g} \prod_{i=1}^n d\lambda_i \prod_{i &amp;lt; j} du_{ij}  \\\&lt;br&gt;
-&amp;amp;= 2^{n(n-1)} \prod(\lambda_i - \lambda_j)^2 \prod_{i=1}^n d\lambda_i \prod_{i &amp;lt; j} du_{ij} \\\&lt;br&gt;
+d\text{vol}(X) 	&amp;amp;= \sqrt{\det g} \prod_{i=1}^n d\lambda_i \prod_{i &amp;lt; j} du_{ij}  \\\
+&amp;amp;= 2^{n(n-1)} \prod(\lambda_i - \lambda_j)^2 \prod_{i=1}^n d\lambda_i \prod_{i &amp;lt; j} du_{ij} \\\
 &amp;amp;\propto  dU \prod_{i &amp;lt; j}(\lambda_i - \lambda_j)^2 \prod_{i=1}^n d\lambda_i,
 \end{align*}
 where $dU$ is the Haar measure on $U(n)/U_{diag}(n)$. The quantity
@@ -119,19 +131,19 @@ Francesco, or in
 &lt;a href=&#34;https://www.labri.fr/perso/zvonkin/Research/matrixint.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this one&lt;/a&gt; by Alexander Zvonkin, for example.
 Let $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; denote the space of $n\times n$ Hermitian matrices. We consider the measure
 \begin{align*}
-d\mathbb{P}_n(X) = \frac{1}{Z_n} e^{-\frac{n}{2}\text{tr} X^2} dX,
+d\mathbb{P}&lt;em&gt;n(X) = \frac{1}{Z_n} e^{-\frac{n}{2}\text{tr} X^2} dX,
 \end{align*}
 where $dX$ is Haar measure on $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; (which we have just defined in the previous section), and $Z_n$ is a
 normalization constant so that $\int d\mathbb{P} = 1$, called the \textit{partition function}. The ensemble of
 such matrices, taken together with the probability measure $\mathbb{P}$&lt;sub&gt;n&lt;/sub&gt;, form the &lt;em&gt;Gaussian Unitary Ensemble&lt;/em&gt; (GUE).
 We denote the expected value of a random variable $f(X):$ $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; $\to \mathbb{R}$ in this ensemble by $\langle f(X) \rangle_n$; explicitly,
 \begin{equation}
-\langle f(X) \rangle_n = \frac{1}{Z_n} dX \int_{\mathcal{H}_n} f(X) e^{-\frac{n}{2}\text{tr} X^2}.
+\langle f(X) \rangle_n = \frac{1}{Z_n} dX \int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n} f(X) e^{-\frac{n}{2}\text{tr} X^2}.
 \end{equation}
 We wish to evaluate expected values of certain random variables in the large $n$ limit, in particular (Notice
 that $X\in \mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; is dependent on $n$ as well; we suppress dependence to simplify notations.)
 \begin{equation}
-\langle \text{tr} X^k \rangle:= \lim_{n\to \infty} \frac{1}{n}\langle \text{tr} X^k \rangle_n.
+\langle \text{tr} X^k \rangle:= \lim&lt;/em&gt;{n\to \infty} \frac{1}{n}\langle \text{tr} X^k \rangle_n.
 \end{equation}
 We claim that
 \begin{equation}
@@ -147,11 +159,11 @@ Let $S\in \mathcal{H}_n$ be a fixed matrix. Then,
 &lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt;
 We have that
 \begin{align*}
-\langle e^{\text{tr} XS} \rangle_n &amp;amp;= \frac{1}{Z_n}\int_{\mathcal{H}_n}dX e^{-\frac{n}{2}\text{tr} (X^2 -
+\langle e^{\text{tr} XS} \rangle_n &amp;amp;= \frac{1}{Z_n}\int_{\mathcal{H}&lt;em&gt;n}dX e^{-\frac{n}{2}\text{tr} (X^2 -
 \frac{2}{n} XS)}\\\ &amp;amp;=
-e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int_{\mathcal{H}_n}dX e^{-\frac{n}{2}\text{tr} (X-S/n)^2} \\\&lt;br&gt;
-&amp;amp;=e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int_{\mathcal{H}_n}d(X-S/n)  e^{-\frac{n}{2}\text{tr} (X-S/n)^2}\\\
-&amp;amp;= e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int_{\mathcal{H}_n}dX e^{-\frac{n}{2}\text{tr} (X)^2}
+e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n}dX e^{-\frac{n}{2}\text{tr} (X-S/n)^2} \\\
+&amp;amp;=e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n}d(X-S/n)  e^{-\frac{n}{2}\text{tr} (X-S/n)^2}\\\
+&amp;amp;= e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int&lt;/em&gt;{\mathcal{H}_n}dX e^{-\frac{n}{2}\text{tr} (X)^2}
 = e^{\text{tr} S^2/2n},
 \end{align*}
 where in the last step, we used the fact that $dX$ is translation invariant.&lt;/p&gt;
@@ -159,8 +171,8 @@ where in the last step, we used the fact that $dX$ is translation invariant.&lt;
 &lt;p&gt;Consequentially, we can compute any expected value of interest by differentiating $f(S) := e^{\text{tr} S^2/2n}$
 with respect to $S$, and evaluating at $S=0$. For example,
 \begin{equation*}
-\langle X_{ij} \rangle_n = \frac{\partial f(S)}{\partial S_{ji}} \bigg|_{S=0}, \qquad \qquad
-\langle X_{i_1j_1}X_{i_2j_2}\rangle_n = \frac{\partial^2 f(S)}{\partial S_{j_1 i_1} \partial S_{j_2 i_2}}
+\langle X_{ij} \rangle_n = \frac{\partial f(S)}{\partial S_{ji}} \bigg|&lt;em&gt;{S=0}, \qquad \qquad
+\langle X&lt;/em&gt;{i_1j_1}X_{i_2j_2}\rangle_n = \frac{\partial^2 f(S)}{\partial S_{j_1 i_1} \partial S_{j_2 i_2}}
 \bigg|_{S=0}.
 \end{equation*}
 Explicitly, we have that&lt;/p&gt;
@@ -180,17 +192,17 @@ S_{kl}\delta_{l j_1}\delta_{k i_1}\right) = \frac{1}{n}S_{i_1 j_1}.
 \end{equation*}
 Therefore, by the chain rule,
 \begin{equation*}
-\langle X_{i_1j_1}\rangle_n = \frac{\partial}{\partial S_{j_1 i_1}}e^{\text{tr} S^2/2n}\bigg|_{S=0}
-= \frac{1}{n}S_{i_1 j_1}e^{\text{tr} S^2/2n}\bigg|_{S=0} = 0.
+\langle X_{i_1j_1}\rangle_n = \frac{\partial}{\partial S_{j_1 i_1}}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0}
+= \frac{1}{n}S&lt;/em&gt;{i_1 j_1}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} = 0.
 \end{equation*}
 Similarly, by the product rule,
 \begin{align*}
-\langle X_{i_1j_1}X_{i_2j_2} \rangle_n &amp;amp;= \frac{\partial}{\partial S_{j_2 i_2}}\frac{1}{n}S_{i_1 j_1}
-e^{\text{tr} S^2/2n}\bigg|_{S=0} \\\&lt;br&gt;
-&amp;amp;= \frac{1}{n}\delta_{i_1 j_2}\delta_{i_2 j_1}e^{\text{tr} S^2/2n}\bigg|_{S=0} +
-\frac{1}{n}S_{i_1 j_1}S_{i_2 j_2}e^{\text{tr} S^2/2n}\bigg|_{S=0}\\\&lt;br&gt;
+\langle X&lt;/em&gt;{i_1j_1}X_{i_2j_2} \rangle_n &amp;amp;= \frac{\partial}{\partial S_{j_2 i_2}}\frac{1}{n}S_{i_1 j_1}
+e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} \\\
+&amp;amp;= \frac{1}{n}\delta&lt;/em&gt;{i_1 j_2}\delta_{i_2 j_1}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} +
+\frac{1}{n}S&lt;/em&gt;{i_1 j_1}S_{i_2 j_2}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0}\\\
 &amp;amp;= \frac{1}{n}
-\delta_{i_1 j_2}\delta_{i_2 j_1}.
+\delta&lt;/em&gt;{i_1 j_2}\delta_{i_2 j_1}.
 \end{align*}&lt;/p&gt;
  &lt;div style=&#34;text-align: right&#34;&gt; $\square$ &lt;/div&gt;
 &lt;p&gt;Furthermore, any &amp;ldquo;higher&amp;rdquo; expected value can be computed via &lt;em&gt;Wick&amp;rsquo;s theorem}:&lt;/em&gt;&lt;/p&gt;
@@ -205,8 +217,8 @@ where $\Pi_{2M}$ is the set of all &lt;em&gt;pairings&lt;/em&gt; of the index se
 &lt;p&gt;For example, we have that
 \begin{align*}
 \langle X_{i_1 j_1} X_{i_2 j_2} X_{i_3 j_3} X_{i_4 j_4}\rangle_n &amp;amp;=
-\langle X_{i_1 j_1} X_{i_2 j_2}\rangle_n \langle X_{i_3 j_3} X_{i_4 j_4}\rangle_n\\\&lt;br&gt;
-&amp;amp;+\langle X_{i_1 j_1} X_{i_3 j_3}\rangle_n \langle X_{i_2 j_2} X_{i_4 j_4}\rangle_n\\\&lt;br&gt;
+\langle X_{i_1 j_1} X_{i_2 j_2}\rangle_n \langle X_{i_3 j_3} X_{i_4 j_4}\rangle_n\\\
+&amp;amp;+\langle X_{i_1 j_1} X_{i_3 j_3}\rangle_n \langle X_{i_2 j_2} X_{i_4 j_4}\rangle_n\\\
 &amp;amp;+ \langle X_{i_1 j_1} X_{i_4 j_4}\rangle_n\langle X_{i_2 j_2} X_{i_3 j_3}\rangle_n.
 \end{align*}&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt;
@@ -300,12 +312,12 @@ that $\varepsilon_0(k) = C_k$, the $k^{th}$ Catalan number.&lt;/p&gt;
 &lt;p&gt;Most computations within the scheme matrix ensembles are performed with techniques from the theory of orthogonal polynomials. Let us illustrate this
 connection in several different ways. Let us consider the Hermitian ensemble with measure
 \begin{equation*} \label{V-ensemble}
-d\mathbb{P}_n(X) = \frac{1}{Z_n} e^{-\text{tr} Q(X)} dX,
+d\mathbb{P}&lt;em&gt;n(X) = \frac{1}{Z_n} e^{-\text{tr} Q(X)} dX,
 \end{equation*}
 where $Q(X) = X^{2n} + \cdots$ is a monic polynomial of even degree. Along with this ensemble, we also consider the family of monic
 orthogonal polynomials ${\pi_n(\lambda)}$, which satisfy the relation
 \begin{equation}\label{Q-OP}
-(\pi_m,\pi_n) := \int_{\mathbb{R}}d\lambda e^{-Q(\lambda)} \pi_n(\lambda)\pi_m(\lambda)  = h_n \delta_{nm},
+(\pi_m,\pi_n) := \int&lt;/em&gt;{\mathbb{R}}d\lambda e^{-Q(\lambda)} \pi_n(\lambda)\pi_m(\lambda)  = h_n \delta_{nm},
 \end{equation}
 where $V(\lambda)$ is the same polynomial, but in the real variable $\lambda$ instead of the matrix variable $X$. Our first connection between the
 ensemble defined by the above measure and the polynomials ${\pi_n(\lambda)}$ is given by the following theorem:&lt;/p&gt;
@@ -319,8 +331,8 @@ The proof is rather straightforward; first, it is clear from its definition that
 is a monic polynomial of degree $n$. Thus, we have only to show that this polynomial is orthogonal to $\lambda^m$, for
 $0 \leq m \leq n$. Suppose this is the case; then,
 \begin{align*}
-Z_n \cdot \big(\lambda^m, \langle \det(\lambda - X)_n\big) &amp;amp;=
-\int_{\mathbb{R}} d\lambda  e^{-Q(\lambda)} \lambda^m\bigg[ \int_{\mathbb{R}^n}\prod_{i=1}^n d\lambda_i (\lambda - \lambda_i)e^{-Q(\lambda_i)}  V^2(\lambda_1,\cdots,\lambda_n) \bigg] ;
+Z_n \cdot \big(\lambda^m, \langle \det(\lambda - X)&lt;em&gt;n\big) &amp;amp;=
+\int&lt;/em&gt;{\mathbb{R}} d\lambda  e^{-Q(\lambda)} \lambda^m\bigg[ \int_{\mathbb{R}^n}\prod_{i=1}^n d\lambda_i (\lambda - \lambda_i)e^{-Q(\lambda_i)}  V^2(\lambda_1,\cdots,\lambda_n) \bigg] ;
 \end{align*}
 Note that $V(\lambda_1,\cdots,\lambda_n)\prod_{i=1}^n(\lambda - \lambda_i) = V(\lambda_1,\cdots,\lambda_n,\lambda)$, the Vandermonde
 determinant with one extra variable. Furthermore, the remaining piece of the integrand,  $V(\lambda_1,\cdots,\lambda_n)\lambda^m$, can be
@@ -331,10 +343,10 @@ V(\lambda_1,\cdots,\lambda_n)\lambda^m = \frac{1}{n+1}\sum_{i=1}^{n+1} (-1)^{i+n
 This is the expression for the determinant
 \begin{equation*}
 \begin{pmatrix}
-1 &amp;amp; \lambda_1 &amp;amp; \cdots &amp;amp; \lambda_1^{n-1} &amp;amp;\lambda_1^m\\\&lt;br&gt;
-1 &amp;amp; \lambda_2 &amp;amp; \cdots &amp;amp; \lambda_2^{n-1} &amp;amp;\lambda_2^m\\\&lt;br&gt;
-\vdots &amp;amp; \vdots &amp;amp; \cdots &amp;amp; \ddots &amp;amp;\vdots\\\&lt;br&gt;
-1 &amp;amp; \lambda_{n+1} &amp;amp; \cdots &amp;amp; \lambda_{n+1}^{n-1} &amp;amp;\lambda_{n+1}^m\\\&lt;br&gt;
+1 &amp;amp; \lambda_1 &amp;amp; \cdots &amp;amp; \lambda_1^{n-1} &amp;amp;\lambda_1^m\\\
+1 &amp;amp; \lambda_2 &amp;amp; \cdots &amp;amp; \lambda_2^{n-1} &amp;amp;\lambda_2^m\\\
+\vdots &amp;amp; \vdots &amp;amp; \cdots &amp;amp; \ddots &amp;amp;\vdots\\\
+1 &amp;amp; \lambda_{n+1} &amp;amp; \cdots &amp;amp; \lambda_{n+1}^{n-1} &amp;amp;\lambda_{n+1}^m\\\
 \end{pmatrix};
 \end{equation*}
 Clearly, this expression vanishes if $m &amp;lt; n$, and so
@@ -342,9 +354,9 @@ $\det(\lambda - X)_n$ is orthogonal to the first $m$ monomials, and is thus the 
 &lt;div style=&#34;text-align: right&#34;&gt; $\square$ &lt;/div&gt;
 &lt;p&gt;In the above proof, if $m=n$, by what we just argued, we have that
 \begin{align*}
-Z_n \cdot \big(\lambda^n, \langle \det(\lambda - X)_n\big)
-&amp;amp;= \frac{1}{n+1}\int_{\mathbb{R}}d\lambda e^{-Q(\lambda)} \bigg[ \int_{\mathbb{R}^n}\prod_{i=1}^n d\lambda_i
-e^{-Q(\lambda_i)}  V^2(\lambda_1,\cdots,\lambda_n,\lambda) \bigg] \\\&lt;br&gt;
+Z_n \cdot \big(\lambda^n, \langle \det(\lambda - X)&lt;em&gt;n\big)
+&amp;amp;= \frac{1}{n+1}\int&lt;/em&gt;{\mathbb{R}}d\lambda e^{-Q(\lambda)} \bigg[ \int_{\mathbb{R}^n}\prod_{i=1}^n d\lambda_i
+e^{-Q(\lambda_i)}  V^2(\lambda_1,\cdots,\lambda_n,\lambda) \bigg] \\\
 &amp;amp;= \frac{1}{n+1} Z_{n+1};
 \end{align*}
 furthermore, since $\big(\lambda^n, \langle \det(\lambda - X)\rangle_n\big) = \big(\lambda^n, \pi_n\big) = (\pi_n, \pi_n) = h_n$, we obtain that
@@ -366,30 +378,30 @@ Recall that the Vandermonde determinant is the determinant of the matrix $\big(\
 multiple of any row/column to any other row/column without changing the determinant; thus,
 \begin{equation*}
 \det \begin{pmatrix}
-1 &amp;amp; \lambda_1 &amp;amp; \cdots &amp;amp; \lambda_1^{n-1}\\\&lt;br&gt;
-1 &amp;amp; \lambda_2 &amp;amp; \cdots &amp;amp; \lambda_2^{n-1}\\\&lt;br&gt;
-\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp;\vdots\\\&lt;br&gt;
-1 &amp;amp; \lambda_{n} &amp;amp; \cdots &amp;amp; \lambda_{n}^{n-1}\\\&lt;br&gt;
+1 &amp;amp; \lambda_1 &amp;amp; \cdots &amp;amp; \lambda_1^{n-1}\\\
+1 &amp;amp; \lambda_2 &amp;amp; \cdots &amp;amp; \lambda_2^{n-1}\\\
+\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp;\vdots\\\
+1 &amp;amp; \lambda_{n} &amp;amp; \cdots &amp;amp; \lambda_{n}^{n-1}\\\
 \end{pmatrix}
 =
 \det \begin{pmatrix}
-p_0(\lambda_1) &amp;amp; p_1(\lambda_1) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_1)\\\&lt;br&gt;
-p_0(\lambda_2) &amp;amp; p_1(\lambda_2) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_2)\\\&lt;br&gt;
-\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp;\vdots\\\&lt;br&gt;
-p_0(\lambda_n) &amp;amp; p_1(\lambda_n) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_n)\\\&lt;br&gt;
+p_0(\lambda_1) &amp;amp; p_1(\lambda_1) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_1)\\\
+p_0(\lambda_2) &amp;amp; p_1(\lambda_2) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_2)\\\
+\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp;\vdots\\\
+p_0(\lambda_n) &amp;amp; p_1(\lambda_n) &amp;amp; \cdots &amp;amp; p_{n-1}(\lambda_n)\\\
 \end{pmatrix},
 \end{equation*}
 for any family of monic polynomials ${p_{k}(\lambda)}$. In particular, we will choose $p_{k}(\lambda) = \pi_k(\lambda)$,
 the monic orthogonal polynomials with respect to the weight $e^{Q(\lambda)}$. Combining these two determinants, the density function becomes
 \begin{align*}
 \rho_n(\lambda_1,\cdots, \lambda_n) &amp;amp;=  \frac{1}{Z_n} \det(\pi_k(\lambda_i))\det(\pi_k(\lambda_j))
-e^{-\sum_{k=1}^n Q(\lambda_k)}\\\&lt;br&gt;
+e^{-\sum_{k=1}^n Q(\lambda_k)}\\\
 &amp;amp;=\frac{1}{n! \prod_{k=0}^n h_k} \det\bigg(\sum_{k=0}^{n-1} \pi_k(\lambda_i)\pi_k(\lambda_j)\bigg)
-e^{-\sum_{k=0}^{n-1} Q(\lambda_k)}\\\&lt;br&gt;
+e^{-\sum_{k=0}^{n-1} Q(\lambda_k)}\\\
 &amp;amp;=\frac{1}{n!} \det\bigg(\sum_{k=0}^{n-1} \frac{\pi_k(\lambda_i)\pi_k(\lambda_j)}{h_k}\bigg)e^{-\sum_{k=0}^{n-1}
-Q(\lambda_k)}\\\&lt;br&gt;
+Q(\lambda_k)}\\\
 &amp;amp;=\frac{1}{n!} \det\bigg(\sum_{k=0}^{n-1}
-\frac{\pi_k(\lambda_i)e^{-Q(\lambda_i)/2}\pi_k(\lambda_j)e^{-Q(\lambda_j)/2}}{h_k}\bigg)\\\&lt;br&gt;
+\frac{\pi_k(\lambda_i)e^{-Q(\lambda_i)/2}\pi_k(\lambda_j)e^{-Q(\lambda_j)/2}}{h_k}\bigg)\\\
 &amp;amp;:=\frac{1}{n!}\det(K(\lambda_i,\lambda_j)).
 \end{align*}
 The function
@@ -430,15 +442,15 @@ $Q\to nQ$.&lt;/p&gt;
 saddle point analysis tells us that we expect the dominant contributions to the free energy to come from the minima of
 $E$, i.e.
 \begin{align*}
-F &amp;amp;= \frac{1}{n^2} \log \int_{\mathbb{R}^n} e^{-n^2E(\lambda_1,\cdots\lambda_n)} d\lambda_1\cdots d\lambda_n\\\&lt;br&gt;
-&amp;amp;\sim \frac{1}{n^2} \log e^{-n^2 \min E(\lambda_1,\cdots\lambda_n)}\\\&lt;br&gt;
+F &amp;amp;= \frac{1}{n^2} \log \int_{\mathbb{R}^n} e^{-n^2E(\lambda_1,\cdots\lambda_n)} d\lambda_1\cdots d\lambda_n\\\
+&amp;amp;\sim \frac{1}{n^2} \log e^{-n^2 \min E(\lambda_1,\cdots\lambda_n)}\\\
 &amp;amp;= \min E(\lambda_1,\cdots\lambda_n).
 \end{align*}
 Writing the density of charges as a measure $\mu = \frac{1}{n}\sum_{k=1}^n \delta_{{\lambda_{k}}}$, we can rewrite this
 minimization problem as
 \begin{align*}
 \min E(\lambda_1,\cdots\lambda_n) &amp;amp;= \min \frac{1}{n^2}\sum_{i\neq j} \log \frac{1}{\lambda_i - \lambda_j} +
-\frac{1}{n}\sum_{i=1}^n Q(\lambda_i)\\\&lt;br&gt;
+\frac{1}{n}\sum_{i=1}^n Q(\lambda_i)\\\
 &amp;amp;= \min_{\mu(\mathbb{R}) = 1} \int\int \log\frac{1}{x-y} d\mu(x) d\mu(y) + \int Q(x) d\mu(x).
 \end{align*}
 As $n \to \infty$, we expect that the charges should coalesce into a continuous distribution of charge $\mu$, i.e.,
@@ -467,7 +479,7 @@ $\mu$ from the above formula, and then plug it back in to the energy functional,
 for the dominant contribution to the free energy. But how do we recover a measure if we know its Cauchy transform?
 Luckily, this question has already been answered for us; these are the famous Sokhotsky-Plemelj formulae:
 \begin{align*}
-\frac{d\mu(x)}{dx} &amp;amp;= \frac{1}{2\pi i}\bigg( C^\mu_+(x) - C^\mu_-(x)\bigg),\\\&lt;br&gt;
+\frac{d\mu(x)}{dx} &amp;amp;= \frac{1}{2\pi i}\bigg( C^\mu_+(x) - C^\mu_-(x)\bigg),\\\
 P.V.\int \frac{d\mu(y)}{y-x} &amp;amp;= C^\mu_+(x) + C^\mu_-(x),
 \end{align*}
 for $x$ in the support of the charges. These formulae, along with a little knowledge of complex analysis, will allow
@@ -475,8 +487,8 @@ us to recover $d\mu(x) = \rho(x)dx$. Consider the function $P(z):=Q&#39;(z)C^{\m
 analytic everywhere in the complex plane, except possibly at the places where $C^\mu(z)$ loses analyticity&amp;ndash;the support
 of the charges. Let us compute the jump of $P(z)$ across the support:
 \begin{align*}
-P_+(z) - P_-(z) &amp;amp;= Q&#39;(z)\bigg(C^{\mu}_+(z)-C^{\mu}_-(z)\bigg) - (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\&lt;br&gt;
-&amp;amp;= \bigg(C^{\mu}_+(z)+C^{\mu}_-(z)\bigg)\bigg(C^{\mu}_+(z)-C^{\mu}_-(z)\bigg)- (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\&lt;br&gt;
+P_+(z) - P_-(z) &amp;amp;= Q&#39;(z)\bigg(C^{\mu}&lt;em&gt;+(z)-C^{\mu}&lt;/em&gt;-(z)\bigg) - (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\
+&amp;amp;= \bigg(C^{\mu}&lt;em&gt;+(z)+C^{\mu}&lt;/em&gt;-(z)\bigg)\bigg(C^{\mu}&lt;em&gt;+(z)-C^{\mu}&lt;/em&gt;-(z)\bigg)- (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\
 &amp;amp;=0,
 \end{align*}
 and so $P(z)$ is continuous across the support of the charges, and thus continuous everywhere. By Morera&amp;rsquo;s theorem,
@@ -506,20 +518,20 @@ this is &lt;em&gt;Wigner&amp;rsquo;s semicircle law&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;We now discuss $N$-matrix models, which are matrix models $n$ over copies of $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt;; for simplicity, we specialize to the case of $N = 2$.
 We denote the matrices in the first copy of $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; by $A$, and in the second copy by $B$. The probability measure we consider here is
 \begin{equation*}
-d\mathbb{P}_n(A,B) = \frac{1}{Z_n} \exp\bigg( -\frac{n}{2} \text{tr} (A^2 + B^2 + 2cAB)\bigg) dA dB.
+d\mathbb{P}&lt;em&gt;n(A,B) = \frac{1}{Z_n} \exp\bigg( -\frac{n}{2} \text{tr} (A^2 + B^2 + 2cAB)\bigg) dA dB.
 \end{equation*}
 The quantity in the exponent can be thought of as a quadratic form on pairs of Hermitian matrices $(A,B)$, with defining matrix
 \begin{equation*} \label{quad-form}
 \begin{pmatrix}
-1 &amp;amp; c \\\&lt;br&gt;
+1 &amp;amp; c \\\
 c &amp;amp; 1
 \end{pmatrix}.
 \end{equation*}
 Expected values are denoted in the same way as before; this ensemble is also Gaussian in nature, and so the matrix version of Wick&amp;rsquo;s theorem
 applies. As before, all one-point functions vanish identically. Thus, the relevant expected values to compute are the two-point functions; they are:
 \begin{align*}
-\langle A_{i_1j_1}A_{i_2j_2}\rangle_n = \langle B_{i_1j_1}B_{i_2j_2}\rangle_n
-&amp;amp;= \frac{1}{n}\frac{1}{1-c^2} \delta_{i_1 j_2}\delta_{i_2 j_1},\\\&lt;br&gt;
+\langle A&lt;/em&gt;{i_1j_1}A_{i_2j_2}\rangle_n = \langle B_{i_1j_1}B_{i_2j_2}\rangle_n
+&amp;amp;= \frac{1}{n}\frac{1}{1-c^2} \delta_{i_1 j_2}\delta_{i_2 j_1},\\\
 \langle A_{i_1j_1}B_{i_2j_2}\rangle_n &amp;amp;= \frac{1}{n}\frac{c}{1-c^2} \delta_{i_1 j_2}\delta_{i_2 j_1}.
 \end{align*}
 The computations are almost identical to the $1$-matrix case, and so we omit them here (the process involves the extra step of diagonalizing
@@ -534,12 +546,12 @@ about the
 we will need to switch over to eigenvalue variables; this is not as trivial as a task as it was in the 1-matrix case. This is made apparent as
 follows. Suppose we want to compute the expected value of some function $f(A,B) = f(\text{tr} A,\text{tr} B)$. This is written as
 \begin{equation}
-\langle f(A,B)  \rangle_n = \frac{1}{Z_n}\int_{A\in \mathcal{H}_n} \int_{B \in \mathcal{H}_n}dA dB \exp\bigg( -\frac{n}{2}
+\langle f(A,B)  \rangle_n = \frac{1}{Z_n}\int_{A\in \mathcal{H}&lt;em&gt;n} \int&lt;/em&gt;{B \in \mathcal{H}&lt;em&gt;n}dA dB \exp\bigg( -\frac{n}{2}
 \text{tr} (A^2 + B^2 + 2cAB)\bigg)  f(A,B).
 \end{equation}
 Letting $A = U^\dagger X U$, $B = V^\dagger Y V$, where $X = \text{diag}(x_1,\cdots,x_n)$, $Y = \text{diag}(y_1,\cdots,y_n)$ are diagonal matrices, we see that the above is
 \begin{align*}
-=&amp;amp; \frac{1}{Z_n}\int_{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
+=&amp;amp; \frac{1}{Z_n}\int&lt;/em&gt;{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
 \\\ &amp;amp;\times\int_{U,V \in U(n)/U_{diag}(n)} dU dV \exp\big(nc \text{tr} AB\big)
 \end{align*}
 We must pay careful attention to the integral
@@ -571,27 +583,27 @@ in
 Consider the heat equation in the variable $A$:
 \begin{equation}\label{heat-eq-1}
 \begin{cases}
-\left( \frac{\partial}{\partial t} - \frac{1}{2} \Delta_A \right) u(A,t) = 0,\\\&lt;br&gt;
+\left( \frac{\partial}{\partial t} - \frac{1}{2} \Delta_A \right) u(A,t) = 0,\\\
 u(A,0) = f(A).
 \end{cases}
 \end{equation}
-Here, $\Delta_A$ is the usual Laplace operator on $\mathcal{H}_n$:
+Here, $\Delta_A$ is the usual Laplace operator on $\mathcal{H}&lt;em&gt;n$:
 \begin{equation*}
-\Delta_{A} = \sum_{i=1}^n \frac{\partial^2}{\partial A_{ii}^2} + \frac{1}{2}\sum_{i &amp;lt; j}\left(\frac{\partial^2}{\partial \text{Re}(A_{ij})^2} +
+\Delta&lt;/em&gt;{A} = \sum_{i=1}^n \frac{\partial^2}{\partial A_{ii}^2} + \frac{1}{2}\sum_{i &amp;lt; j}\left(\frac{\partial^2}{\partial \text{Re}(A_{ij})^2} +
 \frac{\partial^2}{\partial \text{Im}(A_{ij})^2}\right).
 \end{equation*}
-The heat kernel for this operator is easily derived (since $\mathcal{H}_n \cong \mathbb{R}^{n^2}$ in scaled coordinates):
+The heat kernel for this operator is easily derived (since $\mathcal{H}&lt;em&gt;n \cong \mathbb{R}^{n^2}$ in scaled coordinates):
 \begin{equation*}
 K(A,B;t) = \frac{1}{(2\pi t)^{n^2/2}}\exp\left(\frac{1}{2t} \text{tr}(A-B)^2\right);
 \end{equation*}
 The solution to the heat equation above is thus given by
 \begin{equation*}
-u(A,t) = \int_{\mathcal{H}_n} dB f(B) \frac{1}{(2\pi t)^{n^2/2}}\exp\left(-\frac{1}{2t} \text{tr}(A-B)^2\right).
+u(A,t) = \int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n} dB f(B) \frac{1}{(2\pi t)^{n^2/2}}\exp\left(-\frac{1}{2t} \text{tr}(A-B)^2\right).
 \end{equation*}
 Let us suppose the initial data $f(A)$ depends only on the eigenvalue
 variables, i.e. $f(A) = f(\text{tr}(A))$. Then, converting the above to eigenvalue variables $A = U^\dagger X U$, $B = V^\dagger Y V$, we find that
 \begin{align*}\label{heat2}
-u(A,t) = &amp;amp;\frac{1}{(2\pi t)^{n^2/2}}\int_{\mathbb{R}^n} dY, V^2(Y)f(Y) \exp\left(-\frac{1}{2t} \text{tr}(X^2 + Y^2) \right)
+u(A,t) = &amp;amp;\frac{1}{(2\pi t)^{n^2/2}}\int&lt;/em&gt;{\mathbb{R}^n} dY, V^2(Y)f(Y) \exp\left(-\frac{1}{2t} \text{tr}(X^2 + Y^2) \right)
 \\\ &amp;amp;\times\int_{U(n)/U_{diag}(n)} dW \exp\big(\frac{1}{t} \text{tr} X W Y W^\dagger\big),
 \end{align*}
 where $W = UV^\dagger$. Note that the inner integral is the object we want to compute. Furthermore, the above formula implies that if
@@ -599,19 +611,19 @@ $f(U^\dagger X U) = f(X)$, then $u(U^\dagger X U,t) = u(X,t)$ for all $t &amp;gt
 coordinates. With the help of the formula we derived for the laplacian on the eigenvalue coordinates, we find that
 \begin{align*}
 0 &amp;amp;= \left( \frac{\partial}{\partial t} - \frac{1}{2} \Delta_A \right) u(A,t)
-= \left( \frac{\partial}{\partial t} - \frac{1}{2} \Delta_{X} \right) u(X,t)\\\&lt;br&gt;
+= \left( \frac{\partial}{\partial t} - \frac{1}{2} \Delta_{X} \right) u(X,t)\\\
 &amp;amp;= \frac{\partial u }{\partial t} - \frac{1}{2}\frac{1}{V^2(X)}\sum_{i=1}^n\frac{\partial}{\partial x_i}
-\left(V^2(X) \frac{\partial u}{\partial x_i} \right)\\\&lt;br&gt;
+\left(V^2(X) \frac{\partial u}{\partial x_i} \right)\\\
 &amp;amp;= \frac{\partial u }{\partial t} - \frac{1}{2}\frac{1}{V^2(X)}\sum_{i=1}^n \left(2V(X)\frac{\partial V}{\partial x_i}  \frac{\partial u}{\partial x_i}  + V^2(X) \frac{\partial^2 u}{\partial x_i^2}\right);
 \end{align*}
 Multiplying the above equation by the Vandermonde determinant $V(x)$, and using the fact that $\sum_{i=1}^n \frac{\partial^2 V}{\partial x_i^2}= 0$, the above equation becomes
 \begin{align*}
 0 &amp;amp;= \frac{\partial V u }{\partial t} - \frac{1}{2}\sum_{i=1}^n \left(2\frac{\partial V}{\partial x_i}
-\frac{\partial u}{\partial x_i}  + V(X)\frac{\partial^2 u}{\partial x_i^2}\right)\\\&lt;br&gt;
+\frac{\partial u}{\partial x_i}  + V(X)\frac{\partial^2 u}{\partial x_i^2}\right)\\\
 &amp;amp;= \frac{\partial V u }{\partial t} - \frac{1}{2}\sum_{i=1}^n \left(\underbrace{u\frac{\partial^2
-V}{\partial x_i^2}}_{=0} + 2\frac{\partial V}{\partial x_i}  \frac{\partial u}{\partial x_i}  +
-V(X)\frac{\partial^2 u}{\partial x_i^2}\right)\\\&lt;br&gt;
-&amp;amp;= \left(\frac{\partial}{\partial t} - \frac{1}{2} \sum_{i=1}^n \frac{\partial^2}{\partial x_i^2}\right)V(X)u(X,t),
+V}{\partial x_i^2}}&lt;em&gt;{=0} + 2\frac{\partial V}{\partial x_i}  \frac{\partial u}{\partial x_i}  +
+V(X)\frac{\partial^2 u}{\partial x_i^2}\right)\\\
+&amp;amp;= \left(\frac{\partial}{\partial t} - \frac{1}{2} \sum&lt;/em&gt;{i=1}^n \frac{\partial^2}{\partial x_i^2}\right)V(X)u(X,t),
 \end{align*}
 and so $V(x)u(X,t)$ satisfies a heat equation of a different form. The generic solution for initial data $g(X)$ to the above heat equation is
 \begin{equation*}
@@ -626,13 +638,13 @@ multiplying the previous equation by $V(X)$, we see that we have two expressions
 expressions yields
 \begin{align*}
 &amp;amp;V(X)\frac{1}{(2\pi t)^{n^2/2}}\int_{\mathbb{R}^n} dY V^2(Y)f(Y) \exp\left(-\frac{1}{2t} \text{tr}(X^2 + Y^2) \right)
-\int_{U(n)/U_{diag}(n)} dW \exp\big(\frac{1}{t} \text{tr} X W Y W^\dagger\big)\\\&lt;br&gt;
+\int_{U(n)/U_{diag}(n)} dW \exp\big(\frac{1}{t} \text{tr} X W Y W^\dagger\big)\\\
 &amp;amp;=  u(X,t)=\int_{Y\in \mathbb{R}^n} dY \frac{1}{(2\pi t)^{n/2}}\exp\left(-\frac{1}{2t}\text{tr}(X-Y)^2\right) V(Y)f(Y).
 \end{align*}
 Setting $f(Y) = \delta(Y-Y_0)$, we obtain that
 \begin{align*}
 &amp;amp;V(X)V^2(Y_0)\frac{1}{(2\pi t)^{n^2/2}}\exp\left(-\frac{1}{2t} \text{tr}(X^2 + Y_0^2) \right)
-\int_{U(n)/U_{diag}(n)} dW \exp\big(\frac{1}{t} \text{tr} X W Y_0 W^\dagger\big)\\\&lt;br&gt;
+\int_{U(n)/U_{diag}(n)} dW \exp\big(\frac{1}{t} \text{tr} X W Y_0 W^\dagger\big)\\\
 &amp;amp;=   \frac{1}{(2\pi t)^{n/2}}\exp\left(-\frac{1}{2t}\text{tr}(X-Y_0)^2\right) V(Y_0).
 \end{align*}
 Rearranging, and relabelling $Y_0 = Y$, we get
@@ -649,17 +661,17 @@ finally,
 &lt;p&gt;Just as $1$-matrix models are connected to orthogonal polynomials, $2$-matrix models are connected to biorthogonal polynomials. Consider again
 the $2$-matrix model defined by the measure
 \begin{equation*}
-d\mathbb{P}_n(A,B) = \frac{1}{Z_n} \exp\bigg( -\frac{n}{2} \text{tr} (A^2 + B^2 + 2cAB)\bigg) dA dB,
+d\mathbb{P}&lt;em&gt;n(A,B) = \frac{1}{Z_n} \exp\bigg( -\frac{n}{2} \text{tr} (A^2 + B^2 + 2cAB)\bigg) dA dB,
 \end{equation*}
 and recall that expected values of invariant functions $f(A,B) = f(\text{tr}(A),\text{tr}(B))$ are given by the formula
 \begin{equation*}
-\langle f(A,B)  \rangle_n = \frac{1}{Z_n}\int_{A\in \mathcal{H}_n} \int_{B \in \mathcal{H}_n}dA dB \exp\bigg( -\frac{n}{2}
+\langle f(A,B)  \rangle_n = \frac{1}{Z_n}\int&lt;/em&gt;{A\in \mathcal{H}&lt;em&gt;n} \int&lt;/em&gt;{B \in \mathcal{H}&lt;em&gt;n}dA dB \exp\bigg( -\frac{n}{2}
 \text{tr} (A^2 + B^2 + 2cAB)\bigg)  f(A,B).
 \end{equation*}
 Letting $A = U^\dagger X U$, $B = V^\dagger Y V$, where $X = \text{diag}(x_1,\cdots,x_n)$, $Y = \text{diag}(y_1,\cdots,y_n)$ are diagonal matrices, we
 can integrate out eigenvalue variables to obtain
 \begin{align*}
-&amp;amp;= \frac{1}{Z_n&#39;}\int_{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
+&amp;amp;= \frac{1}{Z_n&#39;}\int&lt;/em&gt;{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
 \\\ &amp;amp;\times\int_{U \in U(n)/U_{diag}(n)} dW \exp\big(nc \text{tr} XWYW^\dagger\big).
 \end{align*}
 The integral inside is precisely the Itzykson Zuber integral we computed previously; we insert the expression we derived for it into the
@@ -667,7 +679,7 @@ above formula, absorbing all constant factors into the partition function:
 \begin{align*}
 \langle f(A,B)  \rangle_n &amp;amp;= \frac{1}{Z_n&#39;&#39;}\int_{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg(
 -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
-\frac{\det e^{nc x_iy_j }}{V(Y) V(X)}\\\&lt;br&gt;
+\frac{\det e^{nc x_iy_j }}{V(Y) V(X)}\\\
 &amp;amp;=\frac{1}{Z_n&#39;&#39;}\int_{X,Y\in \mathbb{R}^n} \prod_{k=1}^n dx_k dy_k f(x,y) V(x)V(y)\exp\bigg( -\frac{n}{2} \sum_{k=1} x_i^2  + y_i^2 + 2ncx_i y_i\bigg).
 \end{align*}&lt;/p&gt;
 &lt;p&gt;Thus, just as we were able to connect the 1-matrix model and orthogonal polynomials, we can connect the 2-matrix
@@ -691,10 +703,10 @@ the
 &lt;a href=&#34;https://link.springer.com/chapter/10.1007/BFb0058919&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;original paper&lt;/a&gt;).
 Consider the Hardy space $H^2(\mathbb{D})$. There is a natural
 inclusion of $H^2(\mathbb{D})$ into $L^2(\mathbb{T})$, given by the restriction
-$f\mapsto f\vert_{\mathbb{T}}$. Let $\mathbb{P}_{H^2} : L^2(\mathbb{T}) \to H^2(\mathbb{D})$ denote the
+$f\mapsto f\vert_{\mathbb{T}}$. Let $\mathbb{P}&lt;em&gt;{H^2} : L^2(\mathbb{T}) \to H^2(\mathbb{D})$ denote the
 orthogonal projection of $L^2(\mathbb{T})$ into $H^2(\mathbb{D})$. Now, given
 $P \in \mathbb{C}[z,z^{-1}]$, we define the Toeplitz operator with principal
-symbol $P$ by $$T_P f(z) = \mathbb{P}_{H^2} \left[ P(z)f(z)\right],$$ for
+symbol $P$ by $$T_P f(z) = \mathbb{P}&lt;/em&gt;{H^2} \left[ P(z)f(z)\right],$$ for
 $f \in H^2(\mathbb{D})$. It is clear that the commutator of any two such
 operators operators is trace-class (it is even of finite rank). The
 Helton-Howe formula tells us that, given $P,Q \in \mathbb{C}[z,z^{-1}]$,
@@ -702,28 +714,28 @@ $$\text{tr } [T_P, T_Q] = \frac{1}{2\pi i}\int_{|z| = 1} P(z) Q&#39;(z) dz = \fr
 The last equality is immediate from Stokes&#39; theorem; the interesting
 equality is the first. Let $T_z$ denote the Toeplitz operator of
 multiplication by $z$ (this is just the shift operator in the Hardy
-space), and $T^*_z$ its adjoint (note that $T^*_z = T_{1/z}$). If
+space), and $T^&lt;em&gt;_z$ its adjoint (note that $T^&lt;/em&gt;&lt;em&gt;z = T&lt;/em&gt;{1/z}$). If
 $P = \sum_k P_k z^k \in \mathbb{C}[z,z^{-1}]$, then its corresponding Toeplitz
 operator may be written as
-$$T_P = \sum_{k\geq 0} P_k T_z^k + \sum_{k&amp;lt;0} P_k {T_z^{*}}^k.$$
-Clearly, ${T_z^*}^n{T_z}^n = I$; on the other hand,
-${T_z}^n{T_z^*}^n = I - \mathbb{P}_n$, where $\mathbb{P}_n$ is the orthogonal
+$$T_P = \sum_{k\geq 0} P_k T_z^k + \sum_{k&amp;lt;0} P_k {T_z^{&lt;em&gt;}}^k.$$
+Clearly, ${T_z^&lt;/em&gt;}^n{T_z}^n = I$; on the other hand,
+${T_z}^n{T_z^&lt;em&gt;}^n = I - \mathbb{P}_n$, where $\mathbb{P}_n$ is the orthogonal
 projector onto the subspace $E_n:=\text{span}$ {$1,z, &amp;hellip;,z^{n-1}$}.
 This observation allows us to compute that
-$\text{tr }[{T_z^*}^n,{T_z}^n] = \text{tr } \mathbb{P}_n = n$. Now, if $n \neq m$, one finds
-by direct computation that $\text{tr }[{T_z^*}^m,{T_z}^n] = 0$. Thus,
-$\text{tr }[{T_z^*}^m,{T_z}^n] = n\delta_{n,m}$. If $P, Q \in \mathbb{C}[z,z^{-1}]$,
+$\text{tr }[{T_z^&lt;/em&gt;}^n,{T_z}^n] = \text{tr } \mathbb{P}&lt;em&gt;n = n$. Now, if $n \neq m$, one finds
+by direct computation that $\text{tr }[{T_z^&lt;em&gt;}^m,{T_z}^n] = 0$. Thus,
+$\text{tr }[{T_z^&lt;/em&gt;}^m,{T_z}^n] = n\delta&lt;/em&gt;{n,m}$. If $P, Q \in \mathbb{C}[z,z^{-1}]$,
 and $P = \sum_k P_k z^k$, $Q = \sum_k Q_k z^k$, then
-$$= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) [{T_z^*}^n,{T_z}^m];$$
+$$= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) [{T_z^&lt;em&gt;}^n,{T_z}^m];$$
 taking traces yields $$\begin{aligned}
-\text{tr } [T_P,T_Q] &amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) \text{tr } [{T_z^*}^n,{T_z}^m] \\\&lt;br&gt;
-&amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) n\delta_{n,m} = \sum_{n\geq 0} n(P_{-n}Q_n - Q_{-n}P_n)\\\&lt;br&gt;
+\text{tr } [T_P,T_Q] &amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) \text{tr } [{T_z^&lt;/em&gt;}^n,{T_z}^m] \\\
+&amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) n\delta_{n,m} = \sum_{n\geq 0} n(P_{-n}Q_n - Q_{-n}P_n)\\\
 &amp;amp;= \sum_{n}n P_{-n}Q_n.
 \end{aligned}$$ On the other hand, by residue theorem,
 $$\begin{aligned}
 \frac{1}{2\pi i}\int_{|z| = 1} P(z) Q&#39;(z) dz
-&amp;amp;= \frac{1}{2\pi i}\int_{|z| = 1} \sum_{\ell}\left(\sum_n nP_{\ell - n} Q_n \right) z^{\ell-1} dz\\\&lt;br&gt;
-&amp;amp;= \sum_{\ell}\left(\sum_n nP_{\ell - n} Q_n \right) \delta_{\ell,0}\\\&lt;br&gt;
+&amp;amp;= \frac{1}{2\pi i}\int_{|z| = 1} \sum_{\ell}\left(\sum_n nP_{\ell - n} Q_n \right) z^{\ell-1} dz\\\
+&amp;amp;= \sum_{\ell}\left(\sum_n nP_{\ell - n} Q_n \right) \delta_{\ell,0}\\\
 &amp;amp;= \sum_{n}n P_{-n}Q_n.
 \end{aligned}$$ Comparing the results of these two computations
 concludes the proof.&lt;/p&gt;
@@ -749,7 +761,7 @@ Most commonly (and often most intuitively), a manifold is endowed with the metri
 $$
 x = \sin \theta \cos \varphi, \qquad
 y = \sin \theta \sin \varphi, \qquad
-z = \cos \theta, \&lt;br&gt;
+z = \cos \theta, \
 $$
 where $0 \leq \theta \leq \pi, 0 \leq \varphi \leq 2 \pi$. &lt;em&gt;(Note: We are using the standard physics notation for spherical coordinates; we apologize to anyone used to the other notation, and hope it won&amp;rsquo;t cause too much confusion.&lt;/em&gt; In these coordinates, the differentials $dx$, $dy$, and $dz$ may be computed readily:
 $$dx = \cos\theta \cos\varphi d\theta - \sin\theta \sin\varphi d\varphi,$$
@@ -765,7 +777,7 @@ $$dz^2 = \sin^2\theta d\theta^2.$$
 Summing these three terms, we obtain the restriction of the Euclidean metric $g = dx^2 + dy^2 + dz^2$ in $\mathbb{R}^3$ to the sphere. We see that the &amp;ldquo;cross terms&amp;rdquo; (the expressions containing $d\theta d\varphi$ and $d\varphi d\theta$) cancel, and repeated use of trigonometric identities on the remaining terms yields the expression
 $$ g\vert_{S^2} = d\theta^2 + \sin^2\theta d\varphi^2. $$
 Instead of numbering the coordinates (which will make the notation cumbersome), we will simply use the coordinates themselves as indices, and subsequent sums over indices will be taken over these symbols. This is less complicated than it sounds: For example, the metric above has components: $g_{\theta\theta} = 1$, $g_{\theta\varphi} = g_{\varphi\theta} = 0$, and $g_{\varphi\varphi} = \sin^2\theta$. We will use a similar notation for the inverse metric tensor $g$, but with the indices in the upper position. Since $g$ is diagonal, it is easy to compute the inverse metric tensor: $g^{-1}$ has components $g^{\theta\theta} = 1$, $g^{\theta\varphi} = g^{\varphi\theta} = 0$, and $g^{\varphi\varphi} = 1 / \sin^2\theta$.
-**Exercise.** Compute the metric arising from the embedding of the 2-sphere in $\mathbb{R}^3$ by stereographic projection:
+&lt;strong&gt;Exercise.&lt;/strong&gt; Compute the metric arising from the embedding of the 2-sphere in $\mathbb{R}^3$ by stereographic projection:
 \begin{equation}
 x = \frac{2X}{1+X^2+Y^2}, \qquad
 y = \frac{2Y}{1+X^2+Y^2}, \qquad
@@ -785,15 +797,15 @@ z = r\sin\theta,
 \end{equation}
 where $0 \leq \theta, \varphi \leq 2 \pi$. The differentials of these coordinates are then
 \begin{align}
-dx &amp;amp;= -r\sin\theta\cos\varphi d\theta - (R + r\cos\theta)\sin\varphi d\varphi,\\\&lt;br&gt;
-dy &amp;amp;= -r\sin\theta\sin\varphi d\theta + (R + r\cos\theta)\cos\varphi d\varphi,\\\&lt;br&gt;
+dx &amp;amp;= -r\sin\theta\cos\varphi d\theta - (R + r\cos\theta)\sin\varphi d\varphi,\\\
+dy &amp;amp;= -r\sin\theta\sin\varphi d\theta + (R + r\cos\theta)\cos\varphi d\varphi,\\\
 dz &amp;amp;= r\cos\theta d\theta.
 \end{align}
 Taking tensor products of each coordinate, we find that
 \begin{aligned}
 dx^2 &amp;amp;= r^2\sin^2\theta\cos^2\varphi d\theta^2 + (R + r\cos\theta)^2\sin^2\varphi d\varphi^2
-+ r(R + r\cos\theta)\sin\theta\cos\varphi\sin\varphi d\theta d\varphi + \left(\cdot\right)d\varphi d\theta,\\\&lt;br&gt;
-dy^2 &amp;amp;= r^2\sin^2\theta\sin^2\varphi d\theta^2 + (R + r\cos\theta)^2\cos^2\varphi d\varphi^2 - r(R + r\cos\theta)\sin\theta\sin\varphi\cos\varphi d\theta d\varphi - (\cdot) d\varphi d\theta,\\\&lt;br&gt;
++ r(R + r\cos\theta)\sin\theta\cos\varphi\sin\varphi d\theta d\varphi + \left(\cdot\right)d\varphi d\theta,\\\
+dy^2 &amp;amp;= r^2\sin^2\theta\sin^2\varphi d\theta^2 + (R + r\cos\theta)^2\cos^2\varphi d\varphi^2 - r(R + r\cos\theta)\sin\theta\sin\varphi\cos\varphi d\theta d\varphi - (\cdot) d\varphi d\theta,\\\
 dz^2 &amp;amp;= r^2\cos^2\theta d\theta^2.
 \end{aligned}
 (We have suppressed the coefficient of the $d\varphi d\theta$ terms, as they are the same as the coefficient of the $d\theta d\varphi$ terms in both cases). Summing, we see that the &amp;ldquo;cross-terms&amp;rdquo; cancel, and what remains can be simplified via trigonometric identities. The metric then takes the form:
@@ -817,10 +829,10 @@ Consider the 3-sphere $S^3:=${$(x_0,x_1,x_2,x_3) \mid x_0^2 + x_1^2 + x_2^2 + x_
 $3$-sphere with the coordinates
 \begin{equation}
 \begin{cases}
-x_0 &amp;amp;= \cos \psi,\\\&lt;br&gt;
-x_1 &amp;amp;= \sin \psi \cos \theta,\\\&lt;br&gt;
-x_2 &amp;amp;= \sin \psi \sin \theta \cos \varphi,\\\&lt;br&gt;
-x_3 &amp;amp;= \sin \psi \sin \theta \sin \varphi,\\\&lt;br&gt;
+x_0 &amp;amp;= \cos \psi,\\\
+x_1 &amp;amp;= \sin \psi \cos \theta,\\\
+x_2 &amp;amp;= \sin \psi \sin \theta \cos \varphi,\\\
+x_3 &amp;amp;= \sin \psi \sin \theta \sin \varphi,\\\
 \end{cases}
 \end{equation}
 Where $0 \leq \psi, \theta \leq \pi$, and $0 \leq \varphi \leq 2 \pi$.&lt;/p&gt;
@@ -833,10 +845,10 @@ g\vert_{S^3} = d\psi^2 + \sin^2 \psi d\theta^2 + \sin^2 \psi \sin^2 \theta d\var
 Let us consider new coordinates on the sphere, called the &lt;em&gt;Hopf coordinates&lt;/em&gt;:
 \begin{equation}
 \begin{cases}
-x_0 &amp;amp;= \cos \xi_1 \sin \eta,\\\&lt;br&gt;
-x_1 &amp;amp;= \sin \xi_1 \sin \eta,\\\&lt;br&gt;
-x_2 &amp;amp;= \cos \xi_2 \cos \eta,\\\&lt;br&gt;
-x_3 &amp;amp;= \sin \xi_2 \cos \eta,\\\&lt;br&gt;
+x_0 &amp;amp;= \cos \xi_1 \sin \eta,\\\
+x_1 &amp;amp;= \sin \xi_1 \sin \eta,\\\
+x_2 &amp;amp;= \cos \xi_2 \cos \eta,\\\
+x_3 &amp;amp;= \sin \xi_2 \cos \eta,\\\
 \end{cases}
 \end{equation}
 Where $0 \leq \eta \leq \frac{\pi}{2}$, $0 \leq \xi_1, \xi_2 \leq 2\pi$. It is easy to check that the embedding
@@ -848,12 +860,12 @@ Putting $z_1 = x_0 + ix_1$, $z_2 = x_2 + ix_3$, we can write
 \begin{equation}
 U(\xi_1,\xi_2,\eta) =
 \begin{pmatrix}
-e^{i\xi_1}\sin\eta &amp;amp; -e^{-i\xi_2}\cos\eta\\\&lt;br&gt;
+e^{i\xi_1}\sin\eta &amp;amp; -e^{-i\xi_2}\cos\eta\\\
 e^{i\xi_2}\cos\eta &amp;amp; e^{-i\xi_1}\sin\eta
 \end{pmatrix}
 =
 \begin{pmatrix}
-z_1 &amp;amp; -\bar{z}_2\\\&lt;br&gt;
+z_1 &amp;amp; -\bar{z}_2\\\
 z_2 &amp;amp; \bar{z}_1
 \end{pmatrix},
 \end{equation}
@@ -861,7 +873,7 @@ Which is the generic form of a matrix in $SU(2):=${$U \in GL_2(\mathbb{C}) \mid 
 as $g = |dz_1|^2 + |dz_2|^2$. Let
 \begin{equation}
 W:= \begin{pmatrix}
-w_1 &amp;amp; -\bar{w}_2\\\&lt;br&gt;
+w_1 &amp;amp; -\bar{w}_2\\\
 w_2 &amp;amp; \bar{w}_1
 \end{pmatrix}
 \end{equation}
@@ -869,48 +881,48 @@ Be another matrix in $SU(2)$, i.e. $|w_1|^2 + |w_2|^2 = 1$. Then, under a left t
 \begin{equation}
 W\cdot Z =
 \begin{pmatrix}
-w_1 &amp;amp; -\bar{w}_2\\\&lt;br&gt;
+w_1 &amp;amp; -\bar{w}_2\\\
 w_2 &amp;amp; \bar{w}_1
 \end{pmatrix} &lt;br&gt;
 \begin{pmatrix}
-z_1 &amp;amp; -\bar{z}_2\\\&lt;br&gt;
+z_1 &amp;amp; -\bar{z}_2\\\
 z_2 &amp;amp; \bar{z}_1
 \end{pmatrix}
 =&lt;br&gt;
 \begin{pmatrix}
-w_1z_1-\bar{w}_2z_2 &amp;amp; -\overline{w_2z_1+\bar{w}_1z_2}\\\&lt;br&gt;
+w_1z_1-\bar{w}_2z_2 &amp;amp; -\overline{w_2z_1+\bar{w}_1z_2}\\\
 w_2z_1+\bar{w}_1z_2 &amp;amp; \overline{w_1z_1-\bar{w}_2z_2},
 \end{pmatrix}
 \end{equation}
 i.e., the translated coordinates are
 \begin{align}
-\zeta_1 &amp;amp;= w_1z_1-\bar{w}_2z_2,\\\&lt;br&gt;
+\zeta_1 &amp;amp;= w_1z_1-\bar{w}_2z_2,\\\
 \zeta_2 &amp;amp;= w_2z_1+\bar{w}_1z_2.
 \end{align}
 Invariance of the metric under left translations is equivalent to checking that $|dz_1|^2 + |dz_2|^2 =
 |d\zeta_1|^2 + |d\zeta_2|^2$. Indeed, we find that
 \begin{align}
-d\zeta_1 &amp;amp;= w_1dz_1-\bar{w}_2dz_2,\\\&lt;br&gt;
+d\zeta_1 &amp;amp;= w_1dz_1-\bar{w}_2dz_2,\\\
 d\zeta_2 &amp;amp;= w_2dz_1+\bar{w}_1dz_2,
 \end{align}
 so that
 \begin{align}
 |d\zeta_1|^2 &amp;amp;= |w_1|^2|dz_1|^2 - \bar{w}_1\bar{w}_2dz_2 d\bar{z}_1 -
-w_1 w_2 dz_1 d\bar{z}_2 + |w_2|^2 |dz_2|^2,\\\&lt;br&gt;
+w_1 w_2 dz_1 d\bar{z}_2 + |w_2|^2 |dz_2|^2,\\\
 |d\zeta_2|^2 &amp;amp;= |w_2|^2|dz_1|^2 + \bar{w}_1\bar{w}_2dz_2 d\bar{z}_1 +
-w_1 w_2 dz_1 d\bar{z}_2 + |w_1|^2 |dz_2|^2;
+w_1 w_2 dz_1 d\bar{z}&lt;em&gt;2 + |w_1|^2 |dz_2|^2;
 \end{align}
 adding these expressions yields the identity $|dz_1|^2 + |dz_2|^2 = |d\zeta_1|^2 + |d\zeta_2|^2$.
-**Exercise.**
+&lt;strong&gt;Exercise.&lt;/strong&gt;
 Check that the vector fields
 \begin{align}
 \sigma_1 &amp;amp;:= \frac{1}{2} \left( -\tan\eta\cos(\xi_1+\xi_2)\frac{\partial}{\partial \xi_1}
-+ \cot\eta\cos(\xi_1+\xi_2)\frac{\partial}{\partial \xi_2}+ \sin(\xi_1 + \xi_2) \frac{\partial}{\partial \eta}\right),\\\&lt;br&gt;
++ \cot\eta\cos(\xi_1+\xi_2)\frac{\partial}{\partial \xi_2}+ \sin(\xi_1 + \xi_2) \frac{\partial}{\partial \eta}\right),\\\
 \sigma_2 &amp;amp;:= \frac{1}{2} \left(\tan\eta\sin(\xi_1+\xi_2)\frac{\partial}{\partial \xi_1} -
-\cot\eta\sin(\xi_1+\xi_2)\frac{\partial}{\partial \xi_2} + \cos(\xi_1 + \xi_2) \frac{\partial}{\partial \eta}\right),\\\&lt;br&gt;
+\cot\eta\sin(\xi_1+\xi_2)\frac{\partial}{\partial \xi_2} + \cos(\xi_1 + \xi_2) \frac{\partial}{\partial \eta}\right),\\\
 \sigma_3 &amp;amp;:= \frac{1}{2} \left( \frac{\partial}{\partial \xi_1} + \frac{\partial}{\partial \xi_2} \right),
 \end{align}
-satisfy the commutation relations $[\sigma_i, \sigma_j] = \epsilon_{ijk} \sigma_k$.&lt;/p&gt;
+satisfy the commutation relations $[\sigma_i, \sigma_j] = \epsilon&lt;/em&gt;{ijk} \sigma_k$.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example.&lt;/strong&gt; &lt;em&gt;The Schwarzschild metric.&lt;/em&gt;
 Riemannian geometry goes hand-in-hand with Einstein&amp;rsquo;s theory of general relativity. One of the first exact solutions to Einstein&amp;rsquo;s field equations is the &lt;em&gt;Schwarzschild solution&lt;/em&gt;:
 \begin{equation}\label{Schwarzschildmetric}
@@ -931,7 +943,7 @@ Here, $\partial_j = \frac{\partial}{\partial x_j}$, the derivative with respect 
 \Gamma^i_{jk} = \frac{1}{2} g^{ii} \left( \partial_j g_{ik} + \partial_k g_{ji} -\partial_i g_{jk}\right);
 \end{equation}
 This often drastically reduces the number of computations one has to make.
-Although, formally speaking, we can now compute the connection, the Christoffel symbols are somewhat difficult to manage; an object with three indices (and which is moreover not tensorial) can be difficult to deal with in general. However, we can improve our situation, at least conceptually. We will think of the connection as a _matrix-valued 1-form_:
+Although, formally speaking, we can now compute the connection, the Christoffel symbols are somewhat difficult to manage; an object with three indices (and which is moreover not tensorial) can be difficult to deal with in general. However, we can improve our situation, at least conceptually. We will think of the connection as a &lt;em&gt;matrix-valued 1-form&lt;/em&gt;:
 \begin{equation}\label{matrix1form}
 \Gamma = \sum_k \Gamma_k dx^k,
 \end{equation}
@@ -950,21 +962,21 @@ We can simplify this expression (at least notationally speaking) significantly, 
 \begin{equation}
 \tilde{\Gamma} = \lambda \Gamma \lambda^{-1} - d\lambda \cdot\lambda^{-1}.
 \end{equation}
-The discerning reader will recognize this as what is known as a _gauge transformation_ in physics. This is, of course, no coincidence: a Riemannian manifold can be viewed as a principal- $GL_n(\mathbb{R})$ bundle and (gauge-invariant) connection $\nabla = d + \Gamma$. (If this sentence does not mean anything to you right now, do not worry; it is not relevant to the remainder of this exposition).&lt;/p&gt;
+The discerning reader will recognize this as what is known as a &lt;em&gt;gauge transformation&lt;/em&gt; in physics. This is, of course, no coincidence: a Riemannian manifold can be viewed as a principal- $GL_n(\mathbb{R})$ bundle and (gauge-invariant) connection $\nabla = d + \Gamma$. (If this sentence does not mean anything to you right now, do not worry; it is not relevant to the remainder of this exposition).&lt;/p&gt;
 &lt;p&gt;Now, we will check that, indeed, for any vector field $X$, $\nabla X$ is tensorial. Let us use the coordinate transformation of the previous section. Under such a transformation, the vector field $X$ transforms as $\lambda X$. Altogether, we find that, in the new coordinates,
 \begin{align}
 \tilde{\nabla} \tilde{X} &amp;amp;= \left(d +  \lambda \Gamma \lambda^{-1} - d\lambda \cdot\lambda^{-1}\right) \lambda X\\\
-&amp;amp;= d\lambda \cdot X + \lambda dX + \lambda \Gamma X - d\lambda \cdot X \\\&lt;br&gt;
+&amp;amp;= d\lambda \cdot X + \lambda dX + \lambda \Gamma X - d\lambda \cdot X \\\
 &amp;amp;= \lambda dX + \lambda \Gamma X = \lambda \nabla X,
 \end{align}
 so that $\nabla X$ is a tensorial quantity, and transforms like a tensor with one additional lower index than $X$.
 We conclude this section with some computations carried over from the previous section.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example.&lt;/strong&gt;&lt;em&gt;The Sphere $S^2$.&lt;/em&gt;
-Let us compute the connection coefficients of the Levi-Cevita connection arising from the metric we derived in the previous section. Since the metric is diagonal, we can use formula we derived for the $\Gamma$&amp;rsquo;s for a diagonal metric to compute the Christoffel symbols. Furthermore, since the metric is diagonal, and the only nonconstant component of the metric is $g_{\varphi \varphi}$, we see that the only non-vanishing Christoffel symbols will be those that involve an expression of the form $\partial_\theta g_{\varphi \varphi}$ (since partial derivatives of constants will yield zero). Comparing with diagonal formula, we conclude that the only non-vanishing Christoffel symbols are $\Gamma^{\varphi}_{\varphi\theta} = \Gamma^{\varphi}_{\theta\varphi}$, and $\Gamma^{\theta}_{\varphi\varphi}$. We compute these entries explicitly:
+Let us compute the connection coefficients of the Levi-Cevita connection arising from the metric we derived in the previous section. Since the metric is diagonal, we can use formula we derived for the $\Gamma$&amp;rsquo;s for a diagonal metric to compute the Christoffel symbols. Furthermore, since the metric is diagonal, and the only nonconstant component of the metric is $g_{\varphi \varphi}$, we see that the only non-vanishing Christoffel symbols will be those that involve an expression of the form $\partial_\theta g_{\varphi \varphi}$ (since partial derivatives of constants will yield zero). Comparing with diagonal formula, we conclude that the only non-vanishing Christoffel symbols are $\Gamma^{\varphi}&lt;em&gt;{\varphi\theta} = \Gamma^{\varphi}&lt;/em&gt;{\theta\varphi}$, and $\Gamma^{\theta}&lt;em&gt;{\varphi\varphi}$. We compute these entries explicitly:
 \begin{align}
-\Gamma^{\varphi}_{\varphi\theta} = \Gamma^{\varphi}_{\theta\varphi} &amp;amp;= \frac{1}{2} g^{\varphi \varphi} \left( \partial_\varphi g_{\varphi\theta} + \partial_\theta g_{\varphi\varphi} - \partial_\varphi g_{\varphi\theta} \right)
-= \frac{1}{2} g^{\varphi \varphi} \left( \partial_\theta g_{\varphi\varphi} \right) = \frac{1}{2} \frac{1}{\sin^2\theta} (2\sin\theta \cos \theta) = \cot\theta, \\\&lt;br&gt;
-\Gamma^{\theta}_{\varphi\varphi} &amp;amp;= \frac{1}{2} g^{\theta \theta} \left( \partial_\varphi g_{\theta\varphi} + \partial_\varphi g_{\varphi\theta} - \partial_\theta g_{\varphi\varphi} \right) = -\frac{1}{2} g^{\theta \theta}\left(  \partial_\theta g_{\varphi\varphi} \right) = -\frac{1}{2} (2\sin\theta \cos \theta) = -\sin\theta \cos \theta.
+\Gamma^{\varphi}&lt;/em&gt;{\varphi\theta} = \Gamma^{\varphi}&lt;em&gt;{\theta\varphi} &amp;amp;= \frac{1}{2} g^{\varphi \varphi} \left( \partial&lt;/em&gt;\varphi g_{\varphi\theta} + \partial_\theta g_{\varphi\varphi} - \partial_\varphi g_{\varphi\theta} \right)
+= \frac{1}{2} g^{\varphi \varphi} \left( \partial_\theta g_{\varphi\varphi} \right) = \frac{1}{2} \frac{1}{\sin^2\theta} (2\sin\theta \cos \theta) = \cot\theta, \\\
+\Gamma^{\theta}&lt;em&gt;{\varphi\varphi} &amp;amp;= \frac{1}{2} g^{\theta \theta} \left( \partial&lt;/em&gt;\varphi g_{\theta\varphi} + \partial_\varphi g_{\varphi\theta} - \partial_\theta g_{\varphi\varphi} \right) = -\frac{1}{2} g^{\theta \theta}\left(  \partial_\theta g_{\varphi\varphi} \right) = -\frac{1}{2} (2\sin\theta \cos \theta) = -\sin\theta \cos \theta.
 \end{align}
 We now write the connection coefficients as a matrix-valued 1-form. Formally, this 1-form should look like
 \begin{equation}
@@ -994,10 +1006,10 @@ d X +
 dY.
 \end{equation}&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example.&lt;/strong&gt; &lt;em&gt;The Torus $\mathbb{T}^2$.&lt;/em&gt;
-Using the explicit expression for the metric on the torus, and the formula for the Christoffel symbols of a diagonal metric, we can compute the coefficients of the Levi-Cevita connection. Let us first determine all nonzero Christoffel symbols. Since the only non-constant entry in the metric is $g_{\varphi\varphi} = (R + r\cos\theta)^2$, and this coefficient depends only on the variable $\theta$, we see that the only nonzero Christoffel symbols will be those which contain the term $\partial_{\theta} g_{\varphi \varphi}$. There are precisely three of these: $\Gamma^\varphi_{\varphi \theta} = \Gamma^\varphi_{\theta\varphi}$, and $\Gamma^{\theta}_{\varphi \varphi}$. We compute these terms explicitly:
+Using the explicit expression for the metric on the torus, and the formula for the Christoffel symbols of a diagonal metric, we can compute the coefficients of the Levi-Cevita connection. Let us first determine all nonzero Christoffel symbols. Since the only non-constant entry in the metric is $g_{\varphi\varphi} = (R + r\cos\theta)^2$, and this coefficient depends only on the variable $\theta$, we see that the only nonzero Christoffel symbols will be those which contain the term $\partial_{\theta} g_{\varphi \varphi}$. There are precisely three of these: $\Gamma^\varphi_{\varphi \theta} = \Gamma^\varphi_{\theta\varphi}$, and $\Gamma^{\theta}&lt;em&gt;{\varphi \varphi}$. We compute these terms explicitly:
 \begin{align}
-\Gamma^\varphi_{\varphi \theta} = \Gamma^\varphi_{\theta\varphi} &amp;amp;= \frac{1}{2} g^{\varphi \varphi} \left( \partial_\varphi g_{\varphi \theta} + \partial_\theta g_{\varphi \varphi} - \partial_\varphi g_{\varphi \theta}\right) = \frac{1}{2} g^{\varphi \varphi} \left(\partial_\theta g_{\varphi \varphi}\right) = \frac{-r\sin\theta}{R + r\cos\theta},\\\&lt;br&gt;
-\Gamma^{\theta}_{\varphi \varphi} &amp;amp;= \frac{1}{2}g^{\theta\theta} \left( \partial_\varphi g_{\theta \varphi} + \partial_\varphi g_{\varphi \theta} - \partial_\theta g_{\varphi\varphi}\right) = \frac{(R + r \cos\theta)}{r} \sin\theta.
+\Gamma^\varphi&lt;/em&gt;{\varphi \theta} = \Gamma^\varphi_{\theta\varphi} &amp;amp;= \frac{1}{2} g^{\varphi \varphi} \left( \partial_\varphi g_{\varphi \theta} + \partial_\theta g_{\varphi \varphi} - \partial_\varphi g_{\varphi \theta}\right) = \frac{1}{2} g^{\varphi \varphi} \left(\partial_\theta g_{\varphi \varphi}\right) = \frac{-r\sin\theta}{R + r\cos\theta},\\\
+\Gamma^{\theta}&lt;em&gt;{\varphi \varphi} &amp;amp;= \frac{1}{2}g^{\theta\theta} \left( \partial&lt;/em&gt;\varphi g_{\theta \varphi} + \partial_\varphi g_{\varphi \theta} - \partial_\theta g_{\varphi\varphi}\right) = \frac{(R + r \cos\theta)}{r} \sin\theta.
 \end{align}
 Now, writing the connection as a matrix-valued 1-form, we find that
 \begin{equation}\label{torusconn}
@@ -1010,8 +1022,8 @@ d\varphi.
 &lt;p&gt;&lt;strong&gt;Example.&lt;/strong&gt; &lt;em&gt;The Upper Half Plane $\mathbb{H}$.&lt;/em&gt;
 We now compute the Christoffel symbols of the hyperbolic metric on the upper half plane. Note that only Christoffel symbols containing the terms $\partial_y g_{xx}$ or $\partial_y g_{yy}$ have a chance of being nonzero. Thus, the nonzero Christoffel symbols are $\Gamma^x_{yx} = \Gamma^x_{xy}$, $\Gamma^y_{xx}$, and $\Gamma^y_{yy}$. Since the metric is diagonal, we can again use the nice formula we derived to compute the Christoffel symbols: we find that
 \begin{align}
-\Gamma^x_{yx} = \Gamma^x_{xy} &amp;amp;= \frac{1}{2} g^{xx}\left(\partial_y g_{xx} + \partial_x g_{yx} - \partial_x g_{yx}\right) = \frac{1}{2} g^{xx}\left(\partial_y g_{xx}\right) = -1/y, \\\&lt;br&gt;
-\Gamma^y_{xx} &amp;amp;= \frac{1}{2} g^{yy}\left(\partial_x g_{yx} + \partial_x g_{xy} - \partial_y g_{xx}\right) = -\frac{1}{2} g^{yy}\left( \partial_y g_{xx}\right) = 1/y,\\\&lt;br&gt;
+\Gamma^x_{yx} = \Gamma^x_{xy} &amp;amp;= \frac{1}{2} g^{xx}\left(\partial_y g_{xx} + \partial_x g_{yx} - \partial_x g_{yx}\right) = \frac{1}{2} g^{xx}\left(\partial_y g_{xx}\right) = -1/y, \\\
+\Gamma^y_{xx} &amp;amp;= \frac{1}{2} g^{yy}\left(\partial_x g_{yx} + \partial_x g_{xy} - \partial_y g_{xx}\right) = -\frac{1}{2} g^{yy}\left( \partial_y g_{xx}\right) = 1/y,\\\
 \Gamma^y_{yy} &amp;amp;= \frac{1}{2} g^{yy}\left(\partial_y g_{yy} + \partial_y g_{yy} - \partial_y g_{yy}\right) =
 \frac{1}{2} g^{yy}\left(\partial_y g_{yy}\right) = -1/y.
 \end{align}
@@ -1028,17 +1040,17 @@ We compute the connection form from the metric on the 3-sphere we derived previo
 metric are $g_{\psi\psi} = 1$, $g_{\theta\theta} = \sin^2\psi$, and $g_{\varphi\varphi} = \sin^2\psi\sin^2\theta$,
 the only nonvanishing derivatives of the metric will be $\partial_\psi g_{\theta \theta}$, $\partial_{\psi} g_{\varphi\varphi}$,
 and $\partial_{\theta}g_{\varphi \varphi}$. Thus, we must compute the $9$ nontrivial Christoffel symbols:
-$\Gamma^{\psi}_{\theta\theta}$, $\Gamma^{\theta}_{\theta \psi} = \Gamma^{\theta}_{\psi \theta}$,
-$\Gamma^{\psi}_{\varphi \varphi}$, $\Gamma^{\varphi}_{\psi \varphi} = \Gamma^{\varphi}_{\varphi \psi}$,
-$\Gamma^{\theta}_{\varphi \varphi}$, and $\Gamma^{\varphi}_{\theta \varphi} = \Gamma^{\varphi}_{\varphi\theta}$.
+$\Gamma^{\psi}&lt;em&gt;{\theta\theta}$, $\Gamma^{\theta}&lt;/em&gt;{\theta \psi} = \Gamma^{\theta}&lt;em&gt;{\psi \theta}$,
+$\Gamma^{\psi}&lt;/em&gt;{\varphi \varphi}$, $\Gamma^{\varphi}&lt;em&gt;{\psi \varphi} = \Gamma^{\varphi}&lt;/em&gt;{\varphi \psi}$,
+$\Gamma^{\theta}&lt;em&gt;{\varphi \varphi}$, and $\Gamma^{\varphi}&lt;/em&gt;{\theta \varphi} = \Gamma^{\varphi}&lt;em&gt;{\varphi\theta}$.
 By direct computation, we find that
 \begin{align}
-\Gamma^{\psi}_{\theta\theta} &amp;amp;= -\sin\psi \cos \psi,\\\&lt;br&gt;
-\Gamma^{\theta}_{\theta \psi} &amp;amp;= \Gamma^{\theta}_{\psi \theta} = \cot \psi,\\\
-\Gamma^{\psi}_{\varphi \varphi} &amp;amp;= -\sin \psi \cos \psi \sin^2\theta,\\\&lt;br&gt;
-\Gamma^{\varphi}_{\psi \varphi} &amp;amp;= \Gamma^{\varphi}_{\varphi \psi} = \cot \theta,\\\&lt;br&gt;
-\Gamma^{\theta}_{\varphi \varphi} &amp;amp;= -\sin \theta \cos \theta,\\\&lt;br&gt;
-\Gamma^{\varphi}_{\theta \varphi} &amp;amp;= \Gamma^{\varphi}_{\varphi\theta} = \cot\theta.
+\Gamma^{\psi}&lt;/em&gt;{\theta\theta} &amp;amp;= -\sin\psi \cos \psi,\\\
+\Gamma^{\theta}&lt;em&gt;{\theta \psi} &amp;amp;= \Gamma^{\theta}&lt;/em&gt;{\psi \theta} = \cot \psi,\\\
+\Gamma^{\psi}&lt;em&gt;{\varphi \varphi} &amp;amp;= -\sin \psi \cos \psi \sin^2\theta,\\\
+\Gamma^{\varphi}&lt;/em&gt;{\psi \varphi} &amp;amp;= \Gamma^{\varphi}&lt;em&gt;{\varphi \psi} = \cot \theta,\\\
+\Gamma^{\theta}&lt;/em&gt;{\varphi \varphi} &amp;amp;= -\sin \theta \cos \theta,\\\
+\Gamma^{\varphi}&lt;em&gt;{\theta \varphi} &amp;amp;= \Gamma^{\varphi}&lt;/em&gt;{\varphi\theta} = \cot\theta.
 \end{align}
 The connection form is thus
 \begin{equation}\label{3-sphere-conn}
@@ -1050,14 +1062,14 @@ The connection form is thus
 Recall the invariant metric on $S^3$ had entries $g_{\eta \eta} = 1$, $g_{\xi_1\xi_1} = \sin^2\eta$,
 and $g_{\xi_2\xi_2} = \cos^2\eta$. Thus, the only non-vanishing derivatives of the metric tensor will be
 $\partial_{\eta} g_{\xi_1 \xi_1}$ and $\partial_{\eta} g_{\xi_2 \xi_2}$; consequentially, there are only $6$
-non-vanishing connection coefficients: $\Gamma^{\eta}_{\xi_1\xi_1}$, $\Gamma^{\xi_1}_{\eta \xi_1} =
-\Gamma^{\xi_1}_{\xi_1 \eta}$, $\Gamma^{\eta}_{\xi_2\xi_2}$, and $\Gamma^{\xi_2}_{\eta \xi_2} =
-\Gamma^{\xi_2}_{\xi_2 \eta}$. We compute that:
+non-vanishing connection coefficients: $\Gamma^{\eta}&lt;em&gt;{\xi_1\xi_1}$, $\Gamma^{\xi_1}&lt;/em&gt;{\eta \xi_1} =
+\Gamma^{\xi_1}&lt;em&gt;{\xi_1 \eta}$, $\Gamma^{\eta}&lt;/em&gt;{\xi_2\xi_2}$, and $\Gamma^{\xi_2}&lt;em&gt;{\eta \xi_2} =
+\Gamma^{\xi_2}&lt;/em&gt;{\xi_2 \eta}$. We compute that:
 \begin{align*}
-\Gamma^{\eta}_{\xi_1 \xi_1} &amp;amp;= -\cos\eta \sin\eta,\\\&lt;br&gt;
-\Gamma^{\xi_1}_{\eta \xi_1} &amp;amp;=  \Gamma^{\xi_1}_{\xi_1 \eta} = \cot \eta,\\\&lt;br&gt;
-\Gamma^{\eta}_{\xi_2 \xi_2} &amp;amp;= \cos\eta \sin\eta,\\\&lt;br&gt;
-\Gamma^{\xi_2}_{\eta \xi_2} &amp;amp;=  \Gamma^{\xi_2}_{\xi_2 \eta} = -\tan \eta.
+\Gamma^{\eta}&lt;em&gt;{\xi_1 \xi_1} &amp;amp;= -\cos\eta \sin\eta,\\\
+\Gamma^{\xi_1}&lt;/em&gt;{\eta \xi_1} &amp;amp;=  \Gamma^{\xi_1}&lt;em&gt;{\xi_1 \eta} = \cot \eta,\\\
+\Gamma^{\eta}&lt;/em&gt;{\xi_2 \xi_2} &amp;amp;= \cos\eta \sin\eta,\\\
+\Gamma^{\xi_2}&lt;em&gt;{\eta \xi_2} &amp;amp;=  \Gamma^{\xi_2}&lt;/em&gt;{\xi_2 \eta} = -\tan \eta.
 \end{align*}
 The connection form is thus
 \begin{equation} \label{SU2-conn}
@@ -1066,21 +1078,21 @@ The connection form is thus
 &lt;p&gt;&lt;strong&gt;Example.&lt;/strong&gt; &lt;em&gt;The Schwarzschild metric.&lt;/em&gt;
 We now compute the connection form from the Schwarzshield metric. By inspection, we see that the only nonvanishing derivatives of the metric are: $\partial_r g_{tt}$, $\partial_r g_{rr}$, $\partial_r g_{\theta\theta}$, $\partial_r g_{\varphi \varphi}$, and $\partial_\theta g_{\varphi \varphi}$. Since the metric is diagonal, the only non-vanishing Christoffel symbols are: $\Gamma^r_{tt}$, $\Gamma^t_{rt} = \Gamma^t_{tr}$, $\Gamma^r_{rr}$, $\Gamma^r_{\theta\theta}$, $\Gamma^\theta_{r \theta} = \Gamma^\theta_{\theta r}$, $\Gamma^r_{\varphi\varphi}$, $\Gamma^\varphi_{r \varphi} = \Gamma^\varphi_{\varphi r}$, $\Gamma^\theta_{\varphi \varphi}$, and finally $\Gamma^\varphi_{\theta \varphi} = \Gamma^\varphi_{\varphi \theta}$. These quantities are computed below:
 \begin{align}
-\Gamma^r_{tt} &amp;amp;=  -\frac{1}{2}g^{rr} \left(\partial_r g_{tt}\right) = \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right),\\\&lt;br&gt;
-\Gamma^t_{rt} = \Gamma^t_{tr} &amp;amp;= \frac{1}{2}g^{tt} \left(\partial_r g_{tt}\right) = \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right)^{-1},\\\&lt;br&gt;
-\Gamma^r_{rr} &amp;amp;= \frac{1}{2}g^{rr}\left(\partial_r g_{rr}\right) = -\frac{1}{2}\frac{r_s}{r^2} \left(1-\frac{r_s}{r}\right)^{-1},\\\&lt;br&gt;
-\Gamma^r_{\theta\theta} &amp;amp;= -\frac{1}{2}g^{rr} \left(\partial_r g_{\theta\theta}\right) = -r\left(1 - \frac{r_s}{r}\right),\\\&lt;br&gt;
-\Gamma^\theta_{r \theta} = \Gamma^\theta_{\theta r} &amp;amp;= \frac{1}{2}g^{\theta\theta} \left(\partial_r g_{\theta\theta}\right) = \frac{1}{r},\\\&lt;br&gt;
-\Gamma^r_{\varphi\varphi} &amp;amp;= -\frac{1}{2}g^{rr} \left(\partial_r g_{\varphi\varphi}\right) = -r\sin^2\theta\left(1-\frac{r_s}{r}\right), \\\&lt;br&gt;
-\Gamma^\varphi_{r \varphi} = \Gamma^\varphi_{\varphi r} &amp;amp;= \frac{1}{2}g^{\varphi\varphi} \left(\partial_r g_{\varphi\varphi}\right) = \frac{1}{r},\\\&lt;br&gt;
-\Gamma^\theta_{\varphi \varphi} &amp;amp;= -\frac{1}{2}g^{\theta\theta} \left(\partial_\theta g_{\varphi\varphi}\right) = -\sin\theta\cos\theta,\\\&lt;br&gt;
-\Gamma^\varphi_{\theta \varphi} = \Gamma^\varphi_{\varphi \theta} &amp;amp;= \frac{1}{2}g^{\varphi\varphi} \left(\partial_\theta g_{\varphi\varphi}\right) = \cot\theta.\\\&lt;br&gt;
+\Gamma^r_{tt} &amp;amp;=  -\frac{1}{2}g^{rr} \left(\partial_r g_{tt}\right) = \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right),\\\
+\Gamma^t_{rt} = \Gamma^t_{tr} &amp;amp;= \frac{1}{2}g^{tt} \left(\partial_r g_{tt}\right) = \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right)^{-1},\\\
+\Gamma^r_{rr} &amp;amp;= \frac{1}{2}g^{rr}\left(\partial_r g_{rr}\right) = -\frac{1}{2}\frac{r_s}{r^2} \left(1-\frac{r_s}{r}\right)^{-1},\\\
+\Gamma^r_{\theta\theta} &amp;amp;= -\frac{1}{2}g^{rr} \left(\partial_r g_{\theta\theta}\right) = -r\left(1 - \frac{r_s}{r}\right),\\\
+\Gamma^\theta_{r \theta} = \Gamma^\theta_{\theta r} &amp;amp;= \frac{1}{2}g^{\theta\theta} \left(\partial_r g_{\theta\theta}\right) = \frac{1}{r},\\\
+\Gamma^r_{\varphi\varphi} &amp;amp;= -\frac{1}{2}g^{rr} \left(\partial_r g_{\varphi\varphi}\right) = -r\sin^2\theta\left(1-\frac{r_s}{r}\right), \\\
+\Gamma^\varphi_{r \varphi} = \Gamma^\varphi_{\varphi r} &amp;amp;= \frac{1}{2}g^{\varphi\varphi} \left(\partial_r g_{\varphi\varphi}\right) = \frac{1}{r},\\\
+\Gamma^\theta_{\varphi \varphi} &amp;amp;= -\frac{1}{2}g^{\theta\theta} \left(\partial_\theta g_{\varphi\varphi}\right) = -\sin\theta\cos\theta,\\\
+\Gamma^\varphi_{\theta \varphi} = \Gamma^\varphi_{\varphi \theta} &amp;amp;= \frac{1}{2}g^{\varphi\varphi} \left(\partial_\theta g_{\varphi\varphi}\right) = \cot\theta.\\\
 \end{align}
 Therefore, in matrix form, the Schwarzschild connection looks like
 \begin{equation}\label{Schwarzschildconn}
 \begin{split}
 \Gamma&amp;amp;=\begin{pmatrix}  0 &amp;amp; \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right)^{-1} &amp;amp; 0 &amp;amp; 0 \\\ \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right) &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dt +
-\begin{pmatrix}  \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right)^{-1} &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; -\frac{1}{2}\frac{r_s}{r^2} \left(1-\frac{r_s}{r}\right)^{-1} &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; \frac{1}{r} &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \frac{1}{r}\end{pmatrix} dr \\\&lt;br&gt;
+\begin{pmatrix}  \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right)^{-1} &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; -\frac{1}{2}\frac{r_s}{r^2} \left(1-\frac{r_s}{r}\right)^{-1} &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; \frac{1}{r} &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \frac{1}{r}\end{pmatrix} dr \\\
 &amp;amp;+ \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; -r\left(1 - \frac{r_s}{r}\right) &amp;amp; 0 \\\ 0 &amp;amp; \frac{1}{r} &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cot\theta\end{pmatrix} d\theta +
 \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -r\sin^2\theta\left(1-\frac{r_s}{r}\right) \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -\sin\theta\cos\theta \\\ 0 &amp;amp; \frac{1}{r} &amp;amp; \cot\theta &amp;amp; 0\end{pmatrix} d\varphi.
 \end{split}
@@ -1089,11 +1101,11 @@ Therefore, in matrix form, the Schwarzschild connection looks like
 &lt;p&gt;The next object we would like to be able to compute is the Riemann curvature tensor. Seemingly, we are in a much worse situation than before, as we now have to describe an object with 4 indices. In fact, this will turn out to be manageable: just as we expressed the connection coefficients as a matrix-valued 1-form, we will express the Riemann tensor as a matrix-valued 2-form. Contrary to the notation popular in Riemannian geometry, we will denote the Riemann tensor by $\Omega$, and establish a correspondence to the usual notation $R^i_{jkl}$. As usual, the Riemann tensor is defined as $\Omega := \nabla \circ \nabla$, the connection applied to itself. In our formalism, computing the Riemann tensor amounts to the following computation. Let $X$ be any vector field; then
 \begin{align}
 \Omega X&amp;amp; = (\nabla \circ \nabla) X = \nabla(dX + \Gamma X)
-= d(dX + \Gamma X) + \Gamma (dX + \Gamma X)\\\&lt;br&gt;
-&amp;amp;=d(dX) + d\Gamma \cdot X - \Gamma dX + \Gamma dX + (\Gamma \wedge \Gamma) X \\\&lt;br&gt;
+= d(dX + \Gamma X) + \Gamma (dX + \Gamma X)\\\
+&amp;amp;=d(dX) + d\Gamma \cdot X - \Gamma dX + \Gamma dX + (\Gamma \wedge \Gamma) X \\\
 &amp;amp;= (d\Gamma + \Gamma \wedge \Gamma)X,
 \end{align}
-Since $d^2 = 0$. Therefore, locally, we can write the curvature tensor as the matrix-valued 2-form $\Omega = d\Gamma + \Gamma \wedge \Gamma$ _Note: $\Gamma \wedge \Gamma$ is nonzero in general, since $\Gamma$ has matrix coefficients. This will be made apparent in the examples._ This is consistent with the Riemann tensor having 1 upper and 3 lower indices (1 upper and 1 lower contributing to the matrix coefficient, and the remaining 2 lower contributing to the 2-form). Write $\Omega$ as $\Omega = \Omega_{kl} dx^k \wedge dx^l$, where each $\Omega_{kl}$ is a matrix. In the usual notation of the Riemann tensor, the $(ij)^{th}$ component of the matrix $\Omega_{kl}$ is given by $(\Omega_{kl})^i_j = R^i_{jkl}$. As an immediate consequence, we see that the Riemann tensor is antisymmetric in two of its indices.&lt;/p&gt;
+Since $d^2 = 0$. Therefore, locally, we can write the curvature tensor as the matrix-valued 2-form $\Omega = d\Gamma + \Gamma \wedge \Gamma$ &lt;em&gt;Note: $\Gamma \wedge \Gamma$ is nonzero in general, since $\Gamma$ has matrix coefficients. This will be made apparent in the examples.&lt;/em&gt; This is consistent with the Riemann tensor having 1 upper and 3 lower indices (1 upper and 1 lower contributing to the matrix coefficient, and the remaining 2 lower contributing to the 2-form). Write $\Omega$ as $\Omega = \Omega_{kl} dx^k \wedge dx^l$, where each $\Omega_{kl}$ is a matrix. In the usual notation of the Riemann tensor, the $(ij)^{th}$ component of the matrix $\Omega_{kl}$ is given by $(\Omega_{kl})^i_j = R^i_{jkl}$. As an immediate consequence, we see that the Riemann tensor is antisymmetric in two of its indices.&lt;/p&gt;
 &lt;p&gt;Furthermore, this notation allows for an almost trivial proof of the second Bianchi identity: Note that $\Omega \nabla = ${$(d+\Gamma)(d+\Gamma)$}$(d+\Gamma) = (d+\Gamma)${$(d+\Gamma)(d+\Gamma)$} $= \nabla \Omega$. Applying this identity to a vector field $X$, we see that $\Omega \nabla X = \nabla(\Omega X) = \Omega \nabla X + (\nabla \Omega) X$, implying that $\nabla \Omega = 0$.&lt;/p&gt;
 &lt;p&gt;The Riemann tensor is now a more manageable quantity, and we now show by direct computation (through the examples of the previous sections) that working with it is not too difficult.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example.&lt;/strong&gt; &lt;em&gt;The Sphere $S^2$.&lt;/em&gt;
@@ -1172,18 +1184,18 @@ Using the expression for the invariant connection on $SU(2)$, compute the Rieman
 Using the Schwarzschild connection, we can compute the curvature form. We begin by computing $d\Gamma$; we have that
 $d\Gamma = - \partial_r \Gamma_t dt\wedge dr + \partial_r \Gamma_\theta  dr\wedge d\theta + \partial_r \Gamma_\varphi dr\wedge d\varphi + \partial_\theta \Gamma_\theta d\theta \wedge d\varphi$. Using the expression we derived, we find that:
 \begin{align}
-- \partial_r \Gamma_t dt\wedge dr  &amp;amp;= - \partial_r \begin{pmatrix}  0 &amp;amp; \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right)^{-1} &amp;amp; 0 &amp;amp; 0 \\\ \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right) &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dt\wedge dr =\begin{pmatrix}  0 &amp;amp; \frac{r_s(2r-r_s)}{2r^2(r-r_s)^2} &amp;amp; 0 &amp;amp; 0 \\\ \frac{r_s(2r-3r_s)}{2r^4} &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dt\wedge dr, \\\&lt;br&gt;
-\partial_r \Gamma_\theta  dr\wedge d\theta &amp;amp;= \partial_r \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; -r\left(1 - \frac{r_s}{r}\right) &amp;amp; 0 \\\ 0 &amp;amp; \frac{1}{r} &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cot\theta\end{pmatrix}  dr\wedge d\theta = \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; -1 &amp;amp; 0 \\\ 0 &amp;amp; -\frac{1}{r^2} &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix}  dr\wedge d\theta,\\\&lt;br&gt;
-\partial_r \Gamma_\varphi dr\wedge d\varphi &amp;amp;= \partial_r \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -r\sin^2\theta\left(1-\frac{r_s}{r}\right) \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -\sin\theta\cos\theta \\\ 0 &amp;amp; \frac{1}{r} &amp;amp; \cot\theta &amp;amp; 0\end{pmatrix}dr\wedge d\varphi = \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -\sin^2\theta \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; -\frac{1}{r^2} &amp;amp; 0 &amp;amp; 0\end{pmatrix} dr\wedge d\varphi,\\\&lt;br&gt;
+- \partial_r \Gamma_t dt\wedge dr  &amp;amp;= - \partial_r \begin{pmatrix}  0 &amp;amp; \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right)^{-1} &amp;amp; 0 &amp;amp; 0 \\\ \frac{1}{2}\frac{r_s}{r^2}\left(1-\frac{r_s}{r}\right) &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dt\wedge dr =\begin{pmatrix}  0 &amp;amp; \frac{r_s(2r-r_s)}{2r^2(r-r_s)^2} &amp;amp; 0 &amp;amp; 0 \\\ \frac{r_s(2r-3r_s)}{2r^4} &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dt\wedge dr, \\\
+\partial_r \Gamma_\theta  dr\wedge d\theta &amp;amp;= \partial_r \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; -r\left(1 - \frac{r_s}{r}\right) &amp;amp; 0 \\\ 0 &amp;amp; \frac{1}{r} &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \cot\theta\end{pmatrix}  dr\wedge d\theta = \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; -1 &amp;amp; 0 \\\ 0 &amp;amp; -\frac{1}{r^2} &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix}  dr\wedge d\theta,\\\
+\partial_r \Gamma_\varphi dr\wedge d\varphi &amp;amp;= \partial_r \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -r\sin^2\theta\left(1-\frac{r_s}{r}\right) \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -\sin\theta\cos\theta \\\ 0 &amp;amp; \frac{1}{r} &amp;amp; \cot\theta &amp;amp; 0\end{pmatrix}dr\wedge d\varphi = \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -\sin^2\theta \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; -\frac{1}{r^2} &amp;amp; 0 &amp;amp; 0\end{pmatrix} dr\wedge d\varphi,\\\
 \partial_\theta \Gamma_\varphi d\theta \wedge d\varphi &amp;amp;= \partial_\theta\begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -r\sin^2\theta\left(1-\frac{r_s}{r}\right) \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -\sin\theta\cos\theta \\\ 0 &amp;amp; \frac{1}{r} &amp;amp; \cot\theta &amp;amp; 0\end{pmatrix} = \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -2r\sin\theta\cos\theta\left(1-\frac{r_s}{r}\right) \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; \sin^2\theta-\cos^2\theta \\\ 0 &amp;amp; 0 &amp;amp; -\csc^2\theta &amp;amp; 0\end{pmatrix} d\theta \wedge d\varphi.
 \end{align}
 We now must compute $\Gamma \wedge \Gamma$. It is easily shown that $\Gamma\wedge\Gamma = [\Gamma_t,\Gamma_r]dt\wedge dr [\Gamma_t,\Gamma_\theta]dt\wedge d\theta + [\Gamma_t,\Gamma_\varphi]dt\wedge d\varphi + [\Gamma_r,\Gamma_\theta]dr\wedge d\theta + [\Gamma_r,\Gamma_\varphi]dr\wedge d\varphi + [\Gamma_\theta,\Gamma_\varphi]d\theta \wedge d\varphi$. Again, using the connection, and some (rather tedious, but still elementary) matrix algebra, we can eventually compute the Riemann tensor to be:
 \begin{equation}
 \begin{split}
 \Omega &amp;amp;= \begin{pmatrix}  0 &amp;amp; \frac{r_s}{r^2(r-r_s)} &amp;amp; 0 &amp;amp; 0 \\\ \frac{r_s(r-r_s)}{r^4} &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dt\wedge dr
-+ \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; -\frac{r_s}{2r} &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ \frac{r_s(r-r_s)}{2r^4} &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dt\wedge d\theta\\\&lt;br&gt;
++ \begin{pmatrix}  0 &amp;amp; 0 &amp;amp; -\frac{r_s}{2r} &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ \frac{r_s(r-r_s)}{2r^4} &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dt\wedge d\theta\\\
 &amp;amp;+\begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -\frac{r_s \sin^2\theta}{2r} \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ \frac{r_s(r-r_s)}{2r^4} &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dt\wedge d\varphi
-+\begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; -\frac{r_s}{2r} &amp;amp; 0 \\\ 0 &amp;amp; \frac{r_s}{r^2(r-r_s)} &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dr\wedge d\theta\\\&lt;br&gt;
++\begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; -\frac{r_s}{2r} &amp;amp; 0 \\\ 0 &amp;amp; \frac{r_s}{r^2(r-r_s)} &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\end{pmatrix} dr\wedge d\theta\\\
 &amp;amp;+\begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -\frac{r_s\sin^2\theta}{2r} \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; \frac{r_s}{2r^2(r-r_s)} &amp;amp; 0 &amp;amp; 0\end{pmatrix} dr\wedge d\varphi
 +\begin{pmatrix}  0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0 \\\ 0 &amp;amp; 0 &amp;amp; 0 &amp;amp; -\frac{r_s\sin^2\theta}{r} \\\ 0 &amp;amp; 0 &amp;amp; -\frac{r_s}{r} &amp;amp; 0\end{pmatrix} d\theta\wedge d\varphi
 \end{split}
@@ -1199,7 +1211,7 @@ R = \sum_{i,j} g^{ij}R_{ij}.
 \end{equation}
 Let us compute these quantities for the examples from the previous sections.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example.&lt;/strong&gt;&lt;em&gt;The Sphere $S^2$.&lt;/em&gt;
-Using equation the Riemann tensor we computed for $S^2$, we can compute the Ricci and scalar curvatures. We compute each component of the Ricci tensor individually: let us begin with $R_{\theta \theta}$. By equation the expression we have for the Ricci tensor, we have that $R_{\theta \theta} = R^{\theta}_{\theta \theta\theta} + R^{\varphi}_{\theta \varphi\theta} = R^{\varphi}_{\theta \varphi \theta}$, since the Riemann tensor is antisymmetric in the last two indices (it is a matrix-valued 2-form). Write $\Omega = \Omega_{kl} dx^k \wedge dx^l$. Since $(\Omega_{kl})^i_j = R^i_{jkl}$, and using our equation for $\Omega$, we see that $R^{\varphi}_{\theta \varphi\theta} = 1$. Similarly, we compute $R_{\varphi\varphi} = R^{\theta}_{\varphi \theta\varphi} + R^{\varphi}_{\varphi \varphi\varphi} = R^{\theta}_{\varphi \theta\varphi} = \sin^2\theta$. By symmetry of the Riemann tensor, we see that $R_{\theta\varphi} = R_{\varphi\theta} = 0$. Thus, the Ricci tensor (written in matrix form) is
+Using equation the Riemann tensor we computed for $S^2$, we can compute the Ricci and scalar curvatures. We compute each component of the Ricci tensor individually: let us begin with $R_{\theta \theta}$. By equation the expression we have for the Ricci tensor, we have that $R_{\theta \theta} = R^{\theta}&lt;em&gt;{\theta \theta\theta} + R^{\varphi}&lt;/em&gt;{\theta \varphi\theta} = R^{\varphi}&lt;em&gt;{\theta \varphi \theta}$, since the Riemann tensor is antisymmetric in the last two indices (it is a matrix-valued 2-form). Write $\Omega = \Omega&lt;/em&gt;{kl} dx^k \wedge dx^l$. Since $(\Omega_{kl})^i_j = R^i_{jkl}$, and using our equation for $\Omega$, we see that $R^{\varphi}&lt;em&gt;{\theta \varphi\theta} = 1$. Similarly, we compute $R&lt;/em&gt;{\varphi\varphi} = R^{\theta}&lt;em&gt;{\varphi \theta\varphi} + R^{\varphi}&lt;/em&gt;{\varphi \varphi\varphi} = R^{\theta}&lt;em&gt;{\varphi \theta\varphi} = \sin^2\theta$. By symmetry of the Riemann tensor, we see that $R&lt;/em&gt;{\theta\varphi} = R_{\varphi\theta} = 0$. Thus, the Ricci tensor (written in matrix form) is
 \begin{equation}
 \text{Ricci} = \begin{pmatrix}  1 &amp;amp; 0 \\\  0 &amp;amp; \sin^2\theta \end{pmatrix}.
 \end{equation}
@@ -1214,13 +1226,13 @@ Compute the Ricci and scalar curvatures of $S^2$ using stereographic coordinates
 \end{equation}
 and the scalar curvature is $R = 2$, which is consistent with the result from the previous example.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Example.&lt;/strong&gt; &lt;em&gt;The Torus $\mathbb{T}^2$.&lt;/em&gt;
-The Ricci and scalar curvatures of the torus can be found by directly applying the formalism to the Riemann tensor we derived on the torus. By symmetry of the Riemann tensor, we again see that the components $R_{\theta\varphi} = R_{\varphi \theta} = 0$. It remains to compute the diagonal entries. Using the expression for the Ricci curvature, we have that $R_{\theta \theta} = R^{\theta}_{\theta \theta\theta} + R^{\varphi}_{\theta \varphi\theta} = R^{\varphi}_{\theta \varphi \theta} = \frac{r\cos\theta}{R+r\cos\theta}.$ Similarly, we compute $R_{\varphi\varphi}$ to be $R_{\varphi\varphi} = R^{\theta}_{\varphi \theta\varphi} = \frac{\cos\theta\left(R+r\cos\theta\right)}{r}$. The Ricci tensor is therefore
+The Ricci and scalar curvatures of the torus can be found by directly applying the formalism to the Riemann tensor we derived on the torus. By symmetry of the Riemann tensor, we again see that the components $R_{\theta\varphi} = R_{\varphi \theta} = 0$. It remains to compute the diagonal entries. Using the expression for the Ricci curvature, we have that $R_{\theta \theta} = R^{\theta}&lt;em&gt;{\theta \theta\theta} + R^{\varphi}&lt;/em&gt;{\theta \varphi\theta} = R^{\varphi}&lt;em&gt;{\theta \varphi \theta} = \frac{r\cos\theta}{R+r\cos\theta}.$ Similarly, we compute $R&lt;/em&gt;{\varphi\varphi}$ to be $R_{\varphi\varphi} = R^{\theta}&lt;em&gt;{\varphi \theta\varphi} = \frac{\cos\theta\left(R+r\cos\theta\right)}{r}$. The Ricci tensor is therefore
 \begin{equation}
 \text{Ricci} = \begin{pmatrix}  \frac{r\cos\theta}{R+r\cos\theta} &amp;amp; 0 \\\  0 &amp;amp; \frac{\cos\theta\left(R+r\cos\theta\right)}{r} \end{pmatrix}.
 \end{equation}
 We can then compute the scalar curvature as
 \begin{equation}
-R = g^{\theta\theta}R_{\theta\theta} + g^{\varphi\varphi} R_{\varphi\varphi} = \frac{1}{r^2}\left( \frac{r\cos\theta}{R+r\cos\theta}\right) + \frac{1}{(R+r\cos\theta)^2} \left(\frac{\cos\theta\left(R+r\cos\theta\right)}{r} \right) = \frac{2\cos\theta}{r(R+r\cos\theta)}.
+R = g^{\theta\theta}R&lt;/em&gt;{\theta\theta} + g^{\varphi\varphi} R_{\varphi\varphi} = \frac{1}{r^2}\left( \frac{r\cos\theta}{R+r\cos\theta}\right) + \frac{1}{(R+r\cos\theta)^2} \left(\frac{\cos\theta\left(R+r\cos\theta\right)}{r} \right) = \frac{2\cos\theta}{r(R+r\cos\theta)}.
 \end{equation}
 As a consistency check, let us compute the integrated total curvature:
 \begin{align}
@@ -1302,7 +1314,8 @@ The Riemann-Schottky problem, in modern language, asks for a characterization of
 &lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 9th&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00 pm&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Infinite-dimensional Lie algebras have found applications in conformal field theory, integrable systems, and number theory, among other areas of mathematics. However, one wonders exactly how these algebras arise in such contexts, and moreover what is even meant by “infinite-dimensional Lie algebra” in the first place. In this talk, I will try to give a friendly introduction to the field of infinite-dimensional Lie algebras, and try to give the listener some operational familiarity with these structures by providing a few explicit examples. Furthermore, I will mention a few specific problems in mathematics where such algebras have been useful.&lt;/p&gt;
-&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&#34;&gt;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: 
+&lt;a href=&#34;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zoom.us/j/5082038044?pwd=YUVBdkZvZU5RYXBYZmU5ZGRFZnE1Zz09&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Video:&lt;/strong&gt;
 &lt;a href=&#34;https://drive.google.com/file/d/1by6zBTatZNO3CxFXer75CTtHR3hujoP5/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt; 

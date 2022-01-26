@@ -5,12 +5,24 @@
     <link>/tag/graph-theory/</link>
       <atom:link href="/tag/graph-theory/index.xml" rel="self" type="application/rss+xml" />
     <description>Graph Theory</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 24 Oct 2021 11:06:43 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jan 2022 12:18:39 -0500</lastBuildDate>
     <image>
-      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Graph Theory</title>
       <link>/tag/graph-theory/</link>
     </image>
+    
+    <item>
+      <title>Statistical Mechanics and the Tutte Polynomial</title>
+      <link>/talk/tutteising/</link>
+      <pubDate>Wed, 26 Jan 2022 12:18:39 -0500</pubDate>
+      <guid>/talk/tutteising/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Statistical Mechanics and the Tutte Polynomial&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, January 28th, 2:00 pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The Tutte polynomial is a well-known graph invariant, from which many important graph-theoretic properties can be read off. We discuss the equivalence of this polynomial to an important model in statistical physics: the q-Potts model, which is a generalization of the simplistic model of a magnet (the Ising model). We use this equivalence to develop the well-known high-temperature expansion of the Potts mode. Furthermore, we discuss what we can learn about graph theory from statistical mechanics, and vice versa.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Covid-19 Spreading: An Eigenvalue Viewpoint</title>
@@ -43,7 +55,8 @@
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;:  Lina Fajardo Gomez&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Wednesday, January 20th, 2020&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: At face value, a graph is a simplicial complex that only has faces of dimension 0 (vertices) and 1 (edges). However, given appropriate definitions, higher dimensional cells can emerge. We present two such definitions, prodsimplicial complexes and p-path complexes, and compare in examples the homology groups obtained for different graphs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Zoom Link&lt;/strong&gt;: &lt;a href=&#34;https://zoom.us/j/96345929862&#34;&gt;https://zoom.us/j/96345929862&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zoom Link&lt;/strong&gt;: 
+&lt;a href=&#34;https://zoom.us/j/96345929862&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zoom.us/j/96345929862&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -62,7 +75,8 @@
 &lt;p&gt;&lt;strong&gt;Date&lt;/strong&gt;: Thursday, July 30th&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 2:00pm&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Matroids are mathematical objects that abstract the notion of linearly independent sets. They have applications in many areas of mathematics, ranging from combinatorics to field theory. In this talk I will give an overview of matroids, why they are studied and why I in particular took an interest in them.&lt;/p&gt;
-&lt;p&gt;Link to Zoom meeting: &lt;a href=&#34;https://zoom.us/j/93617336971&#34;&gt;https://zoom.us/j/93617336971&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link to Zoom meeting: 
+&lt;a href=&#34;https://zoom.us/j/93617336971&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zoom.us/j/93617336971&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Video&lt;/strong&gt;: 
 &lt;a href=&#34;https://drive.google.com/file/d/1V3Zg0KFIyk32S_mg2mMJ9I4lpIBchM70/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Drive&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Slides&lt;/strong&gt;: 
