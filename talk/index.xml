@@ -20,7 +20,10 @@
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Statistical Mechanics and the Tutte Polynomial&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, January 28th, 2:00 pm&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The Tutte polynomial is a well-known graph invariant, from which many important graph-theoretic properties can be read off. We discuss the equivalence of this polynomial to an important model in statistical physics: the q-Potts model, which is a generalization of the simplistic model of a magnet (the Ising model). We use this equivalence to develop the well-known high-temperature expansion of the Potts mode. Furthermore, we discuss what we can learn about graph theory from statistical mechanics, and vice versa.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The Tutte polynomial is a well-known graph invariant, from which many important graph-theoretic properties
+can be read off. We discuss the equivalence of this polynomial to an important model in statistical physics: the q-Potts
+model, which is a generalization of the simplistic model of a magnet (the Ising model). We use this equivalence to
+develop the well-known high-temperature expansion of the Potts model. Furthermore, we discuss what we can learn about graph theory from statistical mechanics, and vice versa.&lt;/p&gt;
 </description>
     </item>
     
