@@ -13,6 +13,20 @@
     </image>
     
     <item>
+      <title>Introductory Lectures on Quantum Field Theory</title>
+      <link>/talk/quantumfieldtheory/</link>
+      <pubDate>Mon, 31 Jan 2022 10:53:52 -0500</pubDate>
+      <guid>/talk/quantumfieldtheory/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Introductory Lectures on Quantum Field Theory&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Razvan Teodorescu&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, February 4th, 2021&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Quantum field theory (QFT) is the mathematical formulation of our current theoretical description of nature&amp;rsquo;s fundamental laws. It relates deeply to functional analysis, operator theory, Lie groups representation theory, and PDE, and is known for open problems such as the 4D Yang-Mills Millenium problem.&lt;/p&gt;
+&lt;p&gt;The presentation will introduce the main elements of QFT by reviewing Einstein&amp;rsquo;s postulates of special relativity, irreducible representations of the Poincare group, the Pauli-Lubanski theorem and classification of free fields, Emmy Noether&amp;rsquo;s theorem, internal symmetry groups, minimal connections and gauge theory, leading to the derivation of the action functionals for electro-weak and QCD theories.&lt;/p&gt;
+&lt;p&gt;The continuation would require a detour through Gaussian random field theory and the Feynman-Kac theorem, before returning via Wick calculus to QFT, &amp;rsquo;t Hooft-Veltman dimensional regularization, the Migdal-Kadanoffrenormalization (semi)group and Feynman diagrammatic expansions for standard applications such as the Lamb precession, CPT theorem, asymptotic freedom and the Goldstone-Higgs theorem.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Statistical Mechanics and the Tutte Polynomial</title>
       <link>/talk/tutteising/</link>
       <pubDate>Wed, 26 Jan 2022 12:18:39 -0500</pubDate>

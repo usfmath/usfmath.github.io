@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2022-01-26T12:18:39-05:00</lastmod>
-  </url><url>
     <loc>/</loc>
+    <lastmod>2022-01-31T10:53:52-05:00</lastmod>
+  </url><url>
+    <loc>/talk/quantumfieldtheory/</loc>
+    <lastmod>2022-01-31T10:53:52-05:00</lastmod>
+  </url><url>
+    <loc>/tag/quantum-field-theory/</loc>
+    <lastmod>2022-01-31T10:53:52-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-01-31T10:53:52-05:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
     <lastmod>2022-01-26T12:18:39-05:00</lastmod>
   </url><url>
     <loc>/tag/graph-theory/</loc>
@@ -18,9 +27,6 @@
     <lastmod>2022-01-26T12:18:39-05:00</lastmod>
   </url><url>
     <loc>/talk/tutteising/</loc>
-    <lastmod>2022-01-26T12:18:39-05:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-01-26T12:18:39-05:00</lastmod>
   </url><url>
     <loc>/talk/codingtheory/</loc>
