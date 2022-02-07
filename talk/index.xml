@@ -21,7 +21,11 @@
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Razvan Teodorescu&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, February 11th&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Part 1&lt;/strong&gt;:
-{(&lt;youtube EhsFLhbkVkI &gt;)}&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/EhsFLhbkVkI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Quantum field theory (QFT) is the mathematical formulation of our current theoretical description of nature&amp;rsquo;s fundamental laws. It relates deeply to functional analysis, operator theory, Lie groups representation theory, and PDE, and is known for open problems such as the 4D Yang-Mills Millenium problem.&lt;/p&gt;
 &lt;p&gt;The presentation will introduce the main elements of QFT by reviewing Einstein&amp;rsquo;s postulates of special relativity, irreducible representations of the Poincare group, the Pauli-Lubanski theorem and classification of free fields, Emmy Noether&amp;rsquo;s theorem, internal symmetry groups, minimal connections and gauge theory, leading to the derivation of the action functionals for electro-weak and QCD theories.&lt;/p&gt;
 &lt;p&gt;The continuation would require a detour through Gaussian random field theory and the Feynman-Kac theorem, before returning via Wick calculus to QFT, &amp;rsquo;t Hooft-Veltman dimensional regularization, the Migdal-Kadanoff renormalization (semi)group and Feynman diagrammatic expansions for standard applications such as the Lamb precession, CPT theorem, asymptotic freedom and the Goldstone-Higgs theorem.&lt;/p&gt;
