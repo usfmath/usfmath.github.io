@@ -46,12 +46,12 @@ computed by noticing the following: the hermiticity condition requires that the 
 ($z = \bar{z}$ implies that $z$ is real), therefore the diagonal entries contribute $n$ variables. Above the diagonal,
 there are $2 \cdot \frac{n(n-1)}{2} = n (n-1)$ variables (the factor of two coming from real + imaginary components);
 therefore we find the dimension of the space of Hermitian matrices to be
-\begin{align*}
-\dim \mathcal{H}&lt;em&gt;n = n + 2 \cdot \frac{n(n-1)}{2} = n^2.
-\end{align*}
+\begin{align}
+\dim H_n = n + 2 \cdot \frac{n(n-1)}{2} = n^2.
+\end{align}
 It is often convenient for us to work in the so-called &lt;em&gt;eigenvalue variables&lt;/em&gt; on the space of Hermitian matrices.
 These eigenvalues are of course real, by properties of Hermitian matrices; the remaining variables are variables in
-the unitary group $U(n)/U&lt;/em&gt;{diag}(n)$ and are called &lt;em&gt;angular variables&lt;/em&gt;. This is apparent, by writing
+the unitary group $U(n)/U_{diag}(n)$ and are called &lt;em&gt;angular variables&lt;/em&gt;. This is apparent, by writing
 $X = U^\dagger \Lambda U$; note that replacing $U \to \text{diag}(e^{i\theta_1},\cdots e^{i\theta_n} )U$ does not change the representation.
 Defining $du := dU^\dagger U = -du^{\dagger}$, we find that $dX$ takes the form
 \begin{align*}
@@ -100,20 +100,20 @@ Most of the results presented here are standard; they can be found in places lik
 Francesco, or in 
 &lt;a href=&#34;https://www.labri.fr/perso/zvonkin/Research/matrixint.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this one&lt;/a&gt; by Alexander Zvonkin, for example.
 Let $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; denote the space of $n\times n$ Hermitian matrices. We consider the measure
-\begin{align*}
-d\mathbb{P}&lt;em&gt;n(X) = \frac{1}{Z_n} e^{-\frac{n}{2}\text{tr} X^2} dX,
-\end{align*}
+\begin{equation*}
+d\mathbb{P}(X) = \frac{1}{Z_n} e^{-\frac{n}{2}\text{tr} X^2} dX,
+\end{equation*}
 where $dX$ is Haar measure on $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; (which we have just defined in the previous section), and $Z_n$ is a
 normalization constant so that $\int d\mathbb{P} = 1$, called the \textit{partition function}. The ensemble of
 such matrices, taken together with the probability measure $\mathbb{P}$&lt;sub&gt;n&lt;/sub&gt;, form the &lt;em&gt;Gaussian Unitary Ensemble&lt;/em&gt; (GUE).
 We denote the expected value of a random variable $f(X):$ $\mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; $\to \mathbb{R}$ in this ensemble by $\langle f(X) \rangle_n$; explicitly,
 \begin{equation}
-\langle f(X) \rangle_n = \frac{1}{Z_n} dX \int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n} f(X) e^{-\frac{n}{2}\text{tr} X^2}.
+\langle f(X) \rangle_n = \frac{1}{Z_n} dX \int_{H_n} f(X) e^{-\frac{n}{2}\text{tr} X^2}.
 \end{equation}
 We wish to evaluate expected values of certain random variables in the large $n$ limit, in particular (Notice
 that $X\in \mathcal{H}$&lt;sub&gt;n&lt;/sub&gt; is dependent on $n$ as well; we suppress dependence to simplify notations.)
 \begin{equation}
-\langle \text{tr} X^k \rangle:= \lim&lt;/em&gt;{n\to \infty} \frac{1}{n}\langle \text{tr} X^k \rangle_n.
+\langle \text{tr} X^k \rangle:= \lim_{n\to \infty} \frac{1}{n}\langle \text{tr} X^k \rangle_n.
 \end{equation}
 We claim that
 \begin{equation}
@@ -129,23 +129,25 @@ Let $S\in \mathcal{H}_n$ be a fixed matrix. Then,
 &lt;p&gt;&lt;em&gt;Proof.&lt;/em&gt;
 We have that
 \begin{align*}
-\langle e^{\text{tr} XS} \rangle_n &amp;amp;= \frac{1}{Z_n}\int_{\mathcal{H}&lt;em&gt;n}dX e^{-\frac{n}{2}\text{tr} (X^2 -
+\langle e^{\text{tr} XS} \rangle_n &amp;amp;= \frac{1}{Z_n}\int_{H_n}dX e^{-\frac{n}{2}\text{tr} (X^2 -
 \frac{2}{n} XS)}\\\ &amp;amp;=
-e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n}dX e^{-\frac{n}{2}\text{tr} (X-S/n)^2} \\\
-&amp;amp;=e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int&lt;/em&gt;{\mathcal{H}&lt;em&gt;n}d(X-S/n)  e^{-\frac{n}{2}\text{tr} (X-S/n)^2}\\\
-&amp;amp;= e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int&lt;/em&gt;{\mathcal{H}_n}dX e^{-\frac{n}{2}\text{tr} (X)^2}
+e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int_{H_n}dX e^{-\frac{n}{2}\text{tr} (X-S/n)^2} \\\
+&amp;amp;=e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int_{H_n}d(X-S/n)  e^{-\frac{n}{2}\text{tr} (X-S/n)^2}\\\
+&amp;amp;= e^{\text{tr} S^2/2n} \frac{1}{Z_n}\int_{H_n}dX e^{-\frac{n}{2}\text{tr} (X)^2}
 = e^{\text{tr} S^2/2n},
 \end{align*}
 where in the last step, we used the fact that $dX$ is translation invariant.&lt;/p&gt;
 &lt;div style=&#34;text-align: right&#34;&gt; $\square$ &lt;/div&gt;
 &lt;p&gt;Consequentially, we can compute any expected value of interest by differentiating $f(S) := e^{\text{tr} S^2/2n}$
 with respect to $S$, and evaluating at $S=0$. For example,
-\begin{equation*}
-\langle X_{ij} \rangle_n = \frac{\partial f(S)}{\partial S_{ji}} \bigg|&lt;em&gt;{S=0}, \qquad \qquad
-\langle X&lt;/em&gt;{i_1j_1}X_{i_2j_2}\rangle_n = \frac{\partial^2 f(S)}{\partial S_{j_1 i_1} \partial S_{j_2 i_2}}
-\bigg|_{S=0}.
-\end{equation*}
-Explicitly, we have that&lt;/p&gt;
+\begin{align}
+\langle X_{ij} \rangle_n = \frac{\partial f(S)}{\partial S_{ji}} \bigg|_{S=0},
+\end{align}&lt;/p&gt;
+&lt;p&gt;and
+\begin{align}
+\langle X_{i_1j_1}X_{i_2j_2} \rangle_n = \frac{\partial^2 f(S)}{\partial S_{j_1i_1}\partial S_{j_2i_2}} \bigg|_{S=0}.
+\end{align}&lt;/p&gt;
+&lt;p&gt;Explicitly, we have that&lt;/p&gt;
 &lt;p&gt;&lt;span style=&#34;background-color:green&#34;&gt;&lt;strong&gt;Lemma 1.1&lt;/strong&gt;&lt;/span&gt;
 For any indices $i_1,j_1,i_2,j_2$,
 \begin{equation}
@@ -161,18 +163,14 @@ that
 S_{kl}\delta_{l j_1}\delta_{k i_1}\right) = \frac{1}{n}S_{i_1 j_1}.
 \end{equation*}
 Therefore, by the chain rule,
-\begin{equation*}
-\langle X_{i_1j_1}\rangle_n = \frac{\partial}{\partial S_{j_1 i_1}}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0}
-= \frac{1}{n}S&lt;/em&gt;{i_1 j_1}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} = 0.
-\end{equation*}
-Similarly, by the product rule,
+\begin{align}
+\langle X_{i_1j_1}\rangle_n = \frac{\partial}{\partial S_{j_1 i_1}}e^{\text{tr} S^2/2n}=\frac{1}{n}S_{i_1 j_1}e^{\text{tr} S^2/2n}\bigg|_{S=0} = 0.
+\end{align}&lt;/p&gt;
+&lt;p&gt;Similarly, by the product rule,
 \begin{align*}
-\langle X&lt;/em&gt;{i_1j_1}X_{i_2j_2} \rangle_n &amp;amp;= \frac{\partial}{\partial S_{j_2 i_2}}\frac{1}{n}S_{i_1 j_1}
-e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} \\\
-&amp;amp;= \frac{1}{n}\delta&lt;/em&gt;{i_1 j_2}\delta_{i_2 j_1}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} +
-\frac{1}{n}S&lt;/em&gt;{i_1 j_1}S_{i_2 j_2}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0}\\\
-&amp;amp;= \frac{1}{n}
-\delta&lt;/em&gt;{i_1 j_2}\delta_{i_2 j_1}.
+\langle X_{i_1j_1}X_{i_2j_2} \rangle_n &amp;amp;= \frac{\partial}{\partial S_{j_2 i_2}}\frac{1}{n}S_{i_1 j_1}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} \\\
+&amp;amp;= \frac{1}{n}\delta&lt;/em&gt;{i_1 j_2}\delta_{i_2 j_1}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0} + \frac{1}{n}S&lt;/em&gt;{i_1 j_1}S_{i_2 j_2}e^{\text{tr} S^2/2n}\bigg|&lt;em&gt;{S=0}\\\
+&amp;amp;= \frac{1}{n}\delta&lt;/em&gt;{i_1 j_2}\delta_{i_2 j_1}.
 \end{align*}&lt;/p&gt;
  &lt;div style=&#34;text-align: right&#34;&gt; $\square$ &lt;/div&gt;
 &lt;p&gt;Furthermore, any &amp;ldquo;higher&amp;rdquo; expected value can be computed via &lt;em&gt;Wick&amp;rsquo;s theorem}:&lt;/em&gt;&lt;/p&gt;
