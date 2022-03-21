@@ -981,149 +981,27 @@ concludes the proof.&lt;/p&gt;
       <link>/posts/working-differential-geometry/</link>
       <pubDate>Sat, 01 May 2021 12:52:29 -0400</pubDate>
       <guid>/posts/working-differential-geometry/</guid>
-      <description>&lt;script type=&#34;text/javascript&#34; src=&#34;/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;
-&lt;style&gt;
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-}
-#paginator{
-    text-align: center;
-    margin-bottom: 10px;
-}
-&lt;/style&gt;
-
-&lt;div id=&#34;paginator&#34;&gt;
-    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
-    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;
-    &amp;nbsp; &amp;nbsp;
-    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div id=&#34;embed-pdf-container&#34;&gt;
-    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
-&lt;/div&gt;
-
-&lt;script type=&#34;text/javascript&#34;&gt;
-window.onload = function() {
-
-
-
-var url = &#34;\/pdf\/WorkingDifferentialGeometry.pdf&#34;;
-
-
-var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = &#39;/js/pdf-js/build/pdf.worker.js&#39;;
-
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById(&#39;the-canvas&#39;),
-    ctx = canvas.getContext(&#39;2d&#39;);
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById(&#39;page_num&#39;).textContent = num;
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-function onPrevPage() {
-  if (pageNum &lt;= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum &gt;= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById(&#39;page_count&#39;).textContent = pdfDoc.numPages;
-
-  
-  renderPage(pageNum);
-});
-}
-
-&lt;/script&gt;
-&lt;p&gt;&lt;img src=&#34;/img/WorkingDifferentialGeometry-01.png&#34; alt=&#34;Page01&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-02.png&#34; alt=&#34;Page02&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-03.png&#34; alt=&#34;Page03&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-04.png&#34; alt=&#34;Page04&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-05.png&#34; alt=&#34;Page05&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-06.png&#34; alt=&#34;Page06&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-07.png&#34; alt=&#34;Page07&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-08.png&#34; alt=&#34;Page08&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-09.png&#34; alt=&#34;Page09&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-10.png&#34; alt=&#34;Page10&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-11.png&#34; alt=&#34;Page11&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-12.png&#34; alt=&#34;Page12&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-13.png&#34; alt=&#34;Page13&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-14.png&#34; alt=&#34;Page14&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-15.png&#34; alt=&#34;Page15&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-16.png&#34; alt=&#34;Page16&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-17.png&#34; alt=&#34;Page17&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-18.png&#34; alt=&#34;Page18&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-19.png&#34; alt=&#34;Page19&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-20.png&#34; alt=&#34;Page20&#34;&gt;
-&lt;img src=&#34;/img/WorkingDifferentialGeometry-21.png&#34; alt=&#34;Page21&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-01.png&#34; alt=&#34;Page01&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-02.png&#34; alt=&#34;Page02&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-03.png&#34; alt=&#34;Page03&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-04.png&#34; alt=&#34;Page04&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-05.png&#34; alt=&#34;Page05&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-06.png&#34; alt=&#34;Page06&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-07.png&#34; alt=&#34;Page07&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-08.png&#34; alt=&#34;Page08&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-09.png&#34; alt=&#34;Page09&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-10.png&#34; alt=&#34;Page10&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-11.png&#34; alt=&#34;Page11&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-12.png&#34; alt=&#34;Page12&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-13.png&#34; alt=&#34;Page13&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-14.png&#34; alt=&#34;Page14&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-15.png&#34; alt=&#34;Page15&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-16.png&#34; alt=&#34;Page16&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-17.png&#34; alt=&#34;Page17&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-18.png&#34; alt=&#34;Page18&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-19.png&#34; alt=&#34;Page19&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-20.png&#34; alt=&#34;Page20&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-21.png&#34; alt=&#34;Page21&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

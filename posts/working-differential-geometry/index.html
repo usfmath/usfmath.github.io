@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &nbsp; &nbsp; Page:  /     window.">
+  <meta name="description" content="">
 
   
   <link rel="alternate" hreflang="en-us" href="/posts/working-differential-geometry/">
@@ -274,7 +274,7 @@
   <meta property="og:site_name" content="Grad Math@USF">
   <meta property="og:url" content="/posts/working-differential-geometry/">
   <meta property="og:title" content="Working Differential Geometry | Grad Math@USF">
-  <meta property="og:description" content="#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &nbsp; &nbsp; Page:  /     window."><meta property="og:image" content="/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png">
+  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
     
@@ -684,149 +684,27 @@
   <div class="article-container">
 
     <div class="article-style">
-      <script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-}
-#paginator{
-    text-align: center;
-    margin-bottom: 10px;
-}
-</style>
-
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
-</div>
-
-<script type="text/javascript">
-window.onload = function() {
-
-
-
-var url = "\/pdf\/WorkingDifferentialGeometry.pdf";
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdf-js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d');
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById('page_count').textContent = pdfDoc.numPages;
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
-<p><img src="/img/WorkingDifferentialGeometry-01.png" alt="Page01">
-<img src="/img/WorkingDifferentialGeometry-02.png" alt="Page02">
-<img src="/img/WorkingDifferentialGeometry-03.png" alt="Page03">
-<img src="/img/WorkingDifferentialGeometry-04.png" alt="Page04">
-<img src="/img/WorkingDifferentialGeometry-05.png" alt="Page05">
-<img src="/img/WorkingDifferentialGeometry-06.png" alt="Page06">
-<img src="/img/WorkingDifferentialGeometry-07.png" alt="Page07">
-<img src="/img/WorkingDifferentialGeometry-08.png" alt="Page08">
-<img src="/img/WorkingDifferentialGeometry-09.png" alt="Page09">
-<img src="/img/WorkingDifferentialGeometry-10.png" alt="Page10">
-<img src="/img/WorkingDifferentialGeometry-11.png" alt="Page11">
-<img src="/img/WorkingDifferentialGeometry-12.png" alt="Page12">
-<img src="/img/WorkingDifferentialGeometry-13.png" alt="Page13">
-<img src="/img/WorkingDifferentialGeometry-14.png" alt="Page14">
-<img src="/img/WorkingDifferentialGeometry-15.png" alt="Page15">
-<img src="/img/WorkingDifferentialGeometry-16.png" alt="Page16">
-<img src="/img/WorkingDifferentialGeometry-17.png" alt="Page17">
-<img src="/img/WorkingDifferentialGeometry-18.png" alt="Page18">
-<img src="/img/WorkingDifferentialGeometry-19.png" alt="Page19">
-<img src="/img/WorkingDifferentialGeometry-20.png" alt="Page20">
-<img src="/img/WorkingDifferentialGeometry-21.png" alt="Page21"></p>
+      <p><img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-01.png" alt="Page01">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-02.png" alt="Page02">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-03.png" alt="Page03">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-04.png" alt="Page04">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-05.png" alt="Page05">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-06.png" alt="Page06">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-07.png" alt="Page07">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-08.png" alt="Page08">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-09.png" alt="Page09">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-10.png" alt="Page10">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-11.png" alt="Page11">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-12.png" alt="Page12">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-13.png" alt="Page13">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-14.png" alt="Page14">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-15.png" alt="Page15">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-16.png" alt="Page16">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-17.png" alt="Page17">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-18.png" alt="Page18">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-19.png" alt="Page19">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-20.png" alt="Page20">
+<img src="/img/WorkingDifferentialGeometry/WorkingDifferentialGeometry-21.png" alt="Page21"></p>
 
     </div>
 
