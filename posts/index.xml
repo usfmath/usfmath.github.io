@@ -820,6 +820,27 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 }
 
 &lt;/script&gt;
+&lt;p&gt;&lt;img src=&#34;/img/WorkingDifferentialGeometry-01.png&#34; alt=&#34;Page01&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-02.png&#34; alt=&#34;Page02&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-03.png&#34; alt=&#34;Page03&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-04.png&#34; alt=&#34;Page04&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-05.png&#34; alt=&#34;Page05&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-06.png&#34; alt=&#34;Page06&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-07.png&#34; alt=&#34;Page07&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-08.png&#34; alt=&#34;Page08&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-09.png&#34; alt=&#34;Page09&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-10.png&#34; alt=&#34;Page10&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-11.png&#34; alt=&#34;Page11&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-12.png&#34; alt=&#34;Page12&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-13.png&#34; alt=&#34;Page13&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-14.png&#34; alt=&#34;Page14&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-15.png&#34; alt=&#34;Page15&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-16.png&#34; alt=&#34;Page16&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-17.png&#34; alt=&#34;Page17&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-18.png&#34; alt=&#34;Page18&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-19.png&#34; alt=&#34;Page19&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-20.png&#34; alt=&#34;Page20&#34;&gt;
+&lt;img src=&#34;/img/WorkingDifferentialGeometry-21.png&#34; alt=&#34;Page21&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
