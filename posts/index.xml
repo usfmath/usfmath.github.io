@@ -648,48 +648,8 @@ of this to a later entry.&lt;/p&gt;
       <link>/posts/the-helton-howe-trace-formula/</link>
       <pubDate>Sat, 01 May 2021 15:19:15 -0400</pubDate>
       <guid>/posts/the-helton-howe-trace-formula/</guid>
-      <description>&lt;p&gt;We present a proof of a simple version of the Helton-Howe trace
-formula (for a more general version of this result, one should consult
-the 
-&lt;a href=&#34;https://link.springer.com/chapter/10.1007/BFb0058919&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;original paper&lt;/a&gt;).
-Consider the Hardy space $H^2(\mathbb{D})$. There is a natural
-inclusion of $H^2(\mathbb{D})$ into $L^2(\mathbb{T})$, given by the restriction
-$f\mapsto f\vert_{\mathbb{T}}$. Let $\mathbb{P}&lt;em&gt;{H^2} : L^2(\mathbb{T}) \to H^2(\mathbb{D})$ denote the
-orthogonal projection of $L^2(\mathbb{T})$ into $H^2(\mathbb{D})$. Now, given
-$P \in \mathbb{C}[z,z^{-1}]$, we define the Toeplitz operator with principal
-symbol $P$ by $$T_P f(z) = \mathbb{P}&lt;/em&gt;{H^2} \left[ P(z)f(z)\right],$$ for
-$f \in H^2(\mathbb{D})$. It is clear that the commutator of any two such
-operators operators is trace-class (it is even of finite rank). The
-Helton-Howe formula tells us that, given $P,Q \in \mathbb{C}[z,z^{-1}]$,
-$$\text{tr } [T_P, T_Q] = \frac{1}{2\pi i}\int_{|z| = 1} P(z) Q&#39;(z) dz = \frac{1}{2\pi i}\int_{\mathbb{D}} dP \wedge dQ$$
-The last equality is immediate from Stokes&#39; theorem; the interesting
-equality is the first. Let $T_z$ denote the Toeplitz operator of
-multiplication by $z$ (this is just the shift operator in the Hardy
-space), and $T^&lt;em&gt;_z$ its adjoint (note that $T^&lt;/em&gt;&lt;em&gt;z = T&lt;/em&gt;{1/z}$). If
-$P = \sum_k P_k z^k \in \mathbb{C}[z,z^{-1}]$, then its corresponding Toeplitz
-operator may be written as
-$$T_P = \sum_{k\geq 0} P_k T_z^k + \sum_{k&amp;lt;0} P_k {T_z^{&lt;em&gt;}}^k.$$
-Clearly, ${T_z^&lt;/em&gt;}^n{T_z}^n = I$; on the other hand,
-${T_z}^n{T_z^&lt;em&gt;}^n = I - \mathbb{P}_n$, where $\mathbb{P}_n$ is the orthogonal
-projector onto the subspace $E_n:=\text{span}$ {$1,z, &amp;hellip;,z^{n-1}$}.
-This observation allows us to compute that
-$\text{tr }[{T_z^&lt;/em&gt;}^n,{T_z}^n] = \text{tr } \mathbb{P}&lt;em&gt;n = n$. Now, if $n \neq m$, one finds
-by direct computation that $\text{tr }[{T_z^&lt;em&gt;}^m,{T_z}^n] = 0$. Thus,
-$\text{tr }[{T_z^&lt;/em&gt;}^m,{T_z}^n] = n\delta&lt;/em&gt;{n,m}$. If $P, Q \in \mathbb{C}[z,z^{-1}]$,
-and $P = \sum_k P_k z^k$, $Q = \sum_k Q_k z^k$, then
-$$= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) [{T_z^&lt;em&gt;}^n,{T_z}^m];$$
-taking traces yields $$\begin{aligned}
-\text{tr } [T_P,T_Q] &amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) \text{tr } [{T_z^&lt;/em&gt;}^n,{T_z}^m] \\\
-&amp;amp;= \sum_{n,m \geq 0} (P_{-n}Q_m - Q_{-n}P_m) n\delta_{n,m} = \sum_{n\geq 0} n(P_{-n}Q_n - Q_{-n}P_n)\\\
-&amp;amp;= \sum_{n}n P_{-n}Q_n.
-\end{aligned}$$ On the other hand, by residue theorem,
-$$\begin{aligned}
-\frac{1}{2\pi i}\int_{|z| = 1} P(z) Q&#39;(z) dz
-&amp;amp;= \frac{1}{2\pi i}\int_{|z| = 1} \sum_{\ell}\left(\sum_n nP_{\ell - n} Q_n \right) z^{\ell-1} dz\\\
-&amp;amp;= \sum_{\ell}\left(\sum_n nP_{\ell - n} Q_n \right) \delta_{\ell,0}\\\
-&amp;amp;= \sum_{n}n P_{-n}Q_n.
-\end{aligned}$$ Comparing the results of these two computations
-concludes the proof.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;/img/HeltonHowe/Helton_Howe-1.png&#34; alt=&#34;Page01&#34;&gt;
+&lt;img src=&#34;/img/HeltonHowe/Helton_Howe-2.png&#34; alt=&#34;Page02&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
