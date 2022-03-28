@@ -8,6 +8,9 @@
     <loc>/</loc>
     <lastmod>2022-03-21T17:21:01-04:00</lastmod>
   </url><url>
+    <loc>/talk/</loc>
+    <lastmod>2022-03-21T17:21:01-04:00</lastmod>
+  </url><url>
     <loc>/talk/quantumfieldtheory/</loc>
     <lastmod>2022-01-31T10:53:52-05:00</lastmod>
   </url><url>
@@ -240,8 +243,5 @@
     <lastmod>2020-06-05T21:05:34-04:00</lastmod>
   </url><url>
     <loc>/publication_types/</loc>
-  </url><url>
-    <loc>/talk/</loc>
-    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
 </urlset>
