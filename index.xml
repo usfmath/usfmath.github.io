@@ -5,12 +5,24 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Mar 2022 17:21:01 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Apr 2022 11:04:00 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Differentiation in real topological vector spaces</title>
+      <link>/talk/tvs_bryce/</link>
+      <pubDate>Mon, 11 Apr 2022 11:04:00 -0400</pubDate>
+      <guid>/talk/tvs_bryce/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Differentiation in real topological vector spaces&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Bryce Virgin&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time&lt;/strong&gt;: Friday, April 15th, at 2:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Differentiation is a fundamental operation in the subject of analysis, which systematizes the process of approximating sufficiently regular functions and shapes with linear substitutes near points of interest. Many of the classical results of analysis deal with the properties of differentiation for maps between finite dimensional, Euclidean vector spaces, where the theory of differentiation is well-behaved. There is little difficulty in extending the concept of differentiation to quite general topological vector spaces, but in this case, derivatives will no longer act as expected. The talk will explore the generalization of the standard derivative to general real topological vector spaces, which important theorems and properties it retains from the Euclidean case, and which are lost in the generalization.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Extremal Graph Theory and the Problem of Zarankiewicz</title>
@@ -24,6 +36,12 @@
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/OJ4ZehfJY54&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Part 2&lt;/strong&gt;:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ellQWjn0QY4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Extremal Combinatorics is an area of mathematics which seeks to maximize properties of a structure given certain restrictions placed upon it. One goal of Extremal Graph Theory, then, as one might expect, is to find the maximum number of edges in a graph which does not contain a given subgraph. In this talk, we will introduce the subject by examining its origins in several classic theorems and by exploring several old and interesting open problems in the field, primarily the problem of Zarankiewicz. No background in graph theory or combinatorics will be assumed.&lt;/p&gt;
