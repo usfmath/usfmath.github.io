@@ -5,12 +5,26 @@
     <link>/tag/probability/</link>
       <atom:link href="/tag/probability/index.xml" rel="self" type="application/rss+xml" />
     <description>Probability</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 26 Jan 2022 12:18:39 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 May 2022 18:31:12 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Probability</title>
       <link>/tag/probability/</link>
     </image>
+    
+    <item>
+      <title>Harmonic Measure of a Slit Domain</title>
+      <link>/posts/harmonic-measure/</link>
+      <pubDate>Tue, 24 May 2022 18:31:12 -0400</pubDate>
+      <guid>/posts/harmonic-measure/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure1.png&#34; alt=&#34;Page01&#34;&gt;
+&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure2.png&#34; alt=&#34;Page02&#34;&gt;
+&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure3.png&#34; alt=&#34;Page03&#34;&gt;
+&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure4.png&#34; alt=&#34;Page04&#34;&gt;
+&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure5.png&#34; alt=&#34;Page05&#34;&gt;
+&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure6.png&#34; alt=&#34;Page06&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Statistical Mechanics and the Tutte Polynomial</title>
