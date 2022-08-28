@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/</loc>
+    <lastmod>2022-08-28T10:34:02-04:00</lastmod>
+  </url><url>
+    <loc>/talk/heilbronntriangle/</loc>
+    <lastmod>2022-08-28T10:34:02-04:00</lastmod>
+  </url><url>
     <loc>/authors/</loc>
     <lastmod>2022-05-24T18:31:12-04:00</lastmod>
   </url><url>
     <loc>/tag/complex-analysis/</loc>
-    <lastmod>2022-05-24T18:31:12-04:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2022-05-24T18:31:12-04:00</lastmod>
   </url><url>
     <loc>/posts/harmonic-measure/</loc>

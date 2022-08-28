@@ -5,12 +5,28 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 May 2022 18:31:12 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 28 Aug 2022 10:34:02 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>The Heilbronn Triangle Problem: History and Recent Developments</title>
+      <link>/talk/heilbronntriangle/</link>
+      <pubDate>Sun, 28 Aug 2022 10:34:02 -0400</pubDate>
+      <guid>/talk/heilbronntriangle/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: The Heilbronn Triangle Problem: History and Recent Developments&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Eion Mulrenin&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday. September 2nd, at 2:00pm, NES 102&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The Heilbronn triangle problem is an old problem in discrete geometry which seeks to maximize the value of
+the smallest area of the triangles formed between triples of any set of n points in the unit square. More precisely, for
+a configuration $D_n$ of $n$ points in $[0,1]^2$, set $\Delta(D_n)$ to be the smallest area of a triangle formed between any three
+points of $D_n$. The Heilbronn problem then asks for the value of $\Delta(n) := \sup \Delta(D_n)$, where the supremum is taken over all
+configurations $D_n$. We wish to present an overview of the interesting history of this problem, discuss some recent developments and results, and pose several related open problems and variants.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Harmonic Measure of a Slit Domain</title>
