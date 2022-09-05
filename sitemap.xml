@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/talk/digraphhomology/</loc>
+    <lastmod>2022-09-05T08:51:57-04:00</lastmod>
+  </url><url>
     <loc>/</loc>
-    <lastmod>2022-08-28T10:34:02-04:00</lastmod>
+    <lastmod>2022-09-05T08:51:57-04:00</lastmod>
   </url><url>
     <loc>/talk/heilbronntriangle/</loc>
     <lastmod>2022-08-28T10:34:02-04:00</lastmod>
@@ -33,6 +36,9 @@
     <lastmod>2022-05-24T18:31:12-04:00</lastmod>
   </url><url>
     <loc>/talk/tvs_bryce/</loc>
+    <lastmod>2022-04-11T11:04:00-04:00</lastmod>
+  </url><url>
+    <loc>/tag/functional-analysis/</loc>
     <lastmod>2022-04-11T11:04:00-04:00</lastmod>
   </url><url>
     <loc>/talk/zarankiewiczeion/</loc>
@@ -121,9 +127,6 @@
   </url><url>
     <loc>/author/louis-arenas/</loc>
     <lastmod>2021-08-28T16:08:51-04:00</lastmod>
-  </url><url>
-    <loc>/tag/functional-analysis/</loc>
-    <lastmod>2021-05-01T15:19:15-04:00</lastmod>
   </url><url>
     <loc>/posts/the-helton-howe-trace-formula/</loc>
     <lastmod>2021-05-01T15:19:15-04:00</lastmod>
