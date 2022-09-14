@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/talk/digraphhomology/</loc>
-    <lastmod>2022-09-05T08:51:57-04:00</lastmod>
+    <loc>/talk/algebraiccurvesvincenzo/</loc>
+    <lastmod>2022-09-14T03:27:45-04:00</lastmod>
+  </url><url>
+    <loc>/tag/algebraic-geometry/</loc>
+    <lastmod>2022-09-14T03:27:45-04:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2022-09-14T03:27:45-04:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-09-14T03:27:45-04:00</lastmod>
+  </url><url>
+    <loc>/talk/digraphhomology/</loc>
     <lastmod>2022-09-05T08:51:57-04:00</lastmod>
   </url><url>
     <loc>/talk/heilbronntriangle/</loc>
@@ -30,9 +39,6 @@
     <lastmod>2022-05-24T18:31:12-04:00</lastmod>
   </url><url>
     <loc>/tag/stochastic-proceses/</loc>
-    <lastmod>2022-05-24T18:31:12-04:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-05-24T18:31:12-04:00</lastmod>
   </url><url>
     <loc>/talk/tvs_bryce/</loc>
@@ -148,9 +154,6 @@
   </url><url>
     <loc>/talk/introduction-to-theta-function/</loc>
     <lastmod>2021-03-23T16:10:38-04:00</lastmod>
-  </url><url>
-    <loc>/tag/algebraic-geometry/</loc>
-    <lastmod>2021-02-15T13:50:43-05:00</lastmod>
   </url><url>
     <loc>/talk/riemann-schottky-problem/</loc>
     <lastmod>2021-02-15T13:50:43-05:00</lastmod>
