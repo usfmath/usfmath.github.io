@@ -5,12 +5,26 @@
     <link>/tag/stochastic-processes/</link>
       <atom:link href="/tag/stochastic-processes/index.xml" rel="self" type="application/rss+xml" />
     <description>Stochastic Processes</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 20 Jun 2020 22:58:12 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 24 May 2022 18:31:12 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Stochastic Processes</title>
       <link>/tag/stochastic-processes/</link>
     </image>
+    
+    <item>
+      <title>Harmonic Measure of a Slit Domain</title>
+      <link>/posts/harmonic-measure/</link>
+      <pubDate>Tue, 24 May 2022 18:31:12 -0400</pubDate>
+      <guid>/posts/harmonic-measure/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure1.png&#34; alt=&#34;Page01&#34;&gt;
+&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure2.png&#34; alt=&#34;Page02&#34;&gt;
+&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure3.png&#34; alt=&#34;Page03&#34;&gt;
+&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure4.png&#34; alt=&#34;Page04&#34;&gt;
+&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure5.png&#34; alt=&#34;Page05&#34;&gt;
+&lt;img src=&#34;/img/HarmonicMeasure/HarmonicMeasure6.png&#34; alt=&#34;Page06&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Stochastic Games for PDE</title>

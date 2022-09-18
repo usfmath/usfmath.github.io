@@ -5,12 +5,25 @@
     <link>/tag/pde/</link>
       <atom:link href="/tag/pde/index.xml" rel="self" type="application/rss+xml" />
     <description>PDE</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 23 Mar 2021 16:11:32 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 18 Sep 2022 14:32:15 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>PDE</title>
       <link>/tag/pde/</link>
     </image>
+    
+    <item>
+      <title>An Introduction to Noncommutative Geometry</title>
+      <link>/talk/noncommutativegeometry/</link>
+      <pubDate>Sun, 18 Sep 2022 14:32:15 -0400</pubDate>
+      <guid>/talk/noncommutativegeometry/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: An Introduction to Noncommutative Geometry&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, September 23rd at 12:00pm, NES 102&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Non-commutative geometry is a subject that grew out of the need to extend results about commutative Banach algebras to the non-commutative setting. It was pioneered by Alain Connes and his collaborators, and has since found applications in many areas of mathematics and physics.&lt;/p&gt;
+&lt;p&gt;In this talk, we provide a gentle introduction to non-commutative geometry by studying one the simplest instances of it—the non-commutative torus. We compare the results of our calculations to what happens in the commutative case. Further, we demonstrate how the problem connects to the quantum mechanics of 2D electrons in an external magnetic field, and how this connection allows us to derive (formally) an old and famous result due to P. Levy on the area distribution of random walks in two dimensions.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Essentials of Viscosity Solutions in $R^n$</title>
