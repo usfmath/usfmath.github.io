@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/talk/subriemannian/</loc>
+    <lastmod>2022-10-03T09:20:48-04:00</lastmod>
+  </url><url>
+    <loc>/tag/differential-geometry/</loc>
+    <lastmod>2022-10-03T09:20:48-04:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-10-03T09:20:48-04:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-10-03T09:20:48-04:00</lastmod>
+  </url><url>
     <loc>/talk/noncommutativegeometry/</loc>
     <lastmod>2022-09-18T14:32:15-04:00</lastmod>
   </url><url>
@@ -11,22 +23,13 @@
     <loc>/tag/functional-analysis/</loc>
     <lastmod>2022-09-18T14:32:15-04:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2022-09-18T14:32:15-04:00</lastmod>
-  </url><url>
     <loc>/author/nathan-hayford/</loc>
     <lastmod>2022-09-18T14:32:15-04:00</lastmod>
   </url><url>
     <loc>/tag/pde/</loc>
     <lastmod>2022-09-18T14:32:15-04:00</lastmod>
   </url><url>
-    <loc>/talk/</loc>
-    <lastmod>2022-09-18T14:32:15-04:00</lastmod>
-  </url><url>
     <loc>/tag/spectral-theory/</loc>
-    <lastmod>2022-09-18T14:32:15-04:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-09-18T14:32:15-04:00</lastmod>
   </url><url>
     <loc>/talk/algebraiccurvesvincenzo/</loc>
@@ -146,9 +149,6 @@
     <loc>/posts/the-helton-howe-trace-formula/</loc>
     <lastmod>2021-05-01T15:19:15-04:00</lastmod>
   </url><url>
-    <loc>/tag/differential-geometry/</loc>
-    <lastmod>2021-05-01T12:52:29-04:00</lastmod>
-  </url><url>
     <loc>/posts/working-differential-geometry/</loc>
     <lastmod>2021-05-01T12:52:29-04:00</lastmod>
   </url><url>
@@ -264,5 +264,8 @@
     <lastmod>2020-06-05T21:05:34-04:00</lastmod>
   </url><url>
     <loc>/publication_types/</loc>
+  </url><url>
+    <loc>/talk/</loc>
+    <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
 </urlset>

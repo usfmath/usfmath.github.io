@@ -5,12 +5,26 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 18 Sep 2022 14:32:15 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Oct 2022 09:20:48 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>An Introduction to Sub-Riemannian Geometry</title>
+      <link>/talk/subriemannian/</link>
+      <pubDate>Mon, 03 Oct 2022 09:20:48 -0400</pubDate>
+      <guid>/talk/subriemannian/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: An Introduction to Sub-Riemannian Geometry&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Professor Thomas Bieske&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, October 7th, at 12:00pm, NES 102&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Motivated by real-world activities, we will explore spaces where motion in one or more directions is
+restricted. Such spaces, called sub-Riemannian spaces, possess a geometry that behaves quite differently from
+traditional Euclidean $\mathbb{R}^n$. Our goal is to understand the interplay between this geometry and properties of solutions to partial differential equations. This talk will be accessible to advanced undergraduate students.  Note: We will also use this talk to deconstruct the concept of a colloquium talk.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>An Introduction to Noncommutative Geometry</title>
