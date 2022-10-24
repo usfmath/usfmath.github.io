@@ -5,12 +5,47 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 16 Oct 2022 21:42:49 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 09:11:52 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Discrete Painlevé Equations and Orthogonal Polynomials</title>
+      <link>/talk/discretepainleve/</link>
+      <pubDate>Mon, 24 Oct 2022 09:11:52 -0400</pubDate>
+      <guid>/talk/discretepainleve/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Discrete Painlevé Equations and Orthogonal Polynomials&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Professor Anton Dzhamay (University of Northern Colorado)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, November 4th at 12:00 pm, NES 102&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:  Over the last decade it became clear that discrete Painlevé
+equations appear in a wide range of interesting applications. Thus, the question of
+recognizing a certain non-autonomous recurrence as a discrete Painlevé equation and
+understanding its position in Sakai’s classification scheme, recognizing whether it
+is equivalent to some known (model) example, and especially finding an explicit
+change of coordinates transforming it to such example, becomes one of the central
+ones. Fortunately, Sakai’s geometric theory provides an almost algorithmic procedure
+of answering this question. In this work we illustrate this procedure by considering
+two examples. The first example comes from the theory of discrete orthogonal polynomials.
+There are many connections between orthogonal polynomials and Painlevé equations,
+both differential and discrete. In particular, often the coefficients of three-term recurrence
+relations for orthogonal polynomials can be expressed in terms of solutions of some
+discrete Painlevé equation. In this example we study orthogonal polynomials with
+general hypergeometric weight and show that their recurrence coefficients satisfy,
+after some change of variables, the standard discrete Painlevé-V equation. We also
+provide an explicit change of variables transforming this equation to the standard
+form. This is joint work with Galina Filipuk (University of Warsaw, Poland) and
+Alexander Stokes (University College, London, UK). The second example is also
+related to the theory of orthogonal polynomials but the motivation comes from the
+Probability Theory. We consider the problem of tiling a hexagon by lozenges with
+some generalized weight and are interested in computing important statistical properties
+of this model called the gap probabilities. This model can be related to a q-Racah
+discrete orthogonal polynomial ensemble, and this computation is again done with the help
+of discrete Painlevé equation. This is a joint work with Alisa Knizel (Columbia University).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Around a Theorem of Pólya</title>
@@ -19,7 +54,7 @@
       <guid>/talk/polyatheorem/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Around a Theorem of Pólya&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Louis Arenas&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, October 21st at 12:00pm, NES 102&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, October 21st and 28th at 12:00pm, NES 102&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Random walks have cemented themselves as relevant objects of study in modeling diverse phenomenon ranging
 from Brownian motion to the prediction of European stock options through Black-Scholes. In a paper published in 1921 by
 George Polya, he investigates walks on $\mathbb{Z}^d$ and asks when the walks are recurrent or transient. Meaning if
