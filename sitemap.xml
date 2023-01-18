@@ -2,10 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/talk/discretepainleve/</loc>
-    <lastmod>2022-10-24T09:11:52-04:00</lastmod>
+    <loc>/talk/tamobarg/</loc>
+    <lastmod>2023-01-18T13:53:52-05:00</lastmod>
+  </url><url>
+    <loc>/tag/coding-theory/</loc>
+    <lastmod>2023-01-18T13:53:52-05:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2023-01-18T13:53:52-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-01-18T13:53:52-05:00</lastmod>
+  </url><url>
+    <loc>/talk/discretepainleve/</loc>
     <lastmod>2022-10-24T09:11:52-04:00</lastmod>
   </url><url>
     <loc>/talk/polyatheorem/</loc>
@@ -15,9 +24,6 @@
     <lastmod>2022-10-03T09:20:48-04:00</lastmod>
   </url><url>
     <loc>/tag/differential-geometry/</loc>
-    <lastmod>2022-10-03T09:20:48-04:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2022-10-03T09:20:48-04:00</lastmod>
   </url><url>
     <loc>/talk/noncommutativegeometry/</loc>
@@ -87,9 +93,6 @@
     <lastmod>2022-01-26T12:18:39-05:00</lastmod>
   </url><url>
     <loc>/talk/codingtheory/</loc>
-    <lastmod>2021-11-29T18:07:06-05:00</lastmod>
-  </url><url>
-    <loc>/tag/coding-theory/</loc>
     <lastmod>2021-11-29T18:07:06-05:00</lastmod>
   </url><url>
     <loc>/talk/lamplighter/</loc>
