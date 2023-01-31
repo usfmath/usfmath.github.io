@@ -13,6 +13,18 @@
     </image>
     
     <item>
+      <title>It’s Raining Coding Theory</title>
+      <link>/talk/permutationcodespanith/</link>
+      <pubDate>Tue, 31 Jan 2023 09:03:56 -0500</pubDate>
+      <guid>/talk/permutationcodespanith/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: It’s Raining Coding Theory&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;:  Panith Thiruvenkatasamy&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, February 3rd, 1-2pm, CMC 109&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: I’m planning to discuss Dr. Giacomo Micheli’s and Dr. Alessandro Neri’s paper titled “New Lower Bounds for Permutation Codes using Linear Block Codes”. We will be discussing in brief the main theorems in the paper and the proofs for those theorems, and I plan to end the talk by mentioning some questions to ponder upon that were inspired by the paper.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An Introduction to Tamo-Barg Codes</title>
       <link>/talk/tamobarg/</link>
       <pubDate>Wed, 18 Jan 2023 13:53:52 -0500</pubDate>
