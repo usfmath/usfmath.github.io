@@ -5,12 +5,31 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 31 Jan 2023 09:03:56 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 06 Feb 2023 09:09:11 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Designs, Nibbles, and Approximate Structures</title>
+      <link>/talk/nibbleseion/</link>
+      <pubDate>Mon, 06 Feb 2023 09:09:11 -0500</pubDate>
+      <guid>/talk/nibbleseion/</guid>
+      <description>&lt;p&gt;Title: Designs, Nibbles, and Approximate Structures&lt;/p&gt;
+&lt;p&gt;Speaker: Eion Mulrenin&lt;/p&gt;
+&lt;p&gt;Date/Time/Location: Friday, February 10th, at 1:00pm, CMC 109&lt;/p&gt;
+&lt;p&gt;Abstract: For integers $1 &amp;lt; t &amp;lt; k &amp;lt; n$ and a positive integer $\lambda$, a family $F$ of $k$-subsets (sets of size $k$) of
+${1,&amp;hellip;,n}$ is called a $t-(n,k,\lambda)$ design provided that every $t$-subset of ${1,&amp;hellip;,n}$ is contained in precisely
+$\lambda$
+sets in the family $F$. A simple double counting argument gives necessary divisibility conditions for the existence of
+$t-(n,k,\lambda)$ designs, and it was asked c. 1850 (the so-called &amp;ldquo;existence conjecture&amp;rdquo;) whether these were also
+sufficient. In 1963, P. Erdos and H. Hanani conjectured the asymptotic existence of &amp;ldquo;approximate designs&amp;rdquo; for
+$\lambda=1$
+and $k$ and $t$ fixed. The conjecture was verified in 1985 by V. Rodl, and in his solution, he introduced his seminal &amp;ldquo;nibble&amp;rdquo; technique, which has since become a powerful tool in extremal combinatorics. The existence conjecture was ultimately verified in 2014 by P. Keevash and in 2016 by D. Kuhn et al., with both proofs making copious use of nibble techniques. In this talk, we will introduce and prove some basic facts about combinatorial designs and sketch a proof of the Erdos-Hanani conjecture using nibble methods.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>It’s Raining Coding Theory</title>
