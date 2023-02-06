@@ -21,7 +21,7 @@
 &lt;p&gt;Speaker: Eion Mulrenin&lt;/p&gt;
 &lt;p&gt;Date/Time/Location: Friday, February 10th, at 1:00pm, CMC 109&lt;/p&gt;
 &lt;p&gt;Abstract: For integers $1 &amp;lt; t &amp;lt; k &amp;lt; n$ and a positive integer $\lambda$, a family $F$ of $k$-subsets (sets of size $k$) of
-${1,&amp;hellip;,n}$ is called a $t-(n,k,\lambda)$ design provided that every $t$-subset of ${1,&amp;hellip;,n}$ is contained in precisely
+{$1,&amp;hellip;,n$} is called a $t-(n,k,\lambda)$ design provided that every $t$-subset of {$1,&amp;hellip;,n$} is contained in precisely
 $\lambda$
 sets in the family $F$. A simple double counting argument gives necessary divisibility conditions for the existence of
 $t-(n,k,\lambda)$ designs, and it was asked c. 1850 (the so-called &amp;ldquo;existence conjecture&amp;rdquo;) whether these were also
