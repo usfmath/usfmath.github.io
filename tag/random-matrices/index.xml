@@ -419,7 +419,7 @@ U^\mu(x) = \int \log\frac{1}{x-y} d\mu(y).
 \end{equation}
 Differentiating the equilibrium condition, we obtain the equation
 \begin{equation}
-C^\mu(x) + Q&#39;(x) = 0,
+C^\mu(x) + Q&amp;rsquo;(x) = 0,
 \end{equation}
 where $C^\mu(x)$ is the &lt;em&gt;Cauchy transform&lt;/em&gt; of the measure $\mu$:
 \begin{equation}
@@ -434,11 +434,11 @@ Luckily, this question has already been answered for us; these are the famous So
 P.V.\int \frac{d\mu(y)}{y-x} &amp;amp;= C^\mu_+(x) + C^\mu_-(x),
 \end{align*}
 for $x$ in the support of the charges. These formulae, along with a little knowledge of complex analysis, will allow
-us to recover $d\mu(x) = \rho(x)dx$. Consider the function $P(z):=Q&#39;(z)C^{\mu}(z) - (C^\mu(z))^2$. This function is
+us to recover $d\mu(x) = \rho(x)dx$. Consider the function $P(z):=Q&amp;rsquo;(z)C^{\mu}(z) - (C^\mu(z))^2$. This function is
 analytic everywhere in the complex plane, except possibly at the places where $C^\mu(z)$ loses analyticity&amp;ndash;the support
 of the charges. Let us compute the jump of $P(z)$ across the support:
 \begin{align*}
-P_+(z) - P_-(z) &amp;amp;= Q&#39;(z)\bigg(C^{\mu}&lt;em&gt;+(z)-C^{\mu}&lt;/em&gt;-(z)\bigg) - (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\
+P_+(z) - P_-(z) &amp;amp;= Q&amp;rsquo;(z)\bigg(C^{\mu}&lt;em&gt;+(z)-C^{\mu}&lt;/em&gt;-(z)\bigg) - (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\
 &amp;amp;= \bigg(C^{\mu}&lt;em&gt;+(z)+C^{\mu}&lt;/em&gt;-(z)\bigg)\bigg(C^{\mu}&lt;em&gt;+(z)-C^{\mu}&lt;/em&gt;-(z)\bigg)- (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\
 &amp;amp;=0,
 \end{align*}
@@ -447,15 +447,15 @@ $P(z)$ is an entire function. Furthermore, we know the exact growth rate of $P(z
 $P(z) = \mathcal{O}(z^{n-2})$, where $\deg Q = n$. Thus, by Liouville&amp;rsquo;s theorem, $P(z)$ &lt;em&gt;is&lt;/em&gt; a polynomial
 of degree $n-2$. We thus have obtained an algebraic equation for $C^\mu(z)$:
 \begin{equation}
-(C^\mu(z))^2 - Q&#39;(z)C^{\mu}(z) - P(z) = 0;
+(C^\mu(z))^2 - Q&amp;rsquo;(z)C^{\mu}(z) - P(z) = 0;
 \end{equation}
 this equation is quadratic in $C^\mu(z)$, and thus can be solved:
 \begin{equation}
-C^{\mu}(z) = -\frac{1}{2}Q&#39;(z) \pm \frac{1}{2}\sqrt{Q&#39;(z)^2 - 4P(z)
+C^{\mu}(z) = -\frac{1}{2}Q&amp;rsquo;(z) \pm \frac{1}{2}\sqrt{Q&amp;rsquo;(z)^2 - 4P(z)
 \end{equation}
 Therefore, by the other half of the Sokhotsky-Plemelj formulae, we can recover the density:
 \begin{equation}
-\rho(x) = \frac{d\mu(x)}{dx} = \frac{1}{2\pi} \sqrt{4P(x) - Q&#39;(x)^2}.
+\rho(x) = \frac{d\mu(x)}{dx} = \frac{1}{2\pi} \sqrt{4P(x) - Q&amp;rsquo;(x)^2}.
 \end{equation}
 In practice, computing the coefficients of $P(x)$ is not a trivial task, especially if the support of the measure is
 more than one interval. However, if the potential $Q(x)$ is partiularly simple, the computations can be done rather
@@ -622,16 +622,16 @@ and recall that expected values of invariant functions $f(A,B) = f(\text{tr}(A),
 Letting $A = U^\dagger X U$, $B = V^\dagger Y V$, where $X = \text{diag}(x_1,\cdots,x_n)$, $Y = \text{diag}(y_1,\cdots,y_n)$ are diagonal matrices, we
 can integrate out eigenvalue variables to obtain
 \begin{align*}
-&amp;amp;= \frac{1}{Z_n&#39;}\int&lt;/em&gt;{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
+&amp;amp;= \frac{1}{Z_n&amp;rsquo;}\int&lt;/em&gt;{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
 \\\ &amp;amp;\times\int_{U \in U(n)/U_{diag}(n)} dW \exp\big(nc \text{tr} XWYW^\dagger\big).
 \end{align*}
 The integral inside is precisely the Itzykson Zuber integral we computed previously; we insert the expression we derived for it into the
 above formula, absorbing all constant factors into the partition function:
 \begin{align*}
-\langle f(A,B)  \rangle_n &amp;amp;= \frac{1}{Z_n&#39;&#39;}\int_{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg(
+\langle f(A,B)  \rangle_n &amp;amp;= \frac{1}{Z_n&amp;rsquo;&amp;rsquo;}\int_{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg(
 -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
 \frac{\det e^{nc x_iy_j }}{V(Y) V(X)}\\\
-&amp;amp;=\frac{1}{Z_n&#39;&#39;}\int_{X,Y\in \mathbb{R}^n} \prod_{k=1}^n dx_k dy_k f(x,y) V(x)V(y)\exp\bigg( -\frac{n}{2} \sum_{k=1} x_i^2  + y_i^2 + 2ncx_i y_i\bigg).
+&amp;amp;=\frac{1}{Z_n&amp;rsquo;&amp;rsquo;}\int_{X,Y\in \mathbb{R}^n} \prod_{k=1}^n dx_k dy_k f(x,y) V(x)V(y)\exp\bigg( -\frac{n}{2} \sum_{k=1} x_i^2  + y_i^2 + 2ncx_i y_i\bigg).
 \end{align*}&lt;/p&gt;
 &lt;p&gt;Thus, just as we were able to connect the 1-matrix model and orthogonal polynomials, we can connect the 2-matrix
 to &lt;em&gt;bi-orthogonal polynomials&lt;/em&gt;; i.e., the polynomials $p_n(x),q_n(y)$ satisfying

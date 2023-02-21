@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 06 Feb 2023 09:09:11 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Feb 2023 15:42:09 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Grad Math@USF</title>
@@ -13,14 +13,31 @@
     </image>
     
     <item>
+      <title>Introduction to Ramsey Number, and Some Elementary Yet Beautiful Examples</title>
+      <link>/talk/ramseytheoryboyoon/</link>
+      <pubDate>Tue, 21 Feb 2023 15:42:09 -0500</pubDate>
+      <guid>/talk/ramseytheoryboyoon/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Introduction to Ramsey Number, and Some Elementary Yet Beautiful Examples&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Boyoon Lee&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, February 24th, at 1:00pm, CMC 109&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;:
+Ramsey thoery can be roughly understood to be the statement on the existence of regular structure in a seemingly chaotic environment.&lt;/p&gt;
+&lt;p&gt;In this talk(i was forced to give..) designed for people who have little to no experience in Ramsey theory,  we will go over what the Ramsey number is, how hard it is to track down any of them while the question of finding one seems quite unassuming/innocuous.&lt;/p&gt;
+&lt;p&gt;We will warm up with a very easy case of a particular Ramsey number r(3,3)=6.&lt;/p&gt;
+&lt;p&gt;Then, we will borrow a pure genius argument of L. Lovász to reach the conclusion of Ramsey number r(3,3,3)=17 and be amazed.&lt;/p&gt;
+&lt;p&gt;The meaning of r(a, b, c, ..) is going to be given at the talk.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Designs, Nibbles, and Approximate Structures</title>
       <link>/talk/nibbleseion/</link>
       <pubDate>Mon, 06 Feb 2023 09:09:11 -0500</pubDate>
       <guid>/talk/nibbleseion/</guid>
-      <description>&lt;p&gt;Title: Designs, Nibbles, and Approximate Structures&lt;/p&gt;
-&lt;p&gt;Speaker: Eion Mulrenin&lt;/p&gt;
-&lt;p&gt;Date/Time/Location: Friday, February 10th, at 1:00pm, CMC 109&lt;/p&gt;
-&lt;p&gt;Abstract: For integers $1 &amp;lt; t &amp;lt; k &amp;lt; n$ and a positive integer $\lambda$, a family $F$ of $k$-subsets (sets of size $k$) of
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Designs, Nibbles, and Approximate Structures&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Eion Mulrenin&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, February 10th, at 1:00pm, CMC 109&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: For integers $1 &amp;lt; t &amp;lt; k &amp;lt; n$ and a positive integer $\lambda$, a family $F$ of $k$-subsets (sets of size $k$) of
 {$1,&amp;hellip;,n$} is called a $t-(n,k,\lambda)$ design provided that every $t$-subset of {$1,&amp;hellip;,n$} is contained in precisely
 $\lambda$
 sets in the family $F$. A simple double counting argument gives necessary divisibility conditions for the existence of
@@ -163,7 +180,7 @@ interesting application in finite geometry.&lt;/p&gt;
       <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Digraph Homology to study DNA Rearrangement&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Lina Fajardo Gomez&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, September 9th at 12:00pm, NES 102&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this work, we introduce tools to study DNA recombination pathways and measure their complexity. Genome rearrangement in some ciliate species can be modeled by subword pattern deletions in &lt;em&gt;double-occurrence words&lt;/em&gt; (DOWs), words where each symbol appears exactly twice. The iterated deletions can be represented by a graph whose vertices are DOWs connected by an edge if one word can be obtained from the other through a pattern deletion. On this graph, called the ``word graph&#39;&#39;, we build a complex comprised of cells defined by Cartesian products of simplicial digraphs where we define a boundary operator and compute homology groups. These topological invariants are used to analyze the word graphs of DOWs from data sets and to make comparisons between the genomes of three ciliate species as well as to describe DOWs whose graphs attain arbitrarily large Betti numbers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: In this work, we introduce tools to study DNA recombination pathways and measure their complexity. Genome rearrangement in some ciliate species can be modeled by subword pattern deletions in &lt;em&gt;double-occurrence words&lt;/em&gt; (DOWs), words where each symbol appears exactly twice. The iterated deletions can be represented by a graph whose vertices are DOWs connected by an edge if one word can be obtained from the other through a pattern deletion. On this graph, called the ``word graph&amp;rsquo;&amp;rsquo;, we build a complex comprised of cells defined by Cartesian products of simplicial digraphs where we define a boundary operator and compute homology groups. These topological invariants are used to analyze the word graphs of DOWs from data sets and to make comparisons between the genomes of three ciliate species as well as to describe DOWs whose graphs attain arbitrarily large Betti numbers.&lt;/p&gt;
 </description>
     </item>
     
@@ -421,7 +438,7 @@ Dynamical System, Trends Math. Cham: Birkhauser/Springer, 23-38.&lt;/p&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/x75sjMwHzdw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The purpose of the talk is to introduce Venakides&#39; 1989 CPAM XLII paper on the continuum limit of theta functions. The problem is closely related to the semiclassical limit (or small dispersion, or nonlinear WKB analysis) for the famous nonlinear PDE: Korteweg-de Vries equation. Theta function can be considered as high dimensional Fourier series. The continuum limit of theta function we will discuss is the limit when the size of the period matrix of the theta function goes infinite in a certain way (or one can say the genus of the corresponding Riemann surface goes infinite). And we will associate the leading behavior with a minimizing problem (variational problem).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: The purpose of the talk is to introduce Venakides&amp;rsquo; 1989 CPAM XLII paper on the continuum limit of theta functions. The problem is closely related to the semiclassical limit (or small dispersion, or nonlinear WKB analysis) for the famous nonlinear PDE: Korteweg-de Vries equation. Theta function can be considered as high dimensional Fourier series. The continuum limit of theta function we will discuss is the limit when the size of the period matrix of the theta function goes infinite in a certain way (or one can say the genus of the corresponding Riemann surface goes infinite). And we will associate the leading behavior with a minimizing problem (variational problem).&lt;/p&gt;
 </description>
     </item>
     
@@ -891,7 +908,7 @@ U^\mu(x) = \int \log\frac{1}{x-y} d\mu(y).
 \end{equation}
 Differentiating the equilibrium condition, we obtain the equation
 \begin{equation}
-C^\mu(x) + Q&#39;(x) = 0,
+C^\mu(x) + Q&amp;rsquo;(x) = 0,
 \end{equation}
 where $C^\mu(x)$ is the &lt;em&gt;Cauchy transform&lt;/em&gt; of the measure $\mu$:
 \begin{equation}
@@ -906,11 +923,11 @@ Luckily, this question has already been answered for us; these are the famous So
 P.V.\int \frac{d\mu(y)}{y-x} &amp;amp;= C^\mu_+(x) + C^\mu_-(x),
 \end{align*}
 for $x$ in the support of the charges. These formulae, along with a little knowledge of complex analysis, will allow
-us to recover $d\mu(x) = \rho(x)dx$. Consider the function $P(z):=Q&#39;(z)C^{\mu}(z) - (C^\mu(z))^2$. This function is
+us to recover $d\mu(x) = \rho(x)dx$. Consider the function $P(z):=Q&amp;rsquo;(z)C^{\mu}(z) - (C^\mu(z))^2$. This function is
 analytic everywhere in the complex plane, except possibly at the places where $C^\mu(z)$ loses analyticity&amp;ndash;the support
 of the charges. Let us compute the jump of $P(z)$ across the support:
 \begin{align*}
-P_+(z) - P_-(z) &amp;amp;= Q&#39;(z)\bigg(C^{\mu}&lt;em&gt;+(z)-C^{\mu}&lt;/em&gt;-(z)\bigg) - (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\
+P_+(z) - P_-(z) &amp;amp;= Q&amp;rsquo;(z)\bigg(C^{\mu}&lt;em&gt;+(z)-C^{\mu}&lt;/em&gt;-(z)\bigg) - (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\
 &amp;amp;= \bigg(C^{\mu}&lt;em&gt;+(z)+C^{\mu}&lt;/em&gt;-(z)\bigg)\bigg(C^{\mu}&lt;em&gt;+(z)-C^{\mu}&lt;/em&gt;-(z)\bigg)- (C^\mu_+(z))^2 + (C^\mu_-(z))^2\\\
 &amp;amp;=0,
 \end{align*}
@@ -919,15 +936,15 @@ $P(z)$ is an entire function. Furthermore, we know the exact growth rate of $P(z
 $P(z) = \mathcal{O}(z^{n-2})$, where $\deg Q = n$. Thus, by Liouville&amp;rsquo;s theorem, $P(z)$ &lt;em&gt;is&lt;/em&gt; a polynomial
 of degree $n-2$. We thus have obtained an algebraic equation for $C^\mu(z)$:
 \begin{equation}
-(C^\mu(z))^2 - Q&#39;(z)C^{\mu}(z) - P(z) = 0;
+(C^\mu(z))^2 - Q&amp;rsquo;(z)C^{\mu}(z) - P(z) = 0;
 \end{equation}
 this equation is quadratic in $C^\mu(z)$, and thus can be solved:
 \begin{equation}
-C^{\mu}(z) = -\frac{1}{2}Q&#39;(z) \pm \frac{1}{2}\sqrt{Q&#39;(z)^2 - 4P(z)
+C^{\mu}(z) = -\frac{1}{2}Q&amp;rsquo;(z) \pm \frac{1}{2}\sqrt{Q&amp;rsquo;(z)^2 - 4P(z)
 \end{equation}
 Therefore, by the other half of the Sokhotsky-Plemelj formulae, we can recover the density:
 \begin{equation}
-\rho(x) = \frac{d\mu(x)}{dx} = \frac{1}{2\pi} \sqrt{4P(x) - Q&#39;(x)^2}.
+\rho(x) = \frac{d\mu(x)}{dx} = \frac{1}{2\pi} \sqrt{4P(x) - Q&amp;rsquo;(x)^2}.
 \end{equation}
 In practice, computing the coefficients of $P(x)$ is not a trivial task, especially if the support of the measure is
 more than one interval. However, if the potential $Q(x)$ is partiularly simple, the computations can be done rather
@@ -1094,16 +1111,16 @@ and recall that expected values of invariant functions $f(A,B) = f(\text{tr}(A),
 Letting $A = U^\dagger X U$, $B = V^\dagger Y V$, where $X = \text{diag}(x_1,\cdots,x_n)$, $Y = \text{diag}(y_1,\cdots,y_n)$ are diagonal matrices, we
 can integrate out eigenvalue variables to obtain
 \begin{align*}
-&amp;amp;= \frac{1}{Z_n&#39;}\int&lt;/em&gt;{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
+&amp;amp;= \frac{1}{Z_n&amp;rsquo;}\int&lt;/em&gt;{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg( -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
 \\\ &amp;amp;\times\int_{U \in U(n)/U_{diag}(n)} dW \exp\big(nc \text{tr} XWYW^\dagger\big).
 \end{align*}
 The integral inside is precisely the Itzykson Zuber integral we computed previously; we insert the expression we derived for it into the
 above formula, absorbing all constant factors into the partition function:
 \begin{align*}
-\langle f(A,B)  \rangle_n &amp;amp;= \frac{1}{Z_n&#39;&#39;}\int_{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg(
+\langle f(A,B)  \rangle_n &amp;amp;= \frac{1}{Z_n&amp;rsquo;&amp;rsquo;}\int_{X,Y\in \mathbb{R}^n} dX dY V(X)^2V(Y)^2f(X,Y) \exp\bigg(
 -\frac{n}{2} \text{tr} (X^2 + Y^2)\bigg)
 \frac{\det e^{nc x_iy_j }}{V(Y) V(X)}\\\
-&amp;amp;=\frac{1}{Z_n&#39;&#39;}\int_{X,Y\in \mathbb{R}^n} \prod_{k=1}^n dx_k dy_k f(x,y) V(x)V(y)\exp\bigg( -\frac{n}{2} \sum_{k=1} x_i^2  + y_i^2 + 2ncx_i y_i\bigg).
+&amp;amp;=\frac{1}{Z_n&amp;rsquo;&amp;rsquo;}\int_{X,Y\in \mathbb{R}^n} \prod_{k=1}^n dx_k dy_k f(x,y) V(x)V(y)\exp\bigg( -\frac{n}{2} \sum_{k=1} x_i^2  + y_i^2 + 2ncx_i y_i\bigg).
 \end{align*}&lt;/p&gt;
 &lt;p&gt;Thus, just as we were able to connect the 1-matrix model and orthogonal polynomials, we can connect the 2-matrix
 to &lt;em&gt;bi-orthogonal polynomials&lt;/em&gt;; i.e., the polynomials $p_n(x),q_n(y)$ satisfying
