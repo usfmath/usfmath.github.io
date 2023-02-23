@@ -5,12 +5,145 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Feb 2023 15:42:09 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Feb 2023 21:05:13 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>UCF/USF special workshop on Complex Analytic Methods with Applications in Orthogonal Polynomials, Integrable Systems, and Random Matrix Theory</title>
+      <link>/posts/ucf-usf-2023/</link>
+      <pubDate>Wed, 22 Feb 2023 21:05:13 -0500</pubDate>
+      <guid>/posts/ucf-usf-2023/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Flyer&lt;/strong&gt;:
+&lt;img src=&#34;/img/UCFUSF2023.png&#34; alt=&#34;Page01&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Program&lt;/strong&gt;:
+&lt;script type=&#34;text/javascript&#34; src=&#34;/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;
+ &lt;style&gt;
+ #the-canvas {
+   border: 1px solid black;
+   direction: ltr;
+   width: 100%;
+   height: auto;
+ }
+ #paginator{
+     text-align: center;
+     margin-bottom: 10px;
+ }
+ &lt;/style&gt;
+ 
+ &lt;div id=&#34;paginator&#34;&gt;
+     &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+     &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;
+     &amp;nbsp; &amp;nbsp;
+     &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div id=&#34;embed-pdf-container&#34;&gt;
+     &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+ &lt;/div&gt;
+ 
+ &lt;script type=&#34;text/javascript&#34;&gt;
+ window.onload = function() {
+ 
+ 
+ 
+ var url = &#34;\/pdf\/UCF_USF_2023.pdf&#34;;
+ 
+ 
+ var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+ 
+ 
+ pdfjsLib.GlobalWorkerOptions.workerSrc = &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+ 
+ 
+ var pdfDoc = null,
+     pageNum = 1,
+     pageRendering = false,
+     pageNumPending = null,
+     scale = 3,
+     canvas = document.getElementById(&#39;the-canvas&#39;),
+     ctx = canvas.getContext(&#39;2d&#39;);
+ 
+ 
+ 
+ function renderPage(num) {
+   pageRendering = true;
+   
+   pdfDoc.getPage(num).then(function(page) {
+     var viewport = page.getViewport({scale: scale});
+     canvas.height = viewport.height;
+     canvas.width = viewport.width;
+ 
+     
+     var renderContext = {
+       canvasContext: ctx,
+       viewport: viewport
+     };
+     var renderTask = page.render(renderContext);
+ 
+     
+     renderTask.promise.then(function() {
+       pageRendering = false;
+       if (pageNumPending !== null) {
+         
+         renderPage(pageNumPending);
+         pageNumPending = null;
+       }
+     });
+   });
+ 
+   
+   document.getElementById(&#39;page_num&#39;).textContent = num;
+ }
+ 
+ 
+ 
+ function queueRenderPage(num) {
+   if (pageRendering) {
+     pageNumPending = num;
+   } else {
+     renderPage(num);
+   }
+ }
+ 
+ 
+ 
+ function onPrevPage() {
+   if (pageNum &lt;= 1) {
+     return;
+   }
+   pageNum--;
+   queueRenderPage(pageNum);
+ }
+ document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+ 
+ 
+ 
+ function onNextPage() {
+   if (pageNum &gt;= pdfDoc.numPages) {
+     return;
+   }
+   pageNum++;
+   queueRenderPage(pageNum);
+ }
+ document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+ 
+ 
+ 
+ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+   pdfDoc = pdfDoc_;
+   document.getElementById(&#39;page_count&#39;).textContent = pdfDoc.numPages;
+ 
+   
+   renderPage(pageNum);
+ });
+ }
+ 
+ &lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduction to Ramsey Number, and Some Elementary Yet Beautiful Examples</title>
