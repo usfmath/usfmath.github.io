@@ -5,12 +5,24 @@
     <link>/tag/low-dimensional-topology/</link>
       <atom:link href="/tag/low-dimensional-topology/index.xml" rel="self" type="application/rss+xml" />
     <description>low-dimensional topology</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Feb 2023 08:51:19 -0500</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>low-dimensional topology</title>
       <link>/tag/low-dimensional-topology/</link>
     </image>
+    
+    <item>
+      <title>Idempotents in a quandle ring and its applications</title>
+      <link>/talk/idempotentquandledipali/</link>
+      <pubDate>Mon, 27 Feb 2023 08:51:19 -0500</pubDate>
+      <guid>/talk/idempotentquandledipali/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Idempotents in a quandle ring and its applications&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Dipali Swain&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, March 3rd at 1:00pm, CMC 109&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: For a quandle, its associated quandle ring is a very interesting structure. Unlike Groups, Quandle is a non-associative algebra, binary operation of which imitates the three Reidemeister Moves found in Knot theory. When we associate a ring to such an algebraic structure, the most naturally occurring object is an idempotent. We study this object and investigate if such a collection of objects itself forms a quandle and hence try to create an invariance of knots/links. In this talk, I will give a brief introduction of quandles and an associated quandle ring. I will also talk about some popular knot invariants that arise from this particular structure.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Quantum invariants of framed links from cohomology of self-distributive structures</title>
