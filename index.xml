@@ -5,12 +5,35 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad Math@USF</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Feb 2023 08:51:19 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Mar 2023 08:52:06 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu52d4978bb57ec1511a90a19194ce34ae_631017_512x512_fill_lanczos_center_3.png</url>
       <title>Grad Math@USF</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Numerical integration in Hamiltonian Monte Carlo</title>
+      <link>/talk/hamiltonianmontecarlo/</link>
+      <pubDate>Mon, 20 Mar 2023 08:52:06 -0400</pubDate>
+      <guid>/talk/hamiltonianmontecarlo/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Numerical integration in Hamiltonian Monte Carlo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Lorenzo Nagar (Basque Center for Applied Mathematics)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, March 24th, at 1:00pm, CMC 109&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Hamiltonian Monte Carlo (HMC) has been widely recognized as a powerful
+tool for sampling in molecular simulation and Bayesian Statistics. HMC
+combines a deterministic proposal - using Hamiltonian dynamics - with
+stochastic Monte Carlo in order to generate correlated samples from a target
+distribution. The accuracy of numerical integration of the Hamiltonian equations
+of motions affects the acceptance rate of Monte Carlo trials, and thus
+is crucial for performance of HMC. In this talk, after giving a brief overview
+on multi-stage splitting integration schemes used in the HMC context, we
+present a novel Adaptive Integration Approach (we call it s-AIA) that detects
+the optimal multi-stage integrator in terms of the best conservation
+of energy for harmonic forces, being able to achieve a competitive sampling
+efficiency in HMC Bayesian inference applications.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Idempotents in a quandle ring and its applications</title>
