@@ -13,6 +13,30 @@
     </image>
     
     <item>
+      <title>Introduction to Bootstrap</title>
+      <link>/talk/bootstraptj/</link>
+      <pubDate>Mon, 17 Apr 2023 11:00:16 -0400</pubDate>
+      <guid>/talk/bootstraptj/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Introduction to Bootstrap&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Tejasvi Channagiri&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, April 21st at 1:00pm, CMC 109&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: A central problem of statistics is estimating a parameter (e.g., mean) of an unknown distribution given a sample. We usually also want to know the uncertainty of the estimate, such as its standard error. For simple cases like the sample mean there are closed-forms for the standard error. However, in more complex situations, closed-forms may be unavailable. The bootstrap is a computational method for determining standard errors of estimates that is widely applicable and easy to implement. Here we introduce the bootstrap, and present examples of its applications and limitations. No background is required aside from some elementary probability.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Random matrices and the Combinatorics of Ribbon Graphs</title>
+      <link>/talk/randommatricesnathan/</link>
+      <pubDate>Mon, 17 Apr 2023 11:00:01 -0400</pubDate>
+      <guid>/talk/randommatricesnathan/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: Random matrices and the Combinatorics of Ribbon Graphs&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Nathan Hayford&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Date/Time/Location&lt;/strong&gt;: Friday, April 7th, 1:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;: Random matrices have long been a source of interest in mathematics, with applications ranging from number theory to data analysis to quantum gravity. Another unexpected place random matrices have appeared is in the combinatorial enumeration of ribbon graphs. A number of conjectures related to this problem were posed by W. Tutte in the 60’s; the answers to a number of these conjectures came (surprisingly) from a group of theoretical physicists, who used random matrix techniques to approach these conjectures. In this talk, I will try and outline some of the techniques used, and show how random matrices are able to distinguish ribbon graphs by “genus”.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Numerical integration in Hamiltonian Monte Carlo</title>
       <link>/talk/hamiltonianmontecarlo/</link>
       <pubDate>Mon, 20 Mar 2023 08:52:06 -0400</pubDate>

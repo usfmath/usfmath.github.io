@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2023-03-20T08:52:06-04:00</lastmod>
+    <lastmod>2023-04-17T11:00:16-04:00</lastmod>
+  </url><url>
+    <loc>/talk/bootstraptj/</loc>
+    <lastmod>2023-04-17T11:00:16-04:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2023-04-17T11:00:01-04:00</lastmod>
+  </url><url>
+    <loc>/author/nathan-hayford/</loc>
+    <lastmod>2023-04-17T11:00:01-04:00</lastmod>
+  </url><url>
+    <loc>/talk/randommatricesnathan/</loc>
+    <lastmod>2023-04-17T11:00:01-04:00</lastmod>
   </url><url>
     <loc>/talk/hamiltonianmontecarlo/</loc>
     <lastmod>2023-03-20T08:52:06-04:00</lastmod>
@@ -56,13 +68,7 @@
     <loc>/talk/noncommutativegeometry/</loc>
     <lastmod>2022-09-18T14:32:15-04:00</lastmod>
   </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2022-09-18T14:32:15-04:00</lastmod>
-  </url><url>
     <loc>/tag/functional-analysis/</loc>
-    <lastmod>2022-09-18T14:32:15-04:00</lastmod>
-  </url><url>
-    <loc>/author/nathan-hayford/</loc>
     <lastmod>2022-09-18T14:32:15-04:00</lastmod>
   </url><url>
     <loc>/tag/pde/</loc>
